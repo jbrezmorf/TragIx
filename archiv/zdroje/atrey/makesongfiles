@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+
+open(IN,"<$ARGV[0]");
+$buff="";
+while (<IN>) {
+  if (/-----/) {
+    if ($buff) {close(OUT)};
+    while (($_=<IN>) && !/Name:/) {print $_};
+    $Oname=$_;
+    chop($Oname);
+    $Oname=~s/^Name: //;
+    $Oname=~s/ /_/g;
+    open(OUT,">$Oname.crd");
+  }; 
+  print OUT "$_";
+}
+close(OUT);
+  

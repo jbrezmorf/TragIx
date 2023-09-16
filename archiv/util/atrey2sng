@@ -1,0 +1,41 @@
+#!/usr/bin/perl
+#
+#  use cat infile | atrey2sng > outfile
+
+# header
+$_=<>; chop;s/^Name: ?(.*)$/\1/;s/ *$//;$NAME=$_;
+while (<>) {
+  if (/^Author:/) {chop;s/^Author: ?(.*)$/\1/;s/ *$//;$AUTH.="$_, ";}
+  else {last;} # tam je prazdny radek
+}  
+$AUTH=~s/, $//;
+print "N: $NAME\nA: $AUTH\nAC: \nZ: \nZC: \n\n";
+
+# body
+$chords="";
+while (<>) {
+  s/^([1-9])./\1:/;
+  if (/^[1-9]./ || /^R[1-9]?:/) {print "\n";}
+  $text=$_;$lastlen=0;
+  if ($chords) {
+    $text=$_;$lastlen=0;
+    while ($chords || $text) {
+      $chords=~s/^( *)([^ ]*)//;
+      $splen=length($1)+$lastlen; $CHORD=$2; $lastlen=length($CHORD);
+      if ($CHORD) {
+        # recode chords
+        $CHORD=~s/#/"/g;
+        $CHORD=~s/mi/m/g;
+        $CHORD=~s/maj7/7+/g;
+        $CHORD="($CHORD)";
+      } else {$splen=length($text)} #if there are no chords, print all remaining
+      $TEXT=substr $text,0,$splen,"";
+      print "$TEXT${CHORD}";
+#      print "lan: ${splen} ${lastlen} t: X${text}X Z${chords}Z \n";
+    }
+  } else {
+    if (/^!/) {chop;s/^!/ /;$chords=$_;}
+    else {print $_;}  
+  }  
+} 
+

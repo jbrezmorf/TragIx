@@ -1,0 +1,57 @@
+N: ANEŽKA
+A:
+AC:
+Z: Hosana,1993
+ZC:
+
+
+1: (E)Anežka, dcera èeského krále,
+(A)na svého Boha myslela stále,
+(E)nechtìla v pøepychu (H7)žít,
+(E)duše své nìhu i krásu tìla
+(A)Ježíši zcela vìnovat chtìla,
+(E)Jeho jen lásku chce (H7)mít, lásku chce (E)mít.
+
+R: (E (F))Anežko pøemilá, (A (B))tvá zemì spanilá
+(H7 (C7))v míru chce pokojnì (E (F))žít,
+svou mocnou pøímluvou (A (B))ochraòuj zemi svou,
+(H7 (C7))buï naší zbožnosti (E (F))štít.
+
+2: Anglický král se Anežce dvoøí,
+nìmecký císaø láskou k ní hoøí,
+nádheru mùže jí dát.
+Ona však sobì chudobu volí,
+chce hojit rány,chudé jež bolí,
+pro jiné všeho se vzdát,všeho se vzdát.
+
+3: Anežko Èeská,oveèko Boží,
+umìlas koupit pøevzácné zboží,
+svatozáø v nebi teï máš,
+s chudobou druhých byla jsi vdaná
+jednalas vždycky jak moudrá panna.
+láska tvá naše je stráž,naše je stráž.
+
+
+% Ahoj dRaku,tak tohle je pøíklad písnì :-) 
+% 1)nevim,jestli se maj psát akordy do každý sloky a refrénu
+% 2)když je v hosanì psáno: blaA(B)bla  mám to psát stejnì-
+% -tzn. bla(A(B))bla,
+%  nebo takhle: bla(A/B)bla
+% 3)zarovnávat teda nemusim,nebo jo?
+% 4)a za interpunkci se mezery dìlat maj?
+% (já je nedìlám,ale kdyžtak se pøizpùsobim :-))
+% tak ještì jednu: Ave crux
+
+========================
+N: AVE CRUX
+A: Jiøí Èerný
+AC:
+Z: Hosana,1993
+ZC:
+
+
+(C)Ave (Dm)crux, (G)spes uni(C)ca.
+(Am)Ave (Em)crux, (F)spes uni(G)ca.
+(C (Am) Dm)A(G)ve (C)crux. 
+% s delenim slov, kdyz je nad slabikou vic akordu si nemusis delat
+% starosti to dela samo

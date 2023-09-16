@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+# use: sepsongs REGEXP1 's/REGEXP2/NAME/' FILE
+#
+# REGEXP1 - separator of songs
+# s|REGEXP2|NAME| - how the file name will be created
+
+$SONGSEP=$ARGV[0]; $NAME=$ARGV[1];
+open(IN,"<$ARGV[2]");
+$buff="";$Oname="";
+while (<IN>) {
+  if (eval '($ON = $_) =~'.$NAME) {
+    chop($ON);
+    $ON=~s| |_|g;$Oname=$ON;
+    #print "$Oname\n";
+  }  
+  if (/$SONGSEP/) {
+    #print "$_";
+    #print "$Oname\n";
+    if ($Oname) {
+      open(OUT,">$Oname"); print OUT $buff; close(OUT);
+    }   
+    $buff="";$_="";$Oname="";
+  }  
+  $buff.=$_;
+}
+open(OUT,">$Oname");
+print OUT $buff;
+close(OUT);
+  

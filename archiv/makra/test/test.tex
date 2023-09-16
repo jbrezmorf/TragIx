@@ -1,0 +1,11 @@
+\tracingmacros=2
+\tracingcommands=2
+\let\Verse=A
+\newtoks\savenum
+\savenum={}
+\the\savenum X
+\expandafter\savenum\expandafter{\expandafter\Verse\the\savenum}
+\the\savenum X
+\let\Verse=B
+\the\savenum X
+\bye

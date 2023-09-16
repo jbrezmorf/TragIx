@@ -1,0 +1,635 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  SONGBOOK style
+%%  
+%%  provides:
+%%  \inputsong - read, parse, typeset one song file given in only parameter
+%%  \makeindex - typeset an index from \jobname.toc
+%%  \lyricoutput - output routine that balance songs between two pages
+%%  \setlyricoutput - setup lyricoutput routine
+%% 
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CONFIGURATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% set fonts for A=base tone and chord type
+%%               B= exponent  C= bass tone
+% useable fonts:
+% qhvb - helvetica bold, PS, no sizes 
+% qhvcb - helvetica condensed bold, PS, no sizes
+% ebbx10 - helvetica bold
+% cmbrbx10 - hlv. bld.
+% ebsr10 - hlv.
+% pnssb10 - pandora bld. non. sym
+% t1xbss, tyxbss - hlv. bld. PS, no sizes
+% vnssdc10 - round hlv. cond. bld.      
+% rpagd, rphvb,rphvbrn
+%%%%%%%%%%%
+%% FONTS
+%%%%%%%%%
+\newfam\ChordFam
+\font\ChordFontText=qhvb at 8pt
+\font\ChordFontExp=qhvb at 5pt
+\font\ChordFontBass=qhvr at 8pt
+\font\CHSymFont=cmmib10 at 8pt
+\font\SongNameFont=csbx12 at 14pt
+\font\AuthorFont=csti10
+\font\TextFont=csr10 at 11pt
+\font\PageFont=csbx11
+\font\IndexFont=csr12
+%
+\textfont\ChordFam=\ChordFontText
+\scriptfont\ChordFam=\ChordFontExp
+\scriptscriptfont\ChordFam=\ChordFontBass
+\def\setformatA{\fam=\ChordFam\textstyle} 
+\def\setformatB{\fam=\ChordFam\scriptstyle}
+\def\setformatC{\fam=\ChordFam\scriptscriptstyle}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CHORD TYPESETTING
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MakeBase type base letter with possible \kern for supperscripts after
+\def\MakeBase#1{\csname MakeTone#1\endcsname}
+\def\MakeToneA{A\kern-.15em}
+\def\MakeToneB{B}
+\def\MakeToneC{C}
+\def\MakeToneD{D}
+\def\MakeToneE{E}
+\def\MakeToneF{F}
+\def\MakeToneG{G}
+\def\MakeToneH{H}
+%% how to type special characters
+\def\MakeScrut{{\setbox0=\hbox{H}\vbox to \ht0{}}}
+\def\MakeFlat{^\flat\kern-.09em\MakeScrut}
+\def\MakeSharp{^\sharp\kern-.09em\MakeScrut}
+\def\MakeExpPlus{{+}}
+\def\MakeExpMinus{{-}}
+\def\MakeBasePlus{\raise+.2ex\hbox{+}}
+\def\MakeBaseMinus{{\scriptstyle -}}
+%% some kerns and raises
+\def\MakeAfterExpKern{\kern-.1em} % kern after exponent
+\def\MakeBassRaise{-.3ex}  % raise of bass tone
+\def\fixchordspace{0.4em}  % min space between chords 
+\def\pluschordspace{0.3em} % additional space, if we do prolongation of text
+\def\chordraise{2.2ex}     % raise of the chord
+%%%%%%%%%%%%%%%%%%%%%%
+%% TEXT TYPESETTING
+%%%%%%%%%%%%%%%%%%%%%%
+%% how to make song header from parametres:
+%% name,author,author code,source, source code
+\def\MakeSongHeader#1#2#3#4#5{{%
+  \noindent\SongNameFont\unspace#1% song name
+  \write\TOCfile{\string\tocline{#1}{\the\pageno}}% write to toc file
+  \if:#2:\else% author
+  \hskip 2em plus 1em minus 1em \AuthorFont( \unspace#2 )\fi%
+  \hfill\unspace#5\par%
+  \penalty 10000%
+}}
+%% how to begin special paragraphs
+%% every paragraph in the song environment is started by
+%% \noindent so the user can setup indentation of one's own
+\def\MakeParBegin{%
+  \if V\TypeOfVerse \rm\hbox to \parindent {\NumOfVerse.\hfil}%
+  \else\if R\TypeOfVerse \rm\hbox to \parindent {R\NumOfVerse:\hfil}%
+  \else\if C\TypeOfVerse \it\hbox to \parindent {\hfil}%
+  \else\if M\TypeOfVerse\rm% 
+  \else\rm\hbox{\hskip\parindent}%
+  \fi\fi\fi\fi}
+%% this makes line indentation
+\def\MakeLineIndent{%
+  \if M\TypeOfVerse%
+  \else\hbox{\hskip\parindent}\fi%
+}
+%% separation of more verses on the single line
+\def\MakeVerseSeparation#1{%eat the plus sign 
+  { }\egroup{}\kern-0.1em/\kern-0.1em{ }%
+  \begintext}%
+%% text formating parameters 
+\def\InterSongSkip{4ex plus 48ex}
+\def\FlexibleSongSkip{4ex plus 48ex minus 1ex}
+\def\InterSongPenalty{-50}
+\def\InterVersePenalty{0}
+\def\InterLinePenalty{100}
+\def\ParIndent{21pt}
+\def\ParSkip{1ex plus 1ex minus 0.5ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PAGE LAYOUT
+%%%%%%%%%%%%%%%%% 
+\def\InnerMargin{0.5cm}
+\def\OuterMargin{0.7cm}
+\def\TopMargin{0.7cm}
+\def\BottomMargin{0.5cm}
+\def\vPageSize{21cm}
+\def\hPageSize{14.85cm}
+\def\PageLayout{
+% horizontal setting 
+  \hsize=\hPageSize
+  \advance\hsize by -\InnerMargin
+  \advance\hsize by -\OuterMargin
+  \message{hsizedef: \the\hsize}
+  \hoffset=-1in
+% vetrical setting
+  \vsize=\vPageSize 
+  \advance\vsize by -\TopMargin
+  \advance\vsize by -\BottomMargin
+  \voffset=-1in
+  \advance\voffset by \TopMargin
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MAKEINDEX
+%%%%%%%%%%%%
+\newwrite\TOCfile
+\newdimen\colsep  % horiz. mezera mezi sloupci
+\newcount\tempnum % pracovní promenná
+\def\makeindex{
+  \bgroup
+  \def\cvak{\ifdim\dimen0<6pt \dimen0=9pt \else \dimen0=3pt \fi}
+  \def\puntiky{\leaders\hbox to12pt{\kern\dimen0.\hss}\hfil}
+  \long\def\tocline##1##2{\line{ ##1%
+    \puntiky\hbox to1.5em{\hfil##2}}\cvak}
+  \PageLayout
+  \nopagenumbers
+  \advance\hsize by \OuterMargin
+  \advance\hsize by -\InnerMargin
+  \advance\hoffset by \InnerMargin
+  \baselineskip=1.2\fontdimen6\IndexFont
+  \IndexFont
+  \dimen0=3pt
+  \colsep=1em % horiz. mezera mezi sloupci
+  \splittopskip=\baselineskip
+  \begmulti 2
+  \input \jobname.toc %
+  \endmulti 
+  \vfill\break
+  \immediate\openout\TOCfile=\jobname.toc
+  \egroup
+}
+
+\def\roundtolines #1{%% zaokrouhlí na celé násobky vel. rádku
+  \divide #1 by\baselineskip \multiply #1 by\baselineskip}
+\def\corrsize #1{%% #1 := #1 + \splittopskip - \topskip
+  \advance #1 by \splittopskip \advance #1 by-\topskip}
+\def\begmulti #1 {\par\bigskip\penalty0 \def\Ncols{#1}
+  \setbox0=\vbox\bgroup\penalty0
+%% \hsize := ¹írka sloupce = (\hsize+\colsep) / n - \colsep
+  \advance\hsize by\colsep\divide\hsize by\Ncols \advance\hsize by-\colsep}
+\def\endmulti{\vfil\egroup \setbox1=\vsplit0 to0pt
+  %% \dimen1 := velikost zbylého místa na stránce
+  \ifdim\pagegoal=\maxdimen \dimen1=\vsize \corrsize{\dimen1}
+  \else \dimen1=\pagegoal \advance\dimen1 by-\pagetotal \fi
+  \ifdim \dimen1<2\baselineskip
+  \vfil\break \dimen1=\vsize \corrsize{\dimen1} \fi
+  %% \dimen0 := vý¹ka n sloupcové sazby po rozdelení do sloupcu
+  %% = (\ht0 + (n-1)\baselineskip) / n, zaokruhleno na rádky
+  \dimen0=\Ncols\baselineskip \advance\dimen0 by-\baselineskip
+  \advance\dimen0 by \ht0 \divide\dimen0 by\Ncols
+  \roundtolines{\dimen0}
+  %% Rozdelit sazbu n sloupcu do stránek nebo nerozdelit ?
+  \ifdim \dimen0>\dimen1 \splitpart
+  \else \makecolumns{\dimen0} \fi
+  \ifvoid0 \else \errmessage{ztracený text ve sloupcích?} \fi
+  \bigskip}
+\def\makecolumns#1{\setbox1=\hbox{}\tempnum=0
+  \loop \ifnum\Ncols>\tempnum
+  \setbox1=\hbox{\unhbox1 \vsplit0 to#1 \hss}
+  \advance\tempnum by1
+  \repeat
+  \hbox{}\nobreak\vskip-\splittopskip \nointerlineskip
+  \line{\unhbox1\unskip}}
+\def\splitpart{\roundtolines{\dimen1}
+  \makecolumns{\dimen1} \advance\dimen0 by-\dimen1
+  %% \dimen0 := vý¹ka _zbylé_ n sloupcové sazby
+  %% \dimen1 := prázdné místo na stránce = (cca) \vsize
+  \vfil\break
+  \dimen1=\vsize \corrsize{\dimen1}
+  %% Rozdelit zbylou sazbu n sloupcu do více stránek ?
+  \ifvoid0 \else
+  \ifdim \dimen0>\dimen1 \splitpart
+  \else \makecolumns{\dimen0} \fi \fi}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OUTPUT RUTINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Page number typesetting
+\def\MakePageNum{\global\advance\pagenum by 1
+  \PageFont\vskip 2ex
+  \hbox to \hsize{\PageFont
+    \ifodd\pagenum\the\pagenum\hfill
+    \else\hfill\the\pagenum\fi
+  }}
+% auxiliar rule
+% \def\measure{\vbox to 0pt{\hbox to 0pt{\vrule height 18cm}}}
+%
+\newcount\pagenum
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\setlyricoutput{
+  \PageLayout
+% page numberibg
+  \pagenum=99
+  \setbox0=\vbox{\MakePageNum}
+  \pagenum=0
+  \vsize=2\vsize% vzdy formatuju 2 strany najednou
+  \advance\vsize by -\ht0
+  \output={\lyricoutput}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\lyricoutput{\poisepages
+  %left page
+  {\advance\hoffset by \OuterMargin
+   \setbox1=\vbox{\hrule\hbox{\vrule\vbox{\box5\MakePageNum}\vrule}\hrule}
+   %\setbox1=\vbox{\hbox{\vbox{\box5\MakePageNum}}}
+   \count0=\pagenum\shipout\box1}
+  %right page 
+  {\advance\hoffset by \InnerMargin
+   \setbox2=\vbox{\hrule\hbox{\vrule\vbox{\box6\MakePageNum}\vrule}\hrule}
+   %\setbox2=\vbox{\hbox{\vbox{\box6\MakePageNum}}}
+   \count0=\pagenum\shipout\box2}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% poisepages -
+%   modification of original pagebreak algoritm n such way, that 
+%   value of break is sum of penalty and badness of both left and right
+%   page
+\newbox\RightPage  
+\newbox\LeftPage
+\newcount\ActualBreakValue
+\newskip\SaveSkip
+\def\poisepages{%
+  \rmvboxes % remove song vbox envelopes
+  \count5=100000 % actual best page break value
+  \setbox\LeftPage=\box255 % actual left page
+  \setbox\LeftPage=\vbox{\unvbox\LeftPage
+      \skip0=\lastskip\unskip
+      \advance\skip0 by \lastskip\unskip
+      \advance\skip0 by \lastskip\unskip
+      \global\ActualBreakValue=\lastpenalty\unpenalty
+      \global\setbox\RightPage=\vbox{}}%    
+  \loop
+    \setbox\LeftPage=\vbox{\unvbox\LeftPage
+      \setbox0=\lastbox
+      \skip0=\lastskip\unskip
+      \advance\skip0 by \lastskip\unskip
+      \advance\skip0 by \lastskip\unskip
+      \global\SaveSkip=\skip0
+      \global\ActualBreakValue=\lastpenalty\unpenalty
+      \global\setbox\RightPage=\vbox{\box0\unvbox\RightPage}
+    }  
+%    \message{penalty: \the\ActualBreakValue }
+    \setbox1=\vbox to 0.5\vsize{\unvcopy\LeftPage}\advance\ActualBreakValue by \badness
+%    \message{left: \the\badness }
+    \setbox2=\vbox to 0.5\vsize{\unvcopy\RightPage}\advance\ActualBreakValue by \badness
+%    \message{right: \the\badness }
+%    \message{act: \the\ActualBreakValue best: \the\count5 }
+    \global\setbox\RightPage=\vbox{\vskip\SaveSkip\unvbox\RightPage}
+    \ifnum\ActualBreakValue>\count5
+    \else
+      \count5=\ActualBreakValue\setbox5=\box1\setbox6=\box2
+    \fi  
+  \ifdim\ht\LeftPage>0pt   
+  \repeat   
+  \count5=0
+}  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\rmvboxes{% remove song vbox envelps to allow intersong page break
+  \setbox1=\vbox{\unvbox255
+    \loop
+      \unskip\unskip\setbox0=\lastbox
+      \ifvbox0\global\setbox255=\vbox{%
+        \unvbox0%
+        \vskip\FlexibleSongSkip
+        \penalty\InterSongPenalty%
+        \unvbox255}%
+    \repeat}
+  \ifdim\ht1>0pt\showboxbreadth=100\showboxdepth=1\showbox1\fi}
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INPUT SONG
+%%%%%%%%%%%%%
+\newtoks\savenum
+\newbox\lasttext
+\newbox\lastchord
+% define some spec. tokens
+\def\SharpChar{"}%
+\def\FlatChar{b}%
+\def\unspace{\vrule width 0pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\def\inputsong#1{%
+  \message{hsize: \the\hsize}
+  \vbox\bgroup
+  \begingroup
+  \catcode`\^^M=13
+  \parindent=\ParIndent
+  \parskip=\ParSkip
+  \interlinepenalty=\InterLinePenalty
+  \expandafter\getheader\input #1 
+  \ENDSONG
+}
+\def\ENDSONG{
+  \unskip\endgroup\egroup
+  \vskip\InterSongSkip
+  }%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% header
+\def\({(}\def\){)}\def\/{/}
+{\catcode`\(=13\catcode`\^^M=13
+% getheader - reads 5 header fields, call formating macro, 
+\gdef\getheader N:#1^^MA:#2^^MAC:#3^^MZ:#4^^MZC:#5^^M{%
+   \MakeSongHeader{#1}{#2}{#3}{#4}{#5}%
+   \beginsong}%
+% beginsong - setup environment
+\gdef\beginsong{%
+  \def^^M{\doEOL}\let\EOLtok=^^M % to have exactly same token for testing
+  \catcode`\§=0%
+  \catcode`\(=13\def({\beginchord}% 
+  \skipEOLs\relax}% do not eat first char
+  % skip all ^^M and begin new paragraph
+}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% text reading
+\def\begintext{%
+  \ifvmode \noindent \MakeParBegin \fi%
+  \setbox\lasttext=\hbox\bgroup\aftergroup\endtext%
+  \unspace}% to eat possible space
+\def\endtext{%
+  \ifvoid\lastchord\unhbox\lasttext% test trivial case
+  \else\typechord%
+  \fi}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% line/par. govering - another finite automata with \futurelet
+%% we use two \hfil at the end of line, because first could
+%% be closed in the last \lasttext box, if there is a chord
+%% + at beginnig of line means continuation of the previous one
+%% with separation of verses
+\def\doEOL{\futurelet\nextEOL\firstEOL}%
+\long\def\firstEOL{%
+  \ifx\nextEOL\EOLtok% end par
+     \hfil\egroup\hfil\par% close text environment and par.
+     \penalty\InterVersePenalty%
+     \let\next=\skipEOLs% skip EOLs and begin new one
+  \else\ifx\nextEOL+\let\next=\MakeVerseSeparation%
+  \else\ifx\nextEOL\ENDSONG% end of line inside a paragraph
+     \hfil\egroup\hfil\par
+     \let\next=\relax
+  \else   
+    \hfil\egroup\hfil% close text environment
+    \break% hard line break
+    \MakeLineIndent%
+    \let\next=\begintext% start new line
+  \fi\fi\fi\next}%
+%%%%  
+\def\skipEOLs#1{\futurelet\Xtok\skipEOLsX}
+\def\skipEOLsX{%
+  \ifx\Xtok\EOLtok\let\next=\skipEOLs%
+  \else\ifx\Xtok\ENDSONG\let\next=\relax%
+  \else\let\next=\getverse%
+  \fi\fi\next}%
+%%%%  
+\def\getverse{%
+  \let\next=\getnum\global\savenum={}\xdef\SAVEDTEXT{}%
+  \ifx R\Xtok\gdef\TypeOfVerse{R}% read next tok
+  \else\ifx M\Xtok\gdef\TypeOfVerse{M}% read next tok
+  \else\ifx C\Xtok\gdef\TypeOfVerse{C}%
+  \else\gdef\TypeOfVerse{V}\let\next=\getnumX% continue with current
+  \fi\fi\fi\next}%
+%%%%  
+\def\getnum#1{\futurelet\Xtok\getnumX}%
+\def\getnumX{%
+  \let\next=\relax%
+  \ifadddigit{\Xtok}{\let\next=\getnum}%
+  \ifx\next\relax% end of the number 
+    \ifx:\Xtok\xdef\NumOfVerse{\the\savenum}\let\next=\endnum%
+    \else% Oh, it is no verse mark, return it 
+      \if V\TypeOfVerse\xdef\SAVEDTEXT{\the\savenum}%
+      \else\xdef\SAVEDTEXT{\TypeOfVerse\the\savenum}%
+      \fi%  
+      \gdef\TypeOfVerse{X}%
+      \let\next=\endnumX%
+    \fi%  
+  \fi\next}%
+\def\endnum#1{\endnumX}% sezer pripadnou (nepovinnou) mezeru
+\def\endnumX{\begintext\SAVEDTEXT}
+%%%%
+\def\ifadddigit#1#2{% so long as we can not get ASCII num of \nextChar
+ \ONEtest0#1{#2}\ONEtest1#1{#2}\ONEtest2#1{#2}\ONEtest3#1{#2}\ONEtest4#1{#2}%
+ \ONEtest5#1{#2}\ONEtest6#1{#2}\ONEtest7#1{#2}\ONEtest8#1{#2}\ONEtest9#1{#2}}%
+\def\ONEtest#1#2#3{\ifx#1#2%
+  \global\expandafter\savenum\expandafter{\the\savenum#1}#3\fi}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "chord environment" 
+% 
+% chord has a form:
+% [A-H][b"]?\(<modifier>\)?
+% \((<general exp>)\)?\(/?<bass>\)?
+% \|\(<restriced exp>\)?\(/<bass>\)?
+% <modifier> .. arbitrary text, but meaningfull are: +,-,m,mi,maj,dim,sus,add
+% <general exp> .. arbitraty balanced text
+% <restricted exp> .. arbitrary text without slash
+%
+% you can write more chords separated by a space
+% 
+% examples:
+% (A) (A") (Ab) (Am) (A7) (A6+) ... produce what you expect 
+% ((A)) optional chord 
+% (A((4))) optional additional 4
+% (A(6/9)/E) complex exp. with bass suggestion
+% (C G C) more then one chord over one nible
+%
+% implementation: finite automata with support for paired ()
+% - all chords are recorded into allchords.aux
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newwrite\logchords%
+\immediate\openout\logchords=allchords.aux
+\def\logchord{%
+  \immediate\write\logchords{\savechord}%
+  \global\let\savechord=\empty}%
+% readchord - automata kernel
+\def\readchord#1{%
+  \expandafter\gdef\expandafter\savechord\expandafter{\savechord#1}% 
+  % hack for more chords separated by the space
+  \ifx\chspace#1\logchord\readchordd{)}% empty savechord -> chord ended by space
+  \else\readchordd{#1}\fi% save token and do chordnext
+  \ifx\chordnext\ENDAUTOMATA \let\next=\relax% .. so stop reading 
+  \else\let\next=\readchord% continue
+  \fi\next}
+\def\readchordd#1{%
+  \ifx\CHegroupchar#1\egroup% end of pair, must have \aftergroup !!
+  \else \chordnext{#1}\fi}%
+%
+% testtok - to test various tokens without many included "if"s
+\def\testtok#1#2#3{%
+  \ifx#1#2\ifx\chordnext\relax\let\chordnext=#3\fi%
+  \fi}%
+% main pair 
+\def\beginchord{%
+  \egroup% end text environment
+  \setbox\lastchord=\hbox\bgroup$% 
+  \catcode`\^^M=15\catcode`\(=12%
+  \setchspace
+  \expandafter\let\expandafter\sharptok\SharpChar
+  \expandafter\let\expandafter\flattok\FlatChar
+  \bgroup\aftergroup\endchord
+  \bchord\readchord}%
+{\catcode`\ =12\gdef\setchspace{\catcode`\ =12\let\chspace= }}%
+\def\endchord{%
+  \unkern$\egroup% end math chord box 
+  \let\chordnext=\ENDAUTOMATA%
+  \begintext}%
+% one chord group
+\def\bchord{%
+  \bgroup\aftergroup\echord%
+  \global\let\savechord=\empty%
+  \let\CHegroupchar=)\let\chordnext=\bCHopt}%
+\def\echord{%
+  \ifx\savechord\empty% chord ended by space
+    \dimen0=\fixchordspace\advance\dimen0 by \pluschordspace\hskip\dimen0%
+    \let\next=\bchord%
+  \else%                chord ended by ) -> end whole chord env.
+    \logchord\let\next=\egroup\fi\next}%
+%  
+% opt. chord pair
+\def\bCHopt#1{%
+  \ifx(#1 \left(\bgroup\aftergroup\eCHopt%
+    \let\chordnext=\bCHbase%
+  \else\bCHbase{#1}%
+  \fi}%
+\def\eCHopt{\right)\let\chordnext=\CHerrend}%
+% error if there is something else than ) after opt chord )
+\def\CHerrend#1{\errmessage{Wrong end of the chord}\egroup#1}%
+%
+% chord base 
+\def\bCHbase#1{\setformatA\MakeBase{#1}\let\chordnext=\eCHbase}%
+\def\eCHbase#1{\let\chordnext=\bCHtype\CHreadtone{#1}}%
+% CHreadtone - for base and bass tone modifiers
+\def\CHreadtone#1{%
+  \ifx#1\sharptok\MakeSharp
+  \else\ifx#1\flattok\MakeFlat
+  \else\chordnext{#1}%
+  \fi\fi}  
+%
+% chord type - such text as m,mi,maj,sus,+,-,dim
+\def\bCHtype#1{\CHtype{#1}}% this is now obsolate, but wait ...
+\def\CHtype#1{%
+  \let\chordnext=\relax%
+  \testtok(#1\bCHgeneralexp% normal exp in ()
+  \testtok/#1{\bCHbass\unkern}%
+  \testtok+#1{\CHtype\unkern\MakeBasePlus}%
+  \testtok-#1{\CHtype\unkern\MakeBaseMinus}%
+  % simple exp begin with digit and end with / 
+  \testtok2#1{\relax\bCHrestrictexp{#1}}% 
+  \testtok4#1{\relax\bCHrestrictexp{#1}}% 
+  \testtok6#1{\relax\bCHrestrictexp{#1}}% 
+  \testtok7#1{\relax\bCHrestrictexp{#1}}% 
+  \testtok9#1{\relax\bCHrestrictexp{#1}}% 
+  % very rare cases
+  \testtok1#1{\relax\bCHrestrictexp{#1}}% 
+  \testtok3#1{\relax\bCHrestrictexp{#1}}% 
+  \testtok5#1{\relax\bCHrestrictexp{#1}}% 
+  %hack for write (A0(4)) and no (A((4)))
+  \testtok0#1\bCHrestrictexp% 
+  \testtok!!{\CHtype\unkern#1}% normaly type all text
+}  
+%
+% exp pairs
+\def\bCHgeneralexp#1{^\bgroup\aftergroup\eCHexp\setformatB\CHexp{#1}}%
+\def\bCHrestrictexp#1{^\bgroup\aftergroup\eCHexp\setformatB
+  \let\CHegroupchar=/\CHexp{#1}}%
+\def\eCHexp{\MakeAfterExpKern\let\chordnext=\bCHbass}%
+%
+\def\CHexp#1{%
+  \let\chordnext=\relax%
+  \testtok+#1{\CHexp\MakeExpPlus}%
+  \testtok-#1{\CHexp\MakeExpMinus}%
+  \testtok(#1{\CHexp\bCHoptexp}% optional exp.
+  % if we have ) here it must be end of whole chord 
+  % -> override normal rules
+  \testtok)#1{\relax\egroup\egroup}% end exp and main/opt
+  \testtok!!{\CHexp#1}% normal type
+}%
+\def\bCHoptexp{(\bgroup\aftergroup\eCHoptexp\let\CHegroupchar=)}%
+\def\eCHoptexp{\noexpand)}%
+%
+% begin bass section only if there is nontrivial material
+% using _ for raise, formula for subscript raise is:
+% max(d(X)+s_19,s_16,h(X)-4/5abs(s_5)), for atom X
+\def\bCHbass#1{\ifx/#1 
+  \else
+%  \fontdimen16\textfont2=0pt
+%  \fontdimen19]textfont2=0pt
+  \kern-.05em/\kern-.05em
+  \raise\MakeBassRaise%
+  \hbox\bgroup$\bgroup\aftergroup\ebassgroup% after bass group close chord
+  \setformatC\MakeBase{#1}\textstyle%
+  \let\CHegroupchar=\relax% take control over ")"
+  \let\chordnext=\eCHbass\fi}%
+\def\eCHbass#1{\ifx)#1\egroup% end of bass and chord too
+  \else\let\CHegroupchar=)\let\chordnext=\CHerrend\CHreadtone{#1}\fi}% 
+\def\ebassgroup{$\egroup\egroup}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% this is the end of the parsing macros
+%% Typeseting macros follows, many parameters can be changed  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% typechord - put boxes \lastchord and \lasttext together
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% prolongation of the text inside of word
+\def\chordinshypen{%
+  \setbox0=\hbox{-}%
+  \advance\dimen0 by -\wd0\divide\dimen0 by 2%
+  \ifdim\dimen0<0.3em\dimen0=0.3em\else\fi%
+  \hskip\dimen0{-}\hskip\dimen0%
+}  
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% prolongation of the text in space
+\def\chordinsspace{%
+  \unskip%
+  \ifdim\dimen0>3em{%
+    \advance\dimen0 by -1.5em%
+    \hskip.75em\leaders\hbox{--}\hskip\dimen0 plus 1em\hskip.75em%
+  }%
+  \else{\hskip\dimen0 plus 1em}%
+  \fi%
+}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\typechord{%
+  \dimen0=\wd\lastchord% d0=(d1=wd(chord)+fixchordspace)-wd(text)
+  \advance\dimen0 by \fixchordspace
+  \dimen1=\dimen0 
+  \advance\dimen0 by -\wd\lasttext
+  \raise\chordraise\rlap{\unhbox\lastchord}% insert chord with zero width
+  % test if text box is just space
+  \setbox1=\copy\lasttext\setbox0=\hbox{\unhbox1\unskip\unskip\unskip}%
+  \ifdim\wd0=0pt\setbox\lasttext=\hbox{\hskip\dimen1}\dimen0=-1pt\fi% 
+  \ifdim\dimen0<0pt{\unhbox\lasttext}% the best case 
+  \else% try streach the text
+    \setbox0=\hbox to \dimen1{\unhbox\lasttext}%
+    \ifnum\badness<250\box0% still good case
+    \else\unhbox0% fill the space or hypen a word      
+       \advance\dimen0 by \pluschordspace
+       \ifdim\lastskip=0.0pt\chordinshypen%
+       \else\chordinsspace\fi%
+    \fi%
+  \fi%
+}  
+
+%\showboxbreadth=100
+%\showboxdepth=5
+\tracingmacros=2
+\tracingcommands=2
+\tracingpages=1
+%\tracingrestores=1
+%\tracingoutput=5
+
+%Testovaci text s akordy
+%Kaz(Abm(7+)/C#)dykonecradku(Dm(7)/Bb)je ... 
+%(D+)du(Am)le(B-)zity
+%
+%... i prazdny
+%(Cm)(C+)(C-)(Cdim)(Cb)(C#)
+%(Dm)(D+)(D-)(Ddim)(Db)(D#)
+%(Em)(E+)(E-)(Edim)(Eb)(E#)
+%(Fm)(F+)(F-)(Fdim)(Fb)(F#)
+%(Gm)(G+)(G-)(Gdim)(Gb)(G#)
+%(Am)(A+)(A-)(Adim)(Ab)(A#)
+%(Hm)(H+)(H-)(Hdim)(Hb)(H#)
+%(Bm)(B+)(B-)(Bdim)(Bb)(B#)
+%
+
+
+%\inputsong{Amazonka.sng}
+%\bye

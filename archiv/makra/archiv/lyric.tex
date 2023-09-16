@@ -1,0 +1,201 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+% Lyric environment
+% -----------------
+% end of line is hard
+% left paranthesis is activ to catch chords
+\newbox\lastchord
+\newbox\lasttext
+{
+\catcode`\^^M=13%
+\catcode`\(=13%
+\gdef\beglyric{%
+  \ifhmode\else\indent\fi%
+  \begingroup%
+  \catcode`\^^M=13\def^^M{%
+     \hfil\egroup% close text environment
+     \hfill\break% hard line break
+     \begintext% start new line
+  }%
+  \catcode`\(=13\def({\Beginchord}%
+  \begintext%
+}}
+\def\endlyric{\egroup\endgroup%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "text environment"
+\def\begintext{\setbox\lasttext=\hbox\bgroup\aftergroup\endtext}%
+\def\endtext{%
+  \ifvoid\lastchord \box\lasttext% test trivial case
+  \else\typechord%
+  \fi%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "chord environment" (be closed by ")")
+% "activ": ( -> beginexponent - exponent environment
+%        ) -> endgroup after group \endchord
+%        / -> pass to "bass environment"
+%        ^^M -> error
+%        b - \flat
+%        # - \sharp
+\let\Bgroup=\bgroup%
+\let\hBox=\hbox%
+\let\setBox=\setbox%
+\def\plus{+}% je docela problem ze potrebuju aby se velikost ridila
+            % matematickou sazbou, ale celkove to potrebuju mit mensi
+            % nejlepsi asi bude zavest nejaky mensi font
+            % a nastavit na nej fam=
+\def\minus{-}
+\def\cact{13}
+\def\cend{2}
+{%
+\catcode`\(=13%
+\catcode`\b=13% all b after must be big, we must use \let for primitives
+\catcode`\#=13%
+\catcode`\+=13% these are not operators
+\catcode`\-=13%
+\catcode`\/=13%
+\gdef\Beginchord{%
+  \egroup% close text envirnoment
+  \setBox\lastchord=\hBox\Bgroup\Bgroup\aftergroup\endchord%
+  \setformatA%
+  \catcode`\^^M=15%
+  %\catcode`\(=13% - already has this code
+  \catcode`\)=2%
+  \catcode`\(=13\def({\Beginexp}%
+  \catcode`\b=13\def b{^\flat}% 
+  \catcode`\#=13\def #{\sharp}%
+  \catcode`+=13\def +{\plus}%
+  \catcode`-=13\def -{\minus}%
+  \catcode`\/=13\def /{\passBass}%
+  \setactivenumerals
+}}
+%
+\def\endchord{%
+  \ifvoid0\else\setbox0=\lastbox\fi% remove slash if nothing after
+  \unkern% remove posible kern after exp
+  \egroup\begintext%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% turn on/off active numerals
+\def\setactivenumerals{%
+  \count255=`\0\advance\count255 by -1%
+  \loop%
+     \advance\count255 by 1%
+     \catcode\count255=13%
+     \count10=\count255\advance\count10 by -`\0%
+     \bgroup\uccode`~=\count255%
+     \uppercase{\egroup\edef~}{\noexpand\Beginexp\the\count10\egroup}
+     \ifnum\count255<`\9%
+  \repeat%
+}
+\def\noactivenumerals{%
+  \count255=`\0\advance\count255 by -1%
+  \loop%
+     \advance\count255 by 1%
+     \catcode\count255=12%
+     \ifnum\count255<`\9%
+  \repeat%
+}  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% pass to Bass part of chord =
+% change format, no ( and /
+\def\slash{\hbox{/}}%
+\def\passBass{\noactivenumerals\setformatC\slash\catcode`/=9\catcode`(=15}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "exponent environment" (be closed by ")")
+% put it whole in superindex
+% normal /; no (; set format; passBass after
+\def\Beginexp{%
+\noactivenumerals$^\bgroup\catcode`/=12\catcode`(=15%
+\setformatB\aftergroup\endexp%
+}
+\def\endexp{$\kern-.2em\passBass}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+% definition of formats
+% A - main part
+% B - exponent
+% C - Bass
+% !!! we are in math mode
+% in plain : fam=0 (roman) fam=6 (bold)
+\def\setformatA{\bf} 
+\def\setformatB{\fam=6}
+\def\setformatC{\tenrm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% typechord - put boxes \lastchord and \lasttext together
+% ---------
+% parametrs:
+\def\fixchordspace{0.5em}  % min space between chords 
+\def\pluschordspace{0.5em} % additional space, if we do prolongation of text
+\def\chordraise{2.1ex}     % raise of the chord
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% prolongation of the text inside of word
+\def\chordinshypen{%
+  \divide\dimen0 by 2%
+  \ifdim\dimen0<0.3em\dimen0=0.3em\else\fi%
+  \hskip\dimen0 plus 1em{-}\hskip\dimen0 plus 1em%
+}  
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% prolongation of the text in space
+\def\chordinsspace{%
+  \unskip%
+  \ifdim\dimen0>3em{%
+    \advance\dimen0 by -1.5em%
+    \hskip.75em\leaders\hbox{--}\hskip\dimen0 plus 1em\hskip.75em%
+  }%
+  \else{\hskip\dimen0 plus 1em}%
+  \fi%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\typechord{%
+  \dimen0=\wd\lastchord% d0:=wd(chord) + fixchordspace - wd(text)
+  \advance\dimen0 by \fixchordspace%
+  \dimen1=\dimen0%
+  \advance\dimen0 by -\wd\lasttext%
+  \wd\lastchord=0pt%
+  \raise\chordraise\box\lastchord% insert chord with zero width
+  \ifdim\dimen0<0pt{\unhbox\lasttext}% the best case 
+   \else{% try streach the text
+      \setbox0=\hbox to \dimen1{\unhbox\lasttext}%
+      \ifnum\badness<250{\box0}% still good case
+      \else{\unhbox0% fill the space or hypen a word      
+         \advance\dimen0 by \pluschordspace%
+         \ifdim\lastskip=0.0pt{\chordinshypen}%
+         \else{\chordinsspace}%
+         \fi%
+      }\fi%
+   }\fi%
+}  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+\tracingmacros=1
+\tracingcommands=1
+\tracingrestores=1
+\hrule
+\beglyric%
+%Testovaci text s akordy
+%Kaz(Abm(7+)/C#)dykonecradku(Dm(7)/Bb)je ... 
+%(D+)du(Am)le(B-)zity
+%
+%... i prazdny
+%(Cm)(C+)(C-)(Cdim)(Cb)(C#)
+%(Dm)(D+)(D-)(Ddim)(Db)(D#)
+%(Em)(E+)(E-)(Edim)(Eb)(E#)
+%(Fm)(F+)(F-)(Fdim)(Fb)(F#)
+%(Gm)(G+)(G-)(Gdim)(Gb)(G#)
+%(Am)(A+)(A-)(Adim)(Ab)(A#)
+%(Hm)(H+)(H-)(Hdim)(Hb)(H#)
+%(Bm)(B+)(B-)(Bdim)(Bb)(B#)
+%
+(Am4)(Am0)(Am9)
+
+\endlyric
+
+{\rm +}{\bf +}{\it +}{$+$}{\sl +}
+\bye
+
+
+

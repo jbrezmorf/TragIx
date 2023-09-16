@@ -1,0 +1,64 @@
+N: ANE®KA
+A:
+AC:
+Z: Hosana,1993
+ZC:
+
+
+1: (E)Ane¾ka,dcera èeského krále,
+(A)na svého Boha myslela stále,
+(E)nechtìla v pøepychu (H7)¾ít,
+(E)du¹e své nìhu i krásu tìla
+(A)Je¾í¹i zcela vìnovat chtìla,
+(E)Jeho jen lásku chce (H7)mít,lásku chce (E)mít.
+
+R: (E(F))Ane¾ko pøemilá,(A(B))tvá zemì spanilá
+(H7(C7))v míru chce pokojnì (E(F))¾ít,
+svou mocnou pøímluvou (A(B))ochraòuj zemi svou,
+(H7(C7))buï na¹í zbo¾nosti (E(F))¹tít.
+
+2: (E)Anglický král se ane¾ce dvoøí,
+(A)nìmecký císaø láskou k ní hoøí,
+(E)nádheru mù¾e jí (H7)dát.
+(E)Ona v¹ak sobì chudobu volí,
+(A)chce hojit rány,chudé je¾ bolí,
+(E)pro jiné v¹eho se (H7)vzdát,v¹eho se (E)vzdát.
+
+R: (E(F))Ane¾ko pøemilá,(A(B))tvá zemì spanilá
+(H7(C7))v míru chce pokojnì (E(F))¾ít,
+svou mocnou pøímluvou (A(B))ochraòuj zemi svou,
+(H7(C7))buï na¹í zbo¾nosti (E(F))¹tít.
+
+3: (E)Ane¾ko Èeská,(A)oveèko Bo¾í,
+(H7)umìlas koupit (E)pøevzácné zbo¾í,
+(A)svatozáø v nebi teï (H7)má¹,
+(E)s chudobou druhých (A)byla jsi vdaná
+(H7)jednalas v¾dycky (E)jak moudrá panna.
+(A)láska tvá na¹e je (H7)strá¾,na¹e je (E)strá¾.
+
+R: (E(F))Ane¾o pøemilá,(A(B))tvá zemì spanilá
+(H7(C7))v míru chce pokojnì (E(F))¾ít,
+svou mocnou pøímluvou (A(B))ochraòuj zemi svou,
+(H7(C7))buï na¹í zbo¾nosti (E(F))¹tít.
+
+% Ahoj dRaku,tak tohle je pøíklad písnì :-) 
+% 1)nevim,jestli se maj psát akordy do ka¾dý sloky a refrénu
+% 2)kdy¾ je v hosanì psáno: blaA(B)bla  mám to psát stejnì-
+% -tzn. bla(A(B))bla,
+%  nebo takhle: bla(A/B)bla
+% 3)zarovnávat teda nemusim,nebo jo?
+% 4)a za interpunkci se mezery dìlat maj?
+% (já je nedìlám,ale kdy¾tak se pøizpùsobim :-))
+% tak je¹tì jednu: Ave crux
+
+========================
+N: AVE CRUX
+A: Jiøí Èerný
+AC:
+Z: Hosana,1993
+ZC:
+
+
+/: (C)Ave (Dm)crux,(G)spes uni(C)ca.
+(Am)Ave (Em)crux,(F)spes uni(G)ca.
+(C)A(Dm)-(G)ve (C)crux. :/

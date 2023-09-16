@@ -1,0 +1,35 @@
+#!/usr/bin/perl
+# reads a given file of songs separated by line of "="
+# and produce separate file for each song
+# with filename given by number and song name in ASCII
+#
+# we check the first line for the encoding
+# accepted by iconv system command
+
+
+open(IN,"<$ARGV[0]");
+$buff="";$fname="";
+$sngnum=0; $linenum=0;
+$encoding="utf8";
+while (<IN>) {
+  if ($linenum == 0 && /^encoding: (.*)$/) {
+    $encoding=$1;
+  }  
+  if (/^N: (.*)$/) {
+    $fname=$1; $fname=~s| |_|g;
+    $fname=`echo $fname|./cstocs $encoding ascii --`;
+    chop($fname);
+    $sngnum++;$fnum=sprintf("%03i",$sngnum);
+    $fname="songs/$fnum$fname.sng";
+  #  print "$_\n$fname\n";
+  }  
+  if (/^===* *$/) {
+    #print "$_";
+    #print "$Oname\n";
+    if ($fname) {open(OUT,">$fname"); print OUT $buff; close(OUT);}   
+    $buff="";$_="";$fname="";
+  }  
+  if ($fname) {$buff.=$_;}
+}
+if ($fname) {open(OUT,">$fname"); print OUT $buff; close(OUT);}   
+close(IN); 

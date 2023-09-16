@@ -1,0 +1,15 @@
+#!/bin/sh
+# 
+# usage: getsongs list source
+# for all song names in the file "list" looking for this song
+# (i.e. line "N: $songname" and all up to line "===") in the file source
+# write all finded songs into source.out
+
+rm -f $2.out
+list=`cat $1|sed 's/ /_/g'`
+for song in $list; do
+  song=`echo $song|sed 's/_/ /g'`
+  echo $song
+  cat $2|sed -n -e "/^N: $song/ {;h};/===/ {x;d};x;/^N: / {x;p;b done};x;:done" >>$2.out
+  echo "============================================" >>$2.out
+done  

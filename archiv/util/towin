@@ -1,0 +1,4 @@
+#!/bin/sh
+cstocs il2 1250 $1 >$1.w
+perl -e 'while (<>) {s/\n/\r\n/;print;}' <$1.w >$1.win
+#rm -f $1.w

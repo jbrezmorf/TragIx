@@ -1,0 +1,10 @@
+#!/bin/sh
+while test -n "$1"
+do
+  name=`echo $1|sed 's/ \+/_/g'`
+  cp "$1" "$name.win"
+  perl -e 'while (<>) {s/\r\n/\n/;print;}' <"$1" >"$name.w"
+  cstocs 1250 il2 "$name.w" >"$name"
+  rm -f "$name.w"
+  shift
+done

@@ -1,0 +1,27 @@
+- oddeleni sazeni akordu od parsovani
+
+1) slo by nacitat vzdy cely radek az do "new line" jako parametr makra
+a pak testovat, jestli je na radku ":" asi takto:
+
+\def\radek #1"newline"{#1:\radekend}
+\test#1:#2\radekend{\ifx!#2!\nocoloninline\else\coloninline}
+
+tim bych mohl zrusit jeden konecnej automat
+
+2) pokud bych chtel pouze umet nacist cely akord jako parametr nejakeho makra,
+mohl bych definovat treba toto:
+\let\otevri={%
+\def({\catcode(=1\catcode)=2\expandafter\makro\otevri}
+\def\makro#1{...}
+Tim bych mel v parametru \makro akord s tim, ze zavorky maji vyznam otvirani
+a zavirani skupiny
+
+Problem je, ze tento postup, nelze kombinovat s 1) jelikoz jakmile maji zavorky
+urcen catcode, uz s tim nelze nic udelat, nelze vzit posloupnost tokenu a 
+predhodit ji token procesoru k novemu zpracovani.
+
+Problem je taky jak pak pracovat se zavorkami v parametru. Ale to uz se da nejak
+detekovat.
+
+
+

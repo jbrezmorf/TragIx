@@ -1,0 +1,102 @@
+% parametry algoritmu vkladani akordu nad text
+\def\fixchordspace{0.5em}  % minimalni pozadovana mezera mezi akordy 
+\def\pluschordspace{0.5em} % rozsireni minimalni mezery, ktere se pouzije
+                           % kdyz se musi prodluzovat text
+%
+%                           
+% typechord - parsuje akord typu A#m(7+/9)/C#
+% na kus pred zavorkou (A), v zavorce (B), za lomitkem (C)
+% a prida k jednotlivym castem formatovani
+% vysledek je neco jako $A^{B}/C$
+% navic znaky b a # jsou nahrazeny \flat resp. \sharp
+%
+% expsharp - parametr nesmi ani po expanzi obsahovat definice
+{\catcode`\"=6%  parametry budou v definic i znaceny uvozovkami
+ \catcode`\#=13%
+ \gdef\expsharp"1{{\catcode`\#=13\def#{\sharp}"1}}%
+}
+% expflat - pozor aktivni b !!!
+{\catcode`\b=13%
+ \gdef\expflat#1{{\catcode`\b=13\defb{\flat}#1}}%
+}
+% format A,B,C - expanze jednotlivych casti akordu
+\def\formatA#1{{\bf \expsharp{\expflat{#1}}}}
+\def\formatB#1{^{\bf\rm #1}}
+\def\formatC#1{/{\rm #1}}
+% expanduje akord bez zavorek : Am/C/" nebo Am/"
+\def\cutslash#1/{#1}
+\def\expslash1#1/#2"{%
+  \ifx"#2"\formatA{#1}%
+  \else%
+    \formatA{#1}%
+    \formatC{\expflat{\expsharp{\cutslash{#2}}}}%
+  \fi%
+}
+% expanduje bas po zavorce : /C#() nebo C#()
+\def\expslash2#1(){%
+  \formatC{\expflat{\expsharp{\ifx /#1/else #1/fi}}}%
+}
+% detakuje prvni zavorky, pozna umele pridane
+\def\exppar#1(#2)#3"{%
+  \ifx)#2)% kdyz v #2 neco bude tak se zbytek preskoci, jenom tam nesmi byt
+          % \else stejne tak v #3
+    \ifx"#3"\expslash1#1/"%
+    \else\formatA{#1}\expslash2#3%na konci #3 je dvojice ()
+    \fi%
+  \else% #2 je neprazdna
+    \formatA{#1}\formatB{#2}\expslash2#3%opet je tam ()  
+  \fi%
+}  
+\def\expchord#1{\exppar#1()"}
+\def\typechord#1{$\expchord$\hskip\fixchordspace}
+%
+% inschord#1#2 - vklada zformatovany akord #1 nad text #2
+% tak aby akordy nesly pres sebe a text vypadal rozumne
+% 
+\def\addchord#1{\raise 2.1ex\rlap{\typechord{#1}}}
+\def\chordinshypen{%
+  \divide\dimen1 by 2%
+  \ifdim\dimen1<0.3em\dimen1=0.3em\else\fi%
+  \hskip\dimen1 plus 1em{-}\hskip\dimen1 plus 1em%
+}  
+\def\chordinsspace{%
+  \unskip%
+  \ifdim\dimen1>3em{%
+    \advance\dimen1 by -1.5em%
+    \hskip.75em\leaders\hbox{--}\hskip\dimen1 plus 1em\hskip.75em%
+  }%
+  \else{\hskip\dimen1 plus 1em}%
+  \fi%
+}
+\def\inschord#1#2{%
+   \leavevmode%
+   \addchord{#1}% insert chord with zero width in whatever case
+   \setbox0=\hbox{\typechord{#1}}\dimen1=\wd0% min chord width
+   \setbox0=\hbox{#2}\advance\dimen1 by -\wd0% minus text width
+   \showthe\dimen1
+   \ifdim\dimen1<0pt{#2}% the best case 
+   \else{% try streach the text
+      \setbox0=\hbox to \dimen1{#2}%
+      \ifnum\badness<250{\box0}% still good case
+      \else{#2% fill the space or hypen a word      
+         \advance\dimen1 by \pluschordspace%
+         \ifdim\lastskip=0.0pt{\chordinshypen}%
+         \else{\chordinsspace}%
+         \fi%
+      }\fi%
+   }\fi%
+}  
+
+\tracingmacros=2
+
+\chyph
+\csaccents
+
+\expflat{AbC}
+\expsharp{A#C}
+\inschord{Am}{Dvee}\inschord{Cmaj}{ste nas tam bylo}\par
+\inschord{Dmi}{na bridge do Ciny}\par
+\inschord{Emi(7/sus)/C}{I }\inschord{G}{have }
+
+\bye
+

@@ -1,0 +1,42 @@
+#!/usr/bin/perl
+#
+# usage: searchauth infile table outfile
+#
+# go thorugh in file for each author search Author Code in table
+# it ask for right code if author does not match exactly
+# it can remember your choice, so it asks usualy only once for
+# one author
+#
+# in addition it extends header to the full form
+
+open(IN,"<$ARGV[0]");open(TAB,"<$ARGV[1]");open(OUT,">$ARGV[2]");
+while (<TAB>) {chop;s/(.*) - (.*)/\2 - \1/;$TABLE[++$#TABLE]=$_;}
+@TABLE=sort(@TABLE);
+print join("\n",@TABLE);
+while (<IN>) {
+  print OUT $_;
+  if (/^A:/) {
+    $#shorts=0;s/A://;
+    chop;@names=split(/\,/);
+    foreach $name (@names) {
+      if ($name=~/\?/) {last;}
+      $name=~s/^ *//;$name=~s/ *$//; 
+      for($i=0;$i<$#TABLE;$i++) {if ($TABLE[$i] ge $name) {last;}}
+      if ($TABLE[$i]=~/$name/) {
+        $TABLE[$i]=~/([^ ]*$)/;
+        print $shorts[++$#shorts]=$1;
+        }
+      else {
+        print "??? select name:$name:\n";
+        print "$TABLE[$i-1]\n$TABLE[$i]\n$TABLE[$i+1]\n";
+        $_=<STDIN>;
+        if (/[123]/) {
+          $TABLE[$i+$_-2]=~/([^ ]*$)/;
+          print $shorts[++$#shorts]=$1;
+          $TABLE[$i+$_-2]=~s/.* -/$name -/;
+        } 
+      }  
+    }
+    print OUT "AC: ",join(", ",@shorts),"\nZ:\nZC:\n";
+ } 
+}

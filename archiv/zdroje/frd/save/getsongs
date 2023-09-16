@@ -1,0 +1,9 @@
+#!/bin/sh
+# 
+# usage: getsongs list source
+
+rm -f $2.out
+for song in `cat $1`; do
+  cat $2|sed -n -e "/^N: $song/ {;h};/===/ {p;x;d};x;/^N: / {x;p;b done};x;:done" >>$2.out
+  echo "============================================" >>$2.out
+done  

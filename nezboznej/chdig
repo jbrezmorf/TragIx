@@ -1,0 +1,79 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CHORD DIAGRAMS
+%%%%%%%%%%%%%%%%%
+\font\DotFont cmbsy8 scaled 1000
+\font\CrossFont cmbsy8 scaled 800
+\font\PosFont cmss8
+\def\StringSkip{0.15cm}
+\def\FretSkip{0.28cm}
+\def\LinesThick{0.01cm}
+\def\ZeroBarThick{0.05cm}
+\def\FingerCross{\hbox{{\CrossFont
+  \setbox0=\hbox{\char2}
+  \dimen0=\wd0
+  \kern-0.5\dimen0\lower 0.5ex\box0\kern-0.5\dimen0}}}
+\def\FingerDot{\hbox{{\DotFont
+  \setbox0=\hbox{\char15}
+  \dimen0=\wd0
+  \kern-0.5\dimen0\lower 0.5ex\box0\kern-0.5\dimen0}}}
+%\edef\FDotSkip{\box0=\hbox{\FingerDot}\wd0}
+\def\barre#1#2#3{% position, from, to
+    %vertical position -> d0
+    \dimen0=\FretSkip\dimen1=0.5\dimen0%
+    \advance\dimen0 by\LinesThick%
+    \dimen0=#1\dimen0%
+    \advance\dimen0 by -\dimen1%
+    %start ->d1
+    %length -> d2
+    \dimen1=\StringSkip\advance\dimen1 by\LinesThick%
+    \dimen2=#3\dimen1\dimen1=#2\dimen1%
+    \advance\dimen2 by -\dimen1%
+    \lower\dimen0\hbox{\hskip\dimen1\vrule height \LinesThick width \dimen2}%
+    \hskip-\dimen2\hskip-\dimen1%
+} 
+\def\finger#1{%
+  \ifx 0#1
+  \else
+  \ifx x#1
+    \dimen2=\LinesThick
+    \kern 0.5\dimen2\FingerCross\kern-0.5\dimen2
+  \else
+    \dimen0=\FretSkip\dimen1=0.5\dimen0
+    \advance\dimen0 by \LinesThick
+    \dimen0=#1\dimen0
+    \advance\dimen0 by -\dimen1
+    \dimen2=\LinesThick
+    \kern 0.5\dimen2\lower\dimen0\FingerDot\kern-0.5\dimen2
+  \fi\fi  
+  \hskip\StringSkip\hskip\LinesThick
+}
+\def\GridField{\vrule width \LinesThick height \FretSkip\hskip\StringSkip}
+\def\GridFret{\hrule height \LinesThick  
+  \hbox{\GridField\GridField\GridField
+        \GridField\GridField \vrule width \LinesThick height \FretSkip }}
+\def\Grid{%
+  \setbox0=\hbox{\vtop{\GridFret\GridFret\GridFret\GridFret\GridFret}}
+  \dimen0=\wd0\box0\hskip-\dimen0}
+%
+\def\Zero{0ex}
+\def\ZeroBar{%
+    \dimen0=\StringSkip\advance\dimen0 by \LinesThick
+    \dimen0=6\dimen0
+    \vbox{\hrule height \ZeroBarThick width \dimen0}
+    \hskip-\dimen0}
+\let\PutZeroBar=\relax
+\def\chdig#1#2#3{{%
+  \let\f=\finger\let\chordraise=\Zero
+  \vbox{\halign{\hfil##&\hfil##\hfil\cr
+    {\PosFont\hskip2em}&% make space for position
+    \begingroup\bgroup\TextFont\beginchord#1)\egroup\endgroup\cr
+%
+    \ifx:#2:\let\PutZeroBar=\ZeroBar\else\let\PutZeroBar=\relax\fi
+    \PosFont#2&
+    \dimen0=\FretSkip\dimen0=0.5\dimen0
+    \advance\dimen0 by \fontdimen5\PosFont
+    \raise\dimen0\hbox{\PutZeroBar\Grid#3}\cr
+  }}
+}}
+
