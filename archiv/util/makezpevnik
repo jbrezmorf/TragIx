@@ -1,3 +1,0 @@
-echo \\input lyric.tex >zpevnik.tex
-ls *.sng|sort|grep -v "test.sng"|sed 's/\(.*\)/\\inputsong{\1}/' >>zpevnik.tex
-echo \\bye >>zpevnik.tex

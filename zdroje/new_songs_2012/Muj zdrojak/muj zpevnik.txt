@@ -1,0 +1,248 @@
+encoding: il2
+
+==================
+N: Namaluj mi svìt
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 1
+
+1: Namaluj mi svìt kdy se s jarem jeho šaty mìní, jak v horách taje led, všechno chladné padá v zapomìní.
+Vdy já vidìt chtìl co na první pohled vidìt není, tak namaluj mi zem kdy pulnoc støídá rozednìní.
+
+Jak vypadá slon kdy ho polyká had jen neboj a zkus to proè mìl bych se smát.
+
+2: Namaluj mi stráò na ní jednu ovci zatoulanou a malou dìtskou dlaò jak svírá hraèku okousanou.
+Namaluj mi stín kterım oáza kus pouštì mìní a její promìnìní kdy máš studnu pískem zasypanou.
+
+Jak v potoce proud loïku unášel dál e chtìl jsi s ní plout kdy jsi na bøehu stál.
+
+3: Namaluj mi svìt nic sloitıho na tom není, pozor na rùovou ta denní svìtlo èasto mìní.
+Nebo èerná s bílou to èasto všchni dobøe vidí a pak spoustu lidí èeká jednoho dne probuzení.
+
+Pak pochopí snad co chci pochopit hned co znamená dívat se a nevidìt.
+
+4: Namaluj mi svìt kdy se s jarem jeho šaty mìní...
+
+
+==================
+N: Svítá
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 2
+
+1: Jednou takhle po ránu k vám pøijde malej kluk, 
+o tom odkud je a co chce neøek ani muk a povídá svítá.
+e prı slunce vychází aby pozdravilo svìt, 
+s radostí se otvírá na louce kadı kvìt, novı den vıtá.
+
+R: Bez svìtla jim z tváøí vyhasnou barvy z kterejch zbıvá stín hm,
+tohle pøece kadá kytka ví. 
+
+2: S ránem znovu narodí se v lese kadı strom,
+e novı ivot probouzí se volá z dálky zvon, celá zem zpívá.
+Jen èlovìk jak by nechápal e novou šanci má, 
+narodit se znovu s dnem co pán mu ještì dá, jo tak to bıvá.
+
+==================
+N: Soumrak
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 3
+
+1: (C)Soumrak (F)zùstal ještì (C)chvíli stát(G),
+(C)slunce (F)èervená se (C)tím,
+(Dm)e se stydí (G)snad za to (Dm)e zas pujde (F)spát,
+(C)opu(F)štìnı zùsta(Dm7)vá kdo (F)musí dál (C)jít.
+
+2: Jeho pokoj klesá ní a ní, 
+dotyk svìtu dává mír, 
+bıvá utìchou tìm kdo právì smutní jsou,
+jako kdy se pøiblíí kdo pohladit smí.
+
+3: Další den se ztratil v záplavách,
+øeky èasu v moøi dní,
+jakı smysl má e nám znovu šanci dal,
+a kdo chtìl ji vyuít to slunce jen ví.
+
+4: Pøíd zítra zase høát a svou odpovìd dát.
+
+==================
+N: Nìkdy se ptávám
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 4
+
+1: Nìkdy se ptávám èímpak se kytky brání. 
+Kdo pozor dává a jejich krásu chrání, 
+kdy rychle chtìl bys a rozvine se znáš ten spìch,
+jak snadno zraníš tam kde i vítr tají dech.
+Trní pøesvìdèí tì e kdy pospícháš,
+utrhnout co nepatrí ti malou sílu máš,
+sám si vzít co není tvé.
+
+2: Nìkdy se ptávám èímpak se lidi brání,
+kdo pozor dává a jejich cesty chrání.
+Nìkdo bıt musí kdo podává jim ruku svou 
+a kdy nechtìjí on znovu pøíjde s pokorou.
+Hojí kde jsou rány kde je zklamání,
+kde zranilo slovo nebo mlèí vyznání
+a èeká na den s velkım Dé.
+
+3: Kdo øíká u køíe slovem a trním, e nedá se ublíit, 
+nevìøím, nevìøím, nevìøím.
+
+4: Nìkdy se stávám trním co slunci brání.
+
+==================
+N: Malı princ
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 5
+
+1: Na cestu se vypravil král kdo ví moná malı princ e ještì to byl co snívá. 
+O lidech a o síle pøátelství svìt mu tajemství se poodkrıvá.
+
+R: Kadı z nás taky panuje v království co sám skrıvá,
+mocí královskou bojuje s bláznovstvím jak tráva bıt proudem hnán.
+
+2: Tìké je kdy èlovìk má vládnout sám,
+jenom nad sebou a druhım bıt tím kdo slouí.
+Od kadého chtít jen co mùe dát,
+usmìv trápení jim neprodlouí.
+
+R: Kadı z nás pøece...
+
+3: Komu hvìzdy patøí kdo brát je smí,
+zahy pochopí e jen sebe mùe mít rád.
+Zlato hvìzd však zbledne mu závistí,
+taky tím e pícha pøedchází pád.
+
+R: Kadı z nás ale...
+
+==================
+N: Plnı rozporù
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 6
+
+1: (A2)Z otázek a odpovìd,
+jako v mlze oèi hledí,
+tak tohle je ten (Hm(7/4))svìt,
+co hledáš tolik (D2)dní.
+Nìkde v dálce tiše breèí,
+kdo nechápe tu spoustu øeèí,
+o míru bezpeèí,
+kdy kolem zbranì zní.
+ 
+R: Plnı rozpo(A)rù,(A2 A4 A)
+jedni chtìjí (E)lásku druzí nenávidí,
+nìkdo boha(F"m)tı, nechce vìøit,
+(D2)e slepı je, kdy nevidí,
+zlo se nezdrá(A)há o práva se (Em)hlásit,
+kdy se dobro stydí, e pravda vyhrá(Hm(7/4))vá,
+platilo døív, (D2)dneska mocnı úspìch sklidí....
+
+2: Taky nìkdo ze tmy volá,
+e ádná víra neodolá,
+ne Boha ještì chtít,
+kdy èlovìk všechno má,
+z vrcholku hor dech ti tají
+jak ti, kdo mají, poèítají,
+co ještì mùou mít,
+o štìstí se jim zdá.....
+
+3: Ozvìnou pryè hlas tvùj letí,
+škoda, e se hlasùm dìtí,
+tak málo rozumí,
+ještì køièet neumí.
+
+
+
+==================
+N: Ochoèit
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 7
+
+1: (A)Ochoèit je nìco jako (A7/9)navázat nit rozu(G6)mìt tomu kdo ti rozu(D2)mí.
+(A)Dlouho jeden bez druhého (A7/9)dokae ít naje(G6)dnou zjistí e to neu(D2)mí.
+
+2: Najednou je ivot jako prozáøenı zmizí stín kterı v duši taky stál.
+Zvuky cizích krokù pryè mì zahánìjí ale tvùj zní mi jako bys mi hrál.
+
+R: Vím e pospícháš dnes to tak bıvá všechno chcem získat za hotové 
+ale jen kdy èas svùj dáš ten cenu má jen co ochoèíš si zùstane tvé.
+
+3: Nejdøív musíš zùstat hodnì trpìlivı kousek dál do trávy se posadíš.
+Nemusíš nic øíkat všechno srdce u ví jen kadı den sedneš si o trochu blí. 
+
+4: 1. + R:
+
+==================
+N: Moná
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 8
+
+==================
+N: Obchodník
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 9
+
+1: (B)Kdo hledá lék a moment (D")poèká,(D)
+(G")vím e teï právì kadı (C")z vás na spìch (F)mìl,
+(C")kdo zazrak (F)chtìl (C")ten se jistì doèká 
+(D")a uvidí to co ještì (G")døív nevidìl.(A B)
+Nemusí pít ten kdo vyzkouší,
+lék proti ízni a tím èas ušetøí,
+jeden si vzít tøikrát tıdnì staèí 
+a pro štíhlé staèí jenom dva místo tøí.
+
+R: Kadı kdo dnes spìchá, a drobnı peníz nechá.
+Vdy èas se dneska zlatem platí to ví kadı sám.
+
+2: Proè tohle koupit to je jasné, ocení moji snahu kdo pøemıšlí,
+proèpak ten strach èlovìk nìkdy asne, u vidìli jste obchodníka aby byl zlı.
+I já chci aby šlo vše hladce, chci pøece všem vdycky jen to nejlepší.
+Dìlat si smí co se komu zachce ale trocha èasu nazbyt nikdy neuškodí.
+
+3: Èas nemít to se pøece nosí, nikdo se bát nemusí všem zaruèím, i s lékem mım,
+najdou lidé cosi pøi èem stejnì jako já svùj èas promarní.
+
+==================
+N: Pouš
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 10
+
+==================
+N: Studna 
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 11
+
+==================
+N: Zùstaò
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 12
+
+==================
+N: Soumrak
+A: Martinova prázdná kapsa
+AC: MPK
+Z: Malı princ
+ZC: 3

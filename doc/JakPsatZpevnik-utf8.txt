@@ -1,0 +1,197 @@
+Jak psát nové písně do zpěvníku
+===============================
+
+1) Trocha teorie
+
+Proč nepsat zpěvník ve WORDu?
+Ve WORDu se člověk musí při psaní textu starat i o jeho formátování, tj. 
+jakým fontem co napsat, kde udělat jakou mezeru, správně
+uložit akordy nad text. Dále jsou problémy s pozdější změnou formatování,
+pokud nebylo od začátku správně navrženo. 
+
+Jak lze dělat zpěvník jinak?
+Abych vlastní psaní textů co nejvíc zjednodušil použil jsem speciální program
+na sazbu (jmenuje se TeX), který se bude starat o veškeré formátování sám.
+Přitom pro psaní zpěvníku ten program vůbec nemusíš znát, ani ho mít.
+Ty napíšeš holý text, do kterého budou dohodnutým způsobem vloženy akordy na
+správná místa a já pak spustím na tento text program TeX, který ho zformuje do
+finální podoby. Aby to fungovalo, musí ten text splňovat pár jednoduchých
+pravidel, která uvedu dále.
+
+2) V čem psát holý text
+
+Doporučuju obyčejný program "notepad", neboli "Poznámkový blok". Lze ho spustit
+například tak, že v nabídce "START" (vlevo dole) zvolíš "Spustit program"
+(nebo tak něco - v anglické verzi je tam tuším "Run ..."). Ojeví se okénko
+tam napíšeš "notepad" a zmáčkneš Enter.
+Kdyby to vážně nešlo jinak, můžeš psát holý text i ve Wordu. Ale to
+je případně na osobní domluvě.
+
+3) Jak má text vypadat
+
+Písničky je možno psát po libovolném počtu do několika souboru libovolného 
+jména. Třeba první den napíšu 4 písničky do souboru zpevnik1.txt, druhý den tam
+další 3 přidám, pak si řeknu, že už je to dost dlouhé, tak třetí den otevřu
+nový soubor zpevnik2.txt, napíšu 10 nových písniček a nakonec oba soubory 
+pošlu dRakovi ke zpracování. Na pořadí písniček v tuhle chvíli vůbec nezáleží.
+
+a) Hlavička
+
+Každou písničku začni hlavičkou, která vypadá takto:
+========================
+N: Zelený pláně
+A: Waldemar Matuška
+AC:
+Z: Já písnička 2, 1990
+ZC: 
+
+Několik rovnítek na začátku slouží k oddělování písniček. Za "N:" (Název) 
+je jméno písničky za "A:" je autor, případně víc autorů oddělených čárkou a
+za "Z:" (Zdroj) je jméno zpěvníku z kterého jsi text psal spolu s rokem vydání.
+Ten je důležitý zvláště u "Já písniček", které se obsahově liší v různých
+vydáních. 
+Pak jsou tam ještě políčka "AC:" a "ZC:", tam by měl být jednoznačný kód
+autora, resp. zdrojového zpěvníku. Pokud nedostaneš jiné instrukce, tak tato
+pole nech prazdná. 
+Za hlavičkou můžeš udělat pár volných řádků pro lepší čitelnost, které
+se ve finální podobě smrsknou na standardní mezeru mezi halvičkou a písničkou.
+
+b) psaní textů
+
+Pak už následuje text slok, refrénů či mezizpěvů oddělených vždy
+alespoň jedním prázdným řádkem.
+Sloka začíná číslem s dvojtečkou (př. 1:), refrén R: Když je refrénů víc,
+tak píšu u prvního R1: u druhého R2:, jak je zvykem. 
+Mezizpev označím M: = ten se pak zarovná doleva, ale nenapíše se žádná
+značka
+Delší příklad:
+
+1: Tohle je prvni
+   sloka, kde se mi libi odsazovat.
+
+2: A tohle uz je druha
+kde jsem uz moc linej,
+ale ono se to udela pak samo
+
+a tady druha sloka jeste pokracuje, ale je pekne ji
+rozdelit na dva kusy, tak jsem tam dal prazdny radek
+
+R: A konecne refren, ale jako vsechny sloky
+   musi byt oddeleny prazdnym radkem
+
+M: A mezizpev se od slok a refrenu lisi tim, ze pak 
+   nebude odsazeny, proto ho musim oznacit M:
+
+M: a taky kdyz chci mezizpev rozdelit na vic odstavcu, musim 
+   pred nej zase napsat M: aby se zarovnal doleva
+
+C: je recitativ, momentalně ještě nevím jak se to bude sazet, ale 
+   to nevadí.
+
+3: = 1.
+
+A tak podobně. Všimni si, že číslo sloky se píše s dvojtečkou jen když je
+na jejím začátku, když se chci na sloku odkázat, tak napíšu číslo s tečkou
+jak se má potom objevit ve zpěvníku. Naopak všechny ty věci s dvojtečkou 
+se budou automaticky formátovat. 
+
+V textu můžete zapsat opakování klasickým způsobem:
+
+3x/: Ryba, ryba, ryba, ryba, ryba, ryba, čuču :/
+   ... tak skončila baladu mou.
+
+!! Formátování textu není zas až tak důležité, jelikož 
+   se ještě bude většinou muset ručně upravit podle toho jak to 
+   bude ve zpěvníku vycházet. Takže pokud něco nezapadá do výše uvedeného
+   schématu tak to napište do komentáře (viz. vychytávky dále) 
+   a ja s tím pak něco provedu.
+
+c) psaní akordů
+
+Akordy se píší do závorek před slabiku nad kterou mají být !!
+
+Př:
+
+V (G)jedné (Em)mořské (Am)dáli(D)ně,
+(G)zmizel (Em)parník v (Am)hlubi(D)ně.
+
+Je třeba dát pozor, když píšeš akord doprostřed slova, aby kolem nebyly
+mezery. Doporučuju nejdřiv napsat text, zkontrolovat text a pak si v duchu
+nebo nahlas písničku zpívat a vkládat akordy.
+
+U složitějších akordů jsem zvolil trochu nestandardní zápis, aby se numusela
+přepínat klávesnice. Přesná pravidla pro psaní akordů jsou:
+
+- křížek se píše ", béčko b, př: (G"m) Gis moll, (Ab) As dur
+- druh akordu může být: m, mi, dim, +, -, sus, maj, add 
+  můžete tam napsat cokoliv, ale tyhle zkratky mají smysl.
+  Aby se akordy dobře vešly nad text, je dobré, aby byly co nejkratši,
+  proto pište raději (Am) místo (Ami) a (A7+) místo (Amaj) 
+- číslované akordy  - pokud není čísel víc, tj. není tam lomítko,
+  napíše se to normálně, ale pokud tam je lomítko musí se to napsat do dalších
+  závorek:
+  (A7), (G6), (Am7), (A7+), (Em6-) ale (D(6/9)), (E(4/7))
+- basový tón se píše jako základní tón, ale za lomítko:
+  (C/G), (Am7/G), (Ab/B), (Eb+/Ab), (H/F")
+
+vychytávky v akordech:
+- když chci napsat akord v závorce napíšu:
+  ((A))
+- číslo můžu taky napsat do zavorky buď
+  (A((7))) což je šílené, ale dobře a nebo je tu vychytávka
+  (A0(7)) to funguje tak, že když je za A cifra 0 tak TeX pozná, že
+  už začíná číslo akordu, ale 0 nemá smysl, takže ji ignoruje  
+
+d) Ostatní vychytávky
+
+- kamkoliv do souboru můžeš napsat řádek začínající znakem "%",
+  všechno za procentem bude TeX ignorovat (říká se tomu komentář),
+  takže tam můžete napsat nějakou poznámku pro zpracování, pokud na 
+  to upozorníte i jinou cestou, jelikož zpracování bude automatické 
+  tj. normálně se už vstupní soubory nebudou číst.
+  např:
+
+% dRaku tady u tyhle pisnicky chybej v refrenu akordy, jak jsem ti psal 
+% v mailu, tak je prosim zkus doplnit
+
+% ... a tady nevím jaké mám napsat i/y ... musím se na to kouknout
+% a opravit to 
+
+  Navic muzete komentar pouzit, kdyz byste chteli do zpevniku napsat
+  nejaky moc dlouhy radek a nechcete ho mit tak dlouhy v editoru Pr:
+
+  Dlouhatansky radek Dlouhatansky radek % tady nebude konec radku
+  Dlouhatansky radek Dlouhatansky radek
+  
+
+- nebyvá zvykem, že by se v písničce psaly závorky (proto do nich my můžem
+  psát akordy), ale někdy chceš napsat nějakou poznámku přímo do zpěvníku,
+  třeba:
+  Hmmm, hmmm, hmmm, ... (do ztracena)
+
+  pak je potřeba napsat §(do ztracena§), 
+
+- občas je v některých zpěvnících uveden nějaký speciální nestandardní hmat,
+  v tom případě napiš značku jak nejlíp umíš a na konec akodu napiš X, např:
+  Hm(7/4)X (alespoň při prvním výskytu akordu - to aby mě to trklo až to budu
+  zpracovávat)
+  Dále zapiš ten hmat na další řádek do komentáře takhle:
+  
+  % Speciální hmat pro Hm7: x 0 4 4 3 0
+  
+  struny jdou od nejhlubších zleva (EADGHE), čísla jsou mačkané pražce, 0 je
+  prázdná struna, x je nehraná struna
+
+  Já pak ten hmat můžu přidat do tabulky hmatů na konci zpěvníku.
+
+
+No a to je vše přátelé,
+pište vesele.
+
+dRak
+  
+
+
+
+
+

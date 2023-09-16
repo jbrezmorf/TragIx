@@ -1,2 +1,0 @@
-\catcode`\A=12
-\message{cat: \the\catcode`\A}
