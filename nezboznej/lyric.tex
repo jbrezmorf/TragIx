@@ -26,22 +26,25 @@
 %%%%%%%%%%%
 %% FONTS
 %%%%%%%%%
+\input luaotfload.sty
+\input lmfonts % zavede LM fonty v Unicode (existuj√≠ i jin√© alternativy) 
+
 \newfam\ChordFam
-\font\ChordFontText=qhvb at 8pt
-\font\ChordFontExp=qhvb at 5pt
-\font\ChordFontBass=qhvr at 8pt
+\font\ChordFontText="LexendDeca-Regular.ttf" at 8pt  %qhvb at 8pt
+\font\ChordFontExp="LexendDeca-Regular.ttf" at 5pt %qhvb at 5pt
+\font\ChordFontBass="LexendDeca-Regular.ttf" at 8pt  %qhvr at 8pt
 \font\ChordFontExpSymb=cmsy5
-\font\ChordSeparate=cmsy12 at 8pt
+%\font\ChordSeparate=cmsy12 at 8pt
 \font\ChordSymb=cmmib10 at 7pt %pxbmi
 %
-\font\SongNameFont=csbx12 at 14pt
-\font\ReferenceFont=csr12 at 14pt
-\font\SepDotFont=cmsy12 at 14pt
-\font\AuthorFont=csti10 at 11pt
+\font\SongNameFont=cmbx12 at 14pt
+\font\ReferenceFont=cmr12 at 14pt
+%\font\SepDotFont=cmsy12 at 14pt
+\font\AuthorFont=cmti10 at 11pt
 %
-\font\TextFont=csr10 at 11pt
-\font\PageFont=csbx11
-\font\IndexFont=csr12
+\font\TextFont=csr10
+\font\PageFont=cmbx12 at 11pt
+\font\IndexFont=cmr12
 %
 \textfont\ChordFam=\ChordFontText
 \scriptfont\ChordFam=\ChordFontExp
@@ -81,16 +84,16 @@
 \def\pluschordspace{0.3em} % additional space, if we do prolongation of text
 \def\chordraise{2.2ex}     % raise of the chord
 %% separation of only chords
-\def\chsep{\hfil\beginchord)
-  \hskip0.1em
-  \raise \chordraise\hbox{{\ChordSeparate\char"6A}}
-  \hbox{\hskip\fixchordspace\hskip0.1em}}
+%\def\chsep{\hfil\beginchord)
+%  \hskip0.1em
+%  \raise \chordraise\hbox{{\ChordSeparate\char"6A}}
+%  \hbox{\hskip\fixchordspace\hskip0.1em}}
 %%%%%%%%%%%%%%%%%%%%%%
 %% TEXT TYPESETTING
 %%%%%%%%%%%%%%%%%%%%%%
 %% how to make song header from parametres:
 %% name,author,author code,source, source code
-\def\SeparatingDot{{\SepDotFont\char15}}
+%\def\SeparatingDot{{\SepDotFont\char15}}
 \def\MakeSongHeader#1#2#3#4#5{{%
   \noindent\SongNameFont\unspace#1% song name
   \write\TOCfile{\string\tocline{#1}{\the\pageno}}% write to toc file
@@ -160,7 +163,7 @@
 %%%%%%%%%%%%
 \newwrite\TOCfile
 \newdimen\colsep  % horiz. mezera mezi sloupci
-\newcount\tempnum % pracovnÌ promenn·
+\newcount\tempnum % pracovn√≠ promenn√°
 \def\makeindex{
   \bgroup
   \def\cvak{\ifdim\dimen0<6pt \dimen0=9pt \else \dimen0=3pt \fi}
@@ -185,29 +188,29 @@
   \egroup
 }
 %
-\def\roundtolines #1{%% zaokrouhlÌ na celÈ n·sobky vel. r·dku
+\def\roundtolines #1{%% zaokrouhl√≠ na cel√© n√°sobky vel. r√°dku
   \divide #1 by\baselineskip \multiply #1 by\baselineskip}
 \def\corrsize #1{%% #1 := #1 + \splittopskip - \topskip
   \advance #1 by \splittopskip \advance #1 by-\topskip}
 \def\begmulti #1 {\par\bigskip\penalty0 \def\Ncols{#1}
   \setbox0=\vbox\bgroup\penalty0
-%% \hsize := πÌrka sloupce = (\hsize+\colsep) / n - \colsep
+%% \hsize := ¬π√≠rka sloupce = (\hsize+\colsep) / n - \colsep
   \advance\hsize by\colsep\divide\hsize by\Ncols \advance\hsize by-\colsep}
 \def\endmulti{\vfil\egroup \setbox1=\vsplit0 to0pt
-  %% \dimen1 := velikost zbylÈho mÌsta na str·nce
+  %% \dimen1 := velikost zbyl√©ho m√≠sta na str√°nce
   \ifdim\pagegoal=\maxdimen \dimen1=\vsize \corrsize{\dimen1}
   \else \dimen1=\pagegoal \advance\dimen1 by-\pagetotal \fi
   \ifdim \dimen1<2\baselineskip
   \vfil\break \dimen1=\vsize \corrsize{\dimen1} \fi
-  %% \dimen0 := v˝πka n sloupcovÈ sazby po rozdelenÌ do sloupcu
-  %% = (\ht0 + (n-1)\baselineskip) / n, zaokruhleno na r·dky
+  %% \dimen0 := v√Ω¬πka n sloupcov√© sazby po rozdelen√≠ do sloupcu
+  %% = (\ht0 + (n-1)\baselineskip) / n, zaokruhleno na r√°dky
   \dimen0=\Ncols\baselineskip \advance\dimen0 by-\baselineskip
   \advance\dimen0 by \ht0 \divide\dimen0 by\Ncols
   \roundtolines{\dimen0}
-  %% Rozdelit sazbu n sloupcu do str·nek nebo nerozdelit ?
+  %% Rozdelit sazbu n sloupcu do str√°nek nebo nerozdelit ?
   \ifdim \dimen0>\dimen1 \splitpart
   \else \makecolumns{\dimen0} \fi
-  \ifvoid0 \else \errmessage{ztracen˝ text ve sloupcÌch?} \fi
+  \ifvoid0 \else \errmessage{Ztraceny text ve sloupcich?} \fi
   \bigskip}
 \def\makecolumns#1{\setbox1=\hbox{}\tempnum=0
   \loop \ifnum\Ncols>\tempnum
@@ -218,11 +221,11 @@
   \line{\unhbox1\unskip}}
 \def\splitpart{\roundtolines{\dimen1}
   \makecolumns{\dimen1} \advance\dimen0 by-\dimen1
-  %% \dimen0 := v˝πka _zbylÈ_ n sloupcovÈ sazby
-  %% \dimen1 := pr·zdnÈ mÌsto na str·nce = (cca) \vsize
+  %% \dimen0 := v√Ω¬πka _zbyl√©_ n sloupcov√© sazby
+  %% \dimen1 := pr√°zdn√© m√≠sto na str√°nce = (cca) \vsize
   \vfil\break
   \dimen1=\vsize \corrsize{\dimen1}
-  %% Rozdelit zbylou sazbu n sloupcu do vÌce str·nek ?
+  %% Rozdelit zbylou sazbu n sloupcu do v√≠ce str√°nek ?
   \ifvoid0 \else
   \ifdim \dimen0>\dimen1 \splitpart
   \else \makecolumns{\dimen0} \fi \fi}
@@ -363,7 +366,7 @@
 % beginsong - setup environment
 \gdef\beginsong{%
   \def^^M{\doEOL}\let\EOLtok=^^M % to have exactly same token for testing
-  \catcode`\ß=0%
+  \catcode`\¬ß=0%
   \catcode`\(=13\def({\beginchord}% 
   \skipEOLs\relax}% do not eat first char
   % skip all ^^M and begin new paragraph

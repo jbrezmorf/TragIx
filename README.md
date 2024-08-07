@@ -37,12 +37,28 @@ Retrospektivní dokumentace jak to asi fungovalo v roce 2007.
 
 1. Aktuálně nefunguje kompilace s moderním `csplain`. Je potřeba zdrojáky `zpevnik.src` zkonvertovat do utf8 a 
    pak se zbavit konvertování mezi kódováními.
+   
+   STAV:
+   - rozchození zatím pouze u nezbožného
+   - kompilace funguje s využitím luatex do PDF (nutno upravit másledné machinace pro tisk)
+   - pdfcsplain neumí automaticky načíst správné fonty, do lyric.tex nutno přidat \input lmfonts
+   - pro načítání různých fontů slouží 
+   - luatex používá různé fonty TTF, OTF, pro načítání slouží \input luaotfload.sty
+   - aby fonty luatex našel musí se mu připravit databáze pomocí prohledávače fontů: 
+      ```
+      mtxrun --script fonts --reload --simple
+      ```
+   - sepsongs.py - Python verze, odstraněna aplikace kódování, vše v UTF8
 
+   todo: 
+   - dokončit opravu fontů
+   - odstranit PERL a další artefakty
+   - vyrobit jednoduchý text pro testování fontů
+   - z lyric.sty odstranit nepoužívané fonty a makra
+   
 2. přesunout společné části (lyric.tex, diagramy akordů, makefile) do společného adresáře (započato v `common`)
    a z variant zpěvníku se tam odkazovat
    
-3. Zprovoznit opět překlad a kouknout co aktuální zdroják dělá.
-
 4. Opět od Toma dostat verzi z roku 2012 - asi jsem ji už měl, protože jsem si napsal poznámku, že se tam lyric.te neliší, 
    ale jsou tam nové písničky a některé naopak odstraněné.
    
