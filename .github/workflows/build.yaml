@@ -35,6 +35,7 @@ jobs:
 
     - name: Build in zboznej directory
       working-directory: ./zboznej
+      if: always()
       run: |
         make clean
         make all

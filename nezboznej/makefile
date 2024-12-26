@@ -31,6 +31,7 @@ zpevnik.ps : zpevnik.dvi
 zpevnik.pdf : zpevnik.tex lyric.tex
 	luatex -fmt pdfcsplain zpevnik.tex
 
+.PHONY : zpevnik.tex
 zpevnik.tex : $(HEAD_SOURCE) zpevnik.tail.tex $(MAIN_SOURCE)
 	#make convert
 	cp $(MAIN_SOURCE) _$(MAIN_SOURCE)
@@ -45,6 +46,7 @@ convert:
 	enc=$${enc:-utf8};\
 	./cstocs $$enc utf8 zpevnik.src >_zpevnik.src.utf8
 
+.PHONY : separate
 separate:
 	rm -r -f songs; mkdir songs
 	python3 sepsongs.py _$(MAIN_SOURCE)
