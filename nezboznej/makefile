@@ -8,6 +8,9 @@ all : zpev-duplex.pdf
 front : zpev-front.pdf
 back : zpev-back.pdf
 
+clean:
+	rm -f zpev-duplex.pdf zpevnik.*
+
 zpev-front.pdf : zpev-front.ps
 	ps2pdf -sPAPERSIZE=a4 zpev-front.ps zpev-front.pdf
 zpev-back.pdf : zpev-back.ps
@@ -28,7 +31,7 @@ zpevnik.ps : zpevnik.dvi
 zpevnik.pdf : zpevnik.tex lyric.tex
 	luatex -fmt pdfcsplain zpevnik.tex
 
-zpevnik.tex : zpevnik.head.tex zpevnik.tail.tex $(MAIN_SOURCE)
+zpevnik.tex : $(HEAD_SOURCE) zpevnik.tail.tex $(MAIN_SOURCE)
 	#make convert
 	cp $(MAIN_SOURCE) _$(MAIN_SOURCE)
 	make separate

@@ -30,21 +30,24 @@
 \input lmfonts % zavede LM fonty v Unicode (existují i jiné alternativy) 
 
 \newfam\ChordFam
-\font\ChordFontText="LexendDeca-Regular.ttf" at 8pt  %qhvb at 8pt
-\font\ChordFontExp="LexendDeca-Regular.ttf" at 5pt %qhvb at 5pt
-\font\ChordFontBass="LexendDeca-Regular.ttf" at 8pt  %qhvr at 8pt
+%\font\ChordFontText="LexendDeca-Regular.ttf" at 8pt  %qhvb at 8pt
+%\font\ChordFontExp="LexendDeca-Regular.ttf" at 5pt %qhvb at 5pt
+%\font\ChordFontBass="LexendDeca-Regular.ttf" at 8pt  %qhvr at 8pt
+\font\ChordFontText=cmssbx10 at 8pt %"LexendDeca-Regular.ttf" at 8pt  %qhvb at 8pt
+\font\ChordFontExp=cmssbx10 at 5pt  %"LexendDeca-Regular.ttf" at 5pt %qhvb at 5pt
+\font\ChordFontBass=cmss10 at 8pt %"LexendDeca-Regular.ttf" at 8pt  %qhvr at 8pt
 \font\ChordFontExpSymb=cmsy5
 %\font\ChordSeparate=cmsy12 at 8pt
 \font\ChordSymb=cmmib10 at 7pt %pxbmi
 %
-\font\SongNameFont=cmbx12 at 14pt
-\font\ReferenceFont=cmr12 at 14pt
+\font\SongNameFont=lmroman12-bold at 14pt       %csbx12 at 14pt
+\font\ReferenceFont=lmroman12-regular at 14pt
 %\font\SepDotFont=cmsy12 at 14pt
-\font\AuthorFont=cmti10 at 11pt
+\font\AuthorFont=lmss10 at 11pt
 %
-\font\TextFont=csr10
-\font\PageFont=cmbx12 at 11pt
-\font\IndexFont=cmr12
+\font\TextFont=lmroman10-regular
+\font\PageFont=lmroman12-bold at 11pt
+\font\IndexFont=lmroman12-regular at 11pt
 %
 \textfont\ChordFam=\ChordFontText
 \scriptfont\ChordFam=\ChordFontExp
@@ -145,6 +148,9 @@
 \def\vPageSize{21cm}
 \def\hPageSize{14.85cm}
 \def\PageLayout{%
+  \pdfpagewidth=\hPageSize  % Width of the page (e.g., A4 width)
+  \pdfpageheight=\vPageSize  % Height of the page (e.g., A4 height)
+
 % horizontal setting 
   \hsize=\hPageSize
   \advance\hsize by -\InnerMargin
@@ -181,7 +187,14 @@
   \colsep=1em % horiz. mezera mezi sloupci
   \splittopskip=\baselineskip
   \begmulti 2
-  \input \jobname.toc %
+  % Check if the -toc file exists
+  \openin\TOCfile=\jobname.toc
+  \ifeof\TOCfile
+    \message{No \jobname.toc file found. Skipping input.}%
+  \else
+    \input \jobname.toc %
+  \fi
+  \closein\TOCfile
   \endmulti 
   \vfill\break
   \immediate\openout\TOCfile=\jobname.toc
