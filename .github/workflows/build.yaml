@@ -1,0 +1,46 @@
+name: Build LuaTeX Project
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install TeX Live
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y texlive-full
+
+    - name: Build in nezboznej directory
+      working-directory: ./nezboznej
+      run: |
+        make clean
+        make all
+
+    - name: Upload artifacts from nezboznej
+      uses: actions/upload-artifact@v3
+      with:
+        name: nezboznej-pdfs
+        path: ./nezboznej/*.pdf
+
+    - name: Build in zboznej directory
+      working-directory: ./zboznej
+      run: |
+        make clean
+        make all
+
+    - name: Upload artifacts from zboznej
+      uses: actions/upload-artifact@v3
+      with:
+        name: zboznej-pdfs
+        path: ./zboznej/*.pdf
