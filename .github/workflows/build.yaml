@@ -24,6 +24,7 @@ jobs:
     - name: Build in nezboznej directory
       working-directory: ./nezboznej
       run: |
+        ls
         make clean
         make all
 
@@ -37,6 +38,7 @@ jobs:
       working-directory: ./zboznej
       if: always()
       run: |
+        ls
         make clean
         make all
 
