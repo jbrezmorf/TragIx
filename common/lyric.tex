@@ -26,22 +26,39 @@
 %%%%%%%%%%%
 %% FONTS
 %%%%%%%%%
+
+\input luaotfload.sty
+\input lmfonts
+
 \newfam\ChordFam
-\font\ChordFontText=qhvb at 8pt
-\font\ChordFontExp=qhvb at 5pt
-\font\ChordFontBass=qhvr at 8pt
+\font\ChordFontText=cmssbx10 at 8pt
+\font\ChordFontExp=cmssbx10 at 5pt
+\font\ChordFontBass=cmssbx10 at 8pt
+% \font\ChordFontText="TeX Gyre Heros Bold" at 8pt
+% \font\ChordFontExp="TeX Gyre Heros Bold" at 5pt
+% \font\ChordFontBass="TeX Gyre Heros Bold" at 8pt
+
 \font\ChordFontExpSymb=cmsy5
-\font\ChordSeparate=cmsy12 at 8pt
-\font\ChordSymb=cmmib10 at 7pt %pxbmi
-%
-\font\SongNameFont=csbx12 at 14pt
-\font\ReferenceFont=csr12 at 14pt
-\font\SepDotFont=cmsy12 at 14pt
-\font\AuthorFont=csti10 at 11pt
-%
-\font\TextFont=csr10 at 11pt
-\font\PageFont=csbx11
-\font\IndexFont=csr12
+\font\ChordSymb=cmmib10 at 7pt
+
+% \font\SongNameFont=lmroman12-bold at 14pt
+\font\SongNameFont="TeX Gyre Schola Bold" at 14pt
+
+\font\AuthorFont="Latin Modern Roman Slanted" at 11pt
+% \font\AuthorFont="TeX Gyre Schola Italic" at 11pt
+
+\font\TextFont="Latin Modern Roman" at 11pt
+\font\TextFontSlanted="Latin Modern Roman Slanted" at 11pt
+% \font\TextFont="TeX Gyre Schola" at 11pt
+% \font\TextFontSlanted="TeX Gyre Schola Italic" at 11pt
+
+% fix for modern font + slanted text + possibility to use chord within slanted text
+\def\sl#1{\bgroup\leavevmode{\TextFontSlanted #1}\egroup}
+
+\font\PageFont=lmroman12-bold at 11pt
+\font\IndexFont=lmroman12-regular at 11pt
+% \font\PageFont="TeX Gyre Schola Bold" at 11pt
+% \font\IndexFont="TeX Gyre Schola" at 11pt
 %
 \textfont\ChordFam=\ChordFontText
 \scriptfont\ChordFam=\ChordFontExp
@@ -81,36 +98,37 @@
 \def\pluschordspace{0.3em} % additional space, if we do prolongation of text
 \def\chordraise{2.2ex}     % raise of the chord
 %% separation of only chords
-\def\chsep{\hfil\beginchord)
-  \hskip0.1em
-  \raise \chordraise\hbox{{\ChordSeparate\char"6A}}
-  \hbox{\hskip\fixchordspace\hskip0.1em}}
+%\def\chsep{\hfil\beginchord)
+%  \hskip0.1em
+%  \raise \chordraise\hbox{{\ChordSeparate\char"6A}}
+%  \hbox{\hskip\fixchordspace\hskip0.1em}}
 %%%%%%%%%%%%%%%%%%%%%%
 %% TEXT TYPESETTING
 %%%%%%%%%%%%%%%%%%%%%%
 %% how to make song header from parametres:
 %% name,author,author code,source, source code
-\def\SeparatingDot{{\SepDotFont\char15}}
 \def\MakeSongHeader#1#2#3#4#5{{%
   \noindent\SongNameFont\unspace#1% song name
   \write\TOCfile{\string\tocline{#1}{\the\pageno}}% write to toc file
-  \if:#5:\else% reference
-%    \hskip.2em\SeparatingDot\hskip.2em%
-  { }(\unspace#5)%
   \if:#2:\else% author
-  \hfill\bgroup\TextFont(\hskip.3em{\AuthorFont\unspace#2\/}\hskip.3em)\egroup
-  \fi\fi\par%
+  \hfill\bgroup\hskip.3em{\AuthorFont(\unspace#2\/)}\hskip.3em\egroup
+  \fi\par%
   \penalty 10000%
 }}
 %% how to begin special paragraphs
 %% every paragraph in the song environment is started by
 %% \noindent so the user can setup indentation of one's own
 \def\MakeParBegin{%
-  \if V\TypeOfVerse \rm\hbox to \parindent {\NumOfVerse.\hfil}%
-  \else\if R\TypeOfVerse \rm\hbox to \parindent {R\NumOfVerse:\hfil}%
-  \else\if C\TypeOfVerse \it\hbox to \parindent {\hfil}%
-  \else\if M\TypeOfVerse\rm% 
-  \else\rm\hbox{\hskip\parindent}%
+% \if V\TypeOfVerse \rm\hbox to \parindent {\NumOfVerse.\hfil}%
+  \if V\TypeOfVerse \TextFont\hbox to \parindent {\NumOfVerse.\hfil}%
+  % \else\if R\TypeOfVerse \rm\hbox to \parindent {R\NumOfVerse:\hfil}%
+  % \else\if C\TypeOfVerse \it\hbox to \parindent {\hfil}%
+  \else\if R\TypeOfVerse \TextFont\hbox to \parindent {R\NumOfVerse:\hfil}%
+  \else\if C\TypeOfVerse \TextFontSlanted\hbox to \parindent {\hfil}%
+  % \else\if M\TypeOfVerse\rm% 
+  \else\if M\TypeOfVerse\TextFont% 
+  % \else\rm\hbox{\hskip\parindent}%
+  \else\TextFont\hbox{\hskip\parindent}%
   \fi\fi\fi\fi}
 %% this makes line indentation
 \def\MakeLineIndent{%
@@ -142,6 +160,9 @@
 \def\vPageSize{21cm}
 \def\hPageSize{14.85cm}
 \def\PageLayout{%
+  \pdfpagewidth=\hPageSize  % Width of the page (e.g., A4 width)
+  \pdfpageheight=\vPageSize  % Height of the page (e.g., A4 height)
+
 % horizontal setting 
   \hsize=\hPageSize
   \advance\hsize by -\InnerMargin
@@ -160,7 +181,7 @@
 %%%%%%%%%%%%
 \newwrite\TOCfile
 \newdimen\colsep  % horiz. mezera mezi sloupci
-\newcount\tempnum % pracovní promenná
+\newcount\tempnum % pracovnÃ­ promennÃ¡
 \def\makeindex{
   \bgroup
   \def\cvak{\ifdim\dimen0<6pt \dimen0=9pt \else \dimen0=3pt \fi}
@@ -178,36 +199,43 @@
   \colsep=1em % horiz. mezera mezi sloupci
   \splittopskip=\baselineskip
   \begmulti 2
-  \input \jobname.toc %
+  % Check if the -toc file exists
+  \openin\TOCfile=\jobname.toc
+  \ifeof\TOCfile
+    \message{No \jobname.toc file found. Skipping input.}%
+  \else
+    \input \jobname.toc %
+  \fi
+  \closein\TOCfile
   \endmulti 
   \vfill\break
   \immediate\openout\TOCfile=\jobname.toc
   \egroup
 }
 %
-\def\roundtolines #1{%% zaokrouhlí na celé násobky vel. rádku
+\def\roundtolines #1{%% zaokrouhlÃ­ na celÃ© nÃ¡sobky vel. Å™Ã¡dku
   \divide #1 by\baselineskip \multiply #1 by\baselineskip}
 \def\corrsize #1{%% #1 := #1 + \splittopskip - \topskip
   \advance #1 by \splittopskip \advance #1 by-\topskip}
 \def\begmulti #1 {\par\bigskip\penalty0 \def\Ncols{#1}
   \setbox0=\vbox\bgroup\penalty0
-%% \hsize := ¹írka sloupce = (\hsize+\colsep) / n - \colsep
+%% \hsize := Å¡Ã­Å™ka sloupce = (\hsize+\colsep) / n - \colsep
   \advance\hsize by\colsep\divide\hsize by\Ncols \advance\hsize by-\colsep}
 \def\endmulti{\vfil\egroup \setbox1=\vsplit0 to0pt
-  %% \dimen1 := velikost zbylého místa na stránce
+  %% \dimen1 := velikost zbylÃ©ho mÃ­sta na strÃ¡nce
   \ifdim\pagegoal=\maxdimen \dimen1=\vsize \corrsize{\dimen1}
   \else \dimen1=\pagegoal \advance\dimen1 by-\pagetotal \fi
   \ifdim \dimen1<2\baselineskip
   \vfil\break \dimen1=\vsize \corrsize{\dimen1} \fi
-  %% \dimen0 := vý¹ka n sloupcové sazby po rozdelení do sloupcu
-  %% = (\ht0 + (n-1)\baselineskip) / n, zaokruhleno na rádky
+  %% \dimen0 := vÃ½Å¡ka n sloupcovÃ© sazby po rozdÄ›lenÃ­ do sloupcÅ¯
+  %% = (\ht0 + (n-1)\baselineskip) / n, zaokruhleno na Å™Ã¡dky
   \dimen0=\Ncols\baselineskip \advance\dimen0 by-\baselineskip
   \advance\dimen0 by \ht0 \divide\dimen0 by\Ncols
   \roundtolines{\dimen0}
-  %% Rozdelit sazbu n sloupcu do stránek nebo nerozdelit ?
+  %% RozdÄ›lit sazbu n sloupcÅ¯ do strÃ¡nek nebo nerozdÄ›lit ?
   \ifdim \dimen0>\dimen1 \splitpart
   \else \makecolumns{\dimen0} \fi
-  \ifvoid0 \else \errmessage{ztracený text ve sloupcích?} \fi
+  \ifvoid0 \else \errmessage{Ztraceny text ve sloupcich?} \fi
   \bigskip}
 \def\makecolumns#1{\setbox1=\hbox{}\tempnum=0
   \loop \ifnum\Ncols>\tempnum
@@ -218,11 +246,11 @@
   \line{\unhbox1\unskip}}
 \def\splitpart{\roundtolines{\dimen1}
   \makecolumns{\dimen1} \advance\dimen0 by-\dimen1
-  %% \dimen0 := vý¹ka _zbylé_ n sloupcové sazby
-  %% \dimen1 := prázdné místo na stránce = (cca) \vsize
+  %% \dimen0 := vÃ½Å¡ka _zbylÃ©_ n sloupcovÃ© sazby
+  %% \dimen1 := prÃ¡zdnÃ© mÃ­sto na strÃ¡nce = (cca) \vsize
   \vfil\break
   \dimen1=\vsize \corrsize{\dimen1}
-  %% Rozdelit zbylou sazbu n sloupcu do více stránek ?
+  %% RozdÄ›lit zbylou sazbu n sloupcÅ¯ do vÃ­ce strÃ¡nek ?
   \ifvoid0 \else
   \ifdim \dimen0>\dimen1 \splitpart
   \else \makecolumns{\dimen0} \fi \fi}
@@ -352,9 +380,34 @@
   \unskip\endgroup\egroup
   \vskip\InterSongSkip
   }%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% For dealing with literal parentheses. 
+% Use @[ and @] to insert literal parentheses in the text.
+\catcode`\@=13
+\def@{%
+  \futurelet\nexttok\maybeLiteralParen
+}
+\def\maybeLiteralParen{%
+  \ifx\nexttok[%
+    \let\next=\insertLiteralLParen
+  \else\ifx\nexttok]%
+    \let\next=\insertLiteralRParen
+  \else
+    \let\next=\relax
+  \fi\fi
+  \next
+}
+\def\insertLiteralLParen[{(}
+\def\insertLiteralRParen]{)}
+% 
+
+% for dealing with chords within quotes
+\def\uv#1{\bgroup\leavevmodeâ€ž#1â€œ\egroup}
+
+  
 %% header
-\def\({(}\def\){)}
 {\catcode`\(=13\catcode`\^^M=13
 % getheader - reads 5 header fields, call formating macro, 
 \gdef\getheader N:#1^^MA:#2^^MAC:#3^^MZ:#4^^MZC:#5^^M{%
@@ -363,11 +416,11 @@
 % beginsong - setup environment
 \gdef\beginsong{%
   \def^^M{\doEOL}\let\EOLtok=^^M % to have exactly same token for testing
-  \catcode`\§=0%
   \catcode`\(=13\def({\beginchord}% 
   \skipEOLs\relax}% do not eat first char
   % skip all ^^M and begin new paragraph
 }%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% text reading
 \def\begintext{%
@@ -700,7 +753,8 @@
     \vbox{\hrule height \ZeroBarThick width \dimen0}%
     \hskip-\dimen0%
     }
-%
+
+    %
 \def\chdig#1#2#3{{%
   \lineskip=0pt
   \let\f=\finger\let\fb=\fingerback
@@ -723,19 +777,3 @@
 \tracingpages=1
 \tracingrestores=1
 \tracingoutput=5
-%Testovaci text s akordy
-%Kaz(Abm(7+)/C#)dykonecradku(Dm(7)/Bb)je ... 
-%(D+)du(Am)le(B-)zity
-%
-%... i prazdny
-%(Cm)(C+)(C-)(Cdim)(Cb)(C#)
-%(Dm)(D+)(D-)(Ddim)(Db)(D#)
-%(Em)(E+)(E-)(Edim)(Eb)(E#)
-%(Fm)(F+)(F-)(Fdim)(Fb)(F#)
-%(Gm)(G+)(G-)(Gdim)(Gb)(G#)
-%(Am)(A+)(A-)(Adim)(Ab)(A#)
-%(Hm)(H+)(H-)(Hdim)(Hb)(H#)
-%(Bm)(B+)(B-)(Bdim)(Bb)(B#)
-%
-%\inputsong{Amazonka.sng}
-%\bye

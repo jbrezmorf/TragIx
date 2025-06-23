@@ -1,0 +1,63 @@
+do budoucna by mohlo capo být součástí hlavičky
+taky by šlo do hlavičky uvádět takt
+co vlastně všecko do hlavičky??
+doplnit všude kde to jde autory!
+
+pomlčky vs spojovníky
+
+\uv{} - jsou uvozovky - najít všecky ruzny uvozovky scriptem
+\sl{} - nakloněný text, liší se od \it{} což je italics a používá se interně v recitalech (C:)
+POZOR taky se liší od {\sl text} - \sl{} je tvoje zadefinovany makro, {\sl } fungovalo jen kdyz nebylo to makro zadefinovany jenze to si pak zas nemuzes vybrat font asi...? resp. to zkousi pouzit slanted verzi toho basic fontu a pak chybi diakritika.
+
+obecně projít autory u těch původních červených
+sjednotit jestli autorům psát křestní celý nebo iniciálu
+více autorů psát s "," ne s "a"
+
+-------------------------------
+REGEX:
+special chars in header
+^(?:N|A|AC|Z|ZC):.*[^a-zA-Z0-9 áÁčČďĎéÉěĚíÍňŇóÓřŘšŠťŤúÚůŮýÝžŽ,\r\n].*\R
+^(?:N|A):.*[^a-zA-Z0-9 áÁčČďĎéÉěĚíÍňŇóÓřŘšŠťŤúÚůŮýÝžŽ,\r\n].*\R
+
+faily v malych akordech, jakože (c) místo (C):
+\([a-z]
+
+spatne oznaceny sloky jakoze 1. misto 1:
+^\d+\.
+
+rozbity repetice:
+(?:/:(?! )|(?<! ):/)
+
+Autoři s těčkou:
+^A:.*\.
+
+Autoři s "a":
+^A:.* a 
+
+Prázdný autor:
+^A:[ \t]*$
+
+broken ellipses (...):
+(?<!\.)\.\.(?!\.)
+\.{4,}
+Mělo by se vyřešit to že trojtečky maj teď dvojí význam - náznak toho že se má zpívat něco co "je jasný" (třeba stejně jak už bylo napsaný předtím) vs. že se zpívá do ztracena, to by asi chtělo nějak odlišit.
+Chceme u trojteček kolem mezery z obou stran vždycky...?
+-------------------------------
+
+otestovat různý fonty a věci na titulce a nechat lidi rozhodnout
+
+vícekrát repetice - n× /: ... :/
+
+projít hvězdičky (*)
+
+zjistit jaký akordy jsou nový a nebyly ve zpěvníku a dokreslit je - přidat do chords v tail
+
+akordy v recitaci? - v C: se zdá že fungujou a v \sl snad nikdy nejsou
+
+(later) combine helper python scripts into one, or at least put them into a separate folder and kinda normalize them so that they're consistent
+
+Layout:
+Use \vskip for manual vertical spacing. For example, \vskip 1cm or \vskip 10pt.
+If you want to ensure a page break before a song, use \break or \vfill\break.
+If you want to prevent a page break between two songs, you can use \nobreak\vskip... or group the songs in a \vbox (advanced).
+For flexible spacing, you can use glue: \vskip 1cm plus 0.5cm minus 0.2cm.
