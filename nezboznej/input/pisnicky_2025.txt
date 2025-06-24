@@ -1,9 +1,8 @@
 N: Táborová ukolébavka
-A: Marcel Fox Štěpánek
+A: Marcel \uv{Fox} Štěpánek
 AC:
 Z:
 ZC:
-
 
 R: (D)Hou, (A)hou, (D)tábor (A)spí, (D)hou (A)hou, (D)jen hlídka (A)bdí,
    (D)Večernice (G)na nebi (D)zá(G)ří, (D) kraj kolem (A7)Štolpichu (D)sní,(A)
@@ -37,7 +36,6 @@ AC:
 Z:
 ZC:
 
-
 1: (Em)Což se mně, má milá, (H7)hezká (Em)zdáš.
 (G)Budeš-li tak hezká, (D7)až se (G)vdáš?
 /: (G)Ještě hez(D)čejší, (Em)můj nejmi(H7)lejší, (Em)vem si mě, (Am)vem si mě, (H7)uhlí(Em)dáš. :/
@@ -61,7 +59,6 @@ A: Traband
 AC:
 Z:
 ZC:
-
 
 R: (Am)Jede jede rytíř, (C)jede do kraje,
 (G)nové dobrodružství (Am)v dálce hledaje.
@@ -117,7 +114,6 @@ A: Jablkoň
 AC:
 Z:
 ZC:
-
 
 1: (Am)Potkali se v pondělí, v (Em)pondě(Am)lí,
 (Am)byli velmi nesmělí, (G)nesmě(E7)lí.
@@ -198,7 +194,6 @@ AC:
 Z:
 ZC:
 
-
 1: (Dm)Posvátný je mi každý ráno, (Am)když ze sna budí šumící (Dm)les
    (Dm)a když se zvedám s písničkou známou
    (Am)a přezky chřestí o skalnatou (Dm)mez.
@@ -221,7 +216,6 @@ A: Fleret
 AC:
 Z:
 ZC:
-
 
 1: (Am)Větr sněh (A2)zanésl (Am)z hor do po(A2)lí, (Am)já idu (C)přes kopce, (G)přes údo(Am)lí,
    (C)idu k tvej (G)dědině zatú(C)lanej, (F)cestičky (C)sněhem sú (E)zafú(Am)kané. (A2) (Am) 
@@ -403,7 +397,6 @@ AC:
 Z:
 ZC:
 
-
 1: Tak (Am)jdi, nebo běž, nebo jeď, vezmi nohy na ramena, 
    jdi, nebo běž, nebo leť, jsi-li hlava otevřená,
    (G)běž raděj hned, radši teď, broď se třeba po kolena,
@@ -466,7 +459,6 @@ AC:
 Z:
 ZC:
 
- 
 1: (D)Zavři pusu a (G)jdi spát, (Em)vždyť už bude (A)brzo den,
    (D)nech si o mně (G)něco zdát, (Em)ať je krásný (A)ten tvůj sen.
 
@@ -531,7 +523,6 @@ AC:
 Z:
 ZC:
 
-
 1: (A)U stánků (D)na levnou krásu,
 (A)postávaj a (Dm)smějou se času,
 s (A)cigaretou a s (E)holkou, co nemá kam (A)jít. (Asus4) (Asus2)
@@ -557,7 +548,6 @@ A: Jan Kalousek
 AC:
 Z:
 ZC:
-
 
 1: (D)Jednou mi fotr povídá
 (G)zůstali jsme už sami dva,
@@ -595,7 +585,6 @@ A: The Beatles
 AC:
 Z:
 ZC:
-
 
 1: Hey (G)Jude don't make it (D)bad
    take a (D7)sad so(D7sus4)ng and make (D7)it bett(G)er
@@ -640,7 +629,6 @@ AC:
 Z:
 ZC:
 
-
 1: (D)Jednou plác' mě (G)přes rameno (A7)Johny zvanej (D)Knecht:
   (Hm)\uv{Mám pro tebe, (Em)hochu, v pácu (A7)moc fajnovej (D)kšeft!}
    Objednal hned (G)litr rumu (A7)a pak něžně (D)řval:
@@ -677,7 +665,6 @@ AC:
 Z:
 ZC:
 
-
 1: Jako (G)suchej, starej strom,
    jako vše(Cmaj7)ničící hrom,
    jak v poli trá(G)va (Cmaj7) (G)
@@ -709,7 +696,6 @@ AC:
 Z:
 ZC:
 
-
 1: (C)Povídej, jestli tě (G)má hodně rád, víc než (C)já,
 jestli, když večer jdeš (G)spát, ti polibek (C)dá,
 tak jako (Em)já, to už je (F)dávno, tak poví(C)dej, (G)hej poví(C)dej.
@@ -739,7 +725,6 @@ AC:
 Z:
 ZC:
 
-
 1: (C)Bílé (F)mám tě (C)rád zkouším (F)křídou (C)psát,(A7)
 pojď se mnou, (Dm)lásko má, (G)tou dálkou (C)k nám,
 kde je ta (D)nej(Dm)měkčí (G)tráva, co (C)znám,(A7)
@@ -766,7 +751,6 @@ A: Marta Kubišová
 AC:
 Z:
 ZC:
-
 
 1: (C)Bez tebe mám (G)jenom chvíli (C)dlouhou,
    naplněnou (G)spoustou divnejch (C)snů,
@@ -798,7 +782,6 @@ AC:
 Z:
 ZC:
 
-
 1: (C)Skončili jsme, jasná zpráva,
    (Am)proč o tebe (F)zakopávám (G)dál,
    (Dm)projít bytem (F)já abych se (C)bál.
@@ -828,7 +811,6 @@ A: Michal Tučný
 AC:
 Z:
 ZC:
-
 
 C: (D)Pojďte všichni dovnitř, pozvěte si všechny známé,
    (D)my vám dobrou radu dáme, neboť právě otvíráme,
@@ -877,7 +859,6 @@ A: Petr Kotvald, Stanislav Hložek
 AC:
 Z:
 ZC:
-
 
 1: (D)Majdalenka, (G)Apolenka s (A)Veronikou, 
    a taky (D)Věrka, Zdeňka, (G)Majka, Lenka s (A)Monikou.
@@ -935,7 +916,6 @@ AC:
 Z:
 ZC:
 
-
 1: (C)Z pekárny světa kraj za (F)láskou (G)svou, 
    (C)nejednu (F)překonal jsem (Am)vůli (G)zlou 
    (Dm)a moje (G)princezna, 
@@ -980,7 +960,6 @@ AC:
 Z:
 ZC:
 
-
 R: (Am)Pod dubem, za dubem, tam si na tě počíháme, 
    (E)pod dubem, za dubem, tam tě vošku(Am)bem.(G7) 
  
@@ -1007,7 +986,6 @@ AC:
 Z:
 ZC:
 
-
 1: (C)Není nutno, není nutno,
 aby bylo přímo vese(Dm)lo,
 (G7)hlavně nesmí býti smutno,
@@ -1032,7 +1010,6 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
-
 
 1: (Am)Dáme klukovi ško(Em)ly,
 (F)ať to stojí coko(C)li,
@@ -1066,7 +1043,6 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
-
 
 R: (C)Lepší než almužna, (F)lepší než (C)lup,
 je pila dvojmužná, (Dm)ostrý má (G)zub.
@@ -1102,7 +1078,6 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
-
 
 1: /: (D)Skřítkové (G)tesaři (D)vylezte z (A) mechu. :/
    /: (D)Chopte se (D7)náčiní, (G)postavte (A)střechu. :/
@@ -1145,7 +1120,6 @@ AC:
 Z:
 ZC:
 
-
 R: /: (A)Pijte vodu, pijte pitnou vodu, pijte vodu (E)a ne(A)pijte rum! :/   
 
 1: (A)Jeden smutný ajznboňák pil na pátém nástupišti (E)ajerko(A)ňak.
@@ -1157,9 +1131,8 @@ R: /: (A)Pijte vodu, pijte pitnou vodu, pijte vodu (E)a ne(A)pijte rum! :/
 3: Pil som vodku značky Gorbatschow, a potom povedal som všeličo a vol'ačo.
    Vyfásol som za to tri roky, teraz pijem chlórované patoky.
 
-% TODO foneticky!!
-4: Jesteśmy chłopci z Warszawy, jeżdżimy pociągem za robotą do Ostrawy
-   Cztery litry wódki i mnóstvo piw, bardzo fajny kolektyw.
+4: Jestéšmy chuopci z Waršawy, ježdžimy počiongem za robotou do Ostrawy
+   Čtery litry wodki a mnústvo piw, bardzo fajny kolektyw.
 
 5: Jedna paní v Americe ztrapnila se převelice.
    Vypila, na ex rum a poblila jim Bílý dům.
@@ -1171,7 +1144,6 @@ A: Olympic
 AC:
 Z:
 ZC:
-
 
 1: (Am)Zas jsi tak (C)smutná, kdo se (D)má na to (Dm)koukat,
    nic (Am)jíst ti ne(C)chutná, v hlavě (D)máš asi (Dm)brouka.
@@ -1298,7 +1270,6 @@ AC:
 Z:
 ZC:
 
-
 R1: (G)Rád chodím (D)na poštu,
 (C)nejsem tam jen (G)do počtu,
 (C)jsem tam důle(G)žitý člen,
@@ -1338,7 +1309,6 @@ A: Pokáč
 AC:
 Z:
 ZC:
-
 
 1: (F)Dneska všichni (C)říkají a (G)všude píše (Am)se,
    že prej je (F)moderní a (C)zdravý jen tak (G)chodit po (Am)lese.
@@ -1389,7 +1359,6 @@ AC:
 Z:
 ZC:
 
-
 R: (D)Na Antarktidě (Em)tajou ledy,
 (A)dneska možná, (D)naposledy.
 (D)Zítra už tam (Em)asi všude,
@@ -1433,7 +1402,6 @@ AC:
 Z:
 ZC:
 
-
 1: (D)Kolik je na světě (Hm)očí,
    (D)kolik je na světě (Em)snů,
    (Em)kolik se koleček t(F"m)očí,
@@ -1471,7 +1439,6 @@ A: Hop Trop
 AC:
 Z:
 ZC:
-
 
 1: (D)Když vlny (Em)se valí(G) a peře(A)je řvou 
    a (D)šutry z nich (Em)civí jak (G)sů(A)vy, 
@@ -1548,7 +1515,6 @@ AC:
 Z:
 ZC:
 
- 
 1: Někdo z (Am)vás, kdo chutnal dál(G)ku jeden, z tě(Am)ch, co ro(E7)zuměj
    ať vám(Am) poví, proč mně ří(G)kaj, proč mně ří(F)kaj Toul(Am)avej.
 
@@ -1585,7 +1551,6 @@ AC:
 Z:
 ZC:
 
-
 1: Puto(G)vání, puto(Em)vání,
    Puto(C)vání za pra(G)cí,
    před sluncem nás klobouk (Em)chrání,
@@ -1611,7 +1576,6 @@ A: Poletíme?
 AC:
 Z:
 ZC:
-
 
 1: (G)Pokaždé když tě vidím, (D)vím, že by to šlo 
 (Em)a když jsem přemejšlel, co cítím, (C)tak mě napadlo 
@@ -1721,7 +1685,6 @@ AC:
 Z:
 ZC:
 
-
 1: Od z(C)rození až po věčnost , (Em)odvíjí se skutečnost, 
 že (F)nikdo nezná směr, kterým má (C)jít. 
 Jak nezvaný a vlezlý host pak (Em)navštíví tě minulost, 
@@ -1765,40 +1728,37 @@ AC:
 Z:
 ZC:
 
-% TODO https://pisnicky-akordy.cz/chinaski/kazdy-rano# od D bez capa
+1: (D)Každý ráno když si (A)vzpomenu,
+(C)vzpomenu si (G)na to, jak měl jsem tě (D)rád
+a nevzal si tě (A)za ženu, (C)každý ráno (G)budu si vyčí(D)tat.
 
-1: Každý ráno když si vzpomenu,
-vzpomenu si na to, jak měl jsem tě rád
-a nevzal si tě za ženu, každý ráno budu si vyčítat.
+Jak to bylo (A)zbabělé,
+(C)když jsem na svý cestě (G)nezdvihl tvůj draho(D)kam
+a od tý doby (A)od čerta k ďáblu(C) se po tý (G)cestě potlou(D)kám.
 
-Jak to bylo zbabělé,
-když jsem na svý cestě nezdvihl tvůj drahokam  
-a od tý doby od čerta k ďáblu se po tý cestě potloukám.
-
-R: Lásko, jediná, lásko ...
-    Každý ráno když si vzpomenu,
-    vzpomenu si na to, jak měl jsem tě rád
-    a nevzal si tě za ženu, každý ráno budu se proklínat       
-    já vůl, já blázen, kdo postaví mé nohy na zem,
-    kdo to pro mě kromě tebe udělá…
+R: (F"m)Lásko(E), jedin(D)á, l(F"m)ásko (E)... (G)
+    (A)Každý ráno když si (E)vzpomenu,
+    (G)vzpomenu si (D)na to, jak měl jsem tě (A)rád
+    a nevzal si tě(E) za ženu,(G) každý ráno(D) budu se prokl(A)ínat
+    já vůl,(E) já blázen,(G) kdo postaví(D) mé nohy na zem,
+    (A)kdo to (E)pro mě kromě (G)tebe udě(D)lá ...
 
 2: Jednou ráno až si vzpomeneš, 
 pošli mi prosím adresu,           
 ať mé noční můry zaženeš, ať strachy o tebe se netřesu. 
 
-Slibuju v příštím životě,
-podruhý stejnou chybu neudělám,
-ať chceš nebo ne já najdu tě a zvednu tvůj drahokam. 
+(D)Slibuju v příštím ž(A)ivotě,
+(C)podruhý s(G)tejnou chybu neud(D)ělám,
+ať chceš nebo ne já (A)najdu tě(C) a zvednu (G)tvůj draho(D)kam. (E)
 
 3: Všechna má rána jsou prázdná
 a v nedohlednu šťastný konec příběhu,
-příběhu starýho blázna, co vyměnil pýchu za něhu.   
+příběhu starýho blázna, co vyměnil pýchu za něhu. (E)
 
 4: Slibuju v příštím životě, podruhý stejnou chybu neudělám,
 ať chceš nebo ne já najdu tě a zvednu a rozsvítím tvůj drahokam. 
 Já vůl, já blázen, - kdo postaví mé nohy na zem, 
-kdo to pro mě kromě tebe udělá…
-kdo to pro mě kromě tebe udělá…  
+/: kdo to pro mě kromě tebe udělá :/ + (A)
 
 ==================
 
@@ -1807,7 +1767,6 @@ A: Tomáš Klus
 AC:
 Z:
 ZC:
-
 
 1: Je (C)den. Tak (E)pojď Marie ven.
    Budeme (F)žít. A házet (G)šutry do oken.
@@ -1850,11 +1809,10 @@ R: Já mám Marie rád ...
 ==================
 
 N: Velká Jizera
-A: Marcel Fox Štěpánek
+A: Marcel \uv{Fox} Štěpánek
 AC:
 Z:
 ZC:
-
 
 1: (Am)Klikatá (C)cestička (F)jde na Buko(C)vec,
 (F)pročpak tudy (C)chodil, pročpak tudy (Am)chodil (E7)švarný mládenec.
@@ -1879,11 +1837,10 @@ nežli starej Tapper, nežli starej Tapper, střelí kuli zlou.
 ==================
 
 N: Šurean
-A: Marcel Fox Štěpánek
+A: Marcel \uv{Fox} Štěpánek
 AC:
 Z:
 ZC:
-
 
 1: (Am)Velký hory na vobzoru, (G)když se (C)objeví
 a slunce (Am)zapa(G)dá (Am)za hradbu (C)mra(G)ků,
@@ -1919,7 +1876,6 @@ A: Golden Kids
 AC:
 Z:
 ZC:
-
 
 1: Sem (G)pojďte blíž (Em)lidé dny (D)i týdny (G)jdou
    a (G)mraky se (C)toulají a (D4)vlny se (D)dmou.
@@ -1971,7 +1927,6 @@ AC:
 Z:
 ZC:
 
-
 1: Tou (G)cestou, tím směrem prý bych se (D)dávno měl dát,
    když (Am)sněží, jde to stěží, ale sněhy pak tají,  
    kus (C)něhy ti za nehty (D)slíbí a dají. 
@@ -2003,13 +1958,12 @@ AC:
 Z:
 ZC:
 
-
 1: Mám ploché (C)nohy po tetě a fanta(F)zii po svém strýci,
    už dlouho (Am)šlapu po světě a nevím, (G)co mám o něm říci.
    Kdysi jsem (C)sníval o Nilu a pak se (F)plavil po Vltavě,            
    já věřil (Am)spoustě omylů a dodnes (G)nemám jasno v hlavě,
    nemám jasno v (C)hlavě.
-                                
+
 R: Ani k (C)stáru, ani k stáru, ani k stáru, 
    nemám (Gm)o životě páru, nemám páru, 
    (F)třebaže jsem (Em/G)dosti sečtě(C)lý, sečtě(G)lý.          
@@ -2072,7 +2026,6 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
-
 
 1: (Am)Labutě, (G)labu(Am)tě,
    spočíva(G)jí nehnu(C)tě
@@ -2171,7 +2124,6 @@ AC:
 Z:
 ZC:
 
-
 1: (C)Kdyby žila v době barok(Am)ní,
 (F)jezdíval bych každé jaro k (G)ní,
 (Em) napudrován a s bílou (F)parukou
@@ -2210,7 +2162,6 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
-
 
 1: (A)Zapadání, zapadání,
 (D)sluníčka za kop(A)ce,
@@ -2273,7 +2224,6 @@ AC:
 Z:
 ZC:
 
-
 1: /: (C)Ta naše hospoda (F)odshora  odspoda, (C)to je (F)pěkné (C)zaříze(G)ní.
    (C)Polívka hřeje se, (F)hostinský směje se, (C)že mu (F)pivo (G)dobře pě(C)ní. :/
 
@@ -2303,7 +2253,6 @@ AC:
 Z:
 ZC:
 
-
 1: (D)Slunce šlo (A)spát
 (Hm(G))za hromádku (A)klád
 (D)na nebi (G)hvězdy klí(A)čí. (A7)
@@ -2330,7 +2279,6 @@ A: Jiří Korn
 AC:
 Z:
 ZC:
-
 
 1: (G)Před týdnem kvůli (Em7)jedné made-moiselle
 (G)v prachbídném stavu (Em7)jsem se nacházel.
@@ -2365,7 +2313,6 @@ AC:
 Z:
 ZC:
 
-
    Jak (C)můžeš bejt tak krut(A7)á,
    (Dm)copak nemáš kouska citu v (G7)těle?(C)
 
@@ -2398,7 +2345,6 @@ AC:
 Z:
 ZC:
 
-
 1: (A)Ze zdi na mě tupě zírá p(D)o trezoru temná díra,
    (H7)poznám tedy bez nesnází, (E7)že tam nepochybně něco schází,
    (A)ve zdi byl totiž po dědovi (D)velký trezor ocelový.
@@ -2422,7 +2368,6 @@ A: Cermaque
 AC:
 Z:
 ZC:
-
 
 1: (Em)Tak dlouho volal racek (G)do prázdna  
 (Hm)až z prázdna lásku přivo(A)lal 
@@ -2487,7 +2432,6 @@ AC:
 Z: 
 ZC:
 
-
 1: (Am)Spatřil jsem mršinu, táborem smrděla, chtěl jsem ji zakopat, ona to věděla,
    (Dm)zetlela jako chléb (G)z domova ve stanu, (C)ach krávo ubohá, (E)už tě nedostanu.
    (Am)Už tě nedostanu nikdy tě nespatřím, teď ležíš v kaňonu a smrdíš povětřím,
@@ -2517,7 +2461,6 @@ A: Formani
 AC: 
 Z:
 ZC:
-
 
 1: My (Am)přepluli jsme lodí přes (Dm)tmavej oceán,
 a v (Am)zaprášený torbě jen (E7)uschlou růži mám.           
@@ -2549,7 +2492,6 @@ A: Radůza
 AC: 
 Z:
 ZC:
-
 
 1: (Am)Pr(Em)ší, (Dm)choulím se (Em)do svrchníku,
    (Am)než se (Em)otočím (Dm)na pod(Em)patku
@@ -2584,7 +2526,6 @@ AC:
 Z:
 ZC:
 
-
 1: Jednou (C)štěstí dohoní i ty (Em)jezdce na koních,
 co hleda(Dm)jí (G)ho v cizích stájích.
 Jednou (C)hrana zazvoní i těm (Em)jezdcům na koních,
@@ -2617,7 +2558,6 @@ AC:
 Z:
 ZC:
 
-
 (Am)
 
 1: Když (Dm7)přijdou chvíle (G7)jaký znáš, (C)jako v poušti k(Am7)lopýtáš,
@@ -2647,7 +2587,6 @@ A: Marie Rottrová
 AC: 
 Z:
 ZC:
-
 
 1: (Am)Nejsme láska z románů první a (Dm)krásná,
    (E)ta co ráda šlape v loužích a chodí k ránu (Am)spát.
@@ -2683,7 +2622,6 @@ AC:
 Z:
 ZC:
 
-
 R1: On (D)toužil, kroužil, (G)bylo to tak 
     Tu (Hm)holubici pouštím (A)do oblak 
     Přes (D)matný stěny já (G)vidím dál 
@@ -2717,7 +2655,6 @@ A: Autor neznámý
 AC:
 Z:
 ZC:
-
 
 1:  (D)Už mě prostě (G)nebaví (D)člověkem z (A)města (D)být, 
     (D)v týhle kleci z (G)betonu (D)jako všichni (A)lidé (D)žít, 
