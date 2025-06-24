@@ -1847,7 +1847,7 @@ a slunce (Am)zapa(G)dá (Am)za hradbu (C)mra(G)ků,
 propa(Am)dá se, propa(C)dá,
 celej (Am)obzor do mraků se propa(G)dá.
 
-R: \sl{@[solo@]} Znám jednu (Am)travnatou, (G)velkou (Am)pláň,
+R: Znám jednu (Am)travnatou, (G)velkou (Am)pláň,
 polyká (Am)staletí, (G)milej (Am)Šurean.
 Tam (C)najdeš (G)chýše (C)kamenný,
 a v (D)sedlech kříže zdobený,
@@ -2428,7 +2428,7 @@ protože jsou švarní hoši z Ještěda. :/
 
 N: Mršina
 A: Oggy, Mrkev
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -2458,7 +2458,7 @@ R3: Tu krávu, ležící v kaňonu, smrdící, nechce se zahrabat nikomu. Kdopak
 
 N: Uvadlý kvítek
 A: Formani
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2489,7 +2489,7 @@ milá ani neví jak moc jsem jí měl rád.
 
 N: Studený nohy
 A: Radůza
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2522,7 +2522,7 @@ R: Studený (F)nohy (E)schovám doma (Am)pod peřinou
 
 N: A pak 
 A: Tomáš Klus
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2554,7 +2554,7 @@ nic stejné nebude dál, svět promění se pak...
 
 N: Když přijdou chvíle 
 A: Pacifik
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2584,7 +2584,7 @@ Letět zpátky domů, kde znáš i stíny stromů
 
 N: Měli jsme se potkat dřív 
 A: Marie Rottrová
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2618,7 +2618,7 @@ R2: /: Měli jsme se potkat dřív zdá se mi
 
 N: Toulavá
 A: Sebastian
-AC: 
+AC:
 Z:
 ZC:
 

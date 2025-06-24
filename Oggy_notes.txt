@@ -57,3 +57,6 @@ Prázdný autor:
 broken ellipses (...):
 (?<!\.)\.\.(?!\.)
 \.{4,}
+
+Vícenásobný reptice co mají x místo ×:
+\b\d+x\b

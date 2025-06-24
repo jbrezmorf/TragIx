@@ -43,7 +43,7 @@ R: Teď jsi víla z paneláků,
 
 N: Andělská
 A: Zuzana Navarová
-AC: 
+AC:
 Z:
 ZC:
 
@@ -133,7 +133,7 @@ R: (C)A proto, (Am)prosím, věř mi,
 
 N: Arizona
 A: Autor neznámý
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -157,6 +157,7 @@ Jedu na kombajnu, za sebou mam lajnu a přede mnou dvěstě hektarů.
 
 R3: Rutyšuty Farská louka tábor, rutyšuty Farská louka má.
 Jdeme na Ořešník a sebou máme deštník a vono stejně pršet nebude.
+
 
 ==================
 
@@ -188,7 +189,7 @@ R: (Dm)Já čekám dál, já (C)čekám (F)dál, (B)já čekám (A)dál, (A7)až
 
 N: Babička Mary
 A: J. Ježek, J. Voskovec, J. Werich 
-AC: 
+AC:
 Z: Já, písnička 2 (1999)
 ZC:
 
@@ -262,6 +263,7 @@ R2: Víno na kuráž a pomilovat markytánku,
    za královský hermelín padne každý rád.
 
 R2 + R1
+
 
 ==================
 
@@ -355,7 +357,7 @@ R: (A)Říkal to Jim Bridger: já měl jsem v noci (E7)sen,
 
 N: Bonsoir mademoiselle paris
 A: Zdeněk Rytíř 
-AC: 
+AC:
 Z:
 ZC:
 
@@ -451,7 +453,7 @@ R: Hej hou, hej hou, nač (G)chodit do vál(D)ky, je lepší doma sedět a (E)lo
 
 N: Carpe diem
 A: AG Flek
-AC: 
+AC:
 Z:
 ZC:
 
@@ -477,7 +479,7 @@ R: (Am)Tak tady mě (G)máš, (Am)dnes můžeš (G)říkat klidně, co (C)chceš
 
 N: Černý muž
 A: E. Knos
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -500,7 +502,7 @@ R: 3× /: Glory, glory aleluja :/  ... kapitán John Brown to zřel.
 
 N: Červená řeka
 A: Ivo Fischer
-AC: 
+AC:
 Z: Ja, pisnicka 1, 1994
 ZC:
 
@@ -523,7 +525,7 @@ ZC:
 
 N: Proklatej vůz
 A: Greenhorns 
-AC: 
+AC:
 Z:
 ZC:
 
@@ -610,7 +612,7 @@ R3: Váš Darmoděj, vagabund osudů a lásek,
 
 N: David a Goliáš
 A: J. Ježek, J. Voskovec, J. Werich 
-AC: 
+AC:
 Z: Já, písnička 2 (1999)
 ZC:
 
@@ -646,6 +648,7 @@ Mějme hlavy v písku, jako pštrosy, nejvejš nám to spálí šosy.
 ale o krk a o značný obnosy
 a proto by měly masy, říct své slovo všemy hlasy, dřív než nás smrt pokosí.
 
+
 ==================
 
 N: Dej mi víc své lásky
@@ -670,7 +673,7 @@ R: (C)Má drahá, dej mi víc, (E7)má drahá, dej mi víc, (Am)má drahá, (F)d
 
 N: Dělání
 A: Zdeněk Svěrák
-AC: 
+AC:
 Z:
 ZC:
 
@@ -767,7 +770,7 @@ R: (A)Byl to ten slavný den, kdy k nám byl zaveden (E7)elek(Edim)trický (E7)p
 
 N: Ezop a brabenec 
 A: J. Ježek, J. Voskovec, J. Werich 
-AC: 
+AC:
 Z: Já, písnička 2 (1999)
 ZC:
 
@@ -792,7 +795,7 @@ a na svou bídu si nezareptej.
 
 N: František
 A: Buty
-AC: 
+AC:
 Z:
 ZC:
 
@@ -844,7 +847,7 @@ R: Měl kapsu (G7)prázdnou Frenky dlouhán,  po Státech (F)toulal se jen (C)s�
 
 N: Hercegovina
 A: Autor neznámý
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -908,7 +911,7 @@ R: Já chci (D)mít čapku s bambulí nahoře, jíst kaštany, mýt se v lavoře
 
 N: Hlídej lásku skálo má
 A: Brontosauři
-AC: 
+AC:
 Z:
 ZC:
 
@@ -931,7 +934,7 @@ R: Hlídej lásku, skálo má než se s (G7)ránem vytra(C)tí
 
 N: Ze všech chlapů nejšťastnější chlap
 A: Miki Ryvola 
-AC: 
+AC:
 Z:
 ZC:
 
@@ -972,7 +975,7 @@ R: To (Dm)znám, to dobře (Am)znám, znám, znám,   (E7)na kolejích nejsem ni
 
 N: Ho ho Watanay
 A: Žalman
-AC: 
+AC:
 Z: Já písnička 1, 1993
 ZC:
 
@@ -1029,11 +1032,11 @@ R: (Am)Hle(A7)dám (Dm)dům holu(G)bí, kdopak (C)z vás cestu (Am)ví, míval (
 
 N: Honky tonky blues
 A: J. Šlitr, J. Suchý 
-AC: 
+AC:
 Z: Já, písnička 1 (1993)
 ZC:
 
-\sl{Sloky se opakujou dle libosti.}
+\sl{Sloky se opakují dle libosti.}
 
 (E)Každý ráno na piáno hraje Jack, hraje Jack,
 (A7)každý ráno na piáno hraje Jack, (E)hraje Jack,
@@ -1145,7 +1148,7 @@ R: + johoho.
 
 N: Húsličky
 A: Vlasta Redl
-AC: 
+AC:
 Z:
 ZC:
 
@@ -1170,7 +1173,7 @@ ZC:
 
 N: Hvězda na vrbě
 A: Karel Mareš, Jiří Štaidl
-AC: 
+AC:
 Z:
 ZC:
 
@@ -1191,7 +1194,7 @@ R: Vidě(C)li jsme jednou (F)v lukách plakat (C)na tý vrbě (F)kluka,
 
 N: Chajda
 A: K.T.O.
-AC: 
+AC:
 Z:
 ZC:
 
@@ -1213,7 +1216,7 @@ ZC:
 
 N: Chodím po Brodwayi
 A: Americká lidová
-AC: 
+AC:
 Z:
 ZC:
 
@@ -1294,7 +1297,7 @@ R: Přišel čas (G)slunce, zrození a (D)tratí,
 
 N: Jaro
 A: J. Šťáhlavský, T. Linka 
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -1407,7 +1410,7 @@ R2: Jdou po mně (D)jdou, (G)jdou, (D)jdou,
 
 N: Johanka
 A: Brontosauři
-AC: 
+AC:
 Z:
 ZC:
 
@@ -1466,7 +1469,7 @@ R2: Jožin z bažin už je celý bílý, Jožin z bažin z močálu ven pílí,
 
 N: Kapr
 A: Jaromír Nohavica
-AC: 
+AC:
 Z: Písně Jaromíra Nohavici
 ZC:
 
@@ -1644,6 +1647,7 @@ ZC:
 
 3× Óóóo
 
+
 ==================
 
 N: Kluziště
@@ -1751,7 +1755,7 @@ ZC:
 
 N: Lachtani
 A: Jaromír Nohavica
-AC: 
+AC:
 Z: Písně Jaromíra Nohavici
 ZC:
 
@@ -1779,7 +1783,7 @@ R: /: (C)Lach lach (F)jé (C)jé (Am)lach lach (G)jé (C)jé :/
 
 N: Malé kotě
 A: J. Šlitr, J. Suchý
-AC: 
+AC:
 Z: Já, písnička 1 (1993)
 ZC:
 
@@ -2010,7 +2014,7 @@ R: Seržante, (G)písek je bílý jak paže Daniely.
 
 N: Náměšť
 A: Jaroslav Hutka
-AC: 
+AC:
 Z: Já, písnička 1 (1993)
 ZC:
 
@@ -2033,7 +2037,7 @@ ZC:
 
 N: Až vzlétnou ptáci
 A: Spirituál Kvintet 
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2075,7 +2079,7 @@ ZC:
 
 N: Nebeští jezdci
 A: Stan Jones
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -2165,7 +2169,7 @@ ZC:
 
 N: Niagára
 A: E. Ingriš 
-AC: 
+AC:
 Z: Já, písnička 1 (1993)
 ZC:
 
@@ -2187,7 +2191,7 @@ R1: Teskně hučí ...
 
 N: Okolo Hradce
 A: Lidová
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -2209,7 +2213,7 @@ R: Vojáci jdou, vojáci jdou, bože, jaká je to (A)krása,
 
 N: Okoř
 A: Autor neznámý
-AC: 
+AC:
 Z: Já, písnička 1 (1993)
 ZC:
 
@@ -2232,7 +2236,7 @@ R: (D)Na hradě Okoři (A7)světla už nehoří (D)bílá paní (A7)šla už dá
 
 N: Omnia vincit amor
 A: Klíč 
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2280,7 +2284,7 @@ R: Zlaťák (F)pálí, (C)nesleví (Dm)nic,
 
 N: Orlice
 A: Zuzana Navarová
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2343,7 +2347,7 @@ ZC:
 
 N: Písek
 A: Nezmaři
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2376,7 +2380,7 @@ ZC:
 
 N: Píseň co mě učil listopad
 A: Wabi Daněk
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2458,7 +2462,7 @@ R: \sl{@[pískaná sloka@]}
 
 N: Růže kvetou dál
 A: Helena Vondráčková
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2509,7 +2513,7 @@ R: /: Podívej, kvete růže... :/
 
 N: Pohádka o princezně a o hrádku
 A: Autor neznámý
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -2565,7 +2569,7 @@ ZC:
 
 N: Poštorenská kapela
 A: František \uv{Šedý Havran} Kňourek
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -2599,7 +2603,7 @@ R: Je to slyšet v širý kraj, jen ty bando (A7)stále hraj,
 
 N: Rána v trávě
 A: Žalman
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2649,7 +2653,7 @@ ZC:
 
 N: Rodné údolí
 A: Nedvědi
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2805,7 +2809,7 @@ R: (C)Severní (C7)vítr je (F)krutý, / (C)počítej, lásko má, (G7)s tím,
 
 N: Slavíci z Madridu
 A: Waldemar Matuška
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2900,7 +2904,7 @@ R: (D)Tak spinkej, ať (G)ve tvých snech / (D)růže kvetou, (G)voní mech,
 
 N: Stály báby
 A: František \uv{Šedý Havran} Kňourek
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -2923,7 +2927,7 @@ ZC:
 
 N: Stará archa
 A: Spirituál Kvintet
-AC: 
+AC:
 Z:
 ZC:
 
@@ -2963,7 +2967,7 @@ R: /: (D)Já mám kocábku náram, (A7)náram, (D)náram, kocábku náram, (A7)n
 
 N: Strom
 A: Jiřina Doležalová 
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -3020,7 +3024,7 @@ ZC:
 
 N: Štěně
 A: Lidová, Jan Werich
-AC: 
+AC:
 Z: Já, písnička 2 (1999)
 ZC:
 
@@ -3080,7 +3084,7 @@ R: (G)Tak už mi má holka mává, ve vočích má slzy (F)páli(D)vý,
 
 N: Taši de lé
 A: Zuzana Navarová
-AC: 
+AC:
 Z:
 ZC:
 
@@ -3132,7 +3136,7 @@ R1: /: Taši delé ...  :/
 
 N: Osamělé město
 A: Hoboes 
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -3166,7 +3170,7 @@ R: Řekni (G)kolik je na světě, kolik je takovejch (D)měst,
 
 N: Tisíc mil
 A: Waldemar Matuška
-AC: 
+AC:
 Z:
 ZC:
 
@@ -3202,7 +3206,7 @@ R2: Těch tisíc mil...
 
 N: To ta Heľpa
 A: Slovenská lidová 
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -3220,7 +3224,7 @@ ZC:
 
 N: Trh ve Scarborough
 A: Spirituál Kvintet
-AC: 
+AC:
 Z:
 ZC:
 
@@ -3263,7 +3267,7 @@ jen pýchy své a Boha se ptej,
 
 N: Trpasličí svatba
 A: Jaroslav Uhlíř, Emil Synek
-AC: 
+AC:
 Z: Já, písnička 1 (1993)
 ZC:
 
@@ -3292,7 +3296,7 @@ R: Protože láska...
 
 N: Třešně zrály
 A: Waldemar Matuška 
-AC: 
+AC:
 Z:
 ZC:
 
@@ -3328,7 +3332,7 @@ R: (C)Jó, třešně (Am)zrály, z(Dm)rovna (G7)třešně (C)zrály,
 
 N: Tři bratři 
 A: Skotská, Jiří Tichota, Ivo Mach
-AC: 
+AC:
 Z: Spirituál kvintet 1 (1992)
 ZC:
 
@@ -3366,7 +3370,7 @@ ZC:
 
 N: Tři citrónky 
 A: Autor neznámý
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -3396,7 +3400,7 @@ R: 3× /: Rýbaróba rýbaróba rýbaróba ču ču, :/ ... zůstaly na hladině.
 
 N: Tři čuníci
 A: Jaromír Nohavica
-AC: 
+AC:
 Z: Písně Jaromíra Nohavici
 ZC:
 
@@ -3405,7 +3409,7 @@ ZC:
    (Dm)Kufry nemají, cestu nezna(G7)jí. 
  (Dm)Vyšli prostě do světa a (G7)vesele si zpívají: 
    
-R: Ui ui ui ...  @[\sl{na melodii sloky }@]
+R: Ui ui ui ...  @[\sl{na melodii sloky}@]
 
 2: Auta jezdí tam, náklaďáky sem, 
    tři čuníci jdou, jdou rovnou za nosem.
@@ -3476,7 +3480,7 @@ R: Jen tři kříže z bílýho kamení
 
 N: Tři myši prašivý
 A: Lidová
-AC: 
+AC:
 Z:
 ZC:
 
@@ -3649,7 +3653,7 @@ R: + /: veď mě dál, cesto má :/
 
 N: Veličenstvo kat
 A: Karel Kryl 
-AC: 
+AC:
 Z:
 ZC:
 
@@ -3698,7 +3702,7 @@ M: Nad palácem vlády ční prapor s gilotinou,
 
 N: Vlaštovko leť
 A: Jaromír Nohavica
-AC: 
+AC:
 Z: Písně Jaromíra Nohavici
 ZC:
 
@@ -3755,7 +3759,7 @@ R: (Hm7)Why (E7)she (Am)had (Am/G)to (F)go,  I don't (Dm)know, she (G)wouldn't (
 
 N: Zahrada ticha
 A: Rotor
-AC: 
+AC:
 Z:
 ZC:
 
@@ -3814,7 +3818,7 @@ R: /: (F"7)Musíš (Hm)za svou pravdou (F")stát, musíš za svou pravdou (Hm)st
 
 N: Zatracenej život 
 A: Traditional, Jan Vyčítal 
-AC: 
+AC:
 Z: 
 ZC:
 
@@ -3913,7 +3917,7 @@ na na (Dm)na na na (G7)na na na (C)na na na na (Am)na
 
 N: Žába puk 
 A: Jiří Ziembrowski, Ivan Mládek
-AC: 
+AC:
 Z: Šel tudu, měl banjo (1994)
 ZC:
 
@@ -4470,6 +4474,7 @@ přejte si hezký sen
 aby hůř nebylo,
 +to by nám stačilo.
 
+
 ==================
 
 N: Dokud se zpívá ještě se neumřelo
@@ -4750,7 +4755,7 @@ sám, sám, sám, dýchám tady sám.
 
 N: Lano co k nebi nás poutá
 A: Traband
-AC: 
+AC:
 Z:
 ZC:
 
