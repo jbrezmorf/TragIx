@@ -29,7 +29,6 @@ R: (D7)Nebe modrý zrca(G)dlí se (E)
    vedly k tomu, že ti nikdo 
 +  \uv{Amazonka} neříká.
 
-
 3: Zlatý kráse cingrlátek,
 +  jak sis časem myslela,
    vadil možná trampskej šátek,
@@ -880,9 +879,9 @@ ZC:
 
 1: (D)Když jsem byl malý říkali mi naši: 
     \uv{Dobře se uč a jez chytrou kaši,
-   (G)až jednou vyrosteš (A7)budeš doktorem (D)práv.(A7)
+   (G)až jednou vyrosteš (A7)budeš doktorem (D)práv.} (A7)
 
-   (D)Takový doktor sedí pěkně v suchu, 
+   \uv{(D)Takový doktor sedí pěkně v suchu, 
    bere velký peníze a škrábe se v uchu.}
    (G)Já jim ale na to řek: (A7)\uv{Chci být hlídačem (D)krav.}
 
@@ -915,8 +914,8 @@ AC:
 Z:
 ZC:
 
-1: (C)Jak to v žití chodívá, láska k (G7)lidem přichází(C)
-   přijde, jen se rozhlédne a zase (F)odchází.(C)
+1: (C)Jak to v žití chodívá, láska k (G7)lidem přichází (C)
+   přijde, jen se rozhlédne a zase (F)odchází. (C)
    Já ji potkal ve skalách, šla bosá (F)jenom (C)tak
    měla džínsy vybledlý, na zádech (G7)starej (C)vak.
 
@@ -1106,7 +1105,7 @@ ZC:
 6: (D)Sbohem, moje (Hm)město, (G)vzpomínat budu (A7)přesto,
    (D)jak jsem poznal (Hm)tvůj smích (G) a tvůj (A7)pláč.
 
-7: (D)Na na (Hm)na (G)...(A7)
+7: (D)Na na (Hm)na (G)... (A7)
 
 ==================
 
@@ -1142,7 +1141,7 @@ R: (F)Ahoj, páru tam (Am)hoď, ať (G)do pekla se dříve dohra(Am)bem. /: (G)J
    kdo má srdce v správným místě, kdo je prostě príma kluk,
    ať se na hudsonský šífy najmout dá, johoho.
 
-R: + johoho.
+R: Ahoj, páru tam hoď ... + johoho.
 
 ==================
 
@@ -1391,8 +1390,8 @@ R1: Jdou po mně, (D)jdou, (G)jdou, (D)jdou,
    tak začla láska jak z televize. :/
 
    Však půl roku na to řekla mi: \uv{Dost,
-   tobě došlo zlato, mně trpělivost,
-   /: sbal svých pár švestek a běž si, kam chceš},
+   tobě došlo zlato, mně trpělivost}.
+   /: \uv{Sbal svých pár švestek a běž si, kam chceš},
    tak jsem na cestě a chudý jak veš. :/
 
 3: Teď ve státě Utah žiju spokojen,
@@ -2507,7 +2506,7 @@ R: Podí(Am)vej, kvete (D)růže,
    pak ty mně zas na oplátku
 +   zazpíváš.
 
-R: /: Podívej, kvete růže... :/
+R: /: Podívej, kvete růže ... :/
 
 ==================
 
@@ -3128,6 +3127,7 @@ Taši delé
 R1: Taši delé...
 
 5: = 3.
+
 6: = 2.
 
 R1: /: Taši delé ...  :/
@@ -3375,26 +3375,26 @@ Z:
 ZC:
 
 1: (C)V jedné (Am)mořské (Dm)dáli(G7)ně 
- (C)ztroskotal (Am)parník (Dm)v hlubi(G7)ně,
++  (C)ztroskotal (Am)parník (Dm)v hlubi(G7)ně,
    (C)jen tři (Am)malé (Dm)citrón(G7)ky 
-   zůstaly na hladi(C)ně.
++  zůstaly na hladi(C)ně.
    
 R: 3× /: Rýbaróba rýbaróba rýbaróba ču ču, :/ ... zůstaly na hladině.
    
 2: Jeden z nich povídá: \uv{Přátelé, 
-   netvařte se tak kysele,
++  netvařte se tak kysele,
    vždyť je to přece veselé, 
-   že nám patří moře celé.}
++  že nám patří moře celé.}
    
 3: A tak se plavily dál a dál, 
-   jeden jim k tomu na kytaru hrál,
++  jeden jim k tomu na kytaru hrál,
    a tak se doplavily 
-   až na ostrov korálový.
++  až na ostrov korálový.
    
 4: Tam žila jedna babizna, 
-   byla to mořská krabizna,
++  byla to mořská krabizna,
    sežrala citrónky i s kůrou, 
-   a tak skončila baladu mou. 
++  a tak skončila baladu mou. 
 
 ==================
 
@@ -4421,10 +4421,10 @@ AC:
 Z: 
 ZC:
 
-1: (G)Prvá, druhá, (C)třetí, (D)čtvr(G)tá(C)(D)
-+(G)na zahradě (C)krtek (D)vr(G)tá(C)(D) 
+1: (G)Prvá, druhá, (C)třetí, (D)čtvr(G)tá(C) (D)
++(G)na zahradě (C)krtek (D)vr(G)tá(C) (D) 
 (Emi)drápy má jak (C)vývrtky, oho(G)ho, 
-+(Ami)vrtá metro (C)pro krt(D)ky, oho(G)ho.(C)(D) 
++(Ami)vrtá metro (C)pro krt(D)ky, oho(G)ho.(C) (D) 
 
 R: Rrr ...
 

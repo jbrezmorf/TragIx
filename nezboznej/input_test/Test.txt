@@ -4,7 +4,6 @@ AC:
 Z:
 ZC:
 
-
 C: (D)Pojďte všichni dovnitř, pozvěte si všechny známé,
    (D)my vám dobrou radu dáme, neboť právě otvíráme,
    (D)prodáváme, (D)vyděláme, (D)co kdo chcete, (D)tak to máme,
@@ -44,3 +43,83 @@ R: (D)Pět deka, deset deka, dvacet deka, třicet deka,
    obchod je věc stále kvetoucí,
    už se vidím, je to krása, ve výloze nápis hlásá:
    \sl{Michal Tučný, odpovědný vedoucí.}
+
+==================
+
+N: Tři čuníci
+A: Jaromír Nohavica
+AC:
+Z: Písně Jaromíra Nohavici
+ZC:
+
+1: (C)V řadě za sebou tři čuníci jdou, 
+   ťápají si v blátě cestou nece(Am)stou.
+   (Dm)Kufry nemají, cestu nezna(G7)jí. 
+ (Dm)Vyšli prostě do světa a (G7)vesele si zpívají: 
+   
+R: Ui ui ui ...  @[\sl{na melodii sloky}@]
+
+2: Auta jezdí tam, náklaďáky sem, 
+   tři čuníci jdou, jdou rovnou za nosem.
+   Ušima bimbají, žito křoupají, 
+   vyšli prostě do světa a vesele si zpívají:
+
+3: Levá pravá teď, přední zadní  už, 
+   tři čuníci jdou, jdou jako jeden muž.
+   Lidé zírají, důvod neznají, 
+   proč ti malí čuníci tak vesele si zpívají:
+
+4: Když kopýtka pálí, když jim dojde dech, 
+   sednou ke studánce na vysoký břeh.
+   Ušima bimbají, kopýtka máchají, 
+   chvilinku si odpočinou a pak dál se vydají.
+
+5: Když se spustí déšť, roztrhne se mrak, 
+   k sobě přitisknou se čumák na čumák.
+   Blesky bleskají, kapky pleskají, 
+   oni v dešti nepohodě vesele si zpívají:
+
+6: Za tu spoustu let, co je světem svět, 
+   přešli zeměkouli třikrát tam a zpět.
+   V řadě za sebou, hele támhle jdou! 
+   Pojďme s nima zazpívat si jejich píseň veselou!
+
+==================
+
+N: Tři kříže
+A: Hop trop
+AC: HT
+Z:
+ZC:
+
+1: (Dm)Dávám sbohem všem (C)břehům prokla(Am)tejm, 
+   který (Dm)v drápech má (Am)ďábel (Dm)sám,
+   bílou přídí (C)šalupa \uv{My (Am)Grave}
+   míří k (Dm)útesům, (Am)který (Dm)znám.
+
+R: Jen tři (F)kříže z bí(C)lýho kame(Am)ní 
+   někdo (Dm)do písku (Am)posklá(Dm)dal,
+   slzy v (F)očích měl a v (C)ruce znave(Am)ný 
+   lodní (Dm)deník, co (Am)sám do něj (Dm)psal.
+
+2: První kříž má pod sebou jen hřích, 
+   samý pití a rvačky jen,
+   chřestot nožů, při kterým přejde smích, 
+   srdce-kámen a jméno Stan.
+
+3: Já, Bob Green, mám tváře zjizvený, 
+   štěkot psa zněl, když jsem se smál,
+   druhej kříž mám a spím pod zemí, 
+   že jsem falešný karty hrál.
+
+4: Třetí kříž snad vyvolá jen vztek, 
+  Katty Rogers těm dvoum život vzal,
+   svědomí měl, vedle nich si klek' ...
+
+C: Snad se chtěl modlit: \uv{Vím, trestat je lidský,
+    ale odpouštět božský, snad mi tedy Bůh odpustí ...}
+
+R: Jen tři kříže z bílýho kamení 
+   jsem jim do písku poskládal,
+   slzy v očích měl a v ruce znavený 
+   lodní deník a v něm, co jsem psal ...

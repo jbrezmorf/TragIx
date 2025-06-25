@@ -474,7 +474,7 @@ R: (Em)Já budu chodit (A)po špičkách, (Em)snad tě tím nevz(A)budím,
   (Em)Já budu chodit (A)po špičkách
   (Em)Já budu chodit (A)po špičkách
   (Em)Já budu chodit (A)po špičkách
-  (Em)á ááááá...
+  (Em)á ááááá ...
 
 ==================
 
@@ -987,19 +987,19 @@ Z:
 ZC:
 
 1: (C)Není nutno, není nutno,
-aby bylo přímo vese(Dm)lo,
-(G7)hlavně nesmí býti smutno,
-natož aby se breče(C)lo-(G)ó.
++  aby bylo přímo vese(Dm)lo,
+   (G7)hlavně nesmí býti smutno,
++   natož aby se breče(C)lo-(G)ó.
 
 2: Chceš-li, trap se, že ti v kapse
-zlaté mince nechřestí,
-nemít žádné kamarády,
-tomu já říkám neštěstí.
++  zlaté mince nechřestí,
+   nemít žádné kamarády,
++  tomu já říkám neštěstí.
 
 M: Nemít (Am)prachy - (C)nevadí,
-nemít (Am)srdce - (C)vadí,
-zažít (Am)krachy - (C)nevadí,
-zažít (Am)nudu - (F)jó to (G6)vadí, (G7)to (G6)vadí.
++  nemít (Am)srdce - (C)vadí,
+   zažít (Am)krachy - (C)nevadí,
++  zažít (Am)nudu - (F)jó to (G6)vadí, (G7)to (G6)vadí.
 
 2× 1.
 
@@ -1012,29 +1012,29 @@ Z:
 ZC:
 
 1: (Am)Dáme klukovi ško(Em)ly,
-(F)ať to stojí coko(C)li,
-(G)nešetříme na chlap(C)ci,
-(F)táto, (C)šáhni (G)do kap(C)sy.
++  (F)ať to stojí coko(C)li,
+   (G)nešetříme na chlap(C)ci,
++  (F)táto, (C)šáhni (G)do kap(C)sy.
 
-(Am)Když zná lupič písme(Em)na,
-(F)stane se s ním promě(C)na,
-(G)když zná lupič ději(C)ny,
-(F)tak je (C)úpl(G)ně ji(C)ný.
+   (Am)Když zná lupič písme(Em)na,
++  (F)stane se s ním promě(C)na,
+   (G)když zná lupič ději(C)ny,
++  (F)tak je (C)úpl(G)ně ji(C)ný.
 
 R: (C)Bude (F)to ozdoba (C)loupežnické (G)bandy,
-   (C)bude (F)mít brejličky (C)a možná i (G)kšandy,
++  (C)bude (F)mít brejličky (C)a možná i (G)kšandy,
    (C)Posu(F)ne řemeslo (C)zas o kousek (G)dál,
-   (C)bude to (F)lotr (G)intelektu(C)ál.
++  (C)bude to (F)lotr (G)intelektu(C)ál.
 
 2: Naučí se francouzsky,
-bude nosit licousky,
-naučí se mluvnici,
-všech i všecky právníci.
++  bude nosit licousky,
+   naučí se mluvnici,
++  všech i všecky právníci.
 
-Naučí se německy,
-řekne troky, ne necky,
-když bude mluvit plynně,
-může loupit v cizině.
+   Naučí se německy,
++  řekne troky, ne necky,
+   když bude mluvit plynně,
++  může loupit v cizině.
 
 ==================
 
@@ -1271,36 +1271,36 @@ Z:
 ZC:
 
 R1: (G)Rád chodím (D)na poštu,
-(C)nejsem tam jen (G)do počtu,
-(C)jsem tam důle(G)žitý člen,
-(Am)fronty která tr(D)čí ven.
++   (C)nejsem tam jen (G)do počtu,
+    (C)jsem tam důle(G)žitý člen,
++   (Am)fronty která tr(D)čí ven.
 
-(G)Vždy, když se (D)cítím sám,
-(C)rád na poštu (G)zavítám,
-(C)tam je tolik (G)lidí, že
-(Am)pohnout se mám (D)potíže(G).
+    (G)Vždy, když se (D)cítím sám,
++   (C)rád na poštu (G)zavítám,
+    (C)tam je tolik (G)lidí, že
++   (Am)pohnout se mám (D)potíže(G).
 
 1: (C)A za přepážkou (G)paní v letech (C)má razítko (G)gumové
-(C)a občas tisk(Em)ne tiskárnou z dob (Am)první války (D)světové.
-(C)Každému kdo (G)spílá jí, že (C)zas na poště (G)prosral den,
-(C)nabídne los (Em)stírací ať (Am)uklidní se (D)hazardem(G).
+   (C)a občas tisk(Em)ne tiskárnou z dob (Am)první války (D)světové.
+   (C)Každému kdo (G)spílá jí, že (C)zas na poště (G)prosral den,
+   (C)nabídne los (Em)stírací ať (Am)uklidní se (D)hazardem(G).
 
 2: A proč je vždy jen jedna z pěti přepážek otevřená,
-je záhada co navždy zůstat má tajemstvím zastřená.
-Má nejoblíbenější služba je balíček do ruky,
-znamená to totiž, že zas budu moct jít na poštu,
-(D)jestli ho vůbec doručej,
-(D)to už je bez záruky.
+   je záhada co navždy zůstat má tajemstvím zastřená.
+   Má nejoblíbenější služba je balíček do ruky,
+   znamená to totiž, že zas budu moct jít na poštu,
+   (D)jestli ho vůbec doručej,
++  (D)to už je bez záruky.
 
 R2: Já rád chodím na poštu,
-nejsem tam jen do počtu,
-jsem tam důležitý člen,
-fronty která trčí ven.
++   nejsem tam jen do počtu,
+    jsem tam důležitý člen,
++   fronty která trčí ven.
 
-Vždy, když tam stepuju
-tenhle song si notuju.
-Mám pak hnedka trochu míň,
-chuť (Am) do mozku si (D) vrazit (G)klín.
+    Vždy, když tam stepuju
++   tenhle song si notuju.
+    Mám pak hnedka trochu míň,
++   chuť (Am) do mozku si (D) vrazit (G)klín.
 
 ==================
 
@@ -1403,34 +1403,34 @@ Z:
 ZC:
 
 1: (D)Kolik je na světě (Hm)očí,
-   (D)kolik je na světě (Em)snů,
++  (D)kolik je na světě (Em)snů,
    (Em)kolik se koleček t(F"m)očí,
-   (G)kolik je nocí a d(A)nů.
++  (G)kolik je nocí a d(A)nů.
 
 2: Kolik je na světě moří,
-   kolik je na světě řek,
++  kolik je na světě řek,
    kolik je smutků a hoří,
-   kolik je rozlitých mlék.
++  kolik je rozlitých mlék.
 
 R1: (D)Toho i toho je (A)mnoho,
-   (C)lidí a věcí a (G)jmen,
++  (C)lidí a věcí a (G)jmen,
    (D)jediné slunce je (A)jedno,
-   (A)a to když (Hm) vyjde je (D)den.
++  (A)a to když (Hm) vyjde je (D)den.
 
 3: Kolik je na světě poupat,
-   kolik je na světě knih,
++  kolik je na světě knih,
    kolik je jezevčích doupat,
-   kolik je jezevců v nich.
++  kolik je jezevců v nich.
 
 4: Kolik je na světě školek,
-   kolik je na světě škol,
++  kolik je na světě škol,
    kolik je kluků a holek,
-   kolik je šlapacích kol.
++  kolik je šlapacích kol.
 
 R2: Toho i toho je mnoho,
-   toho i toho je moc,
++  toho i toho je moc,
    jediné slunce je jedno,
-   a to když zajde je noc.
++  a to když zajde je noc.
 
 ==================
 
@@ -1552,21 +1552,21 @@ Z:
 ZC:
 
 1: Puto(G)vání, puto(Em)vání,
-   Puto(C)vání za pra(G)cí,
++  Puto(C)vání za pra(G)cí,
    před sluncem nás klobouk (Em)chrání,
-   mech je (C)naší matra(G)cí.
++  mech je (C)naší matra(G)cí.
    
 2: Cizí lidé v cizím kraji,
-   cizí kraj a obyčej,
++  cizí kraj a obyčej,
    trochu vody vždycky dají,
-   Opláchnem si obličej.
++  Opláchnem si obličej.
 
 M: (Hm)Zeměkoule, jak jsi hezká,
-   (C)tady cesta, tady stezka,
++  (C)tady cesta, tady stezka,
    (Hm)Tady pole, tady les,
-   (C)stoupáme až (D)do nebes.
++  (C)stoupáme až (D)do nebes.
 
-1. + 2. + 1. + ... (G)putování, (Em)putování,
+1. + 2. + 1. + ...(G)putování, (Em)putování,
    (G)putování, (Em)putování, (G)putování, ...
 
 ==================
@@ -1602,7 +1602,7 @@ ve stopadesáti letech ho budu mít stále jako slon,
 a ty neztratíš svoji krásu, stále štíhlá kolem pasu, 
 stále dokážeš mě chytit lasem a přitáhnout na terasu. 
 
-R: 3× /: Jsi lokomotiva ... :/ ... já a (G)ty.
+R: 3× /: Jsi lokomotiva ... :/ + já a (G)ty.
 
 ==================
 
@@ -1736,7 +1736,7 @@ Jak to bylo (A)zbabělé,
 (C)když jsem na svý cestě (G)nezdvihl tvůj draho(D)kam
 a od tý doby (A)od čerta k ďáblu(C) se po tý (G)cestě potlou(D)kám.
 
-R: (F"m)Lásko(E), jedin(D)á, l(F"m)ásko (E)... (G)
+R: (F"m)Lásko(E), jedin(D)á, l(F"m)ásko (E) ... (G)
     (A)Každý ráno když si (E)vzpomenu,
     (G)vzpomenu si (D)na to, jak měl jsem tě (A)rád
     a nevzal si tě(E) za ženu,(G) každý ráno(D) budu se prokl(A)ínat
@@ -1802,7 +1802,7 @@ R: Já (C)mám Marie (E)rád. Když má (F)moje bytí (G) spád.
    (C)Prostě jen prosté (E)spříznění duší,
    (F)aniž by kdokoli (G)cokoli tušil.
 
-   /: (C)na na na... (E) (F) (G) :/
+   /: (C)na na na ... (E) (F) (G) :/
 
 R: Já mám Marie rád ... 
 
@@ -2028,19 +2028,19 @@ Z:
 ZC:
 
 1: (Am)Labutě, (G)labu(Am)tě,
-   spočíva(G)jí nehnu(C)tě
++  spočíva(G)jí nehnu(C)tě
    (F)na hla(Em)di(Fmaj7)ně (G)Dyje
-   (Dm)a to je (Em)poezi(Am)e.
++  (Dm)a to je (Em)poezi(Am)e.
    
 2: Jsou to husy - šlechtičny,
-   dlouhý krk je dědičný,
++  dlouhý krk je dědičný,
    vyfotíme si je,
-   vyfotíme si je.
++  vyfotíme si je.
    
 R: /: (Am)Labutě, (Em)labu(F)tě,
-   (F)nechodí (Em/G)na ku(C)tě,
++  (F)nechodí (Em/G)na ku(C)tě,
    (C)kolíbá je (G)voda,
-   (G)jsou mokré ze(C)spoda. :/
++  (G)jsou mokré ze(C)spoda. :/
 
 3: = 1.
 ...labutě, labutě.
@@ -2164,16 +2164,16 @@ Z:
 ZC:
 
 1: (A)Zapadání, zapadání,
-(D)sluníčka za kop(A)ce,
-(D)tomu žádný (A)nezabrání,
-(D)pámbů to (A)takto (E4)chce.
++  (D)sluníčka za kop(A)ce,
+   (D)tomu žádný (A)nezabrání,
++  (D)pámbů to (A)takto (E4)chce.
 
 2: Den byl slunný, láskyplný,
-vzpomínku nechá ti,
-řekou běží nové vlny,
-(D)staré se (E)nevrá(A)tí.
++  vzpomínku nechá ti,
+   řekou běží nové vlny,
++  (D)staré se (E)nevrá(A)tí.
 
-1. + 2. + 1. + ... (A)zapadání, zapadání, zapadání, ...
+1. + 2. + 1. + (A)zapadání, zapadání, zapadání, ...
 
 ==================
 
@@ -2187,34 +2187,34 @@ ZC:
 \sl{pro Kubu}
 
 1: (C)Teplo je, (Am)léto je,
-   (G)češu třešně (C)vestoje,
++  (G)češu třešně (C)vestoje,
    (F)moje srdce (G)něco tu(C)ší. (G)
-   (C)Jakub je (Am)na stromě,
++  (C)Jakub je (Am)na stromě,
    (G)mám dojem, že (C)je do mě
-   (F)zamilován (G)až po (C)uši.
++  (F)zamilován (G)až po (C)uši.
    
 R: Hodil mi (Dm)náušnice z třešní,
-   třeš(Em)ňové náušnice,
++  třeš(Em)ňové náušnice,
    (F)náušnice z třešní,
-   nej(G)hezčí v republice,
++  nej(G)hezčí v republice,
    (Dm)náušnice z třešní
-   jsou (Em)dárek od Jakuba,
++  jsou (Em)dárek od Jakuba,
    (F)náušnice z třešní,
-   pusu (G)nedal, je to Kuba.
++  pusu (G)nedal, je to Kuba.
    
 2: Teplo je, léto je,
-   češu třešně vestoje,
++  češu třešně vestoje,
    myslím při tom na Jakuba.
-   Je na něm nepěkné,
++  Je na něm nepěkné,
    že mi slovo neřekne,
-   že je trochu líná huba.
++  že je trochu líná huba.
 
 3: (C)Teplo je, (Am)léto je,
-   (G)češu třešně (C)vestoje,
++  (G)češu třešně (C)vestoje,
    (F)překrásný je (G)ten den dneš(C)ní. (Am)
-   (F)Já mám náuš(G)nice z třeš(C)ní, (C(7))
++  (F)Já mám náuš(G)nice z třeš(C)ní, (C(7))
    (F)překrásný je (G)ten den dneš(C)ní, (Am)
-   (F)já mám náuš(G)nice z třeš(C)ní.
++  (F)já mám náuš(G)nice z třeš(C)ní.
 
 ==================
 
@@ -2333,8 +2333,7 @@ R: S tou (Am)kytárou teď stojím před tvým (Em)domem,
 
 3: = 1.
 
-R: S tou kytárou ...
-   ... (G7)pozvi naho(C)ru,
+R + (G7)pozvi naho(C)ru,
    po(B)zvi n(H)ahoru.(C) 
 
 ==================
@@ -2548,7 +2547,7 @@ nic stejné nebude dál, svět promění se
 Pak, koně klus promění v cval,
 nic stejné nebude dál, svět promění se
 Pak, koně Klus promění v cval,
-nic stejné nebude dál, svět promění se pak...
+nic stejné nebude dál, svět promění se pak ...
 
 ==================
 

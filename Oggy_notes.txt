@@ -1,29 +1,77 @@
-do budoucna by mohlo capo být součástí hlavičky
-taky by šlo do hlavičky uvádět takt
-co vlastně všecko do hlavičky??
-
-\uv{} - jsou uvozovky - najít všecky ruzny uvozovky scriptem
-\sl{} - nakloněný text, liší se od \it{} což je italics a používá se interně v recitalech (C:)
-POZOR taky se liší od {\sl text} - \sl{} je tvoje zadefinovany makro, {\sl } fungovalo jen kdyz nebylo to makro zadefinovany jenze to si pak zas nemuzes vybrat font asi...? resp. to zkousi pouzit slanted verzi toho basic fontu a pak chybi diakritika.
-
-Mělo by se vyřešit to že trojtečky maj teď dvojí význam - náznak toho že se má zpívat něco co "je jasný" (třeba stejně jak už bylo napsaný předtím) vs. že se zpívá do ztracena, to by asi chtělo nějak odlišit.
-Chceme u trojteček kolem mezery z obou stran vždycky...?
-
-otestovat různý fonty a věci na titulce a nechat lidi rozhodnout
-
-vícekrát repetice - n× /: ... :/
-
 zjistit jaký akordy jsou nový a nebyly ve zpěvníku a dokreslit je - přidat do chords v tail
 
-akordy v recitaci? - v C: se zdá že fungujou a v \sl snad nikdy nejsou
+Mělo by se vyřešit to že trojtečky maj teď dvojí význam - náznak toho že se má zpívat něco co "je jasný" (třeba stejně jak už bylo napsaný předtím) vs. že se zpívá do ztracena, to by asi chtělo nějak odlišit.
+Chceme u trojteček kolem mezery z obou stran vždycky...? Chtělo by to ty ... vs + dokončovačky ještě projít.
 
-(later) combine helper python scripts into one, or at least put them into a separate folder and kinda normalize them so that they're consistent
+new regex!
+	can be used to find broken equality verses where two were on consecutive lines like:
+	5: = 1.
+	6: = 2.
 
-Layout:
-Use \vskip for manual vertical spacing. For example, \vskip 1cm or \vskip 10pt.
-If you want to ensure a page break before a song, use \break or \vfill\break.
-If you want to prevent a page break between two songs, you can use \nobreak\vskip... or group the songs in a \vbox (advanced).
-For flexible spacing, you can use glue: \vskip 1cm plus 0.5cm minus 0.2cm.
+	But also finds one of the continuation patterns like:
+	3: = 1.
+	...labutě, labutě.
+
+	This is it:
+	^[a-zA-Z0-9]{1,2}: = [a-zA-Z0-9]{1,2}\.\R(?!\R).+
+
+-------------------------------
+
+Spacing:
+	General:
+		Use \vskip for manual vertical spacing. For example, \vskip 1cm or \vskip 10pt.
+		If you want to ensure a page break before a song, use \break or \vfill\break.
+		If you want to prevent a page break between two songs, you can use \nobreak\vskip... or group the songs in a \vbox (advanced).
+		For flexible spacing, you can use glue: \vskip 1cm plus 0.5cm minus 0.2cm.
+
+	Random "vypadá debilně":
+		když přijdou chvíle s tim Am na začátku
+		Dva Havrani - only one part of quotes in repetition
+		konec pod dubem za dubem - jak to tam má to samotný Am tak ten řádek je najednou o něco víc odsazenej
+		takovýto opakování ve sbohem galánečko?
+		co takovýty naše nový pluska ála "Putování"? Zkusit přirazit pomocí M:? třeba bude vypadat líp.
+
+	Horizontal:
+		Přetéká:
+			Dej mi víc své lásky
+			Dělání
+			Frenky Dlouhán
+			Hudsonský šífy
+			Broadway
+			jarní kurýr
+			jarní tání
+			johanka
+			jožin
+			kometa
+			lachtani
+			mršina
+			nezacházej slunce
+			omnia vincit amor (uplně na konci elipsa)
+			Píseň zrhzeného trampa
+			Rehradice
+			Sbohem galánečko
+			Zahrada ticha
+			Zelené pláně
+			Ze všech chlapů nej...
+
+2. kolo - frenky, mršina, rehradice ale to je takový spešl tam, 
+
+		Rozšířil jsi:
+			Kolik je na světě
+			Labutě
+			Lotr intelektuál
+			Náušnice z třešní
+			Není nutno
+			Putování
+			Rád chodim na poštu
+			Tři citrónky 
+			Zapadání
+
+2. kolo - zdaj se ok, pokud zachováš zmenšení na 10pt, je možno najít další. To zmenšení mimochodem možná ověřit jestli dřív nezpůsobilo \rm místo \textfont že to bylo 10pt i když bylo psáno 11pt.
+
+-------------------------------
+
+Odtud níž HOTOVO, nebo nechávám na později/zelený
 
 -------------------------------
 
@@ -60,3 +108,19 @@ broken ellipses (...):
 
 Vícenásobný reptice co mají x místo ×:
 \b\d+x\b
+
+-------------------------------
+
+vícekrát repetice - n× /: ... :/
+
+do budoucna by mohlo capo být součástí hlavičky
+taky by šlo do hlavičky uvádět takt
+co vlastně všecko do hlavičky??
+
+(later) combine helper python scripts into one, or at least put them into a separate folder and kinda normalize them so that they're consistent
+
+\uv{} - jsou uvozovky - najít všecky ruzny uvozovky scriptem
+\sl{} - nakloněný text, liší se od \it{} což je italics a používá se interně v recitalech (C:)
+POZOR taky se liší od {\sl text} - \sl{} je tvoje zadefinovany makro, {\sl } fungovalo jen kdyz nebylo to makro zadefinovany jenze to si pak zas nemuzes vybrat font asi...? resp. to zkousi pouzit slanted verzi toho basic fontu a pak chybi diakritika.
+
+akordy v recitaci? - v C: se zdá že fungujou a v \sl snad nikdy nejsou
