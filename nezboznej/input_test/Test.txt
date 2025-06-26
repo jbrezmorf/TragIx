@@ -114,28 +114,47 @@ Letět zpátky domů, kde znáš i stíny stromů
 
 ==================
 
-N: Dva Havrani
-A: Asonance
+N: Vodácká holka
+A: Hop Trop
 AC:
 Z:
 ZC:
 
-1: (Dm)Když jsem se z pole (C)vrace(Dm)la, 
-+  dva havrany jsem (C)sly(Dmi)šela, 
-   jak jeden d(F)ruhého se (C)ptá: /: \uv{(Dm)kdo dneska veče(C)ři nám (Dm)dá?} :/ 
+1: (D)Když vlny (Em)se valí(G) a peře(A)je řvou 
++  a (D)šutry z nich (Em)civí jak (G)sů(A)vy, 
+   loď (D)praská a (Em)umrlčí (G)zvon bije (A)tmou, 
++  tak (D)řekni, kdo (Em)pomoct ti (A) u(D)mí. 
 
-2: Ten první k druhému se otočil 
-+  a černým křídlem cestu naznačil, 
-   krhavým zrakem k lesu hleděl, /: a takto jemu odpověděl. :/
+   Kdo (Hm)pádlem jen km(F"m)itne a př(G)evrátí l(D)oď, 
++  pak (Hm)ječí jak sta(F"m)ženej z k(A)ů(D)že, 
+   že t(Hm)y jseš ta (F"m)atrapa, (G)ty jseš ten cv(D)ok, 
++  co z(E)a každý cvaknutí můž(A)e. 
 
-3: Za starým náspem, v trávě schoulený 
-+  tam leží rytíř v boji raněný, 
-   a nikdo neví, že umírá, /: jen jeho kůň a jeho milá. :/
+2: Je pěkná jak ráno a voní jak les,
++  když na dřevo u ohně hrává,
+   je zrádná jak kočka a věrná jak pes,
++  ta holka, co při tobě spává. 
 
-4: Jeho kůň dávno po lesích běhá 
-+  a jeho milá už jiného má, 
-   už pro nás bude dosti místa, /: hostina naše už se chystá. :/
+R: Tu (G)vodáckou (Hm)holku si (A)navěky (D)nech, 
++  (G)netop ji, (Hm)neza(A)há(D)něj, 
+   svou (Em)víru, svou (Hm)sílu, svý š(F"m)těstí i (Hm)pech, 
++  svý (Em)strachy, svý (D)prachy, svůj (E)poslední (A)dech 
+   jí (D)poctivě (Em)odevzdáv(A)ej 
++  (D)a lásku z(Em)a lásku d(G)áv(A)ej.(D)
+ 
+3: Kdo připálí rejži a přesolí čaj,
++  kdo sůl nechá v posledním kempu,
+   kdo ráj změní v peklo a peklo zas v ráj,
++  kdo zná všechny písničky trempů.
 
-5: Na jeho bílé tváře usednem 
-+  a jeho modré oči vyklovem, 
-   a až se masa nasytíme, /: z vlasů si hnízdo postavíme. :/
+   Kdo přeje ti štěstí a kope ti hrob
++  kdo sladce hned šeptá, hned vříská, 
+   a koho bys roztrh' a praštil a kop'
++  a po kom se celej den stýská. 
+ 
+4: Až vlasy nám odbarví nebeskej král
++  a vrásky nám počmáraj' kůži, 
+   svý holce dej pusu a řekni \uv{jdem dál} 
++  a na pádlo polož jí růži. 
+
+R: Tu vodáckou holku ...

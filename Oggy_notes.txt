@@ -1,19 +1,4 @@
-zjistit jaký akordy jsou nový a nebyly ve zpěvníku a dokreslit je - přidat do chords v tail
-
-Mělo by se vyřešit to že trojtečky maj teď dvojí význam - náznak toho že se má zpívat něco co "je jasný" (třeba stejně jak už bylo napsaný předtím) vs. že se zpívá do ztracena, to by asi chtělo nějak odlišit.
-Chceme u trojteček kolem mezery z obou stran vždycky...? Chtělo by to ty ... vs + dokončovačky ještě projít.
-
-new regex!
-	can be used to find broken equality verses where two were on consecutive lines like:
-	5: = 1.
-	6: = 2.
-
-	But also finds one of the continuation patterns like:
-	3: = 1.
-	...labutě, labutě.
-
-	This is it:
-	^[a-zA-Z0-9]{1,2}: = [a-zA-Z0-9]{1,2}\.\R(?!\R).+
+Zjistit jaký akordy jsou nový a nebyly ve zpěvníku a dokreslit je - přidat do chords v tail
 
 -------------------------------
 
@@ -24,129 +9,114 @@ Spacing:
 		If you want to prevent a page break between two songs, you can use \nobreak\vskip... or group the songs in a \vbox (advanced).
 		For flexible spacing, you can use glue: \vskip 1cm plus 0.5cm minus 0.2cm.
 
-	Random "vypadá debilně":
-		Dva Havrani - only one part of quotes in repetition or after repetition - both looks kinda sus
-		takovýto divno opakování ve sbohem galánečko? a ještě je to v nějakým songu.. jako asi je to snad jasný noo
+	Rozšířil jsi:
+		Kolik je na světě
+		Labutě
+		Lotr intelektuál
+		Náušnice z třešní
+		Není nutno
+		Putování
+		Rád chodim na poštu
+		Tři citrónky 
+		Zapadání
 
-	Horizontal:
-		Přetéká:
-			Dej mi víc své lásky
-			Dělání
-			Frenky Dlouhán
-			Hudsonský šífy
-			Broadway
-			jarní kurýr
-			jarní tání
-			johanka
-			jožin
-			kometa
-			lachtani
-			mršina
-			nezacházej slunce
-			omnia vincit amor (uplně na konci elipsa)
-			Píseň zrhzeného trampa
-			Rehradice
-			Sbohem galánečko
-			Zahrada ticha
-			Zelené pláně
-			Ze všech chlapů nej...
-
-2. kolo - frenky (protože mu holky odlomily druhou sloku, revertnuto), mršina (je new no, prostě jsem to musel rozseknout bohužel)
-
-		Rozšířil jsi:
-			Kolik je na světě
-			Labutě
-			Lotr intelektuál
-			Náušnice z třešní
-			Není nutno
-			Putování
-			Rád chodim na poštu
-			Tři citrónky 
-			Zapadání
-
-2. kolo - zdaj se ok, pokud zachováš zmenšení na 10pt, je možno najít další. To zmenšení mimochodem možná ověřit jestli dřív nezpůsobilo \rm místo \textfont že to bylo 10pt i když bylo psáno 11pt.
-		navíc rozšířeno:
-			Antarktida ref a nana
-			Barbora píše z tábora
-			Buchet je spousta
-			Což se mně má milá
-			Časy se mění
-			Drunken sailor - ne uplně rozšíření ale zrepeticování slok (to samý pak u strč prst skrz krk)
-			Dva havrani - rozšířeno + zkusili jsme zavřít uvozovky až za repeticí mrkni jak to vypadá
-			Hey Jude
-			Holky z naší školky ref
-			Já budu chodit po špičkách - ne uplně rozšíření ale mrkni jak vypadá repet na konci
-			Jasná zpráva
-			Léto s tebou
-			Marie první sloka
-			Mravenčí ukolébavka
-			My jsme hoši z Ještěda
-			Na kameni kámen
-			O malém rytíři - ref, ve snaze dostat to na jednu stránku...
-			Racci
-			Řízni, řízni
-			Stará archa - nevypadá to retardovaně?
-			Šurean
-			Trh ve Scarborough
-			---
-			Velmi nesmělá
-			Vlaštovko leť
-			Vlčí máky
-
-Vodácká holka možná taky?
+	2. kolo - zdaj se ok, pokud zachováš zmenšení na 10pt, je možno najít další. To zmenšení mimochodem možná ověřit jestli dřív nezpůsobilo \rm místo \textfont že to bylo 10pt i když bylo psáno 11pt.
+	Navíc rozšířeno:
+		Antarktida ref a nana
+		Barbora píše z tábora
+		Buchet je spousta
+		Což se mně má milá
+		Časy se mění
+		Drunken sailor - ne uplně rozšíření ale zrepeticování slok (to samý pak u strč prst skrz krk)
+		Dva havrani - rozšířeno + zkusili jsme zavřít uvozovky až za repeticí mrkni jak to vypadá
+		Hey Jude
+		Holky z naší školky ref
+		Já budu chodit po špičkách - ne uplně rozšíření ale mrkni jak vypadá repet na konci
+		Jasná zpráva
+		Léto s tebou
+		Marie první sloka
+		Mravenčí ukolébavka
+		My jsme hoši z Ještěda
+		Na kameni kámen
+		O malém rytíři - ref, ve snaze dostat to na jednu stránku...
+		Racci
+		Řízni, řízni
+		Stará archa - nevypadá to retardovaně?
+		Šurean
+		Trh ve Scarborough
+		Velmi nesmělá
+		Vlaštovko leť
+		Vlčí máky
+		Vodácká holka
 
 -------------------------------
 
-Odtud níž HOTOVO, nebo nechávám na později/zelený
+Odtud níž HOTOVO, nebo nechávám na později/zelený zpěníky
 
 -------------------------------
 
 Watchout for:
-Literals:
-špatnej apostrof - ´
-literal ellipses - …
-hvězdičky - *
-m-dashes a dvojpomlčky - ---/--
+	Literals:
+		špatnej apostrof - ´
+		literal ellipses - …
+		hvězdičky - *
+		m-dashes a dvojpomlčky - ---/--
+		špatně omezeřená čárka -  , 
 
-REGEX:
-special chars in header
-^(?:N|A|AC|Z|ZC):.*[^a-zA-Z0-9 áÁčČďĎéÉěĚíÍňŇóÓřŘšŠťŤúÚůŮýÝžŽ,\r\n].*\R
-^(?:N|A):.*[^a-zA-Z0-9 áÁčČďĎéÉěĚíÍňŇóÓřŘšŠťŤúÚůŮýÝžŽ,\r\n].*\R
+	REGEX:
+		Špatnej znak za čárkou:
+		,(?![ \}\(\t\r\n])
 
-faily v malych akordech, jakože (c) místo (C):
-\([a-z]
+		special chars in header
+		^(?:N|A|AC|Z|ZC):.*[^a-zA-Z0-9 áÁčČďĎéÉěĚíÍňŇóÓřŘšŠťŤúÚůŮýÝžŽ,\r\n].*\R
+		^(?:N|A):.*[^a-zA-Z0-9 áÁčČďĎéÉěĚíÍňŇóÓřŘšŠťŤúÚůŮýÝžŽ,\r\n].*\R
 
-spatne oznaceny sloky jakoze 1. misto 1:
-^\d+\.
+		faily v malych akordech, jakože (c) místo (C):
+		\([a-z]
 
-rozbity repetice:
-(?:/:(?! )|(?<! ):/)
+		spatne oznaceny sloky jakoze 1. misto 1:
+		^\d+\.
 
-Autoři s "a":
-^A:.* a 
+		rozbity repetice:
+		(?:/:(?! )|(?<! ):/)
 
-Prázdný autor:
-^A:[ \t]*$
+		Autoři s "a":
+		^A:.* a 
 
-broken ellipses (...):
-(?<!\.)\.\.(?!\.)
-\.{4,}
+		Prázdný autor:
+		^A:[ \t]*$
 
-Vícenásobný reptice co mají x místo ×:
-\b\d+x\b
+		broken ellipses (...):
+		(?<!\.)\.\.(?!\.)
+		\.{4,}
+
+		Vícenásobný reptice co mají x místo ×:
+		\b\d+x\b
+
+		Double meaning regex:
+		can be used to find broken equality verses where two were on consecutive lines like:
+		5: = 1.
+		6: = 2.
+		But also finds one of the continuation patterns like:
+		3: = 1.
+		...labutě, labutě.
+		This is it:
+		^[a-zA-Z0-9]{1,2}: = [a-zA-Z0-9]{1,2}\.\R(?!\R).+
 
 -------------------------------
 
-vícekrát repetice - n× /: ... :/
+Notes:
+	Vícenásobné repetice zapisujeme jako - n× /: ... :/
+	\uv{} - jsou uvozovky - najít všecky ruzny uvozovky scriptem
+	\sl{} - nakloněný text, liší se od \it{} což je italics a používá se interně v recitalech (C:)
+	POZOR taky se liší od {\sl text} - \sl{} je tvoje zadefinovany makro, {\sl } fungovalo jen kdyz nebylo to makro zadefinovany jenze to si pak zas nemuzes vybrat font asi...? resp. to zkousi pouzit slanted verzi toho basic fontu a pak chybi diakritika.
 
-do budoucna by mohlo capo být součástí hlavičky
-taky by šlo do hlavičky uvádět takt
-co vlastně všecko do hlavičky??
+Later:
+	Combine helper python scripts into one, or at least put them into a separate folder and kinda normalize them so that they're consistent!
 
-(later) combine helper python scripts into one, or at least put them into a separate folder and kinda normalize them so that they're consistent
+	do budoucna by mohlo capo být součástí hlavičky
+	taky by šlo do hlavičky uvádět takt
+	případně další info? Naopak většina těch aktuálních políček je z většiny dost nevyužitá...
 
-\uv{} - jsou uvozovky - najít všecky ruzny uvozovky scriptem
-\sl{} - nakloněný text, liší se od \it{} což je italics a používá se interně v recitalech (C:)
-POZOR taky se liší od {\sl text} - \sl{} je tvoje zadefinovany makro, {\sl } fungovalo jen kdyz nebylo to makro zadefinovany jenze to si pak zas nemuzes vybrat font asi...? resp. to zkousi pouzit slanted verzi toho basic fontu a pak chybi diakritika.
-
-akordy v recitaci? - v C: se zdá že fungujou a v \sl snad nikdy nejsou
+	Mělo by se vyřešit to že trojtečky maj teď dvojí význam - náznak toho že se má zpívat něco co "je jasný" (třeba stejně jak už bylo napsaný předtím) vs. že se zpívá do ztracena, to by asi chtělo nějak odlišit. Navíc co skutečnej trojtečka character...? Moc hezky nevypadá, když jsem zkoušel.
+	Chceme u trojteček kolem mezery z obou stran vždycky...?

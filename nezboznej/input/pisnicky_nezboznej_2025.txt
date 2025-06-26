@@ -540,7 +540,7 @@ AC:
 Z:
 ZC:
 
-1: Od z(C)rození až po věčnost , (Em)odvíjí se skutečnost, 
+1: Od z(C)rození až po věčnost, (Em)odvíjí se skutečnost, 
 že (F)nikdo nezná směr, kterým má (C)jít. 
 Jak nezvaný a vlezlý host pak (Em)navštíví tě minulost, 
 a z(F)jistíš, že ti nemá už co (C)říct. (C/H)
@@ -561,7 +561,7 @@ a (F)žádné z nich to nedokázal (C)říct. (C/H)
 a (Em)doufal, že je (Dm)někdo uslyší. (Gsus4) (G)
 
 5: Pak do (C)hlíny si nakreslil, 
-svůj (Em)kompas , který hledá cíl. 
+svůj (Em)kompas, který hledá cíl. 
 a (F)dlouze nad ním čekal (C)odpověď. 
 Procházel se po strunách,
 v (Em)oblacích i ve vlnách, 
@@ -4320,7 +4320,7 @@ ZC:
 
 R: (C)Já jsem (G)ostuda (Am)traperů, (F)já mám rád (C)operu, / (G)já mám rád (C)jazz, (G7)rock,
    (C)chodím (G)po světě (Am)bez nože, (F)to prý se (C)nemože, / (G)to prý jsem (C)cvok,
-   (F)já jsem nikdy neplul (C)na šífu, a všem (D7)šerifům / jsem říkal(G): \uv{Pane},ba ne.(G7)
+   (F)já jsem nikdy neplul (C)na šífu, a všem (D7)šerifům / jsem říkal(G): \uv{Pane}, ba ne.(G7)
    (C)já jsem (E7)ostuda (Am)trempů, (F)já když (C)chlempu, / tak (G7)v autokem(C)pu.
 
 2: A povídal mi frajer Joe: Jen žádný legrácky, / hóhóhó, jen žádný legrácky,
@@ -5829,7 +5829,7 @@ ZC:
    mohl bys jim vyprávěti @[třeba@],
    /: o mládí a o vojně, potom usnou pokojně. :/
 
-3: /: Ta naše hospoda odshora  odspoda , to je pěkné zařízení.
+3: /: Ta naše hospoda odshora  odspoda, to je pěkné zařízení.
    Polívka hřeje se, hostinský směje se, že mu pivo dobře pění. :/
 
    Náš táta tu dneska není @[není@], 
@@ -6909,41 +6909,41 @@ Z:
 ZC:
 
 1: (D)Když vlny (Em)se valí(G) a peře(A)je řvou 
-   a (D)šutry z nich (Em)civí jak (G)sů(A)vy, 
++  a (D)šutry z nich (Em)civí jak (G)sů(A)vy, 
    loď (D)praská a (Em)umrlčí (G)zvon bije (A)tmou, 
-   tak (D)řekni, kdo (Em)pomoct ti (A) u(D)mí. 
++  tak (D)řekni, kdo (Em)pomoct ti (A) u(D)mí. 
 
    Kdo (Hm)pádlem jen km(F"m)itne a př(G)evrátí l(D)oď, 
-   pak (Hm)ječí jak sta(F"m)ženej z k(A)ů(D)že, 
++  pak (Hm)ječí jak sta(F"m)ženej z k(A)ů(D)že, 
    že t(Hm)y jseš ta (F"m)atrapa, (G)ty jseš ten cv(D)ok, 
-   co z(E)a každý cvaknutí můž(A)e. 
++  co z(E)a každý cvaknutí můž(A)e. 
 
 2: Je pěkná jak ráno a voní jak les,
-   když na dřevo u ohně hrává,
++  když na dřevo u ohně hrává,
    je zrádná jak kočka a věrná jak pes,
-   ta holka, co při tobě spává. 
++  ta holka, co při tobě spává. 
 
 R: Tu (G)vodáckou (Hm)holku si (A)navěky (D)nech, 
-   (G)netop ji, (Hm)neza(A)há(D)něj, 
++  (G)netop ji, (Hm)neza(A)há(D)něj, 
    svou (Em)víru, svou (Hm)sílu, svý š(F"m)těstí i (Hm)pech, 
-   svý (Em)strachy, svý (D)prachy, svůj (E)poslední (A)dech 
++  svý (Em)strachy, svý (D)prachy, svůj (E)poslední (A)dech 
    jí (D)poctivě (Em)odevzdáv(A)ej 
-   (D)a lásku z(Em)a lásku d(G)áv(A)ej.(D)
++  (D)a lásku z(Em)a lásku d(G)áv(A)ej.(D)
  
 3: Kdo připálí rejži a přesolí čaj,
-   kdo sůl nechá v posledním kempu,
++  kdo sůl nechá v posledním kempu,
    kdo ráj změní v peklo a peklo zas v ráj,
-   kdo zná všechny písničky trempů.
++  kdo zná všechny písničky trempů.
 
    Kdo přeje ti štěstí a kope ti hrob
-   kdo sladce hned šeptá, hned vříská, 
++  kdo sladce hned šeptá, hned vříská, 
    a koho bys roztrh' a praštil a kop'
-   a po kom se celej den stýská. 
++  a po kom se celej den stýská. 
  
 4: Až vlasy nám odbarví nebeskej král
-   a vrásky nám počmáraj' kůži, 
++  a vrásky nám počmáraj' kůži, 
    svý holce dej pusu a řekni \uv{jdem dál} 
-   a na pádlo polož jí růži. 
++  a na pádlo polož jí růži. 
 
 R: Tu vodáckou holku ...
 
