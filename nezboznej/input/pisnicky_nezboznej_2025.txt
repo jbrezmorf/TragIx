@@ -504,8 +504,8 @@ R: Proč jsem se (Em)nenarodila
 +  (A) se Štefanem, co (D)říká si Stýv.
    (D7) Proč jste mě (G)prostě neměli
 +  (A) o pár let (D)dříve?
-   (Hm) Řekla bych: (Em)Nebuď nesmělý,
-+  (A) líbej mě (D)Stýve. (D)
+   (Hm) Řekla bych: \uv{(Em)Nebuď nesmělý,
++  (A) líbej mě (D)Stýve.} (D)
 
 5: Závěrem dopisu
 +  ještě trochu popisu:
@@ -1054,11 +1054,11 @@ Z:
 ZC:
 
 1: Sem (G)pojďte blíž (Em)lidé dny (D)i týdny (G)jdou
-   a (G)mraky se (C)toulají a (D4)vlny se (D)dmou.
++  a (G)mraky se (C)toulají a (D4)vlny se (D)dmou.
    A (G)spustí se (Em)déšť na (D)čtyřicet (G)dní
-   (G)Prší a (C)záchrany (D4)není(D).
++  (G)Prší a (C)záchrany (D4)není(D).
    Musíš plavat nebo (C)skončíš jak (Hm)těžký kame(D)ní,
-   každý (G)ví (C)časy se (D4)měn(D)í. (G)
++  každý (G)ví (C)časy se (D4)měn(D)í. (G)
    
 2: Jsi básník a píšeš o tajemství snů
 +  a vidíš tak dál, až do konce dnů.
@@ -1169,21 +1169,21 @@ Z:
 ZC:
 
 1: Mám (Dm)kufr plnej přebytečnejch (A)krámů 
-a mapu zabalenou do plátn(Dm)a. 
-Můj vlak však jede na opačnou (A)stranu 
-a moje jízdenka je dávno nepla(Dm)tná. 
++  a mapu zabalenou do plátn(Dm)a. 
+   Můj vlak však jede na opačnou (A)stranu 
++  a moje jízdenka je dávno nepla(Dm)tná. 
  
 M: (F Dm F Dm) Na na na na na...
  
 2: Někde ve vzpomínkách stojí dům, 
-ještě vidím, jak se kouří z komína. 
-V tom domě prostřený stůl, 
-tam já a moje rodina. 
++  ještě vidím, jak se kouří z komína. 
+   V tom domě prostřený stůl, 
++  tam já a moje rodina. 
  
 3: Moje minulost se na mě šklebí 
-a srdce bolí, když si vzpomenu, 
-že stromy, který měly dorůst k nebi, 
-tu leží vyvrácený z kořenů.
++  a srdce bolí, když si vzpomenu, 
+   že stromy, který měly dorůst k nebi, 
++  tu leží vyvrácený z kořenů.
 
 M: (F Dm F Dm) Na na na na na... 
  
@@ -1193,18 +1193,15 @@ Jsem černej (B)pasažér, (C)nemám (F)cíl ani směr,
 vezu se(B) odnikud (C)nikam a (A)nevím, kde skončím. 
  
 4: Mám to všechno na barevný fotce, 
-někdy z minulýho století.
-Tu jedinou a pocit bezdomovce, 
-si sebou nesu stále v paměti.
++  někdy z minulýho století.
+   Tu jedinou a pocit bezdomovce, 
++  si sebou nesu stále v paměti.
 
 M: (F Dm F Dm) Na na na na na... 
 
 R: Jsem černej pasažér...
 
-5: Mám kufr plnej přebytečnejch krámů 
-a mapu zabalenou do plátna. 
-Můj vlak však jede na opačnou stranu, 
-a moje jízdenka je dávno neplatná. 
+5: = 1.
 
 M: (F Dm F Dm) Na na na na na...
 
@@ -1374,9 +1371,9 @@ ZC:
 
 \sl{Opakuje se dvakrát}
 
-1: (D) Když máš srdce zjihlé, (G) když máš potíže. (D) Tak dej cihlu k cihle, (G) těsto do díže. 
-   (Em) Upeč (A)třeba chleba, (D) postav (Hm)třeba zeď. 
-   (Em) Žal se (A)krásně vstřebá, (D) začni s (D7)tím hned teď. (G) Začni s (A)tím hned (D)teď. (D7)
+1: (D)Když máš srdce zjihlé, (G) když máš potíže. (D) Tak dej cihlu k cihle, (G) těsto do díže. 
+   (Em)Upeč (A)třeba chleba, (D) postav (Hm)třeba zeď. 
+   (Em)Žal se (A)krásně vstřebá, (D) začni s (D7)tím hned teď. (G) Začni s (A)tím hned (D)teď. (D7)
 
 R: (G)Dělání, (A)dělání (D) všechny smutky (G)zahání. (Em)Dělání, (A)dělání je (D)lék. 
    (G)Dělání, (A)dělání (D)to nám úsměv (G)zachrání. (Em)Dělání, (A)dělání je (D)lék. 
@@ -1390,7 +1387,7 @@ Z:
 ZC:
 
 1: /: (Em)Já viděl (Am)divoké (Em)koně, (G)běželi (Am)soumra(Em)kem, :/
-    (Am)vzduch (Em)těžký (Am)byl a divně (Em)voněl (Adim)tabá-(C)kem,
+    (Am)vzduch (Em)těžký (Am)byl a divně (Em)voněl (Adim)tabá(C)kem,
     (Am)vzduch (Em)těžký (Am)byl a divně (Em)voněl (H7)tabá(Em)kem.
 
 2: Běželi, běželi bez uzdy a sedla krajinou řek a hor, 
@@ -1423,7 +1420,7 @@ ZC:
 (F)Svatý Me(G)dard můj pa(C)tron ťuká (Am)si na če(G)lo,
 (F)dokud se (G)zpívá (F)ještě se (G)neumře(C)lo. (Em Dm7 G7) 
 
-2: V kiosku koupím si housku a slané tyčky,
+2: Ve stánku koupím si housku a slané tyčky,
 srdce mám pro lásku a hlavu pro písničky.
 Ze školy dobře vím co by se dělat mělo,
 ale dokud se zpívá ještě se neumřelo.
@@ -1441,7 +1438,7 @@ tak dokud se zpívá ještě se neumřelo.
 5: Z Těšína vyjíždí vlaky až na kraj světa,
 zvedl jsem telefon a ptám se: \uv{Lidi jste tam?} 
 A z veliké dálky do uší mi zaznělo,
-že dokud se zpívá ještě se neumřelo - o.
+/: že dokud se zpívá ještě se neumřelo. :/
 
 ==================
 
@@ -1511,9 +1508,9 @@ Z:
 ZC:
 
 1: (Am)Vzhůru na palubu, (Dm)dálky vo(Am)lají, 
-    (Am)vítr už příhodný (G)vane (Am)nám. 
-    (Am)Tajemné příběhy (Dm)nás teď če(Am)kají, 
-    (Am)tvým domovem bude (G)oce(Am)án. 
++  (Am)vítr už příhodný (G)vane (Am)nám. 
+   (Am)Tajemné příběhy (Dm)nás teď če(Am)kají, 
++  (Am)tvým domovem bude (G)oce(Am)án. 
 
 R1: (F)V ráhnoví plachty (Am)vítr nadouvá, (F)žene loď v širou (Am)dál, 
     (Dm)kolébá boky (Am)plachetnice, (Dm)jak by si s ní jenom (E7)hrál. 
@@ -1521,9 +1518,9 @@ R1: (F)V ráhnoví plachty (Am)vítr nadouvá, (F)žene loď v širou (Am)dál,
     (Dm)Přítomnost země (Am)oznámí nám, (Dm)příletem (E7)kormo(Am)rán. 
 
 2: Náš ostrov vzdálený, z vln se vynoří, 
-    z příboje snů našich, pustý kraj.
-    Zátoku písčitou úsvit odhalí, 
-    háj palem, útesy bílých skal. 
++  z příboje snů našich, pustý kraj.
+   Zátoku písčitou úsvit odhalí, 
++  háj palem, útesy bílých skal. 
 
 R2: Příď krájí vlny i tvůj čas, srdce tvé tluče rázně, 
     nástrahy moře, nebezpečí, s přáteli zvládneš vždy snáz. 
@@ -1574,7 +1571,7 @@ ZC:
 R: (A)Byl to ten slavný den, kdy k nám byl zaveden (E7)elek(Edim)trický (E7)proud,
    byl to ten slavný den, kdy k nám byl zaveden (A)elek(Adim)trický (A)proud,
    (A7)střída(D)vý, (E)střída(C"m)vý,  (F"m)silný (H)elek(E7)trický (A)proud,
-   (A7)střída(D)vý, (E)střída(C"m)vý, (F"m)zkrátka (Hm)elek-(E7)trický (A)proud.
+   (A7)střída(D)vý, (E)střída(C"m)vý, (F"m)zkrátka (Hm)elek(E7)trický (A)proud.
 
 2: Na stránkách obecní kroniky ozdobným písmem je psáno:
    tento den pro zdejší rolníky znamenal po noci ráno,
@@ -2072,7 +2069,7 @@ ZC:
 +   (Hm)kdo vás tu (F"m)zanech(E)al
    (Hm7)na trávě pová(A)lané(D),
 +   (Hm)na trávě (E)pová(A)lané(D)
-   (Hm)u paty (F"m)oře(E)cha? (Hm) (F"m) (E)
++  (Hm)u paty (F"m)oře(E)cha? (Hm) (F"m) (E)
 
 2: /: A kdože tu trávu tak zválal, aj modré fialy, :/
    /: že ste, husličky, samé :/ na světě zostaly?
@@ -2196,7 +2193,7 @@ ZC:
    (D)nech si o mně (G)něco zdát, (Em)ať je krásný (A)ten tvůj sen.
 
 R: (Em)Já budu chodit (A)po špičkách, (Em)snad tě tím nevz(A)budím,
-   (Em)a-až slunce (A)vyjde v tmách, (G)polibkem tě (A)probudím.
+   (Em)a až slunce (A)vyjde v tmách, (G)polibkem tě (A)probudím.
 
 2: Jdi si lehnout, ať už spíš  ať z toho snu něco máš,
    ráno, až se probudíš, polibek mi taky dáš.
@@ -2368,8 +2365,8 @@ ZC:
 
 1: Býval jsem (D)chudý jak (G)kostelní (D)myš,
    na půdě (F"m)půdy jsem (Hm)míval svou (A)skrýš,
-  /: (G)pak jednou (D)v létě (A)řek' jsem si: (Hm)Bať,
-   (G)svět facku(D)je tě, a (G)tak mu to (D)vrať. :/
+  /: (G)pak jednou (D)v létě (A)řek' jsem si: \uv{(Hm)Bať,
+   (G)svět facku(D)je tě, a (G)tak mu to (D)vrať.} :/
 
    Když mi dát nechceš, já vezmu si sám,
    zámek jde lehce a adresu znám,
@@ -2379,7 +2376,7 @@ ZC:
 R1: Jdou po mně, (D)jdou, (G)jdou, (D)jdou,
 +   na každém (F"m)rohu ma(Hm)jí fotku (A)mou,
    (G)kdyby mě (D)chytli, (A)jó, byl by (Hm)ring,
-+   (G)tma jako (D)v pytli je (C)v celách Sing-(G)sing.
++   (G)tma jako (D)v pytli je (C)v celách Sing (G)Sing.
    (A)jé, (D)jé. (G) (D)
 
 2: Ve státě Iowa byl od poldů klid,
@@ -2400,7 +2397,7 @@ R1: Jdou po mně, (D)jdou, (G)jdou, (D)jdou,
 R2: Jdou po mně (D)jdou, (G)jdou, (D)jdou,
 +   na nočních (F"m)stolcích ma(Hm)jí fotku (A)mou,
    (G)kdyby mě (D)klofli, (A)jó, byl by (Hm)ring,
-+   (G)žít pod pan(D)toflí je (C)hůř než v Sing-(G)sing,
++   (G)žít pod pan(D)toflí je (C)hůř než v Sing (G)Sing,
    (A)jé, (D)jé. (G D A D)
 
 ==================
@@ -2552,7 +2549,7 @@ příběhu starýho blázna, co vyměnil pýchu za něhu. (E)
 
 4: Slibuju v příštím životě, podruhý stejnou chybu neudělám,
 ať chceš nebo ne já najdu tě a zvednu a rozsvítím tvůj drahokam. 
-Já vůl, já blázen, - kdo postaví mé nohy na zem, 
+Já vůl, já blázen, kdo postaví mé nohy na zem, 
 /: kdo to pro mě kromě tebe udělá :/ (A)
 
 ==================
@@ -2853,7 +2850,7 @@ Z:
 ZC:
 
 1: Byl jeden (G)pán, ten kozla (C)měl,   velice (D7)si s ním rozu(G)měl,
-   měl ho moc rád, opravdu (C)moc,   hladil mu (D7)fous na dobrou (G)noc(D7)(G).
+   měl ho moc rád, opravdu (C)moc,   hladil mu (D7)fous na dobrou (G)noc.(D7)(G)
 
 2: Jednoho dne se kozel splet,   rudé tričko pánovi sněd,
    jak to pán zřel, zařval \uv{jejé},   svázal kozla na koleje.
@@ -2872,7 +2869,7 @@ ZC:
 1: (E)Tmou zní zvony z (C"m)dálky, o (F"m)čem to, milý, (G"m)sníš,
    (G")hoří (A)dál plamen (F"m)války a (E)rá(F"m)no je (H7)blíž,
    chci (E)být stále (C"m)s tebou, až (F"m)trubka začne (G"m)znít,
-   (G")lásko (A)má, vem mě (F"m)s sebou! - (E)Ne, to (A)nesmí (E)být!
+   (G")lásko (A)má, vem mě (F"m)s sebou! (E)Ne, to (A)nesmí (E)být!
 
 2: Můj šál skryje proud vlasů, za pás pak připnu nůž,
    poznáš jen podle hlasu, že já nejsem muž,
@@ -3111,7 +3108,7 @@ Z: Já, písnička 1 (1993)
 ZC:
 
 1: (D)Malé (Hm)kotě (Em)mňau, (A7)mňau, (D)spalo (Hm)v botě (Em)mňau, (A7)mňau,
-(D)nehas (Hm)co tě (Em)mňau, (A7)mňau, (D)ne-(G)pá, (D)ne-(G)pá(D)lí.
+(D)nehas (Hm)co tě (Em)mňau, (A7)mňau, (D)ne-(G)pá, (D)ne(G)pá(D)lí.
 
 2: My jsme kotě mňau, mňau, spáti v botě mňau, mňau
 po robotě, mňau, mňau, ne-cha, nechali.
@@ -3262,7 +3259,7 @@ R: Já (C)mám Marie (E)rád. Když má (F)moje bytí (G) spád.
    (G)život vdecho(C)vat.
 
 5: (C)Copak nemůže být. Mezi (E)ženou a mužem.
-   (F)Přátelství - kde není (G)nikdo nic dlužen.
+   (F)Přátelství kde není (G)nikdo nic dlužen.
    (C)Prostě jen prosté (E)spříznění duší,
    (F)aniž by kdokoli (G)cokoli tušil.
 
@@ -3333,8 +3330,8 @@ AC:
 Z: 
 ZC:
 
-1: (G)Prvá, druhá, (C)třetí, (D)čtvr(G)tá(C) (D)
-+(G)na zahradě (C)krtek (D)vr(G)tá(C) (D) 
+1: (G)Prvá, druhá, (C)třetí, (D)čtvr(G)tá (C) (D)
++(G)na zahradě (C)krtek (D)vr(G)tá (C) (D) 
 (Emi)drápy má jak (C)vývrtky, oho(G)ho, 
 +(Ami)vrtá metro (C)pro krt(D)ky, oho(G)ho.(C) (D) 
 
@@ -3386,7 +3383,7 @@ ZC:
    (E)Zapínám (F)telefon, (Dm)záznamník (E)cizích citů,
    špatné zprávy (F)chodí jako (Dm)policie (E)za úsvitu,
    (Dm)jsem napůl bdělý a (G)napůl ještě v noční pauze,
-   (C)měl bych se smát, ale (E)mám úsměv Mikymauze, (Am)rána b(Am/G)ych zr(F)uš(E)i(Am)l. 
+   (C)měl bych se smát, ale (E)mám úsměv Mikymauze, (Am)rána b(Am/G)ych zr(F)uš(E)il.(Am) 
 
 2: Dobrý muž v rádiu pouští Chick Coreu,
    opravdu veselo je, asi jako v mauzoleu,
@@ -3558,9 +3555,9 @@ ZC:
 
 1: (D)Slunce šlo (A)spát
 +  (Hm)za hromádku (A)klád
-   (D)na nebi (G)hvězdy klí(A)čí. (A7)
-+  (D)Už nepra(A)cuj, (Hm)mravenečku (A)můj,
-   (D)schovej se (G)do je(A)hli(D)čí.
++  (D)na nebi (G)hvězdy klí(A)čí. (A7)
+   (D)Už nepra(A)cuj, (Hm)mravenečku (A)můj,
++  (D)schovej se (G)do je(A)hli(D)čí.
 
 R: (D)Máš (Em)nožičky (F"m)uběha(D)né,
 +  den (Em)byl tak těž(A)ký. (A7)
@@ -3569,9 +3566,9 @@ R: (D)Máš (Em)nožičky (F"m)uběha(D)né,
 
 2: Spinká a sní
 +  mravenec lesní
-   v hromádce u kapradí.
-+  Nespinká sám, s maminkou je tam,
-   tykadlama ho hladí.
++  v hromádce u kapradí.
+   Nespinká sám, s maminkou je tam,
++  tykadlama ho hladí.
  
 (D)Lá lá lá (A)lá  (Hm)Lálálá lá  (A)lá   (D)Lá lá lá   (G)Lá lá (A)lá  (D)lá
 
@@ -4343,7 +4340,7 @@ AC: SK
 Z:
 ZC:
 
-1: (G)Dívka (Am)loudá se (Hm)vini-(Am)cí, (G)tam, kde (Am)zídka je (Hm)ní(Am)zká,
+1: (G)Dívka (Am)loudá se (Hm)vini(Am)cí, (G)tam, kde (Am)zídka je (Hm)ní(Am)zká,
    (G)tam, kde (Am)stráň končí (Hm)voní(C)cí, si (G)písnič(C)ku někdo (G)pí(D)ská.
 
 R: \sl{@[pískaná sloka@]}
@@ -4670,45 +4667,45 @@ AC:
 Z: 
 ZC:
 
-1: (Am)Darmo sa ty trápíš (G)můj milý sy(C)nečku 
-nenosím ja tebe (Dm)nenosím v sr(Am)déčku 
-A já tvo(G)ja (C)ne(G)bu(C)du (Dm)ani jednu (E)hodinu (Am)
+1: (Am)Darmo sa ty trápíš (G)můj milý sy(C)nečku,
+nenosím ja tebe (Dm)nenosím v sr(Am)déčku.
+A já tvo(G)ja (C)ne(G)bu(C)du (Dm)ani jednu (E)hodinu. (Am)
  
-2: Copak sobě myslíš má milá panenko 
-vždyť ty si to moje rozmilé srdénko 
-A ty musíš býti má lebo mi tě Pán Bůh dá 
+2: Copak sobě myslíš má milá panenko, 
+vždyť ty si to moje rozmilé srdénko. 
+A ty musíš býti má lebo mi tě Pán Bůh dá. 
  
-3: A já sa udělám malú veverečkú 
-a uskočím tobě z dubu na jedličku 
-Přece tvoja nebudu ani jednu hodinu 
+3: A já sa udělám malú veverečkú, 
+a uskočím tobě z dubu na jedličku. 
+Přece tvoja nebudu ani jednu hodinu. 
  
-4: A já chovám doma takú sekérečku 
-ona mi podetne dúbek i jedličku 
-A ty musíš býti má lebo mi tě Pán Bůh dá 
+4: A já chovám doma takú sekérečku, 
+ona mi podetne dúbek i jedličku,
+A ty musíš býti má lebo mi tě Pán Bůh dá. 
  
-5: A já sa udělám tú malú rybičkú 
-a já ti uplynu preč po Dunajíčku 
-Přece tvoja nebudu ani jednu hodinu 
+5: A já sa udělám tú malú rybičkú, 
+a já ti uplynu preč po Dunajíčku. 
+Přece tvoja nebudu ani jednu hodinu. 
  
-6: A já chovám doma takovú udičku 
-co na ni ulovím kdejakú rybičku 
-A ty přece budeš má lebo mi tě Pán Bůh dá 
+6: A já chovám doma takovú udičku, 
+co na ni ulovím kdejakú rybičku. 
+A ty přece budeš má lebo mi tě Pán Bůh dá. 
  
-7: A já sa udělám tú velikú vranú 
-a já ti uletím na uherskú stranu 
-Přece tvoja nebudu ani jednu hodinu 
+7: A já sa udělám tú velikú vranú, 
+a já ti uletím na uherskú stranu. 
+Přece tvoja nebudu ani jednu hodinu. 
  
-8: A já chovám doma starodávnú kušu 
-co ona vystřelí všeckým vranám dušu 
-A ty musíš býti má lebo mi tě Pán Bůh dá 
+8: A já chovám doma starodávnú kušu, 
+co ona vystřelí všeckým vranám dušu. 
+A ty musíš býti má lebo mi tě Pán Bůh dá. 
  
-9: A já sa udělám hvězdičkú na nebi 
-a já budu lidem svítiti na nebi 
-Přece tvoja nebudu ani jednu hodinu 
+9: A já sa udělám hvězdičkú na nebi, 
+a já budu lidem svítiti na nebi. 
+Přece tvoja nebudu ani jednu hodinu. 
  
-10: A sú u nás doma takoví hvězdáři 
-co vypočítajú hvězdičky na nebi 
-A ty musíš býti má lebo mi tě Pán Bůh dá
+10: A sú u nás doma takoví hvězdáři, 
+co vypočítajú hvězdičky na nebi. 
+A ty musíš býti má lebo mi tě Pán Bůh dá.
 
 ==================
 
@@ -5578,9 +5575,9 @@ ZC:
    a (F)táta mu u (G)prašný cesty (E)života strom zasadil. 
 
 R: A on tam (A)stál a koukal (F"m)do polí,
-   byl jak (D)král sám v celém (E)okolí, 
++  byl jak (D)král sám v celém (E)okolí, 
    korunu (F"m)měl, i když ne (D)ze zlata 
-   a jeho (A)pokladem byla (E)tráva střapa(A)tá. 
++  a jeho (A)pokladem byla (E)tráva střapa(A)tá. 
    
 2: Léta běží a na ten příběh si už nikdo nevzpomněl,
    jen košatý strom se u cesty ve větru tiše chvěl.
@@ -6026,8 +6023,7 @@ ZC:
    (A)ve zdi byl totiž po dědovi (D)velký trezor ocelový.
    (E7)Mám tedy ztrátu zdánlivě minimáln(D)í. (A)
 
-R: Na to že (E7)náhodně v krámě vášnivé 
-   dámě (A)padl jsem za tro(F"m)fej,
+R: Na to že (E7)náhodně v krámě vášnivé dámě (A)padl jsem za tro(F"m)fej,
    (H7)tvrdila pevně: přijdu tě levně, (E7)nezoufej, ó jé, jé, jé, jé.
 
 2: Jenže potom v naší vile chovala se zhůvěřile,
@@ -6097,7 +6093,7 @@ ZC:
 R: Protože (D)láska, láska, láska v každém (G)srdci klí(D)čí,
    protože láskou hoří i to srdce (G)trpasli(D)čí
    a kdo se v téhle věci jednoduše (G)neopi(D)čí,
-   ten ať se dívá, co se děje v lese (G)na jehli(D)čí.(D7)
+   ten ať se dívá, co se děje v lese (G)na jehli(D)čí. (D7)
    
 3: Mají tam lásku jako trámek, pláče tchýňka, pláče tchánek,
    štěstíčko  přejou mladí, staří, v Papinově hrníčku se maso vaří.
@@ -6105,7 +6101,7 @@ R: Protože (D)láska, láska, láska v každém (G)srdci klí(D)čí,
 4: Pijou tam pivo popovický, Šmudla se opil jako vždycky,
    Kejchal kejchá na Profouse, jedí hrášek s uzeným a nafouknou se.
 
-R: Protože láska...
+R: Protože láska ...
 
 5: = 1.
 
@@ -6156,31 +6152,31 @@ ZC:
 1: (Am)Tři bratři žili kdys v zemi skotské, 
    v domě zchudlém jim (D)souzeno (Am)žít, (E)
    ti (Am)kostkama metali, kdo musí jíti, 
-   (D)kdo musí (Am)jít, (E)
++  (D)kdo musí (Am)jít, (E)
    (F)kdo z nich má (C)na moři (G)pirátem (Am)být. (D Am Em Am)
 
 2: Los padl a Henry už opouští dům, 
    ač nejmladší přec vybrán byl,
    by koráby přepadal na moři žil, 
-   jen na moři žil,
++  jen na moři žil,
    své bratry z nouze tak vysvobodil.
 
 3: Po dobu tak dlouhou jak v zimě je noc, 
    a tak krátkou jak zimní je den,
    už plaví se Henry, když před sebou objeví 
-   loď, pyšnou loď.
++  loď, pyšnou loď.
    \uv{Napněte plachty a kanóny ven!}
 
 4: Čím kratší byl boj, tím byl bohatší lup, 
    z vln už ční jenom zvrácený kýl.
    Teď Henry je boháč, když boháče oloupil, 
-   loď potopil,
++  loď potopil,
    své bratry z nouze tak vysvobodil.
 
 5: Do Anglie staré dnes smutné jde zvěst, 
    smutnou zprávu dnes dostane král:
    Ke dnu klesla pyšná loď, poklady 
-   Henry si vzal, si vzal,
++  Henry si vzal, si vzal,
    střezte se moře on vládne tam dál.
 
 ==================
@@ -6262,36 +6258,36 @@ Z:
 ZC:
 
 1: (Dm)Dávám sbohem všem (C)břehům prokla(Am)tejm, 
-   který (Dm)v drápech má (Am)ďábel (Dm)sám,
++  který (Dm)v drápech má (Am)ďábel (Dm)sám,
    bílou přídí (C)šalupa \uv{My (Am)Grave}
-   míří k (Dm)útesům, (Am)který (Dm)znám.
++  míří k (Dm)útesům, (Am)který (Dm)znám.
 
 R: Jen tři (F)kříže z bí(C)lýho kame(Am)ní 
-   někdo (Dm)do písku (Am)posklá(Dm)dal,
++  někdo (Dm)do písku (Am)posklá(Dm)dal,
    slzy v (F)očích měl a v (C)ruce znave(Am)ný 
-   lodní (Dm)deník, co (Am)sám do něj (Dm)psal.
++  lodní (Dm)deník, co (Am)sám do něj (Dm)psal.
 
 2: První kříž má pod sebou jen hřích, 
-   samý pití a rvačky jen,
++  samý pití a rvačky jen,
    chřestot nožů, při kterým přejde smích, 
-   srdce-kámen a jméno Stan.
++  srdce-kámen a jméno Stan.
 
 3: Já, Bob Green, mám tváře zjizvený, 
-   štěkot psa zněl, když jsem se smál,
++  štěkot psa zněl, když jsem se smál,
    druhej kříž mám a spím pod zemí, 
-   že jsem falešný karty hrál.
++  že jsem falešný karty hrál.
 
 4: Třetí kříž snad vyvolá jen vztek, 
-  Katty Rogers těm dvoum život vzal,
++ Katty Rogers těm dvoum život vzal,
    svědomí měl, vedle nich si klek'...
 
 C: Snad se chtěl modlit: \uv{Vím, trestat je lidský,
     ale odpouštět božský, snad mi tedy Bůh odpustí.}
 
 R: Jen tři kříže z bílýho kamení 
-   jsem jim do písku poskládal,
++  jsem jim do písku poskládal,
    slzy v očích měl a v ruce znavený 
-   lodní deník a v něm, co jsem psal ...
++  lodní deník a v něm, co jsem psal ...
 
 ==================
 
@@ -6331,17 +6327,17 @@ Z:
 ZC:
 
    Jak (C)můžeš bejt tak krut(A7)á,
-   (Dm)copak nemáš kouska citu v (G7)těle?(C)
++  (Dm)copak nemáš kouska citu v (G7)těle?(C)
 
 1: Tu (C)kytáru jsem koupil kvůli tobě
-   a dal jsem za ni celej tátův (G)plat,
++  a dal jsem za ni celej tátův (G)plat,
    ta (C)dávno ještě (C7)byla ve vý(F)robě (Fm)  
-   a já už (C)věděl, (G)co ti budu (C)hrát.(G)
++  a já už (C)věděl, (G)co ti budu (C)hrát.(G)
 
 2: To ještě rostla v javorovém lese
-   a jenom vítr na to dřevo hrál,
++  a jenom vítr na to dřevo hrál,
    a já už trnul, jestli někdy snese, 
-   žár, který (C)ve mně (G)denně narů(C)stal.
++  žár, který (C)ve mně (G)denně narů(C)stal.
 
 R: S tou (Am)kytárou teď stojím před tvým (Em)domem,
    měj (Am) soucit aspoň (C)k tomu javo(F)ru, (G7)
@@ -6545,19 +6541,18 @@ Z:
 ZC:
 
 R: Tuhle (D)písničku chtěl bych ti (A7)lásko dát,
-ať ti každej den připomí(D)ná,
-/: toho kdo je tvůj, (D7)čí ty jsi (G)a kdo má (D)rád,
-ať ti každej den (A7)připomí(D)ná. :/
++  ať ti každej den připomí(D)ná,
+/: toho kdo je tvůj, (D7)čí ty jsi (G)a kdo má (D)rád, ať ti každej den (A7)připomí(D)ná. :/
 
 1: Kluka jako ty hledám už spoustu let,
-takový trošku trhlý mý já,
-dej mi ruku pojď půjdeme šlapat náš svět,
-i když obrovskou práci to dá.
++  takový trošku trhlý mý já,
+   dej mi ruku pojď půjdeme šlapat náš svět,
++  i když obrovskou práci to dá.
 
 2: Fakt mi nevadí že nos jak bambulku máš,
-ani já nejsem žádnej ideál,
-hlavně co uvnitř nosíš a co ukrýváš,
-to je pouto co vede nás dál.
++  ani já nejsem žádnej ideál,
+   hlavně co uvnitř nosíš a co ukrýváš,
++  to je pouto co vede nás dál.
 
 ==================
 
@@ -6964,7 +6959,7 @@ ZC:
 +  oh, yesterday came suddenly.
 
 R: (Hm7)Why (E7)she (Am)had (Am/G)to (F)go,  I don't (Dm)know, she (G)wouldn't (C)say.
-   (Hm7)I  - (E7)said (Am)some(Am/G)thing (F)wrong, now I (Dm)long for (G)yester(C)day.
+   (Hm7)I (E7)said (Am)some(Am/G)thing (F)wrong, now I (Dm)long for (G)yester(C)day.
 
 2: Yesterday love was such an easy game to play,
    now I need a place to hide away
@@ -7324,7 +7319,7 @@ AC:
 Z:
 ZC:
 
-1: (G)Před týdnem kvůli (Em7)jedné made-moiselle
+1: (G)Před týdnem kvůli (Em7)jedné mademoiselle
 (G)v prachbídném stavu (Em7)jsem se nacházel.
 Zničen (Cmaj7)zradou jed jsem (Hm7)chyt,
 vzhůru (Am7)bradou chtěl jsem (D)být.

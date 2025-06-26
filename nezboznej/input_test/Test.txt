@@ -1,116 +1,103 @@
-N: Prodavač
-A: Michal Tučný
+N: Tu kytaru jsem koupil kvůli tobě
+A: Václav Neckář
 AC:
 Z:
 ZC:
 
-C: (D)Pojďte všichni dovnitř, pozvěte si všechny známé,
-   (D)my vám dobrou radu dáme, neboť právě otvíráme,
-   (D)prodáváme, (D)vyděláme, (D)co kdo chcete, (D)tak to máme,
-   co nemáme, objednáme, všechno máme, všechno víme,
-   poradíme, posloužíme.
+   Jak (C)můžeš bejt tak krut(A7)á,
++  (Dm)copak nemáš kouska citu v (G7)těle?(C)
 
-1: Stál (D)krámek v naší ulici, v něm (G)párky, buřty s hořčicí
-   a (A)bonbóny a sýr a sladký (D)mák,(A7)
-   tam (D)chodíval jsem (D7)potají, tak (G)jak to kluci dělají,
-   a (A)ochutnával od okurek (D)lák(D7).
-   A (G)pro mou duši nevinnou pan (D)vedoucí byl hrdinou,
-   když (E7)po obědě začal prodá(A)vat,(A7)
-   měl (D)jazyk mrštný (D7)jako bič a (G)já byl z něho celý pryč
-   a (A)toužil jsem se prodavačem (D)stát.
+1: Tu (C)kytáru jsem koupil kvůli tobě
++  a dal jsem za ni celej tátův (G)plat,
+   ta (C)dávno ještě (C7)byla ve vý(F)robě (Fm)  
++  a já už (C)věděl, (G)co ti budu (C)hrát.(G)
 
-R: (D)Pět deka, deset deka, dvacet deka, třicet deka,
-   (G)kilo chleba, kilo cukru, jeden rohlík, jedna veka,
-   (A)všechno máme, co kdo chcete, obchod kvete, jen si račte (D)říct,(A7)
-   (D)čtyři kila, deset kilo, dvacet kilo, třicet kilo,
-   (G)navážíme, zabalíme, klaníme se, to by bylo,
-   (A)prosím pěkně, mohu nechat o jedenáct deka (D)víc?
+2: To ještě rostla v javorovém lese
++  a jenom vítr na to dřevo hrál,
+   a já už trnul, jestli někdy snese, 
++  žár, který (C)ve mně (G)denně narů(C)stal.
 
-2: Já nezapomněl na svůj cíl a záhy jsem se vyučil
-   a moh' být ze mě prodavačů král,
-   jenomže, jak běžel čas, náhle zaslechl jsem hudby hlas
-   a znenadání na jevišti stál.
-   I když nejsem králem zpěváků, teď zpívám s partou Fešáků
-   a nikdo vlastně neví, co jsem zač,
-   mě potlesk hřeje do uší a mnohý divák netuší,
-   že mu vlastně zpívá prodavač.
+R: S tou (Am)kytárou teď stojím před tvým (Em)domem,
+   měj (Am) soucit aspoň (C)k tomu javo(F)ru, (G7)
+   jen (C)kvůli tobě (C7)přestal býti (F)stromem, (Fm)  
+   tak už nás (C)oba (G7)pozvi naho(C)ru.
 
-3: Vím, že se život rozletí a sním o konci století,
-   kdy nikdo neví, co je chvat a shon,
-   a dětem líčí babička, jak vypadala elpíčka
-   a co byl vlastně starý gramofon.
-   I kdyby v roce dva tisíce byla veta po muzice,
-   obchod je věc stále kvetoucí,
-   už se vidím, je to krása, ve výloze nápis hlásá:
-   \sl{Michal Tučný, odpovědný vedoucí.}
+3: = 1.
+
+M: R + (G7)pozvi naho(C)ru,
++ po(B)zvi n(H)ahoru.(C)
 
 ==================
 
-N: Tři čuníci
-A: Jaromír Nohavica
+N: Valčíček
+A: Brontosauři
 AC:
-Z: Písně Jaromíra Nohavici
+Z:
 ZC:
 
-1: (C)V řadě za sebou tři čuníci jdou, 
-   ťápají si v blátě cestou nece(Am)stou.
-   (Dm)Kufry nemají, cestu nezna(G7)jí. 
- (Dm)Vyšli prostě do světa a (G7)vesele si zpívají: 
+R: Tuhle (D)písničku chtěl bych ti (A7)lásko dát,
++  ať ti každej den připomí(D)ná,
+/: toho kdo je tvůj, (D7)čí ty jsi (G)a kdo má (D)rád, ať ti každej den (A7)připomí(D)ná. :/
+
+1: Kluka jako ty hledám už spoustu let,
++  takový trošku trhlý mý já,
+   dej mi ruku pojď půjdeme šlapat náš svět,
++  i když obrovskou práci to dá.
+
+2: Fakt mi nevadí že nos jak bambulku máš,
++  ani já nejsem žádnej ideál,
+   hlavně co uvnitř nosíš a co ukrýváš,
++  to je pouto co vede nás dál.
+
+==================
+
+N: Časy se mění
+A: Golden Kids 
+AC:
+Z:
+ZC:
+
+1: Sem (G)pojďte blíž (Em)lidé dny (D)i týdny (G)jdou
++  a (G)mraky se (C)toulají a (D4)vlny se (D)dmou.
+   A (G)spustí se (Em)déšť na (D)čtyřicet (G)dní
++  (G)Prší a (C)záchrany (D4)není(D).
+   Musíš plavat nebo (C)skončíš jak (Hm)těžký kame(D)ní,
++  každý (G)ví (C)časy se (D4)měn(D)í. (G)
    
-R: Ui ui ui ...  @[\sl{na melodii sloky}@]
+2: Jsi básník a píšeš o tajemství snů
++  a vidíš tak dál, až do konce dnů.
+   Bydlíš v propasti slov a na poušti vět.
++  Znáš podstatu lidského dění.
+   Jednou jsi ztracen zítra patří ti svět,
++  každý ví časy se mění.
+   
+3: Jsi politik jsi státník jsi císař a stát,
++  víš kolik je zemí tak tolik je vlád.
+   A kolik je států tak tolik je měn
++  A peníze znamenají jmění.
+   Ten kdo je má může být zítra okraden,
++  každý ví časy se mění.
+   
+4: Tátové a mámy přistupte blíž,
++  jsme vaše děti a s dětmi je kříž.
+   Zlobíme od mala nechcem jít spát,
++  teď ke spaní vhodná chvíle není.
+   Je za pět minut dvanáct a čas nechce stát,
++  každý ví časy se mění.
+   
+5: Jsme mouchy nic víc a pavouk je čas,
++  ten do sítě vteřin teď polapil nás.
+   Je jemná jak mech a tenká jak vlas
++  a nikde z ní úniku není.
+   Do denního spěchu zní přísloví hlas,
++  každý ví časy se mění.
 
-2: Auta jezdí tam, náklaďáky sem, 
-   tři čuníci jdou, jdou rovnou za nosem.
-   Ušima bimbají, žito křoupají, 
-   vyšli prostě do světa a vesele si zpívají:
-
-3: Levá pravá teď, přední zadní  už, 
-   tři čuníci jdou, jdou jako jeden muž.
-   Lidé zírají, důvod neznají, 
-   proč ti malí čuníci tak vesele si zpívají:
-
-4: Když kopýtka pálí, když jim dojde dech, 
-   sednou ke studánce na vysoký břeh.
-   Ušima bimbají, kopýtka máchají, 
-   chvilinku si odpočinou a pak dál se vydají.
-
-5: Když se spustí déšť, roztrhne se mrak, 
-   k sobě přitisknou se čumák na čumák.
-   Blesky bleskají, kapky pleskají, 
-   oni v dešti nepohodě vesele si zpívají:
-
-6: Za tu spoustu let, co je světem svět, 
-   přešli zeměkouli třikrát tam a zpět.
-   V řadě za sebou, hele támhle jdou! 
-   Pojďme s nima zazpívat si jejich píseň veselou!
-
-==================
-
-N: Když přijdou chvíle 
-A: Pacifik
-AC:
-Z:
-ZC:
-
-1: (Am)()Když (Dm7)přijdou chvíle (G7)jaký znáš, (C)jako v poušti k(Am7)lopýtáš,
-jen (Dm)bůhví kolik (G7)nadějí a (C)vzpomínek co (Am7)zahřejí. (A7)
-V nich (Dm)rád se vracíš (G7)domů. Tak (C)věř si! U sta (Am7)hromů!
-(Fmaj7)A trápení svý (Dm7)jednou (G7)rozmo(Am7)táš.
-
-2: Když přijdou chvíle loučení, bouře život promění,
-je vzácná každá hodina, když vítr vát už začíná.
-Mámě píšeš z války a psaní do obálky,
-s rozechvěním v srdci zastrčíš.
-
-3: Ať plují mraky tisíc mil, nový svět jsi objevil,
-má cenu každý svítání, jen pláč se skryje do dlaní.
-Stárneš v týhle válce, a kreslíš na obálce,
-čtyřlístek, co zbejvá pro štěstí.
-
-4: Chceš zpátky letět nebo plout a někde v trávě procitnout,
-vždyť všechno jednou konec má a další cesta začíná.
-Letět zpátky domů, kde znáš i stíny stromů
-/: a celej den si s dětmi můžeš hrát. :/
+6: Vlak náhle ujíždí možná poslední,
++  kdo zůstal stát půjde sám do konce dní.
+   Vždyť dnešní den zítra bude včerejší
++  a letos přesně za rok bude vloni.
+   Kdo není jen první ten bude poslední,
++  každý ví časy se mění.
 
 ==================
 
