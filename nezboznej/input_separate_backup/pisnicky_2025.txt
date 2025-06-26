@@ -2183,8 +2183,7 @@ AC:
 Z:
 ZC:
 
-% TODO věnování pro Kubulu
-\sl{pro Kubu}
+\sl{Pro Jakuba Cvejna, nejlepšího kytaristu svého jména v oddíle}
 
 1: (C)Teplo je, (Am)léto je,
 +  (G)češu třešně (C)vestoje,

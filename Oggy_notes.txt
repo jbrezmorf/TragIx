@@ -25,11 +25,8 @@ Spacing:
 		For flexible spacing, you can use glue: \vskip 1cm plus 0.5cm minus 0.2cm.
 
 	Random "vypadá debilně":
-		když přijdou chvíle s tim Am na začátku
-		Dva Havrani - only one part of quotes in repetition
-		konec pod dubem za dubem - jak to tam má to samotný Am tak ten řádek je najednou o něco víc odsazenej
-		takovýto opakování ve sbohem galánečko?
-		co takovýty naše nový pluska ála "Putování"? Zkusit přirazit pomocí M:? třeba bude vypadat líp.
+		Dva Havrani - only one part of quotes in repetition or after repetition - both looks kinda sus
+		takovýto divno opakování ve sbohem galánečko? a ještě je to v nějakým songu.. jako asi je to snad jasný noo
 
 	Horizontal:
 		Přetéká:
@@ -54,7 +51,7 @@ Spacing:
 			Zelené pláně
 			Ze všech chlapů nej...
 
-2. kolo - frenky, mršina, rehradice ale to je takový spešl tam, 
+2. kolo - frenky (protože mu holky odlomily druhou sloku, revertnuto), mršina (je new no, prostě jsem to musel rozseknout bohužel)
 
 		Rozšířil jsi:
 			Kolik je na světě
@@ -68,6 +65,35 @@ Spacing:
 			Zapadání
 
 2. kolo - zdaj se ok, pokud zachováš zmenšení na 10pt, je možno najít další. To zmenšení mimochodem možná ověřit jestli dřív nezpůsobilo \rm místo \textfont že to bylo 10pt i když bylo psáno 11pt.
+		navíc rozšířeno:
+			Antarktida ref a nana
+			Barbora píše z tábora
+			Buchet je spousta
+			Což se mně má milá
+			Časy se mění
+			Drunken sailor - ne uplně rozšíření ale zrepeticování slok (to samý pak u strč prst skrz krk)
+			Dva havrani - rozšířeno + zkusili jsme zavřít uvozovky až za repeticí mrkni jak to vypadá
+			Hey Jude
+			Holky z naší školky ref
+			Já budu chodit po špičkách - ne uplně rozšíření ale mrkni jak vypadá repet na konci
+			Jasná zpráva
+			Léto s tebou
+			Marie první sloka
+			Mravenčí ukolébavka
+			My jsme hoši z Ještěda
+			Na kameni kámen
+			O malém rytíři - ref, ve snaze dostat to na jednu stránku...
+			Racci
+			Řízni, řízni
+			Stará archa - nevypadá to retardovaně?
+			Šurean
+			Trh ve Scarborough
+			---
+			Velmi nesmělá
+			Vlaštovko leť
+			Vlčí máky
+
+Vodácká holka možná taky?
 
 -------------------------------
 
