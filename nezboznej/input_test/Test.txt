@@ -1,31 +1,26 @@
-N: Tu kytaru jsem koupil kvůli tobě
-A: Václav Neckář
-AC:
+
+N: Rosa na kolejích
+A: Wabi Daněk
+AC: WD
 Z:
 ZC:
 
-   Jak (C)můžeš bejt tak krut(A7)á,
-+  (Dm)copak nemáš kouska citu v (G7)těle? (C)
+1: (C)Tak, jako jazyk (F6)stále na(F"6)rá(G6)ží na vylomený (C)zub,
+   tak se vracím k (F6)svýmu ná(F"6)dra(G6)ží, abych šel zas (C)dál,
+   přede mnou (F6)stíny se (G6)plouží a (Am)nad krajinou (Cdim)krouží,
+   podivnej (F6)pták, (F"6) (G6)  pták nebo (C)mrak.
 
-1: Tu (C)kytáru jsem koupil kvůli tobě
-+  a dal jsem za ni celej tátův (G)plat,
-   ta (C)dávno ještě (C7)byla ve vý(F)robě (Fm)  
-+  a já už (C)věděl, (G)co ti budu (C)hrát. (G)
+R: Tak do toho (F6)šlápni, ať (G6)vidíš kousek (C)světa,
+   vzít do dlaně (F6)dálku (G6)zase jednou (C)zkus,
+   telegrafní (F6)dráty (G6)hrajou ti už (C)léta
+   to nekonečně (F6)dlou(F"6)hý (G6)mono(F"6)tón(F6)ní (C)blues,
+   je ráno, je ráno, nohama (F6)stí(F"6)ráš (G6)rosu na (F"6)ko(F6)le(C)jích.
 
-2: To ještě rostla v javorovém lese
-+  a jenom vítr na to dřevo hrál,
-   a já už trnul, jestli někdy snese, 
-+  žár, který (C)ve mně (G)denně narů(C)stal.
+2: Pajda dobře hlídá pocestný, co se nocí toulaj',
+   co si radši počkaj', až se stmí, a pak šlapou dál,
+   po kolejích táhnou bosí a na špagátě nosí
+   celej svůj dům, deku a rum.
 
-R: S tou (Am)kytárou teď stojím před tvým (Em)domem,
-   měj (Am) soucit aspoň (C)k tomu javo(F)ru, (G7)
-   jen (C)kvůli tobě (C7)přestal býti (F)stromem, (Fm)  
-   tak už nás (C)oba (G7)pozvi naho(C)ru.
-
-3: = 1.
-
-M: R + (G7)pozvi naho(C)ru,
-+ po(B)zvi n(H)ahoru. (C)
 
 ==================
 

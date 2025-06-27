@@ -2,7 +2,16 @@ Zjistit jaký akordy jsou nový a nebyly ve zpěvníku a dokreslit je - přidat 
 
 Černý muž a Sbohem Galánečko maj trochu zvláštně zapsaný/vynechaný "opakování" ale asi to už necháme. Marnivá sestřenice taky, Kozel taky nemá zapsaný opakování, Tři myši prašivý taky tak.
 
+Písničky u kterých je teď nekonzistentní lomení kvuli outlier řádkům:
+	Frenky
+	Mršina
+
 Potenciálně jdou ještě smrsknout:
+	Andělská
+	Čerešně
+	Nechte zvony znít
+	Písek
+	Proměny
 	Soudný den
 	Studený nohy
 	Toulavá
@@ -121,6 +130,11 @@ Watchout for:
 		...labutě, labutě.
 		This is it:
 		^[a-zA-Z0-9]{1,2}: = [a-zA-Z0-9]{1,2}\.\R(?!\R).+
+
+		Náhrada "sus" akordů (Esus4 -> E4):
+		\(([A-G][^)]*?)sus([^)]*)\)
+		replace with:
+		\((\1\2)\)
 
 -------------------------------
 

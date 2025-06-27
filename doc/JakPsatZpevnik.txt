@@ -172,7 +172,7 @@ d) Ostatní vychytávky
   pak je potřeba napsat @[do ztracena@], 
 
 - občas je v některých zpěvnících uveden nějaký speciální nestandardní hmat,
-  v tom případě napiš značku jak nejlíp umíš a na konec akodu napiš X, např:
+  v tom případě napiš značku jak nejlíp umíš a na konec akordu napiš X, např:
   Hm(7/4)X (alespoň při prvním výskytu akordu - to aby mě to trklo až to budu
   zpracovávat)
   Dále zapiš ten hmat na další řádek do komentáře takhle:
