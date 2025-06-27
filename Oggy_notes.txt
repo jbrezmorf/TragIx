@@ -2,8 +2,6 @@ Zjistit jaký akordy jsou nový a nebyly ve zpěvníku a dokreslit je - přidat 
 
 Černý muž a Sbohem Galánečko maj trochu zvláštně zapsaný/vynechaný "opakování" ale asi to už necháme. Marnivá sestřenice taky, Kozel taky nemá zapsaný opakování, Tři myši prašivý taky tak.
 
-Make regex to find chords glued to the last thing on the line - this potentially generates an extra dash
-
 Potenciálně jdou ještě smrsknout:
 	Soudný den
 	Studený nohy
@@ -82,6 +80,9 @@ Watchout for:
 		špatně omezeřená čárka -  , 
 
 	REGEX:
+		Akordy na konci řádků, kterým nepředchází mezera.
+		[^\s]\([^)]+\)$
+
 		Špatnej znak za čárkou:
 		,(?![ \}\(\t\r\n])
 

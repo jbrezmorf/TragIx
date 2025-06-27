@@ -5,12 +5,12 @@ Z:
 ZC:
 
    Jak (C)můžeš bejt tak krut(A7)á,
-+  (Dm)copak nemáš kouska citu v (G7)těle?(C)
++  (Dm)copak nemáš kouska citu v (G7)těle? (C)
 
 1: Tu (C)kytáru jsem koupil kvůli tobě
 +  a dal jsem za ni celej tátův (G)plat,
    ta (C)dávno ještě (C7)byla ve vý(F)robě (Fm)  
-+  a já už (C)věděl, (G)co ti budu (C)hrát.(G)
++  a já už (C)věděl, (G)co ti budu (C)hrát. (G)
 
 2: To ještě rostla v javorovém lese
 +  a jenom vítr na to dřevo hrál,
@@ -25,29 +25,29 @@ R: S tou (Am)kytárou teď stojím před tvým (Em)domem,
 3: = 1.
 
 M: R + (G7)pozvi naho(C)ru,
-+ po(B)zvi n(H)ahoru.(C)
++ po(B)zvi n(H)ahoru. (C)
 
 ==================
 
-N: Valčíček
-A: Brontosauři
+N: Ráda se miluje
+A: Karel Plíhal
 AC:
-Z:
+Z: 
 ZC:
 
-R: Tuhle (D)písničku chtěl bych ti (A7)lásko dát,
-+  ať ti každej den připomí(D)ná,
-/: toho kdo je tvůj, (D7)čí ty jsi (G)a kdo má (D)rád, ať ti každej den (A7)připomí(D)ná. :/
+R: (Hm)Ráda se miluje, (A)ráda (D)jí,
++(G)ráda si (F"m)jenom tak (Hm)zpívá,
+vrabci se na plotě (A)hádají(D),
++ko(G)lik že čas(F"m)u jí (Hm)zbývá.
 
-1: Kluka jako ty hledám už spoustu let,
-+  takový trošku trhlý mý já,
-   dej mi ruku pojď půjdeme šlapat náš svět,
-+  i když obrovskou práci to dá.
+1: (G)Než vítr dostrká k (D)útesu tu (G)její legrační bá(D)rku (F")
+a (Hm)Pámbu si ve svým (A)note(D)su (G)udělá (F"m)jen další (Hm)čárku. 
 
-2: Fakt mi nevadí že nos jak bambulku máš,
-+  ani já nejsem žádnej ideál,
-   hlavně co uvnitř nosíš a co ukrýváš,
-+  to je pouto co vede nás dál.
+2: Psáno je v nebeské režii, a to hned na první stránce,
+že naše duše nás přežijí v jinačí tělesný schránce.
+
+3: Úplně na konci paseky, tam, kde se ozvěna tříští,
+sedí šnek ve snacku pro šneky - snad její podoba příští.
 
 ==================
 
@@ -127,7 +127,7 @@ R: Tu (G)vodáckou (Hm)holku si (A)navěky (D)nech,
    svou (Em)víru, svou (Hm)sílu, svý š(F"m)těstí i (Hm)pech, 
 +  svý (Em)strachy, svý (D)prachy, svůj (E)poslední (A)dech 
    jí (D)poctivě (Em)odevzdáv(A)ej 
-+  (D)a lásku z(Em)a lásku d(G)áv(A)ej.(D)
++  (D)a lásku z(Em)a lásku d(G)áv(A)ej. (D)
  
 3: Kdo připálí rejži a přesolí čaj,
 +  kdo sůl nechá v posledním kempu,
@@ -145,3 +145,30 @@ R: Tu (G)vodáckou (Hm)holku si (A)navěky (D)nech,
 +  a na pádlo polož jí růži. 
 
 R: Tu vodáckou holku ...
+
+==================
+
+N: Hercegovina
+A: Autor neznámý
+AC:
+Z: 
+ZC:
+
+\sl{Při \uv{infanteria} se stojí, při \uv{císař pán} a \uv{jeho rodina} se navíc salutuje.}
+
+1: /: (A)Šel jsem šumným hájem, širou rovi(E)nou, :/
+/: (A)potkal (A7)jsem tam (D)mysli(Hm)večka, (E)šel se svojí (A)milou, @[ba jó@], :/
+
+2: Už je, moje milá, konec lásky tý, já už musím narukovat k infanterii.
+
+3: Infanteria, to je chlouba má, ta musela bojovati za císaře pána.
+
+4: Za císaře pána, jeho rodinu, ta musela vybojovat Hercegovinu.
+
+5: Hercegovina lautr rovina, tu musela vybojovat infanteria.
+
+6: Támhle pod strání šnelcug uhání a pod strání jsou schováni mohamedáni.
+
+7: Mohamedáni, to jsou pohani, kalhoty maj podkasaný, plivaj do dlaní.
+
+8: A ty turkyně, tlustý jak dyně, ty císař pán nerad vidí ve svý rodině.
