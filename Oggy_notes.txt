@@ -1,5 +1,3 @@
-Zjistit jaký akordy jsou nový a nebyly ve zpěvníku a dokreslit je - přidat do chords v tail
-
 Černý muž a Sbohem Galánečko maj trochu zvláštně zapsaný/vynechaný "opakování" ale asi to už necháme. Marnivá sestřenice taky, Kozel taky nemá zapsaný opakování, Tři myši prašivý taky tak.
 
 Písničky u kterých je teď nekonzistentní lomení kvuli outlier řádkům:

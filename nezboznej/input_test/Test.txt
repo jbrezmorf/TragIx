@@ -1,169 +1,25 @@
-
-N: Rosa na kolejích
-A: Wabi Daněk
-AC: WD
-Z:
-ZC:
-
-1: (C)Tak, jako jazyk (F6)stále na(F"6)rá(G6)ží na vylomený (C)zub,
-   tak se vracím k (F6)svýmu ná(F"6)dra(G6)ží, abych šel zas (C)dál,
-   přede mnou (F6)stíny se (G6)plouží a (Am)nad krajinou (Cdim)krouží,
-   podivnej (F6)pták, (F"6) (G6)  pták nebo (C)mrak.
-
-R: Tak do toho (F6)šlápni, ať (G6)vidíš kousek (C)světa,
-   vzít do dlaně (F6)dálku (G6)zase jednou (C)zkus,
-   telegrafní (F6)dráty (G6)hrajou ti už (C)léta
-   to nekonečně (F6)dlou(F"6)hý (G6)mono(F"6)tón(F6)ní (C)blues,
-   je ráno, je ráno, nohama (F6)stí(F"6)ráš (G6)rosu na (F"6)ko(F6)le(C)jích.
-
-2: Pajda dobře hlídá pocestný, co se nocí toulaj',
-   co si radši počkaj', až se stmí, a pak šlapou dál,
-   po kolejích táhnou bosí a na špagátě nosí
-   celej svůj dům, deku a rum.
-
-
-==================
-
-N: Ráda se miluje
-A: Karel Plíhal
-AC:
-Z: 
-ZC:
-
-R: (Hm)Ráda se miluje, (A)ráda (D)jí,
-+(G)ráda si (F"m)jenom tak (Hm)zpívá,
-vrabci se na plotě (A)hádají(D),
-+ko(G)lik že čas(F"m)u jí (Hm)zbývá.
-
-1: (G)Než vítr dostrká k (D)útesu tu (G)její legrační bá(D)rku (F")
-a (Hm)Pámbu si ve svým (A)note(D)su (G)udělá (F"m)jen další (Hm)čárku. 
-
-2: Psáno je v nebeské režii, a to hned na první stránce,
-že naše duše nás přežijí v jinačí tělesný schránce.
-
-3: Úplně na konci paseky, tam, kde se ozvěna tříští,
-sedí šnek ve snacku pro šneky - snad její podoba příští.
-
-==================
-
-N: Časy se mění
-A: Golden Kids 
+N: Buchet je spousta
+A: Jiří Škorpík, Lou Fanánek Hagen
 AC:
 Z:
 ZC:
 
-1: Sem (G)pojďte blíž (Em)lidé dny (D)i týdny (G)jdou
-+  a (G)mraky se (C)toulají a (D4)vlny se (D)dmou.
-   A (G)spustí se (Em)déšť na (D)čtyřicet (G)dní
-+  (G)Prší a (C)záchrany (D4)není(D).
-   Musíš plavat nebo (C)skončíš jak (Hm)těžký kame(D)ní,
-+  každý (G)ví (C)časy se (D4)měn(D)í. (G)
+1: (C)Z pekárny světa kraj za (F)láskou (G)svou, (C)nejednu (F)překonal jsem (Am)vůli (G)zlou 
+   (Dm)a moje (G)princezna, (Em)ta jistě (Am) rozezná, (F)že ji mám (G) vážně (C)rád. 
    
-2: Jsi básník a píšeš o tajemství snů
-+  a vidíš tak dál, až do konce dnů.
-   Bydlíš v propasti slov a na poušti vět.
-+  Znáš podstatu lidského dění.
-   Jednou jsi ztracen zítra patří ti svět,
-+  každý ví časy se mění.
+2: A v jeho blízkosti se náhle zdá, že létat v oblacích se málem dá,
+   dát ruku na ruku, netřeba záruku, jeho se přece nelze vůbec bát.   
+
+R1: O(C)slava veliká a(F)ť už se chys(G)tá, (Em)buchet je (Am)spousta, (Dm)lahodná s(G)ousta,  
+   (C)ať naše láska je vždy (F)stejně čis(G)tá a (F)pevná jako br(G)ány (C)trám. 
+
+3: Hezká jak obrázek a zábavná a pýchu princezen tak málo zná, 
+   vyrostla v dostatku, jak holka ze statku, umí za práci brát. 
+
+4: Konečně kluk, co o mě zájem má, přitažlivost je jistě vzájemná, 
+   a srdce z rubínu, má barvu po vínu, starý král novému vždy má jej dát. 
    
-3: Jsi politik jsi státník jsi císař a stát,
-+  víš kolik je zemí tak tolik je vlád.
-   A kolik je států tak tolik je měn
-+  A peníze znamenají jmění.
-   Ten kdo je má může být zítra okraden,
-+  každý ví časy se mění.
-   
-4: Tátové a mámy přistupte blíž,
-+  jsme vaše děti a s dětmi je kříž.
-   Zlobíme od mala nechcem jít spát,
-+  teď ke spaní vhodná chvíle není.
-   Je za pět minut dvanáct a čas nechce stát,
-+  každý ví časy se mění.
-   
-5: Jsme mouchy nic víc a pavouk je čas,
-+  ten do sítě vteřin teď polapil nás.
-   Je jemná jak mech a tenká jak vlas
-+  a nikde z ní úniku není.
-   Do denního spěchu zní přísloví hlas,
-+  každý ví časy se mění.
+R2: Ta naše dvojice je překvapivá a dle všech známek pekárna - zámek,  
+   je trasa, která někdy krátce trvá a já ji dobře lásko znám. 
 
-6: Vlak náhle ujíždí možná poslední,
-+  kdo zůstal stát půjde sám do konce dní.
-   Vždyť dnešní den zítra bude včerejší
-+  a letos přesně za rok bude vloni.
-   Kdo není jen první ten bude poslední,
-+  každý ví časy se mění.
-
-==================
-
-N: Vodácká holka
-A: Hop Trop
-AC:
-Z:
-ZC:
-
-1: (D)Když vlny (Em)se valí(G) a peře(A)je řvou 
-+  a (D)šutry z nich (Em)civí jak (G)sů(A)vy, 
-   loď (D)praská a (Em)umrlčí (G)zvon bije (A)tmou, 
-+  tak (D)řekni, kdo (Em)pomoct ti (A) u(D)mí. 
-
-   Kdo (Hm)pádlem jen km(F"m)itne a př(G)evrátí l(D)oď, 
-+  pak (Hm)ječí jak sta(F"m)ženej z k(A)ů(D)že, 
-   že t(Hm)y jseš ta (F"m)atrapa, (G)ty jseš ten cv(D)ok, 
-+  co z(E)a každý cvaknutí můž(A)e. 
-
-2: Je pěkná jak ráno a voní jak les,
-+  když na dřevo u ohně hrává,
-   je zrádná jak kočka a věrná jak pes,
-+  ta holka, co při tobě spává. 
-
-R: Tu (G)vodáckou (Hm)holku si (A)navěky (D)nech, 
-+  (G)netop ji, (Hm)neza(A)há(D)něj, 
-   svou (Em)víru, svou (Hm)sílu, svý š(F"m)těstí i (Hm)pech, 
-+  svý (Em)strachy, svý (D)prachy, svůj (E)poslední (A)dech 
-   jí (D)poctivě (Em)odevzdáv(A)ej 
-+  (D)a lásku z(Em)a lásku d(G)áv(A)ej. (D)
- 
-3: Kdo připálí rejži a přesolí čaj,
-+  kdo sůl nechá v posledním kempu,
-   kdo ráj změní v peklo a peklo zas v ráj,
-+  kdo zná všechny písničky trempů.
-
-   Kdo přeje ti štěstí a kope ti hrob
-+  kdo sladce hned šeptá, hned vříská, 
-   a koho bys roztrh' a praštil a kop'
-+  a po kom se celej den stýská. 
- 
-4: Až vlasy nám odbarví nebeskej král
-+  a vrásky nám počmáraj' kůži, 
-   svý holce dej pusu a řekni \uv{jdem dál} 
-+  a na pádlo polož jí růži. 
-
-R: Tu vodáckou holku ...
-
-==================
-
-N: Hercegovina
-A: Autor neznámý
-AC:
-Z: 
-ZC:
-
-\sl{Při \uv{infanteria} se stojí, při \uv{císař pán} a \uv{jeho rodina} se navíc salutuje.}
-
-1: /: (A)Šel jsem šumným hájem, širou rovi(E)nou, :/
-/: (A)potkal (A7)jsem tam (D)mysli(Hm)večka, (E)šel se svojí (A)milou, @[ba jó@], :/
-
-2: Už je, moje milá, konec lásky tý, já už musím narukovat k infanterii.
-
-3: Infanteria, to je chlouba má, ta musela bojovati za císaře pána.
-
-4: Za císaře pána, jeho rodinu, ta musela vybojovat Hercegovinu.
-
-5: Hercegovina lautr rovina, tu musela vybojovat infanteria.
-
-6: Támhle pod strání šnelcug uhání a pod strání jsou schováni mohamedáni.
-
-7: Mohamedáni, to jsou pohani, kalhoty maj podkasaný, plivaj do dlaní.
-
-8: A ty turkyně, tlustý jak dyně, ty císař pán nerad vidí ve svý rodině.
+R1: Oslava veliká ...
