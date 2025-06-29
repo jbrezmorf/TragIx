@@ -82,35 +82,23 @@ AC:
 Z: 
 ZC:
 
-1: (C)Vnikl mi (Am)do bytu (G)orangutan,
-+(C)ukrad mi (Am)vařič na (G)propanbutan.
-(Gm6)Čeho se (Gdim)člověk dnes
-+(Dm)nedožije(Fm), (Cmaj)v ZOO je (Fmaj)od rána (Cmaj)amnestie.(Fmaj) 
+1: (C)Vnikl mi (Am)do bytu (G)orangutan, C)ukrad mi (Am)vařič na (G)propanbutan.
+(Gm6)Čeho se (Gdim)člověk dnes (Dm)nedožije(Fm), (Cmaj)v ZOO je (Fmaj)od rána (Cmaj)amnestie.(Fmaj) 
 
-2: Koukám jak v prádelním koši lama,
-+probírá se mýma košilama.
-Na WC mýval si pracky myje.
-+V ZOO je od rána amnestie.
+2: Koukám jak v prádelním koši lama, probírá se mýma košilama.
+Na WC mýval si pracky myje. V ZOO je od rána amnestie.
 
-3: V kuchyni huláká chameleón,
-+že kávu pro všechny namele on,
-tapíři ničí tapisérie.
-+V ZOO je od rána amnestie.
+3: V kuchyni huláká chameleón, že kávu pro všechny namele on,
+tapíři ničí tapisérie. V ZOO je od rána amnestie.
 
-4: Je celkem zbytečné zamykat se,
-+když letí sem zubr jak kamikadze,
-tohohle zas někdo zneužije,
-+že v ZOO je od rána amnestie.
+4: Je celkem zbytečné zamykat se, když letí sem zubr jak kamikadze,
+tohohle zas někdo zneužije, že v ZOO je od rána amnestie.
 
-5: Piraně ve vaně z tety Majky
-+robjá si narýchlo piraňajky,
-budou z ní rodinné relikvie,
-+v ZOO je od rána amnestie.
+5: Piraně ve vaně z tety Majky, robjá si narýchlo piraňajky,
+budou z ní rodinné relikvie, v ZOO je od rána amnestie.
 
-6: S panterem v zádech a v ostrým sprintu,
-+nějak jsem zapomněl na pointu,
-abych vás nezklamal tak tady je:
-+V ZOO je od rána amnestie.
+6: S panterem v zádech a v ostrým sprintu, nějak jsem zapomněl na pointu,
+abych vás nezklamal tak tady je: V ZOO je od rána amnestie.
 
 ==================
 
@@ -123,8 +111,8 @@ ZC:
 1: (C)Z rozmláce(Am)nýho kostela
 +   (C)v krabici (G7)s kusem mýdla
    (C)přinesl (Am)jsem si anděla,
-+   (C)poláma(G7)li mu křídla,
-   (C)díval se (Am)na mě oddaně,
++   (C)poláma(G7)li mu křídla.
+   (C)Díval se (Am)na mě oddaně,
 +   (C)já měl jsem (G7)trochu trému,
    (C)tak vtiskl (Am)jsem mu do dlaně
 +   (C)lahvičku (G7)od parfému.
@@ -133,14 +121,14 @@ R: (C)A proto, (Am)prosím, věř mi,
 +   (C)chtěl jsem ho (G7)žádat,
    (C)aby mi (Am)mezi dveřmi
 +   (C)pomohl (G7)hádat,
-   (C)co mě čeká  (Am) (G7)a nemi(C)ne,
+   (C)co mě čeká (Am) (G7)a nemi(C)ne,
 +   (C)co mě čeká (Am) (G7)a nemi(C)ne.
 
 2: Pak hlídali jsme oblohu,
 +   pozorujíce ptáky,
    debatujíce o Bohu 
-+   a hraní na vojáky,
-   do tváře jsem mu neviděl,
++   a hraní na vojáky.
+   Do tváře jsem mu neviděl,
 +   pokoušel se ji schovat,
    to asi ptákům záviděl,
 +   že mohou poletovat.
@@ -148,8 +136,8 @@ R: (C)A proto, (Am)prosím, věř mi,
 3: Když novinky mi sděloval
 +   u okna do ložnice,
    já křídla jsem mu ukoval
-+   z mosazný nábojnice,
-   a tak jsem pozbyl anděla,
++   z mosazný nábojnice.
+   A tak jsem pozbyl anděla,
 +   on oknem odletěl mi,
    však přítel prý mi udělá
 +   novýho z mojí helmy.
@@ -237,10 +225,8 @@ AC:
 Z:
 ZC:
 
-R: (D)Na Antarktidě (Em)tajou ledy,
-+  (A)dneska možná, (D)naposledy.
-   (D)Zítra už tam (Em)asi všude,
-+  (A7)místo ledu voda bu(D)de.
+R: (D)Na Antarktidě (Em)tajou ledy, (A)dneska možná, (D)naposledy.
+   (D)Zítra už tam (Em)asi všude, (A7)místo ledu voda bu(D)de.
 
 1: (G)Tučňák co se včera po le(D)dovci klouzal,
 (A7)dneska už zbytečně brusle s(D)i s sebou vzal.
@@ -267,10 +253,8 @@ uklidňuje dav, že vše bude v pohodě.
 Prej lidi nejsou hloupí, jistě vědí tedy,
 jak jsou pro svět důležitý naše ledy.
 
-  (D)Na na na na (Em)nananana
-+ (A)nananana (D)nananana
-  (D)Na na na na (Em)nananana
-+ (A7)nananana na (D)na
+  (D)Na na na na (Em)nananana (A)nananana (D)nananana
+  (D)Na na na na (Em)nananana (A7)nananana na (D)na
 
 ==================
 
@@ -1465,20 +1449,16 @@ AC:
 Z:
 ZC:
 
-1: (Am)Vzhůru na palubu, (Dm)dálky vo(Am)lají, 
-+  (Am)vítr už příhodný (G)vane (Am)nám. 
-   (Am)Tajemné příběhy (Dm)nás teď če(Am)kají, 
-+  (Am)tvým domovem bude (G)oce(Am)án. 
+1: (Am)Vzhůru na palubu, (Dm)dálky vo(Am)lají, (Am)vítr už příhodný (G)vane (Am)nám. 
+   (Am)Tajemné příběhy (Dm)nás teď če(Am)kají, (Am)tvým domovem bude (G)oce(Am)án. 
 
 R1: (F)V ráhnoví plachty (Am)vítr nadouvá, (F)žene loď v širou (Am)dál, 
     (Dm)kolébá boky (Am)plachetnice, (Dm)jak by si s ní jenom (E7)hrál. 
     (F)Posádku ani (Am)škuner neleká, (F)bouře ni ura(Am)gán. 
     (Dm)Přítomnost země (Am)oznámí nám, (Dm)příletem (E7)kormo(Am)rán. 
 
-2: Náš ostrov vzdálený, z vln se vynoří, 
-+  z příboje snů našich, pustý kraj.
-   Zátoku písčitou úsvit odhalí, 
-+  háj palem, útesy bílých skal. 
+2: Náš ostrov vzdálený, z vln se vynoří, z příboje snů našich, pustý kraj.
+   Zátoku písčitou úsvit odhalí, háj palem, útesy bílých skal. 
 
 R2: Příď krájí vlny i tvůj čas, srdce tvé tluče rázně, 
     nástrahy moře, nebezpečí, s přáteli zvládneš vždy snáz. 
@@ -1789,8 +1769,7 @@ ZC:
 1: (D)Spinkej můj maličký, (C)máš v očích (D)hvězdičky,
    dám ti je (C)do vlasů, tak (G)usínej, tak (D)usínej.
 
-R: (D)Ho ho Watanay, (C)ho ho (D)Watanay,
-+  ho ho (C)Watanay ki(G)okena ki(D)okena.
+R: (D)Ho ho Watanay, (C)ho ho (D)Watanay, ho ho (C)Watanay ki(G)okena ki(D)okena.
 
 2: Sladkou vůni nese ti noční motýl z perleti,
    vánek ho kolíbá, už usíná, už usíná.
@@ -1857,31 +1836,22 @@ AC:
 Z:
 ZC:
 
-1: (Am)Zpí(G)vám (Fmaj)ptákům a (Em7)zvlášť holu(Am)bům,
-+ (Am)stá(G)val (Fmaj)v údolí (Em7)mém starý (Am)dům.
-   (C)Ptá(G)ků (C)houf zalé(G)tal ke kro(C)vům, 
-+ (Am)měl (G)jsem (Fmaj)rád holu(Em7)bích křídel (Am)šum.
+1: (Am)Zpí(G)vám (Fmaj)ptákům a (Em7)zvlášť holu(Am)bům, (Am)stá(G)val (Fmaj)v údolí (Em7)mém starý (Am)dům.
+   (C)Ptá(G)ků (C)houf zalé(G)tal ke kro(C)vům, (Am)měl (G)jsem (Fmaj)rád holu(Em7)bích křídel (Am)šum.
 
-   Vlídná dívka jim házela hrách, 
-+   mávání perutí víří prach.
-   Ptáci krouží a neznají strach, 
-+   měl jsem rád starý dům, jeho práh.
+   Vlídná dívka jim házela hrách, mávání perutí víří prach.
+   Ptáci krouží a neznají strach, měl jsem rád starý dům, jeho práh.
 
 R: (Am)Hle(A7)dám (Dm)dům holu(G)bí, kdopak (C)z vás cestu (Am)ví, míval (Dm)stáj vroube(G)nou, bílý (C)štít.
    Kde (A7)je (Dm)dům holu(G)bí a ta (C)dívka, kde (Am)spí, vždyť to (Dm)ví, že jsem (Em)chtěl jen pro ni (Am)žít.
 
-2: Sdílný déšť vypráví okapům, 
-+   bláhový, kdo hledá tenhle dům.
-   Odrůstáš chlapeckým střevícům, 
-+   neslyšíš holubích křídel šum.
+2: Sdílný déšť vypráví okapům, bláhový, kdo hledá tenhle dům.
+   Odrůstáš chlapeckým střevícům, neslyšíš holubích křídel šum.
 
-   Nabízej úplatou cokoli, 
-+   nepojíš cukrových homolí.
-   Můžeš mít třeba zrak sokolí, 
-+   nespatříš ztracené údolí.
+   Nabízej úplatou cokoli, nepojíš cukrových homolí.
+   Můžeš mít třeba zrak sokolí, nespatříš ztracené údolí.
 
-   Zpívám ptákům a zvlášť holubům, 
-+  stával v údolí mém starý dům.
+   Zpívám ptákům a zvlášť holubům, stával v údolí mém starý dům.
 
 ==================
 
@@ -1914,8 +1884,7 @@ ZC:
    tu sosna krásná nad chajdou se (G)skloní, (D7)
    a (G)říčka, když stříbrným (Gmaj/F")hávem se přikryje (Em)s ránem,
    svý ahoj jí (G)dáš a pak je tu (E)den,
-   (C)zazní údolím kytara tvá, ta (Em)píseň ráno uvítá,
-+   svět s (D)ním, svět s (G)ním. (D7)
+   (C)zazní údolím kytara tvá, ta (Em)píseň ráno uvítá - svět s (D)ním, svět s (G)ním. (D7)
 
 2: Touláš se po lese, touláš a jenom tak bloumáš
    a koruny stromů tě uvítaj' rosou,
@@ -1923,8 +1892,7 @@ ZC:
    a možná potkáš někde dívku bosou,
    po slůvkách, který se říkaj', po dnech něžných stisků
    vás uvítá chajda a zas je tu den,
-   zazní údolím kytara tvá, ta píseň ráno uvítá,
-+   svět s ním, svět s ním.
+   zazní údolím kytara tvá, ta píseň ráno uvítá - svět s ním, svět s ním.
 
 3: Však náhlé volání táhlé ti přeruší snění
    a oznámí všem: je poslední den,
@@ -1932,8 +1900,7 @@ ZC:
    sosnu, chajdu, pohled zabolí,
    ta hráz je potřebná všem, však zabíjí den,
    co nosil tě v náručí romantickém,
-   zazní údolím bolest tvá, ta bolest ráno uvítá,
-+   svět s ním, svět s ním.
+   zazní údolím bolest tvá, ta bolest ráno uvítá - svět s ním, svět s ním.
 
 ==================
 
@@ -2073,8 +2040,7 @@ ZC:
 
 1: Chodím po (D)Brodwayi hladov sem a tam 
 +(D)chodím po Brodwayi hladov sem a (A7)tam, 
-   chodím po (D)Brod(D7)wayi, (G)po Brodwayi, 
-+  (D)po Brodwayi (A7)hladov sem a (D)tam. 
+   chodím po (D)Brod(D7)wayi, (G)po Brodwayi, (D)po Brodwayi (A7)hladov sem a (D)tam. 
 
 R: (D)Singi jau, jau, jupí jupí jau, 
 +   (D)singi jau jau jupí jupí (A7)jau
@@ -2245,26 +2211,20 @@ AC:
 Z:
 ZC:
 
-1: (C)Skončili jsme, jasná zpráva,
-+  (Am)proč o tebe (F)zakopávám (G)dál,
+1: (C)Skončili jsme, jasná zpráva, (Am)proč o tebe (F)zakopávám (G)dál,
    (Dm)projít bytem (F)já abych se (C)bál.
 
-2: Dík tobě se vidím zvenčí, 
-+  připadám si starší menší sám,
+2: Dík tobě se vidím zvenčí, připadám si starší menší sám,
    kam se kouknu, kousek tebe mám.
   
-R: (Am)Pěnu s vůní (Em)jablečnou, (Am)vyvanulý (Em)sprej, 
-   (Am)telefon, cos (C)ustřihla mu (G)šňůru,
-   (Am)knížku krásně (Em)zbytečnou, (Am)co má lživý (Em)děj,
-   (Am)píše se v ní, (C)jak se lítá (G)vzhůru,
+R: (Am)Pěnu s vůní (Em)jablečnou, (Am)vyvanulý (Em)sprej, (Am)telefon, cos (C)ustřihla mu (G)šňůru,
+   (Am)knížku krásně (Em)zbytečnou, (Am)co má lživý (Em)děj, (Am)píše se v ní, (C)jak se lítá (G)vzhůru,
    lítá (Dm)vzhůru, ve dvou (G)vzhůru.
 
-3: Odešla's mi před úsvitem, 
-+  mám snad bloudit vlastním bytem sám,
+3: Odešla's mi před úsvitem, mám snad bloudit vlastním bytem sám,
    kam se kouknu, kousek tebe mám.
 
-4: Skončili jsme jasná zpráva, 
-+  není komu z okna mávat víc   
+4: Skončili jsme jasná zpráva, není komu z okna mávat víc   
    jasná zpráva, rub, co nemá líc.
 
 ==================
@@ -2834,17 +2794,13 @@ AC:
 Z:
 ZC:
 
-1: (Am)Labutě, (G)labu(Am)tě, spočíva(G)jí nehnu(C)tě
-   (F)na hla(Em)di(Fmaj)ně (G)Dyje (Dm)a to je (Em)poezi(Am)e.
+1: (Am)Labutě, (G)labu(Am)tě, spočíva(G)jí nehnu(C)tě, (F)na hla(Em)di(Fmaj)ně (G)Dyje (Dm)a to je (Em)poezi(Am)e.
    
-2: Jsou to husy - šlechtičny, dlouhý krk je dědičný,
-   vyfotíme si je, vyfotíme si je.
+2: Jsou to husy - šlechtičny, dlouhý krk je dědičný, vyfotíme si je, vyfotíme si je.
    
-R: /: (Am)Labutě, (Em)labu(F)tě, (F)nechodí (Em/G)na ku(C)tě,
-   (C)kolíbá je (G)voda, (G)jsou mokré ze(C)spoda. :/
+R: /: (Am)Labutě, (Em)labu(F)tě, (F)nechodí (Em/G)na ku(C)tě, (C)kolíbá je (G)voda, (G)jsou mokré ze(C)spoda. :/
 
-3: = 1.
-...labutě, labutě.
+3: = 1. + labutě, labutě.
 
 ==================
 
@@ -3656,17 +3612,13 @@ ZC:
 1: /: (C)Krásný je (Am)vzduch, (Dm)krásnější je (G7)moře. :/
    (C)Co je nejkrás(A7)nější, (Dm)co je nejkrás(G7)nější, (C)u(Am)smě(G7)vavé (C)tváře.
 
-2: Pevný je stůl, pevnější je hora.
-+   Co je nejpevnější? Ta člověčí víra.
+2: Pevný je stůl, pevnější je hora. /: Co je nejpevnější? :/ Ta člověčí víra.
 
-3: Pustá je poušť i nebeské dálky.
-+   Co je nejpustější? Žít život bez lásky.
+3: Pustá je poušť i nebeské dálky. /: Co je nejpustější? :/ Žít život bez lásky.
 
-4: Mocná je zbraň, mocnější je právo.
-+   Co je nejmocnější? Pravdomluvné slovo.
+4: Mocná je zbraň, mocnější je právo. /: Co je nejmocnější? :/ Pravdomluvné slovo.
 
-5: Velká je zem, šplouchá na ní voda.
-+   Co je však největší? Ta lidská svoboda.
+5: Velká je zem, šplouchá na ní voda. /: Co je však největší? :/ Ta lidská svoboda.
 
 ==================
 
@@ -3710,8 +3662,7 @@ ZC:
    Tu (Am)honec k nebi pohleděl a v hrůze zůstal stát,
    když z (Dm)rozedraných (F)oblaků viděl (Am)stádo krav se hnát.
    
-R: Jupija (C)héj, jupija (Am)hou,
-+  to (Dm)přízraky (F)táhnou (Am)tmou.
+R: Jupija (C)héj, jupija (Am)hou, to (Dm)přízraky (F)táhnou (Am)tmou.
    
 2: Ten skot měl rohy z ocele a oči krvavé,
    a na bocích mu plápolaly cejchy řežavé,
@@ -3746,8 +3697,7 @@ ZC:
    tys naučil mě polovinu pouhou
    a já prosím: nechte zvony znít.
 
-R: (Em)Jen zvony ví, co jsi mi (Am)vzal,
-+  (D)jen zvony ví, co bude (G)dál.
+R: (Em)Jen zvony ví, co jsi mi (Am)vzal, (D)jen zvony ví, co bude (G)dál.
  
 3: Přijde jednou skladatel a básník,
    kterej umí sto divnejch snů žít,      
@@ -5100,8 +5050,7 @@ ZC:
    pel z tvojí kůže nechci si vzít,
    tak zase zítra, ty můj vánku milovaný.
 
-4: = 1.
-...milova(G)ná
+4: = 1. + milova(G)ná.
 
 ==================
 
@@ -5159,10 +5108,8 @@ ZC:
    vím, co se bude (E)dít, býk už se v ohradě (Am)vzpíná,
    kdo chce, ten může (E)jít, já si dám sklenici (Am)vína.
 
-R: (Dm)Žízeň je veliká, (Am)život mi utíká,
-+   (E)nechte mě příjemně (Am)snít,
-   (Dm)ve stínu pod fíky (Am)poslouchat slavíky,
-+   (E)zpívat si s nima a (Am)pít.
+R: (Dm)Žízeň je veliká, (Am)život mi utíká, (E)nechte mě příjemně (Am)snít,
+   (Dm)ve stínu pod fíky (Am)poslouchat slavíky, (E)zpívat si s nima a (Am)pít.
 
 2: Ženy jsou krásný a cudný, mnohá se ve mně zhlídla,
    oči jako dvě studny, vlasy jak havraní křídla,
@@ -5287,21 +5234,17 @@ AC:
 Z:
 ZC:
 
-1: (A)U stánků (D)na levnou krásu,
-(A)postávaj a (Dm)smějou se času,
+1: (A)U stánků (D)na levnou krásu, (A)postávaj a (Dm)smějou se času,
 s (A)cigaretou a s (E)holkou, co nemá kam (A)jít. (A4) (A2)
 
-2: Skleniček pár a pár tahů z trávy,
-uteče den jak večerní zprávy,
+2: Skleniček pár a pár tahů z trávy, uteče den jak večerní zprávy,
 neuměj žít a bouřej se a neposlouchaj. (A7)
 
-R: Jen (D)zahlídli svět - maj (E7)na duši vrásky,
-tak (A)málo je, tak (Dm)málo je lásky,
+R: Jen (D)zahlídli svět - maj (E7)na duši vrásky, tak (A)málo je, tak (Dm)málo je lásky,
 (A)ztracená víra (E7)hrozny z vinic neposbí(A)rá. (A4) (A2)
 
-3: U stánků na levnou krásu
-postávaj a ze slov a hlasů poznávám,
-jak málo jsme jim stačili dát.
+3: U stánků na levnou krásu, postávaj a ze slov a hlasů,
+poznávám jak málo jsme jim stačili dát.
 
 R: /: Jen zahlídli svět ... :/
 
@@ -5315,33 +5258,22 @@ ZC:
 
 R: /: (D)Já mám kocábku náram, (A7)náram, (D)náram, kocábku náram, (A7)nára(D)mnou. :/
 
-1: (D)Pršelo a blejskalo se sedm neděl,
-+   kocábku náram, (A7)nára(D)mnou,
-   Noe nebyl překvapenej, on to věděl,
-+   kocábku náram, (A7)nára(D)mnou.
+1: (D)Pršelo a blejskalo se sedm neděl, kocábku náram, (A7)nára(D)mnou,
+   Noe nebyl překvapenej, on to věděl, kocábku náram, (A7)nára(D)mnou.
 
-M: R + (D)Archa má cíl, jé, archa má směr, jé,
-+   plaví se k Araratu (A7)na se(D)ver. + R
+M: R + (D)Archa má cíl, jé, archa má směr, jé, plaví se k Araratu (A7)na se(D)ver. + R
    
-2: Šem, Cham a Jafet byli bratři rodní,
-+   kocábku náram, náramnou,
-   Noe je zavolal ještě před povodní,
-+   kocábku náram, náramnou.
-   Kázal jim uložiti ptáky, savce,
-+   kocábku náram, náramnou,
-   ryby nechte, zachrání se samy hladce,
-+   kocábku náram, náramnou.
+2: Šem, Cham a Jafet byli bratři rodní, kocábku náram, náramnou,
+   Noe je zavolal ještě před povodní, kocábku náram, náramnou.
+   Kázal jim uložiti ptáky, savce, kocábku náram, náramnou,
+   ryby nechte, zachrání se samy hladce, kocábku náram, náramnou.
    
 M: R + Archa má cíl ... + R 
 
-3: Přišla bouře, zlámala jim pádla, vesla,
-+   kocábku náram, náramnou,
-   tu přilétla holubice, snítku nesla,
-+   kocábku náram, náramnou.
-   Na břehu pak vyložili náklad celý,
-+   kocábku náram, náramnou,
-   ještě že tu starou dobrou archu měli,
-+   kocábku náram, náramnou.
+3: Přišla bouře, zlámala jim pádla, vesla, kocábku náram, náramnou,
+   tu přilétla holubice, snítku nesla, kocábku náram, náramnou.
+   Na břehu pak vyložili náklad celý, kocábku náram, náramnou,
+   ještě že tu starou dobrou archu měli, kocábku náram, náramnou.
 
 M: R + Archa má cíl ... + R
 
@@ -5692,30 +5624,24 @@ AC:
 Z:
 ZC:
 
-1: V (D)nohách mám už tisíc (Hm)mil,
-+   stopy (Em)déšť a vítr (G)smyl
+1: V (D)nohách mám už tisíc (Hm)mil, stopy (Em)déšť a vítr (G)smyl
    a můj (Em)kůň i já jsme (A)cestou znave(D)ní.
 
-R1: Těch tisíc mil těch tisíc mil,
-+   má jeden směr a jeden cíl,
+R1: Těch tisíc mil těch tisíc mil, má jeden směr a jeden cíl,
    bílej dům to malý bílý stavení.
 
-2: Je tam stráň a příkrej sráz,
-+   modrá tůň a bobří hráz,
+2: Je tam stráň a příkrej sráz, modrá tůň a bobří hráz,
    táta s mámou, kteří věřej dětskejm snům.
 
-R2: Těch tisíc mil těch tisíc mil,
-+   má jeden směr a jeden cíl,
+R2: Těch tisíc mil těch tisíc mil, má jeden směr a jeden cíl,
    jeden cíl ten starej známej bílej dům.
 
-3: V nohách mám už tisíc mil,
-+   teď mi zbejvá jen pár chvil,
+3: V nohách mám už tisíc mil, teď mi zbejvá jen pár chvil,
    cestu znám a ta se tam k nám nemění.
 
 R1: Těch tisíc mil ...
 
-4: Kousek dál a já to vím ,
-+uvidím už stoupat dým,
+4: Kousek dál a já to vím, uvidím už stoupat dým,
    šikmej štít střechy čnít k nebesům. 
 
 R2: Těch tisíc mil ...
@@ -5947,32 +5873,27 @@ ZC:
 
 1: (Am)Tři bratři žili kdys v zemi skotské, 
    v domě zchudlém jim (D)souzeno (Am)žít, (E)
-   ti (Am)kostkama metali, kdo musí jíti, 
-+  (D)kdo musí (Am)jít, (E)
+   ti (Am)kostkama metali, kdo musí jíti, (D)kdo musí (Am)jít, (E)
    (F)kdo z nich má (C)na moři (G)pirátem (Am)být. /: (D Am Em Am) :/
 
 2: Los padl a Henry už opouští dům, 
    ač nejmladší přec vybrán byl,
-   by koráby přepadal na moři žil, 
-+  jen na moři žil,
+   by koráby přepadal na moři žil, jen na moři žil,
    své bratry z nouze tak vysvobodil.
 
 3: Po dobu tak dlouhou jak v zimě je noc, 
    a tak krátkou jak zimní je den,
-   už plaví se Henry, když před sebou objeví 
-+  loď, pyšnou loď.
+   už plaví se Henry, když před sebou objeví loď, pyšnou loď.
    \uv{Napněte plachty a kanóny ven!}
 
 4: Čím kratší byl boj, tím byl bohatší lup, 
    z vln už ční jenom zvrácený kýl.
-   Teď Henry je boháč, když boháče oloupil, 
-+  loď potopil,
+   Teď Henry je boháč, když boháče oloupil, loď potopil,
    své bratry z nouze tak vysvobodil.
 
 5: Do Anglie staré dnes smutné jde zvěst, 
    smutnou zprávu dnes dostane král:
-   Ke dnu klesla pyšná loď, poklady 
-+  Henry si vzal, si vzal,
+   Ke dnu klesla pyšná loď, poklady Henry si vzal, si vzal,
    střezte se moře on vládne tam dál.
 
 ==================
@@ -6017,7 +5938,7 @@ R: Ui ui ui ...  @[\sl{na melodii sloky}@]
    Ušima bimbají, žito křoupají, 
    vyšli prostě do světa a vesele si zpívají:
 
-3: Levá pravá teď, přední zadní  už, 
+3: Levá pravá teď, přední zadní už, 
    tři čuníci jdou, jdou jako jeden muž.
    Lidé zírají, důvod neznají, 
    proč ti malí čuníci tak vesele si zpívají:
@@ -7139,11 +7060,9 @@ ZC:
    Už v knize knih je psáno: bez (F)vody  (Am)ne(G)lze (C)žít,
    však ne každému je dáno z (F)řeky pravdy (C)pít.
 
-R: Já mám (G)žízeň, věčnou (C)ží(C7)zeň,
-+   stačí (F)říct, kde najdu (C)vláhu
+R: Já mám (G)žízeň, věčnou (C)ží(C7)zeň, stačí (F)říct, kde najdu (C)vláhu
    a zchladím (F)žáhu (C)páli(G)vou,
-   ó, já mám žízeň, věčnou (C)ží(C7)zeň,
-+   stačí (F)říct, kde najdu (C)vláhu,
+   ó, já mám žízeň, věčnou (C)ží(C7)zeň, stačí (F)říct, kde najdu (C)vláhu,
    a zmizí (F)ží(C)zeň, (F)ží(C)zeň, (F)ží(C)zeň.
 
 2: Stokrát víc než slova hladká jeden čin znamená,
