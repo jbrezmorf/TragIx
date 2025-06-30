@@ -56,7 +56,7 @@
 \def\sl#1{\bgroup\leavevmode{\TextFontSlanted #1}\egroup}
 
 \font\PageFont=lmroman12-bold at 11pt
-\font\IndexFont=lmroman12-regular at 11pt
+\font\IndexFont=lmroman12-regular at 10pt
 % \font\PageFont="TeX Gyre Schola Bold" at 11pt
 % \font\IndexFont="TeX Gyre Schola" at 11pt
 %
@@ -185,8 +185,8 @@
 \newcount\tempnum % pracovní promenná
 \def\makeindex{
   \bgroup
-  \def\InnerMargin{1cm}
-  \def\OuterMargin{1cm}
+  \def\InnerMargin{1.1cm}
+  \def\OuterMargin{1.1cm}
   \def\cvak{\ifdim\dimen0<6pt \dimen0=9pt \else \dimen0=3pt \fi}
   \def\puntiky{\leaders\hbox to12pt{\kern\dimen0.\hss}\hfil}
   \long\def\tocline##1##2{\line{\unspace##1%

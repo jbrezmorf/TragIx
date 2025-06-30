@@ -1,4 +1,5 @@
 \input../../common/lyric.tex
+% {\PageLayout \nopagenumbers \null\vfill\break}  % empty page
 {
 \PageLayout
 \advance\hsize by \OuterMargin
@@ -30,11 +31,6 @@
 \centerline{\TitleA ZPĚVNÍK ODDÍLŮ}
 \vskip1cm
 \centerline{\TitleB ICHTHYS}
-% \hfil\vbox{\halign{#\cr
-% \SkautFontMedium Z P Ě V N Í K\cr
-% \noalign{\TitleB\vskip1ex}
-% \SkautFontSmall ODDÍLŮ\hskip 1em plus 2em ICHTHYS\cr
-% }}\hfil
 \vskip2.5cm
 \centerline{\TitleC NEZBOŽNEJ}
 \vskip3.25cm
@@ -54,7 +50,9 @@
 \break
 }
 \makeindex
+{\PageLayout \nopagenumbers \null\vfill\break}  % empty page
 \setlyricoutput
+
 \inputsong{songs/001_Akordy.sng}
 \inputsong{songs/002_Amazonka.sng}
 \inputsong{songs/003_Amnestie.sng}
@@ -134,18 +132,8 @@
 \inputsong{songs/077_Jožin_z_bažin.sng}
 \inputsong{songs/078_Kapr.sng}
 \inputsong{songs/079_Každý_ráno.sng}
-{
-  \def\InterSongSkip{1pt}
-  \def\ParSkip{1pt}
-  \inputsong{songs/080_Kdyby_tady_byla_taková_panenka.sng}
-}
-% \inputsong{songs/080_Kdyby_tady_byla_taková_panenka.sng}
-{
-  \def\InterSongSkip{1pt}
-  \def\ParSkip{1pt}
-  \inputsong{songs/081_Když_jde_malý_bobr_spát.sng}
-}
-% \inputsong{songs/081_Když_jde_malý_bobr_spát.sng}
+\inputsong{songs/080_Kdyby_tady_byla_taková_panenka.sng}
+\inputsong{songs/081_Když_jde_malý_bobr_spát.sng}
 \inputsong{songs/082_Když_mě_brali_za_vojáka.sng}
 \inputsong{songs/083_Když_náš_táta_hrál.sng}
 \inputsong{songs/084_Když_přijdou_chvíle.sng}
@@ -251,27 +239,11 @@
 \inputsong{songs/184_Toulavá.sng}
 \inputsong{songs/185_Toulavej.sng}
 \inputsong{songs/186_Trezor.sng}
-{
-  \def\InterSongSkip{1pt}
-  \def\ParSkip{1pt}
-  \inputsong{songs/187_Trh_ve_Scarborough.sng}
-}
-{
-  \def\InterSongSkip{1pt}
-  \def\ParSkip{1pt}
-  \inputsong{songs/188_Trpasličí_svatba.sng}
-}
+\inputsong{songs/187_Trh_ve_Scarborough.sng}
+\inputsong{songs/188_Trpasličí_svatba.sng}
 \inputsong{songs/189_Třešně_zrály.sng}
-{
-  \def\InterSongSkip{1pt}
-  \def\ParSkip{1pt}
-  \inputsong{songs/190_Tři_bratři.sng}
-}
-{
-  \def\InterSongSkip{1pt}
-  \def\ParSkip{1pt}
-  \inputsong{songs/191_Tři_citrónky.sng}
-}
+\inputsong{songs/190_Tři_bratři.sng}
+\inputsong{songs/191_Tři_citrónky.sng}
 \inputsong{songs/192_Tři_čuníci.sng}
 \inputsong{songs/193_Tři_kříže.sng}
 \inputsong{songs/194_Tři_myši_prašivý.sng}
@@ -311,123 +283,127 @@
 \inputsong{songs/228_Žízeň.sng}
 \penalty -10000
 \output={\plainoutput}%
-\PageLayout%
-\advance\hsize by \OuterMargin%
-\advance\hsize by -\InnerMargin%
-\advance\hsize by -\InnerMargin%
-\advance\hsize by -\InnerMargin%
-\advance\hoffset by \InnerMargin%
-\advance\hoffset by \InnerMargin%
-\advance\vsize by -\TopMargin%
-\advance\vsize by -\BottomMargin%
-\advance\voffset by \TopMargin%
-\nopagenumbers%
-%\topglue 0pt%
-\noindent%
-\spacefactor=1000%
-\lineskip=0.5cm%
-\chdig{C}{}{\f x\f3\f2\f0\f1\f0}
-\chdig{C/E}{}{\f0\f3\f2\f0\f1\f0}
-\chdig{C/G}{}{\f3\f3\f2\f0\f1\f0}
-\chdig{C/H}{}{\f x\f2\f2\f0\f1\f0}
-\chdig{C7}{}{\f0\f3\f2\f3\f1\f0}
-\chdig{Cmaj}{}{\f0\f3\f2\f0\f0\f0}
-\chdig{Cm6}{III}{\barre105\f1\f0\f3\f x\f2\f1\fb\f3}
-\chdig{Cdim}{}{\f x\f x\f1\f2\f1\f2}
-\chdig{C"}{IV}{\barre105\f 1\f0\f3\f3\f3\f1}
-\chdig{C"7}{IV}{\barre105\f 1\f0\f3\f0\f3\f1}
-\chdig{C"m}{IV}{\barre105\f1\f0\f3\f3\f2\f1}
-\chdig{C"m7}{IV}{\barre105\f1\f0\f3\f0\f2\f1}
-\chdig{C"dim}{}{\f x\f x\f2\f3\f2\f3}
-\chdig{D}{}{\f x\f x\f0\f2\f3\f2}
-\chdig{D/F"}{}{\f 2\f0\f0\f2\f3\f2}
-\chdig{D4}{}{\f x\f0\f0\f2\f3\f3}
-\chdig{D7}{}{\f x\f0\f0\f2\f1\f2}
-\chdig{D7/F"}{}{\f2\f0\f0\f2\f1\f2}
-\chdig{D(7/4)}{}{\f x\f x\f0\f2\f1\f3}
-\chdig{Dmaj}{}{\barre235\f x\f0\f0\f2\f0\f2}
-\chdig{D+}{}{\f x\f x\f0\f3\f3\f2}
-\chdig{Dm}{}{\f x\f0\f0\f2\f3\f1}
-\chdig{Dm7}{}{\f x\f0\f0\f2\f1\f1}
-\chdig{Ddim}{}{\f0\f0\f3\f4\f3\f4}
-\chdig{D"dim}{}{\f x\f0\f1\f2\f1\f2}
-\chdig{Eb}{III}{\barre105\f 1\f4\f3\f0\f2\f1}
-\chdig{Eb7}{II}{\barre105\f 1\f0\f0\f3\f2\f1\fb\f3}
-\chdig{E}{}{\f 0\f2\f2\f1\f0\f0}
-\chdig{E4}{}{\f 0\f2\f2\f2\f0\f0}
-\chdig{E7}{}{\f 0\f2\f2\f1\f3\f0}
-\chdig{E9}{}{\f 0\f x\f2\f1\f3\f2}
-\chdig{Em}{}{\f 0\f2\f2\f0\f0\f0}
-\chdig{Em/G}{}{\f3\f2\f2\f0\f0\f0}
-\chdig{Em7}{}{\f 0\f2\f2\f0\f3\f0}
-\chdig{Edim}{}{\f 0\f0\f2\f3\f2\f3}
-\chdig{F}{}{\barre105\f 1\f3\f3\f2\f0\f1}
-\chdig{F}{}{\f x\f0\f3\f2\f1\f1}
-\chdig{F6}{}{\f x\f x\f0\f2\f1\f1}
-\chdig{F7}{}{\barre105\f 1\f3\f0\f2\f0\f1}
-\chdig{Fmaj}{}{\f 0\f0\f3\f2\f1\f0}
-\chdig{Fm}{}{\barre105\f 1\f3\f3\f0\f0\f1}
-\chdig{Fdim}{}{\barre105\f 1\f2\f3\f0\f3\f1}
-\chdig{F"}{II}{\barre105\f 1\f3\f3\f2\f0\f1}
-\chdig{F"4}{II}{\barre105\f 1\f3\f3\f3\f0\f1}
-\chdig{F"6}{}{\f x\f x\f0\f3\f2\f2}
-\chdig{F"7}{II}{\barre105\f 1\f3\f0\f2\f0\f1}
-\chdig{F"m}{II}{\barre105\f 1\f3\f3\f0\f0\f1}
-\chdig{F"m7}{II}{\barre105\f 0\f2\f0\f0\f0\f0}
-\chdig{F"m/F}{}{\barre235\f x\f x\f3\f2\f0\f2}
-\chdig{F"m/E}{}{\barre225\f x\f x\f2\f0\f0\f2}
-\chdig{F"m/D"}{}{\f x\f x\f1\f2\f2\f2}
-\chdig{F"dim}{}{\f x\f0\f1\f2\f1\f2}
-\chdig{G}{}{\f 3\f2\f0\f0\f0\f3}
-\chdig{G}{III}{\barre105\f 1\f3\f3\f2\f0\f1}
-\chdig{G/F}{}{\f 1\f2\f0\f0\f3\f3}
-\chdig{G/F"}{}{\f 2\f2\f0\f0\f3\f3}
-\chdig{G/A}{}{\f x\f0\f0\f0\f3\f3}
-\chdig{G4}{}{\f 3\f2\f0\f0\f1\f3}
-\chdig{G6}{}{\f x\f x\f0\f4\f3\f3}
-\chdig{G7}{}{\f 3\f2\f0\f0\f0\f1}
-\chdig{Gmaj}{}{\f 3\f2\f0\f0\f0\f2}
-\chdig{Gmaj/F"}{}{\f 3\f2\f0\f0\f0\f2}
-\chdig{G+}{}{\f 3\f2\f1\f0\f0\f3}
-\chdig{G+}{III}{\barre105\f 1\f4\f3\f2\f0\f1}
-\chdig{Gm}{III}{\barre105\f 1\f3\f3\f0\f0\f1}
-\chdig{Gm}{}{\f x\f1\f0\f0\f3\f3}
-\chdig{Gm6}{}{\f3\f2\f0\f2\f2\f0}
-\chdig{Gdim}{}{\f 0\f0\f2\f3\f2\f3}
-\chdig{G"}{IV}{\barre105\f 1\f3\f3\f2\f0\f1}
-\chdig{G"7}{IV}{\barre105\f 1\f3\f0\f2\f0\f1}
-\chdig{G"m}{IV}{\barre105\f 1\f3\f3\f0\f0\f1}
-\chdig{G"dim}{}{\f x\f x\f0\f1\f0\f1}
-\chdig{Ab}{IV}{\barre105\f 1\f3\f3\f2\f0\f1}
-\chdig{Ab7}{IV}{\barre105\f 0\f2\f0\f1\f0\f0}
-\chdig{A}{}{\f x\f0\f2\f2\f2\f0}
-\chdig{A+}{}{\f0\f0\f3\f2\f2\f1}
-\chdig{A2}{}{\f0\f0\f2\f2\f0\f0}
-\chdig{A4}{}{\f0\f0\f2\f2\f3\f0}
-\chdig{A(4/6)}{}{\f x\f0\f2\f2\f3\f2}
-\chdig{A6}{}{\f0\f0\f2\f2\f2\f2}
-\chdig{A7}{}{\f0\f0\f2\f0\f2\f0}
-\chdig{A7}{}{\f0\f0\f2\f2\f2\f3}
-\chdig{Amaj}{}{\f0\f0\f2\f1\f2\f0}
-\chdig{Amaj}{V}{\f0\f0\f2\f2\f1\f0}
-\chdig{A9}{}{\f0\f0\f2\f4\f2\f3}
-\chdig{Am}{}{\f0\f0\f2\f2\f1\f0}
-\chdig{Am/G}{}{\f3\f0\f2\f2\f1\f0}
-\chdig{Am7}{}{\f0\f0\f2\f2\f1\f3}
-\chdig{Am7/G}{}{\f3\f0\f2\f0\f1\f0}
-\chdig{Adim}{}{\f0\f0\f1\f2\f1\f2}
-\chdig{B}{}{\barre105\f1\f0\f3\f3\f3\f1}
-\chdig{B7}{}{\barre105\f1\f0\f3\f0\f3\f1}
-\chdig{Bm}{}{\barre105\f1\f0\f3\f3\f2\f1}
-\chdig{H}{II}{\barre105\f 1\f0\f3\f3\f3\f1}
-\chdig{H7}{II}{\barre105\f 1\f0\f3\f0\f3\f1}
-\chdig{H7}{}{\f x\f2\f1\f2\f0\f2}
-\chdig{Hm}{II}{\barre105\f1\f0\f3\f3\f2\f1}
-\chdig{Hm7}{}{\f0\f2\f0\f2\f0\f2}
-\vfill
-\break
-\vfill
-\break
+{
+    \def\InnerMargin{1cm} % to accomodate 6 chords
+    \def\OuterMargin{1cm} % to accomodate 6 chords
+    \PageLayout
+    \advance\hsize by \OuterMargin
+    \advance\hsize by -\InnerMargin
+    \advance\hsize by -\InnerMargin
+    \advance\hsize by -\InnerMargin
+    \advance\hoffset by \InnerMargin
+    \advance\hoffset by \InnerMargin
+    \advance\vsize by -\TopMargin
+    \advance\vsize by -\BottomMargin
+    \advance\voffset by \TopMargin
+    \nopagenumbers
+    %\topglue 0pt
+    \noindent
+    \spacefactor=1000
+    \lineskip=0.5cm
+    \chdig{C}{}{\f x\f3\f2\f0\f1\f0}
+    \chdig{C/E}{}{\f0\f3\f2\f0\f1\f0}
+    \chdig{C/G}{}{\f3\f3\f2\f0\f1\f0}
+    \chdig{C/H}{}{\f x\f2\f2\f0\f1\f0}
+    \chdig{C7}{}{\f0\f3\f2\f3\f1\f0}
+    \chdig{Cmaj}{}{\f0\f3\f2\f0\f0\f0}
+    \chdig{Cm6}{III}{\barre105\f1\f0\f3\f x\f2\f1\fb\f3}
+    \chdig{Cdim}{}{\f x\f x\f1\f2\f1\f2}
+    \chdig{C"}{IV}{\barre105\f 1\f0\f3\f3\f3\f1}
+    \chdig{C"7}{IV}{\barre105\f 1\f0\f3\f0\f3\f1}
+    \chdig{C"m}{IV}{\barre105\f1\f0\f3\f3\f2\f1}
+    \chdig{C"m7}{IV}{\barre105\f1\f0\f3\f0\f2\f1}
+    \chdig{C"dim}{}{\f x\f x\f2\f3\f2\f3}
+    \chdig{D}{}{\f x\f x\f0\f2\f3\f2}
+    \chdig{D/F"}{}{\f 2\f0\f0\f2\f3\f2}
+    \chdig{D4}{}{\f x\f0\f0\f2\f3\f3}
+    \chdig{D7}{}{\f x\f0\f0\f2\f1\f2}
+    \chdig{D7/F"}{}{\f2\f0\f0\f2\f1\f2}
+    \chdig{D(7/4)}{}{\f x\f x\f0\f2\f1\f3}
+    \chdig{Dmaj}{}{\barre235\f x\f0\f0\f2\f0\f2}
+    \chdig{D+}{}{\f x\f x\f0\f3\f3\f2}
+    \chdig{Dm}{}{\f x\f0\f0\f2\f3\f1}
+    \chdig{Dm7}{}{\f x\f0\f0\f2\f1\f1}
+    \chdig{Ddim}{}{\f0\f0\f3\f4\f3\f4}
+    \chdig{D"dim}{}{\f x\f0\f1\f2\f1\f2}
+    \chdig{Eb}{III}{\barre105\f 1\f4\f3\f0\f2\f1}
+    \chdig{Eb7}{II}{\barre105\f 1\f0\f0\f3\f2\f1\fb\f3}
+    \chdig{E}{}{\f 0\f2\f2\f1\f0\f0}
+    \chdig{E4}{}{\f 0\f2\f2\f2\f0\f0}
+    \chdig{E7}{}{\f 0\f2\f2\f1\f3\f0}
+    \chdig{E9}{}{\f 0\f x\f2\f1\f3\f2}
+    \chdig{Em}{}{\f 0\f2\f2\f0\f0\f0}
+    \chdig{Em/G}{}{\f3\f2\f2\f0\f0\f0}
+    \chdig{Em7}{}{\f 0\f2\f2\f0\f3\f0}
+    \chdig{Edim}{}{\f 0\f0\f2\f3\f2\f3}
+    \chdig{F}{}{\barre105\f 1\f3\f3\f2\f0\f1}
+    \chdig{F}{}{\f x\f0\f3\f2\f1\f1}
+    \chdig{F6}{}{\f x\f x\f0\f2\f1\f1}
+    \chdig{F7}{}{\barre105\f 1\f3\f0\f2\f0\f1}
+    \chdig{Fmaj}{}{\f 0\f0\f3\f2\f1\f0}
+    \chdig{Fm}{}{\barre105\f 1\f3\f3\f0\f0\f1}
+    \chdig{Fdim}{}{\barre105\f 1\f2\f3\f0\f3\f1}
+    \chdig{F"}{II}{\barre105\f 1\f3\f3\f2\f0\f1}
+    \chdig{F"4}{II}{\barre105\f 1\f3\f3\f3\f0\f1}
+    \chdig{F"6}{}{\f x\f x\f0\f3\f2\f2}
+    \chdig{F"7}{II}{\barre105\f 1\f3\f0\f2\f0\f1}
+    \chdig{F"m}{II}{\barre105\f 1\f3\f3\f0\f0\f1}
+    \chdig{F"m7}{II}{\barre105\f 0\f2\f0\f0\f0\f0}
+    \chdig{F"m/F}{}{\barre235\f x\f x\f3\f2\f0\f2}
+    \chdig{F"m/E}{}{\barre225\f x\f x\f2\f0\f0\f2}
+    \chdig{F"m/D"}{}{\f x\f x\f1\f2\f2\f2}
+    \chdig{F"dim}{}{\f x\f0\f1\f2\f1\f2}
+    \chdig{G}{}{\f 3\f2\f0\f0\f0\f3}
+    \chdig{G}{III}{\barre105\f 1\f3\f3\f2\f0\f1}
+    \chdig{G/F}{}{\f 1\f2\f0\f0\f3\f3}
+    \chdig{G/F"}{}{\f 2\f2\f0\f0\f3\f3}
+    \chdig{G/A}{}{\f x\f0\f0\f0\f3\f3}
+    \chdig{G4}{}{\f 3\f2\f0\f0\f1\f3}
+    \chdig{G6}{}{\f x\f x\f0\f4\f3\f3}
+    \chdig{G7}{}{\f 3\f2\f0\f0\f0\f1}
+    \chdig{Gmaj}{}{\f 3\f2\f0\f0\f0\f2}
+    \chdig{Gmaj/F"}{}{\f 3\f2\f0\f0\f0\f2}
+    \chdig{G+}{}{\f 3\f2\f1\f0\f0\f3}
+    \chdig{G+}{III}{\barre105\f 1\f4\f3\f2\f0\f1}
+    \chdig{Gm}{III}{\barre105\f 1\f3\f3\f0\f0\f1}
+    \chdig{Gm}{}{\f x\f1\f0\f0\f3\f3}
+    \chdig{Gm6}{}{\f3\f2\f0\f2\f2\f0}
+    \chdig{Gdim}{}{\f 0\f0\f2\f3\f2\f3}
+    \chdig{G"}{IV}{\barre105\f 1\f3\f3\f2\f0\f1}
+    \chdig{G"7}{IV}{\barre105\f 1\f3\f0\f2\f0\f1}
+    \chdig{G"m}{IV}{\barre105\f 1\f3\f3\f0\f0\f1}
+    \chdig{G"dim}{}{\f x\f x\f0\f1\f0\f1}
+    \chdig{Ab}{IV}{\barre105\f 1\f3\f3\f2\f0\f1}
+    \chdig{Ab7}{IV}{\barre105\f 0\f2\f0\f1\f0\f0}
+    \chdig{A}{}{\f x\f0\f2\f2\f2\f0}
+    \chdig{A+}{}{\f0\f0\f3\f2\f2\f1}
+    \chdig{A2}{}{\f0\f0\f2\f2\f0\f0}
+    \chdig{A4}{}{\f0\f0\f2\f2\f3\f0}
+    \chdig{A(4/6)}{}{\f x\f0\f2\f2\f3\f2}
+    \chdig{A6}{}{\f0\f0\f2\f2\f2\f2}
+    \chdig{A7}{}{\f0\f0\f2\f0\f2\f0}
+    \chdig{A7}{}{\f0\f0\f2\f2\f2\f3}
+    \chdig{Amaj}{}{\f0\f0\f2\f1\f2\f0}
+    \chdig{Amaj}{V}{\f0\f0\f2\f2\f1\f0}
+    \chdig{A9}{}{\f0\f0\f2\f4\f2\f3}
+    \chdig{Am}{}{\f0\f0\f2\f2\f1\f0}
+    \chdig{Am/G}{}{\f3\f0\f2\f2\f1\f0}
+    \chdig{Am7}{}{\f0\f0\f2\f2\f1\f3}
+    \chdig{Am7/G}{}{\f3\f0\f2\f0\f1\f0}
+    \chdig{Adim}{}{\f0\f0\f1\f2\f1\f2}
+    \chdig{B}{}{\barre105\f1\f0\f3\f3\f3\f1}
+    \chdig{B7}{}{\barre105\f1\f0\f3\f0\f3\f1}
+    \chdig{Bm}{}{\barre105\f1\f0\f3\f3\f2\f1}
+    \chdig{H}{II}{\barre105\f 1\f0\f3\f3\f3\f1}
+    \chdig{H7}{II}{\barre105\f 1\f0\f3\f0\f3\f1}
+    \chdig{H7}{}{\f x\f2\f1\f2\f0\f2}
+    \chdig{Hm}{II}{\barre105\f1\f0\f3\f3\f2\f1}
+    \chdig{Hm7}{}{\f0\f2\f0\f2\f0\f2}
+    \vfill
+    \break
+    \vfill
+    \break
+}
 \immediate\closeout\TOCfile
 \bye
 
