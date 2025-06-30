@@ -306,3 +306,4 @@ nezboznej/zpevnik.pdf
 nezboznej/zpevnik.toc
 nezboznej/zpevnik.tex
 *build*
+__pycache__/

@@ -153,7 +153,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% PAGE LAYOUT
 %%%%%%%%%%%%%%%%% 
-\def\InnerMargin{0.5cm}
+% \def\InnerMargin{0.5cm}
+\def\InnerMargin{1.5cm}
 \def\OuterMargin{0.7cm}
 \def\TopMargin{0.7cm}
 \def\BottomMargin{0.5cm}
@@ -184,6 +185,8 @@
 \newcount\tempnum % pracovní promenná
 \def\makeindex{
   \bgroup
+  \def\InnerMargin{1cm}
+  \def\OuterMargin{1cm}
   \def\cvak{\ifdim\dimen0<6pt \dimen0=9pt \else \dimen0=3pt \fi}
   \def\puntiky{\leaders\hbox to12pt{\kern\dimen0.\hss}\hfil}
   \long\def\tocline##1##2{\line{\unspace##1%

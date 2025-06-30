@@ -1,9 +1,6 @@
-!!!!!!!! We might have to add an empty page after the index, so that the first song is on the left side
-
-Černý muž a Sbohem Galánečko maj trochu zvláštně zapsaný/vynechaný "opakování" ale asi to už necháme. Marnivá sestřenice taky, Kozel taky nemá zapsaný opakování, Tři myši prašivý taky tak.
+Sbohem Galánečko maj trochu zvláštně zapsaný/vynechaný "opakování" ale asi to už necháme. Marnivá sestřenice taky, Kozel taky nemá zapsaný opakování, Tři myši prašivý taky tak.
 
 Písničky u kterých je teď nekonzistentní lomení kvuli outlier řádkům:
-	Frenky
 	Mršina
 
 Potenciálně jdou ještě smrsknout:
@@ -30,18 +27,11 @@ Spacing:
 		For flexible spacing, you can use glue: \vskip 1cm plus 0.5cm minus 0.2cm.
 
 		Yeah so none of that shit works thanks to the double page balancing act. BUT there's other much more annoying ways to do what we need. To go in the positive direction add a bunch of "M: ()" at the end of the song file - they're invisible, but still take up vertical space. To go in the negative direction, re-define the spacing macros locally, i.e.:
-			\inputsong{songs/079_Každý_ráno.sng}
-			{
-			  \def\InterSongSkip{0ex plus 0ex}
-			  \def\ParSkip{1pt}
-			  \inputsong{songs/080_Kdyby_tady_byla_taková_panenka.sng}
-			}
-			{
-			  \def\InterSongSkip{0ex plus 0ex}
-			  \def\ParSkip{1pt}
-			  \inputsong{songs/081_Když_jde_malý_bobr_spát.sng}
-			}
-			\inputsong{songs/082_Když_mě_brali_za_vojáka.sng}
+		{
+		  \def\InterSongSkip{1pt}
+		  \def\ParSkip{1pt}
+		  \inputsong{songs/187_Trh_ve_Scarborough.sng}
+		}
 
 	Rozšířil jsi:
 		Kolik je na světě
