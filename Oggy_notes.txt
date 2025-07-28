@@ -1,82 +1,32 @@
-Sbohem Galánečko maj trochu zvláštně zapsaný/vynechaný "opakování" ale asi to už necháme. Marnivá sestřenice taky, Kozel taky nemá zapsaný opakování, Tři myši prašivý taky tak.
+TODO:
 
-Písničky u kterých je teď nekonzistentní lomení kvuli outlier řádkům:
-	Mršina
+Levé stránky mají při tisku občas uřízlé čísla stran, a JE to naše chyba! když projíždíš vytisklý pdfko, je vidět že jsou různě vysoko...
+ - Spravil jsem tak, že se vykreslují absolutně (napsal to copilot tak bacha) - ale zachovali jsme tam jakoby neviditelný místo rezervovaný jak kdyby bylo původní číslování - to proto, že chceme zachovat rozložení písniček už přesně jak bylo, vzhledem k už vytisklejm kopiím. Tohle by mělo být možný pak dát pryč pro jakýkoli nový zpěvníky asi... nebo možná nechat že by jinak se ten text moc roztáh a zasáhl do těch čísel? Nutno vyzkoušet.
 
-Potenciálně jdou ještě smrsknout:
-	Andělská
-	Čerešně
-	Nechte zvony znít
-	Písek
-	Proměny
-	Soudný den
-	Studený nohy
-	Toulavá
-	Tři čuníci
-	Veď mě dál, cesto má
-	Zlatý údolí
-	Žal se odkládá
+Věci jako lyric.tex by se asi taky měly stát součástí spojeného songbook.tex, aby se pak celý dal zálohovat, jako reprodukovatelný zdroják nějakýho konkrétního zpěvníku, spolu bude potřebovat složku .sng filů, protože v nich můžou být ty spacing tríčky, jako neviditelný sloky atd.
+
+Zpětně zpropagovat opravy písniček z rozdělených .sng filů zpět do input filu.
+
+Sbohem Galánečko maá trochu zvláštně zapsaný/vynechaný "opakování" ale asi to už necháme. Marnivá sestřenice taky, Kozel taky, Tři myši prašivý taky.
+
+Písničky u kterých je teď nekonzistentní lomení řádků ve slokách kvuli tomu že to někdy nevyjde:
+	Mršina (nakonec zbyla jen ta Mršina a tu jsme tak prostě vytiskli).
 
 -------------------------------
 
-Spacing:
-	General:
-		Use \vskip for manual vertical spacing. For example, \vskip 1cm or \vskip 10pt.
-		If you want to ensure a page break before a song, use \break or \vfill\break.
-		If you want to prevent a page break between two songs, you can use \nobreak\vskip... or group the songs in a \vbox (advanced).
-		For flexible spacing, you can use glue: \vskip 1cm plus 0.5cm minus 0.2cm.
+Vertical spacing:
+	Use \vskip for manual vertical spacing. For example, \vskip 1cm or \vskip 10pt.
+	If you want to ensure a page break before a song, use \break or \vfill\break.
+	If you want to prevent a page break between two songs, you can use \nobreak\vskip... or group the songs in a \vbox (advanced).
+	For flexible spacing, you can use glue: \vskip 1cm plus 0.5cm minus 0.2cm.
 
-		Yeah so none of that shit works thanks to the double page balancing act. BUT there's other much more annoying ways to do what we need. To go in the positive direction add a bunch of "M: ()" at the end of the song file - they're invisible, but still take up vertical space. To go in the negative direction, re-define the spacing macros locally, i.e.:
-		{
-		  \def\InterSongSkip{1pt}
-		  \def\ParSkip{1pt}
-		  \inputsong{songs/187_Trh_ve_Scarborough.sng}
-		}
-
-	Rozšířil jsi:
-		Kolik je na světě
-		Labutě
-		Lotr intelektuál
-		Náušnice z třešní
-		Není nutno
-		Putování
-		Rád chodim na poštu
-		Tři citrónky 
-		Zapadání
-
-	2. kolo - zdaj se ok, pokud zachováš zmenšení na 10pt, je možno najít další. To zmenšení mimochodem možná ověřit jestli dřív nezpůsobilo \rm místo \textfont že to bylo 10pt i když bylo psáno 11pt.
-	Navíc rozšířeno:
-		Antarktida ref a nana
-		Barbora píše z tábora
-		Buchet je spousta
-		Což se mně má milá
-		Časy se mění
-		Drunken sailor - ne uplně rozšíření ale zrepeticování slok (to samý pak u strč prst skrz krk)
-		Dva havrani - rozšířeno + zkusili jsme zavřít uvozovky až za repeticí mrkni jak to vypadá
-		Dva roky práznin
-		Hey Jude
-		Holky z naší školky ref
-		Já budu chodit po špičkách - ne uplně rozšíření ale mrkni jak vypadá repet na konci
-		Jasná zpráva
-		Léto s tebou
-		Marie první sloka
-		Mravenčí ukolébavka
-		My jsme hoši z Ještěda
-		Na kameni kámen
-		O malém rytíři - ref, ve snaze dostat to na jednu stránku...
-		Racci
-		Řízni, řízni
-		Stará archa - nevypadá to retardovaně?
-		Šurean
-		Trh ve Scarborough
-		Tři bratři
-		Tři kříže
-		Tu kytaru jsem koupil kvůli tobě
-		Valčíček
-		Velmi nesmělá
-		Vlaštovko leť
-		Vlčí máky
-		Vodácká holka
+	Yeah so none of that shit works thanks to the double page balancing act. BUT there's other much more annoying ways to do what we need. To go in the positive direction add a bunch of "M: ()" at the end of the song file - they're invisible, but still take up vertical space. To go in the negative direction, re-define the spacing macros locally, i.e.:
+	{
+	  \def\InterSongSkip{1pt}
+	  \def\ParSkip{1pt}
+	  \inputsong{songs/187_Trh_ve_Scarborough.sng}
+	}
+	But usually it seems to me to work better to add those invisible verses wherever it can help, you can also just add a line with an empty chord to an existing verse, etc.
 
 -------------------------------
 
@@ -86,7 +36,7 @@ Odtud níž HOTOVO, nebo nechávám na později/zelený zpěníky
 
 Watchout for:
 	Literals:
-		špatnej apostrof - ´
+		špatnej apostrof - ´ a ′, má být '
 		literal ellipses - …
 		hvězdičky - *
 		m-dashes a dvojpomlčky - ---/--

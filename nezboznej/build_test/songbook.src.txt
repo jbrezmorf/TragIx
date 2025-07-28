@@ -1,0 +1,93 @@
+N: Hudsonský šífy
+A: Wabi Daněk
+AC: WD
+Z:
+ZC:
+
+1: (Am)Ten, kdo nezná hukot vody lopat(C)kama vířený jako (G)já, jo, jako (Am)já,
+   kdo hudsonský slapy nezná sírou (G)pekla sířený,
+   ať se (Am)na hudsonský (G)šífy najmout (Am)dá, (G)jo(Em)ho(Am)ho.
+  
+   Ten, kdo nepřekládál uhlí, šíf když na mělčinu vjel, málo zná, málo zná,
+   ten, kdo neměl tělo ztuhlý, až se nočním chladem chvěl,
+   ať se na hudsonský šífy najmout dá, johoho.
+
+R: (F)Ahoj, páru tam (Am)hoď, ať (G)do pekla se dříve dohra(Am)bem. /: (G)Jo(Em)ho(Am)ho. :/ 
+
+2: Ten, kdo nezná noční zpěvy zarostenejch lodníků, jako já, jo, jako já,
+   ten, kdo cejtí se bejt chlapem, umí dělat rotyku,
+   ať se na hudsonský šífy najmout dá, johoho.
+
+   Ten, kdo má na bradě mlíko, kdo se rumem neopil, málo zná, jo, málo zná,
+   kdo necejtil hrůzu z vody, kde se málem utopil,
+   ať se na hudsonský šífy najmout dá, johoho.
+
+3: Kdo má roztrhaný boty, kdo má pořád jenom hlad, jako já, jo, jako já,
+   kdo chce celý noci čuchat pekelnýho vohně smrad,
+   ať se na hudsonský šífy najmout dá, johoho.
+
+   Kdo chce zhebnout třeba zejtra, komu je to všechno fuk, kdo je sám, jo, jako já,
+   kdo má srdce v správným místě, kdo je prostě príma kluk,
+   ať se na hudsonský šífy najmout dá, johoho.
+
+R: Ahoj, páru tam hoď ... + johoho.
+
+==================
+
+N: Húsličky
+A: Vlasta Redl
+AC:
+Z:
+ZC:
+
+1: (A)Čí že ste, husličky, (D)či(A)e, (Hm)kdo vás tu (F"m)zanech(E)al
+   (A)Čí že ste, husličky, (D)či(A)e, (Hm)kdo vás tu (F"m)zanech(E)al
+   (Hm7)na trávě pová(A)lané(D), (Hm)na trávě (E)pová(A)lan(D)é, (Hm)u paty (F"m)oře(E)cha? (Hm) (F"m) (E)
+
+2: /: A kdože tu trávu tak zválal, aj modré fialy, :/
+   /: že ste, husličky, samé :/ na světě zostaly?
+
+3: /: A který tu muzikant usnul a co sa mu přišlo zdát, :/
+   /: co sa mu enem zdálo, @[bože@], :/ že už vjac nechtěl hrát?
+
+4: /: Zahrajte, husličky, samy, zahrajte zvesela, :/
+   /: až sa tá bude trápit, :/ která ho nechtěla.
+
+==================
+
+N: Tři čuníci
+A: Jaromír Nohavica
+AC:
+Z: Písně Jaromíra Nohavici
+ZC:
+
+1: (C)V řadě za sebou tři čuníci jdou, ťápají si v blátě cestou nece(Am)stou.
+   (Dm)Kufry nemají, cestu nezna(G7)jí. (Dm)Vyšli prostě do světa a (G7)vesele si zpívají: 
+   
+R: Ui ui ui ...  @[\sl{na melodii sloky}@]
+
+2: Auta jezdí tam, náklaďáky sem, tři čuníci jdou, jdou rovnou za nosem.
+   Ušima bimbají, žito křoupají, vyšli prostě do světa a vesele si zpívají:
+
+3: Levá pravá teď, přední zadní už, 
+   tři čuníci jdou, jdou jako jeden muž.
+   Lidé zírají, důvod neznají, 
+   proč ti malí čuníci tak vesele si zpívají:
+
+4: Když kopýtka pálí, když jim dojde dech, 
+   sednou ke studánce na vysoký břeh.
+   Ušima bimbají, kopýtka máchají, 
+   chvilinku si odpočinou a pak dál se vydají.
+
+5: Když se spustí déšť, roztrhne se mrak, 
+   k sobě přitisknou se čumák na čumák.
+   Blesky bleskají, kapky pleskají, 
+   oni v dešti nepohodě vesele si zpívají:
+
+6: Za tu spoustu let, co je světem svět, 
+   přešli zeměkouli třikrát tam a zpět.
+   V řadě za sebou, hele támhle jdou! 
+   Pojďme s nima zazpívat si jejich píseň veselou!
+
+==================
+

@@ -269,6 +269,46 @@
     \else\hfill\the\pagenum\fi%
     }
   }}
+
+% Absolute positioning for page numbers
+\def\MakeAbsolutePageNum#1#2{% #1=page number, #2=position (left/right)
+  \vbox to 0pt{%
+    \vskip\vPageSize% go to bottom of page
+    \vskip-\BottomMargin% come back up by bottom margin
+    \vskip-6.5ex% more space from bottom - was -2ex
+    \hbox to \hsize{%
+      \PageFont%
+      \ifx L#2#1\hfill\else\hfill#1\fi% L=left aligned, else right aligned
+    }%
+    \vss% absorb all vertical space
+  }%
+}
+
+% Create both page numbers with absolute positioning
+\def\MakePagePair{%
+  \global\advance\pagenum by 1%
+  \count1=\pagenum% left page number
+  \global\advance\pagenum by 1%
+  \count2=\pagenum% right page number
+  % Create absolutely positioned page numbers
+  \global\setbox1=\MakeAbsolutePageNum{\the\count1}{L}% Left
+  \global\setbox2=\MakeAbsolutePageNum{\the\count2}{R}% Right
+}
+
+% Invisible placeholder to reserve space (same size as original page numbers)
+% Oggy note - this is necessary to preserve the layout of the content,
+% which we want, since we already have some printed copies with this layout.
+% We would like songs to stay on the same pages, etc.
+\def\MakeInvisiblePagePlaceholder{\vbox{%
+  \PageFont\vskip 2ex%
+  \hbox to \hsize{\PageFont\phantom{999}\hfill}% invisible placeholder
+  }}
+
+% Left page number - invisible placeholder
+\def\MakePageNumLeft{\MakeInvisiblePagePlaceholder}
+
+% Right page number - invisible placeholder  
+\def\MakePageNumRight{\MakeInvisiblePagePlaceholder}
 % auxiliar rule
 % \def\measure{\vbox to 0pt{\hbox to 0pt{\vrule height 18cm}}}
 %
@@ -276,30 +316,32 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\setlyricoutput{%
   \PageLayout
-% page numberibg
+% page numbering - reserve space with invisible placeholder to preserve content layout
   \pagenum=99
-  \setbox0=\MakePageNum
+  \setbox0=\MakePageNum% measure original page number size
   \pagenum=0
   \message{\the\vsize,\the\ht0}
-  \advance\vsize by -\ht0
+  \advance\vsize by -\ht0% reserve space exactly as before
   \vsize=2\vsize% vzdy formatuju 2 strany najednou
   \message{\the\vsize}
   \output={\lyricoutput}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\lyricoutput{\poisepages
   \message{\the\vsize}
+  % Create absolute page numbers
+  \MakePagePair
   %left page
   {\advance\hoffset by \OuterMargin
    \offinterlineskip
-   %\setbox1=\vbox{\hrule\hbox{\vrule\vbox{\box5\MakePageNum}\vrule}\hrule}
-   \setbox1=\vbox{\box5\MakePageNum}
-   \count0=\pagenum\shipout\box1}
+   % Content with invisible placeholder + absolute page number overlay
+   \setbox3=\vbox{\copy1\vskip-\ht1\box5\MakePageNumLeft}
+   \count0=\count1\shipout\box3}
   %right page 
   {\advance\hoffset by \InnerMargin
    \offinterlineskip
-   %\setbox2=\vbox{\hrule\hbox{\vrule\vbox{\box6\MakePageNum}\vrule}\hrule}
-   \setbox2=\vbox{\box6\MakePageNum}
-   \count0=\pagenum\shipout\box2}
+   % Content with invisible placeholder + absolute page number overlay
+   \setbox4=\vbox{\copy2\vskip-\ht2\box6\MakePageNumRight}
+   \count0=\count2\shipout\box4}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % poisepages -
