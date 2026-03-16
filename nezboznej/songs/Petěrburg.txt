@@ -3,7 +3,7 @@ A: Jaromír Nohavica
 AC: JN
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (Am)Když se snáší noc na střechy Petěrburgu, 
    (F)padá (E)na mě (Am)žal.

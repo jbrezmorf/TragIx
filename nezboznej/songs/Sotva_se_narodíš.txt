@@ -1,0 +1,31 @@
+N: Sotva se narodíš
+A: Hop Trop
+AC: 
+Z:
+ZC:
+E: 2007
+                                
+1: /: (D)Sotva se (A7)narodíš, (D)už ti koně (A7)kovou, :/
+   /: (G)šavli ti (D)chystají (A)ocelo(D)vou, :/
+   (A)ocelo(Hm)vou, (Em)bez (Em7)pará(E7)dy,(A7)
+   /: (G)co kmáni (D)dostávaj' (A7)u armá(D)dy. :/
+
+2: /: Sotva se narodíš, už si verbíř píše, :/
+   /: že nejsi ze zámku, ale z chýše, :/
+   ale z chýše pod horama,
+   /: těžko se vyplácet šesťákama. :/
+
+3: /: Sotva se narodíš, už ti kulku lijou, :/
+   /: kdo střelí dřív, toho nezabijou, :/
+   nezabijou, a pak možná,
+   /: jakej maj' mrzáci život, pozná. :/
+
+4: /: Sotva se narodíš, už ti šijou kabát, :/
+   /: kterej si voblíkneš jednou-dvakrát, :/
+   jednou-dvakrát, naposledy,
+   /: zelený sukno je zkrvavený. :/
+
+5: /: (E)Kdejakej (H7)generál, (E)kdejakej (H7)kaprál :/
+   /: (A)s flintama (E)lidi by (H)do pole (E)hnal, :/
+   (H)do pole (C"m)hnal (F"m)proti F"m7)sobě,(F"7)(H7)
+   /: (A)komu jsou (E)metály (H7)platný v hro(E)bě? :/

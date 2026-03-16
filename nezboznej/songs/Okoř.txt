@@ -3,7 +3,7 @@ A: Autor neznámý
 AC:
 Z: Já, písnička 1 (1993)
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (D)Na Okoř je cesta jako žádná ze sta (A7)vroubená je stroma(D)ma. 
    Když jdu po ní v létě, samoten na světě, (A7)sotva pletu noha(D)ma.

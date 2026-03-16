@@ -3,7 +3,7 @@ A: Karel Kryl
 AC: KK
 Z: Já, písnička 3, 1995
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (C)V zahradě (Dm)za cihlovou (C)zídkou, (Dm)
 +  (C)popsanou (Dm)v slavných výro(C)čích, (Dm)

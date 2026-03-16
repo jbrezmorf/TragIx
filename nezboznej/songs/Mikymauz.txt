@@ -3,7 +3,7 @@ A: Jaromír Nohavica
 AC: JN
 Z: Jaromír Nohavica koncert
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (Am)Ráno mě probouzí (G)tma, sahám si na zápěs(F)tí,
    zda mi to (E)ještě tluče, (Dm)zdali mám (E)ještě štěstí,

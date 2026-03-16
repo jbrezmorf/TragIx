@@ -3,7 +3,7 @@ A: Nezmaři, Pete Seeger
 AC:
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: Bylo by to (C)krás(Em)ný, (F) bejt (G)bleskem nebo (C)bou(Em)ří, (F)
    bejt (G)vodou nebo (C)trá(Em)vou, (F) bejt větrem, co (G)vál,

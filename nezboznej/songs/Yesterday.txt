@@ -3,7 +3,7 @@ A: The Beatles
 AC:
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (C)Yesterday (Hm7)all my (E7)troubles seemed so (Am)far away, (Am/G)
    (F)now it (G7)looks as though they're (F)here to (C)stay

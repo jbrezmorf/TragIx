@@ -3,7 +3,7 @@ A: Petr Skoumal
 AC:
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (D)Když jde malý (A)bobr spát, (G)bobr spát, (A)bobr spát,
    (D)tak si chvilku (A)hraje rád, (G)hraje rád, (D)hraje rád,

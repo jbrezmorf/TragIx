@@ -3,7 +3,7 @@ A: Hop trop
 AC: HT
 Z:
 ZC:
-E: 2025
+E: 2007, 2025
 
 1: Byly krásný naše (G)plány, (C) (G) 
 +byla jsi můj celej (Hm)svět, (Bm) (Am)

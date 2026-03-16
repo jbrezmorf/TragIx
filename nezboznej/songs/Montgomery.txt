@@ -3,7 +3,7 @@ A: Traditional, Miroslav \uv{Skunk} Jaroš
 AC:
 Z:
 ZC:
-E: 2025
+E: 2007, 2025
 
 1: (D)Déšť ti, holka, smáčel (G)vlasy, (Em)smáčel vlasy, z (A)tvých o(A7)čí zbyl prázdný (D)kruh, (A7)
    (D)kde je zbytek tvojí (G)krásy, (Em)tvojí krásy, (A)to ví (A7)dneska jenom (D)Bůh.

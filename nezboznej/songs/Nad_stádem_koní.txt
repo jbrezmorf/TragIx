@@ -3,7 +3,7 @@ A: Buty
 AC:
 Z: 
 ZC:
-E: 2025
+E: 2012, 2025
 
 1: Nad stádem (D A Em)koní, podkovy (G)zvoní, zvo(D)ní.
    Černý vůz (A) vlečou (Em)a slzy (G)tečou a já vo(D)lám: 

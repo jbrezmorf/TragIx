@@ -3,7 +3,7 @@ A: Jiří Fallada, Michal Tučný
 AC:
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: Když (D)Sever válčí s Jihem a (G)zem jde do vál(D)ky
    na polích místo bavlny teď (E)rostou bodlá(A7)ky,

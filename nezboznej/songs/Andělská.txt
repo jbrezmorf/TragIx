@@ -3,7 +3,7 @@ A: Zuzana Navarová
 AC:
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (A2)Bože, (A(4/6))podej mi ještě ten (Amaj)kalich, (A(4/6))
 to (A)víno, co s (Hm7)nocí se měnívá (C"m7)na líh. (C"7)

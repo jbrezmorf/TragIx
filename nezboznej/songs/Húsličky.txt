@@ -3,7 +3,7 @@ A: Vlasta Redl
 AC:
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (A)Čí že ste, husličky, (D)či(A)e, (Hm)kdo vás tu (F"m)zanech(E)al
    (A)Čí že ste, husličky, (D)či(A)e, (Hm)kdo vás tu (F"m)zanech(E)al

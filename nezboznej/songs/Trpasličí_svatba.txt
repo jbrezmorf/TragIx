@@ -3,7 +3,7 @@ A: Jaroslav Uhlíř, Emil Synek
 AC:
 Z: Já, písnička 1 (1993)
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (G)V lese, jó v lese, (C)na jehli(G)čí, koná se svatba (A)trpasli(D7)čí,
    (G)žádná divná (C)věc to ne(H7)ní, (C)Šmudla (C"dim)už má (G)po voj(Em)ně a (A)tak se (D7)že(G)ní.

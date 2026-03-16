@@ -3,7 +3,7 @@ A: Spirituál Kvintet
 AC:
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (Am)Příteli, máš do (G)Scarborough (Am)jít,
 +  (C)dobře (Am)vím, že (C)půj(D)deš tam (Am)rád,

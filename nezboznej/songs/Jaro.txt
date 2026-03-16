@@ -3,7 +3,7 @@ A: J. Šťáhlavský, T. Linka
 AC:
 Z: 
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (Am)My čekali (C)jaro a (G)zatím přišel (Am)mráz. 
    Tak strašlivou (C)zimu ne(G)poznal nikdo (Am)z nás.

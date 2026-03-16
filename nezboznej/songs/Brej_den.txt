@@ -3,7 +3,7 @@ A: Karel Plíhal
 AC: KP
 Z:Karel Plíhal
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: Brej (Cmaj)den, pane (Fmaj)slimáku, brej (Cmaj)den, jakpak (F)se vám klouže (G)po slině?
    Já (Cmaj)vím, máte mě (Fmaj)na háku, (G)ale já vás zcela chápu, tak to (G7)nesu hrdin(C)ně.

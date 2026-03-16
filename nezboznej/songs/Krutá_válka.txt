@@ -3,7 +3,7 @@ A: Spirituál kvintet
 AC: SK
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (E)Tmou zní zvony z (C"m)dálky, o (F"m)čem to, milý, (G"m)sníš,
    (G")hoří (A)dál plamen (F"m)války a (E)rá(F"m)no je (H7)blíž,

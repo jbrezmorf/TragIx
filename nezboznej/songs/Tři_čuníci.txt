@@ -3,7 +3,7 @@ A: Jaromír Nohavica
 AC:
 Z: Písně Jaromíra Nohavici
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (C)V řadě za sebou tři čuníci jdou, 
    ťápají si v blátě cestou nece(Am)stou.

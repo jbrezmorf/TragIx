@@ -3,7 +3,7 @@ A: Klíč
 AC:
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (Dm)Šel pocestný kol (C)hospodských (Dm)zdí, (F)přisedl k nám a (C)lokálem (F)zní
    (Gm)pozdrav jak svaté (Dm)přikázá(C)ní: (Dm)omnia (C)vincit (Dm)Amor.

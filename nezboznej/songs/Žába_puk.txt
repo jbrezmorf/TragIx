@@ -3,7 +3,7 @@ A: Jiří Ziembrowski, Ivan Mládek
 AC:
 Z: Šel tudu, měl banjo (1994)
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (C)U le(G+)síčka (C)zamrzla (G+)říčka, (C)bude(G+)me hrát (B)ho(A7)kej,
    (Dm)nabrou(A7)sím si (Dm)u bruslí (A7)šrouby, (D7)do zatáček budu běhat (Ab7)O. (G7)K.

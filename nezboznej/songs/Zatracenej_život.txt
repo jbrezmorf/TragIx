@@ -3,7 +3,7 @@ A: Traditional, Jan Vyčítal
 AC:
 Z: 
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (C)To bylo v Dakotě (F)o vejpla(C)tě, whisky jsem tam pašo(G)val,
    (C)a že jsem byl sám jako (F)kůl v plo(C)tě, s holkou jsem (G)tam špáso(C)val. 

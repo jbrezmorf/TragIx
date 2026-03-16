@@ -3,7 +3,7 @@ A: Leonard Cohen
 AC:
 Z: 
 ZC:
-E: 2025
+E: 2012, 2025
 
 1: (G)Now I've heard there was a (Em)secret chord
 That (G) David played, and it(Em) pleased the Lord.

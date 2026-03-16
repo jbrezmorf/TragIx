@@ -3,7 +3,7 @@ A: Autor neznámý
 AC:
 Z: 
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (A)Projížděl jsem starým Colorédem, když tu slyším výkřik vzdále(E)ný. (E7)
    (A)Jedu podle (A7)hlasu (D)a k mému ú(Dm)žasu, (A)ležel tam muž k (E)zemi skole(A)ný.

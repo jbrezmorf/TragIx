@@ -3,7 +3,7 @@ A: Žalman
 AC: ZA
 Z: Já, písnička 3, 1995
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (Am7)Sedím na kolejích, (D7)které nikam neve(G)dou,
   (Am7)koukám na kopretinu, jak (D7)miluje se s lebe(G)dou,

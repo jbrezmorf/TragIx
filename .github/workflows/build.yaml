@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run checker
+      - name: Check songs
         run: |
           echo "## Song file quality check" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
@@ -33,6 +33,7 @@ jobs:
             echo "### ${variant} (${edition})" >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
             if python scripts/check_songbook.py "${variant}/songs/" \
+                --edition "$edition" --fix --dry-run \
                 --tail "${variant}/tail.tex" 2>&1 | tee -a $GITHUB_STEP_SUMMARY; then
               echo "All clean." >> $GITHUB_STEP_SUMMARY
             else
@@ -42,34 +43,10 @@ jobs:
             echo "" >> $GITHUB_STEP_SUMMARY
           done < current_editions.txt
 
-          exit $FAILED
-
-      - name: Run fixer (dry-run)
-        if: always()
-        run: |
-          echo "## Auto-fixer dry run" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-
-          FAILED=0
-          while read -r variant edition; do
-            [[ -z "$variant" || "$variant" == \#* ]] && continue
-            echo "### ${variant}" >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-            python scripts/fix_songbook.py "${variant}/songs/" --dry-run 2>&1 \
-              | tee -a $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-
-            if python scripts/fix_songbook.py "${variant}/songs/" --dry-run 2>&1 \
-                | grep -q "Would apply"; then
-              FAILED=1
-            fi
-          done < current_editions.txt
-
           if [ $FAILED -eq 1 ]; then
-            echo "> **Fix:** run \`python scripts/fix_songbook.py <variant>/songs/\` locally and commit the result." >> $GITHUB_STEP_SUMMARY
-            exit 1
+            echo "> **Fix:** run \`python scripts/check_songbook.py <variant>/songs/ --fix\` locally and commit." >> $GITHUB_STEP_SUMMARY
           fi
+          exit $FAILED
 
   build:
     name: Build PDFs

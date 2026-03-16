@@ -3,7 +3,7 @@ A: Jaromír Nohavica
 AC:
 Z: Písně Jaromíra Nohavici
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (C)Na rybníce jsou velké vl(Dm)ny, dělají (G7)se od příro(C)dy.
    Kapr ten je opatr(Dm)ný, nevystr(G7)čí čumák z vo(C)dy.

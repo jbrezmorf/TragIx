@@ -114,7 +114,8 @@ spaces inside a word:
 7. Typographic conventions
 --------------------------
 
-The following are enforced by check_songbook.py and fix_songbook.py:
+The following are enforced by check_songbook.py (use --fix to auto-fix
+the deterministic ones):
 
   Apostrophes     Use ASCII ' only.  Not: ´ (acute) or ′ (prime).
   Ellipsis        Use three dots ...  Not: … (literal ellipsis char).

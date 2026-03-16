@@ -3,7 +3,7 @@ A: Jaromír Nohavica
 AC: JN
 Z: Já písnička 3, 1995
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (Am)Až mě zítra ráno v pět (C)ke zdi postaví,
    (F)ještě si napo(G7)sled dám (C)vodku na zdra(Am)ví,     

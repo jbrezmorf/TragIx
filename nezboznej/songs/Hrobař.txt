@@ -3,7 +3,7 @@ A: Premiér
 AC: PR
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: V (D)mládí jsem se učil hrobařem, (Hm)jezdit s hlínou, jezdit s trakařem,
    (G)kopat hroby byl můj ide(A7)ál.

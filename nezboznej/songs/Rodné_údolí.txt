@@ -3,7 +3,7 @@ A: Nedvědi
 AC:
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: Cesta (C)má přede mnou v dáli (F)mizí, 
 +   každý (C)krok v srdci mém zabo(G)lí, 

@@ -3,7 +3,7 @@ A: Waldemar Matuška, Bob Dylan
 AC: WM, BD
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (C)Míle a (F)míle jsou (C)cest, které (Am)znám, jdou (C)trávou i (F)úbočím (G)skal,
    (C)jsou cesty (F)zpátky a (C)jsou cesty (Am)tam  a (C)já na všech (F)s vámi (G)stál,

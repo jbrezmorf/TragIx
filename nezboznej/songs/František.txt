@@ -3,7 +3,7 @@ A: Buty
 AC:
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (G)Na hladinu rybníka svítí sluní(C)čko
    (Em)a kolem stojí v hustém kruhu (G)topoly, 

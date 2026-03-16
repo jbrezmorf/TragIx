@@ -3,7 +3,7 @@ A: Čechomor
 AC:
 Z: 
 ZC:
-E: 2025
+E: 2012, 2025
 
 1: (Am)Darmo sa ty trápíš (G)můj milý sy(C)nečku,
 nenosím ja tebe (Dm)nenosím v sr(Am)déčku.

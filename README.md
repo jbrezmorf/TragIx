@@ -115,10 +115,12 @@ Quick reference:
 python scripts/check_songbook.py nezboznej/songs/Přítel.txt
 python scripts/check_songbook.py nezboznej/songs/ --tail nezboznej/tail.tex
 
-# Auto-fix safe issues (preview first with --dry-run)
-python scripts/fix_songbook.py nezboznej/songs/ --dry-run
-python scripts/fix_songbook.py nezboznej/songs/
+# Only check songs in a specific edition
+python scripts/check_songbook.py nezboznej/songs/ --edition 2025
 
+# Auto-fix safe issues (preview first, then apply)
+python scripts/check_songbook.py nezboznej/songs/ --fix --dry-run
+python scripts/check_songbook.py nezboznej/songs/ --fix
 ```
 
 ## Editions

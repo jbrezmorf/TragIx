@@ -3,7 +3,7 @@ A: Spirituál kvintet
 AC: SK
 Z: SK 1992
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: Ten širý (D)proud (G)jak přejít (D)mám, proč neu(Hm)mím (Em) se nad něj (A)vznést,
    ach, člun tak (F"m)mít, (G) ten řídit (F"m)znám, v (G)něm lásku (A)svou bych chtěla (D)vézt.

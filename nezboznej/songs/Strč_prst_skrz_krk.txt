@@ -3,7 +3,7 @@ A: Bobři
 AC:
 Z: 
 ZC:
-E: 2025
+E: 2012, 2025
 
 1: \uv{Str(G)č prst skrz krk} zřetelně nám přeříkej, 
    \uv{str(D)č prst skrz krk} zřetelně nám přeříkej,  

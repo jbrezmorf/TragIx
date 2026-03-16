@@ -1,0 +1,33 @@
+N: Dezertér
+A: Dušan Vančura
+AC: 
+Z:
+ZC:
+E: 2007
+                   
+1: (C)Zdál se mi (Dm)má milá (C)jed(G7)nou (C)sen,
+   (G)zdál se mi (Am)má milá (G)jed(D7)nou (G)sen.
+   (C)Že's přišla (Dm7)k nám, (Em)že's (Dm)přišla (G7)k nám,
+   (C)já jsem ma(Dm)šíroval (C)pod (Dm)ok(G)nem,
+   (C)Že's přišla (Dm7)k nám, (Em)že's (Dm)přišla (G7)k nám,
+   (C)já jsem ma(Dm)šíroval (C)pod (G7)ok(C)nem.
+
+2: /: To nebyl, můj milej, žádnej sen, :/
+   /: já přišla k vám, já přišla k vám, 
+   ty jsi byl na vojnu odveden. :/
+
+3: /: Na vojnu do Hradce Králové, :/
+   /: tam prej na nás, tam prej na nás,
+   šavleva blejskají Prajzové. :/
+
+4: /: Tejden už v zákopu ležíme, :/
+   /: co přijde dál, co přijde dál,
+   kdy budeme ládovat, nevíme. :/
+
+5: /: Vtom se zved větříček májovej, :/
+   /: vod Prajza k nám, vod Prajza k nám,
+   přinesl papírek notovej. :/
+
+6: /: Tak mě tu máš zase, milá má, :/
+   /: proč bych měl jít s Prajzem se bít,
+   když on je muzikant jako já. :/

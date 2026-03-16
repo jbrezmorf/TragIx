@@ -3,7 +3,7 @@ A: Autor neznámý
 AC:
 Z: 
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 \sl{Při \uv{infanteria} se stojí, při \uv{císař pán} a \uv{jeho rodina} se navíc salutuje.}
 

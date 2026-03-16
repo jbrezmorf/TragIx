@@ -3,7 +3,7 @@ A: K.T.O.
 AC:
 Z:
 ZC:
-E: 2025
+E: 2007, 2012, 2025
 
 1: (A)V dáli (D)za ho(A)rama stojí (E)chajda ma(A)lá.
    (A)V dáli (D)za ho(A)rama stojí (E)chajda ma(A)lá.
