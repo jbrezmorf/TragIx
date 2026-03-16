@@ -183,21 +183,26 @@ def collect_files(path):
 # Main
 # ---------------------------------------------------------------------------
 
-def process_file(path, selected, dry_run):
+def process_file(path, selected, dry_run, show_filename=False):
     text = path.read_text(encoding="utf-8")
     original = text
     file_changes = 0
+    output = []
 
     for name, description, fn in ALL_FIXES:
         if name not in selected:
             continue
         text, count = fn(text)
         if count:
-            print(f"  {name}: {count} change(s) -- {description}")
+            output.append(f"    {name}: {count} change(s) -- {description}")
             file_changes += count
 
     if file_changes == 0:
         return 0
+
+    if show_filename:
+        print(f"\n  {path.name}:")
+    print("\n".join(output))
 
     if dry_run:
         return file_changes
@@ -239,10 +244,9 @@ def main():
         return 1
 
     grand_total = 0
+    multi = len(files) > 1
     for f in files:
-        if len(files) > 1:
-            print(f"\n--- {f.name} ---")
-        count = process_file(f, selected, args.dry_run)
+        count = process_file(f, selected, args.dry_run, show_filename=multi)
         grand_total += count
 
     if grand_total == 0:

@@ -10,25 +10,30 @@ Scout troop songbook build system. Two variants:
 ## Repository structure
 
 ```
-common/              Shared TeX
-nezboznej/           Red songbook variant
-  head.tex           Title page and preamble
-  tail.tex           Chord diagrams and closing
-  songs/             Individual song files (canonical, clean UTF-8)
-  overrides/         Build-time layout overrides (spacing hacks etc.)
-  build/             Build output (generated, gitignored)
-zboznej/             Green songbook variant (same structure)
-fonts/               Custom Scout fonts (TheMix C5, SKAUT)
-scripts/             Helper scripts
-doc/                 Documentation and notes
-zdroje/              Legacy song source archives
-build_songbook.py    Main build script
-Dockerfile           Reproducible build environment
+common/                Shared TeX
+nezboznej/             Red songbook variant
+  head.tex             Title page and preamble
+  tail.tex             Chord diagrams and closing
+  songs/               Individual song files (canonical, clean UTF-8)
+  overrides/           Build-time layout overrides (spacing hacks etc.)
+  build/               Build output (generated, gitignored)
+zboznej/               Green songbook variant (same structure)
+fonts/                 Custom Scout fonts (TheMix C5, SKAUT)
+scripts/               Helper scripts
+doc/                   Documentation and notes
+zdroje/                Legacy song source archives
+build_songbook.py      Main build script
+current_editions.txt   Which variant+edition combos to build
+Dockerfile             Reproducible build environment
 ```
 
 ## Building
 
 ```bash
+# Build everything listed in current_editions.txt:
+python build_songbook.py --all
+
+# Or build a specific variant+edition:
 python build_songbook.py --variant nezboznej --edition 2025
 python build_songbook.py --variant zboznej --edition 2026
 ```
@@ -41,9 +46,14 @@ The `--edition` parameter selects songs whose `E:` header includes
 that year (e.g. `E: 2025` or `E: 2007, 2012, 2025`). Overrides from
 `overrides/` are used when present.
 
+The `current_editions.txt` file at the repo root controls which
+variant+edition pairs are active. The CI workflow and `--all` flag
+both read from it. To change what gets built, edit that one file.
+
 Options:
 
 ```bash
+--all          Build all editions from current_editions.txt
 --duplex       Also produce an A5-on-A4 duplex PDF for the print shop
 --clean        Only clean the build directory, then exit
 --songs-only   Collect and write song files but do not compile the PDF
@@ -113,6 +123,7 @@ python scripts/fix_songbook.py nezboznej/songs/
 
 ## Editions
 
+Active build targets are listed in `current_editions.txt`.
 
 | Variant         | 2007 | 2012 | 2025        | 2026        |
 | --------------- | ---- | ---- | ----------- | ----------- |

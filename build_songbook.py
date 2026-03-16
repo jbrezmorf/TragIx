@@ -7,6 +7,7 @@ Usage (auto-detects Docker if luatex is not available locally):
     python build_songbook.py --variant nezboznej --edition 2025 --duplex
     python build_songbook.py --variant nezboznej --edition 2025 --clean
     python build_songbook.py --variant nezboznej --edition 2025 --songs-only
+    python build_songbook.py --all                 # build everything from current_editions.txt
 """
 
 import argparse
@@ -206,20 +207,22 @@ def create_duplex(build_dir, variant):
 
 def docker_run(args):
     """Re-invoke this script inside a Docker container with the correct
-    volume mount so build output lands on the host filesystem."""
+    volume mount(s) so build output lands on the host filesystem."""
     image = "tragix-songbook"
 
     print(f"[docker] Building image '{image}'...")
     subprocess.run(["docker", "build", "-t", image, "."], check=True)
 
-    build_mount = f"{Path.cwd().as_posix()}/{args.variant}/build:/songbook/{args.variant}/build"
+    cwd = Path.cwd().as_posix()
+    cmd = ["docker", "run", "--rm"]
 
-    cmd = [
-        "docker", "run", "--rm",
-        "-v", build_mount,
-        image,
-    ]
-    cmd += sys.argv[1:]
+    if args.all:
+        for variant, _ in load_editions():
+            cmd += ["-v", f"{cwd}/{variant}/build:/songbook/{variant}/build"]
+    else:
+        cmd += ["-v", f"{cwd}/{args.variant}/build:/songbook/{args.variant}/build"]
+
+    cmd += [image] + sys.argv[1:]
 
     print(f"[docker] Running build inside container...")
     result = subprocess.run(cmd)
@@ -230,18 +233,42 @@ def docker_run(args):
 # CLI and main
 # ---------------------------------------------------------------------------
 
+EDITIONS_FILE = "current_editions.txt"
+
+
+def load_editions():
+    """Read active editions from editions.txt. Returns [(variant, edition), ...]."""
+    path = Path(EDITIONS_FILE)
+    if not path.exists():
+        raise SystemExit(f"{EDITIONS_FILE} not found.")
+    entries = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        parts = line.split()
+        if len(parts) != 2:
+            raise SystemExit(f"Bad line in {EDITIONS_FILE}: {line!r} (expected: variant edition)")
+        entries.append(tuple(parts))
+    return entries
+
+
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Build a songbook PDF from song source files.",
         epilog="If luatex is not found locally, the build runs inside Docker automatically.",
     )
     parser.add_argument(
-        "--variant", required=True,
-        help="Variant name (nezboznej or zboznej)",
+        "--variant",
+        help="Variant name (nezboznej or zboznej). Required unless --all is used.",
     )
     parser.add_argument(
-        "--edition", required=True,
-        help="Edition year (e.g. 2025). Selects songs whose E: header includes this year.",
+        "--edition",
+        help="Edition year (e.g. 2025). Required unless --all is used.",
+    )
+    parser.add_argument(
+        "--all", action="store_true",
+        help=f"Build all editions listed in {EDITIONS_FILE}.",
     )
     parser.add_argument(
         "--duplex", action="store_true",
@@ -255,38 +282,39 @@ def parse_args():
         "--songs-only", action="store_true",
         help="Collect and write song files but do not compile the PDF.",
     )
-    return parser.parse_args()
+    args = parser.parse_args()
+
+    if not args.all and (not args.variant or not args.edition):
+        parser.error("--variant and --edition are required (or use --all).")
+
+    return args
 
 
-def main():
-    args = parse_args()
-    variant_dir = Path(args.variant)
+def build_one(variant, edition, duplex=False, clean=False, songs_only=False):
+    """Build a single variant+edition combination."""
+    variant_dir = Path(variant)
     build_dir = variant_dir / "build"
-
-    if not shutil.which("luatex") and not args.clean and not args.songs_only:
-        docker_run(args)
-        return
 
     # -- Clean ---------------------------------------------------------------
     if build_dir.exists():
         print(f"Cleaning {build_dir}/...")
         shutil.rmtree(build_dir, ignore_errors=True)
 
-    if args.clean:
+    if clean:
         print("Done.")
         return
 
     # -- Collect songs -------------------------------------------------------
-    print(f"Collecting songs for {args.variant} edition {args.edition}...")
-    songs = collect_songs(variant_dir, args.edition)
+    print(f"Collecting songs for {variant} edition {edition}...")
+    songs = collect_songs(variant_dir, edition)
     if not songs:
         raise SystemExit("No songs matched -- check E: headers in song files.")
 
     # -- Prepare build files -------------------------------------------------
     print("Preparing build files...")
-    prepare_build(songs, args.variant, build_dir)
+    prepare_build(songs, variant, build_dir)
 
-    if args.songs_only:
+    if songs_only:
         print("Done (--songs-only).")
         return
 
@@ -295,10 +323,30 @@ def main():
     compile_pdf(build_dir, passes=2)
 
     # -- Duplex (optional) ---------------------------------------------------
-    if args.duplex:
-        create_duplex(build_dir, args.variant)
+    if duplex:
+        create_duplex(build_dir, variant)
 
     print("Done.")
+
+
+def main():
+    args = parse_args()
+
+    if args.all:
+        editions = load_editions()
+        if not shutil.which("luatex") and not args.clean and not args.songs_only:
+            docker_run(args)
+            return
+        for variant, edition in editions:
+            print(f"\n{'='*60}")
+            print(f"  Building {variant} edition {edition}")
+            print(f"{'='*60}\n")
+            build_one(variant, edition, args.duplex, args.clean, args.songs_only)
+    else:
+        if not shutil.which("luatex") and not args.clean and not args.songs_only:
+            docker_run(args)
+            return
+        build_one(args.variant, args.edition, args.duplex, args.clean, args.songs_only)
 
 
 if __name__ == "__main__":

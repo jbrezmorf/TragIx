@@ -288,20 +288,19 @@ def run_checks_on_file(path, quiet=False):
     text = path.read_text(encoding="utf-8")
     numbered_lines = list(enumerate(text.splitlines(), 1))
     total = 0
+    output = []
 
     for check_name, check_fn in ALL_CHECKS:
         issues = check_fn(numbered_lines)
         if issues:
-            print(f"\n{'='*60}")
-            print(f"  {check_name}: {len(issues)} issue(s)")
-            print(f"{'='*60}")
+            output.append(f"  {check_name}: {len(issues)} issue(s)")
             if not quiet:
                 for line_num, msg, line_text in issues:
-                    print(f"  L{line_num}: {msg}")
-                    print(f"    | {line_text.rstrip()}")
+                    output.append(f"    L{line_num}: {msg}")
+                    output.append(f"      | {line_text.rstrip()}")
             total += len(issues)
 
-    return total, numbered_lines
+    return total, numbered_lines, output
 
 
 def main():
@@ -323,11 +322,11 @@ def main():
     all_lines = []
 
     for f in files:
-        if len(files) > 1:
-            print(f"\n{'#'*60}")
-            print(f"  {f.name}")
-            print(f"{'#'*60}")
-        count, lines = run_checks_on_file(f, quiet=args.quiet)
+        count, lines, output = run_checks_on_file(f, quiet=args.quiet)
+        if count:
+            if len(files) > 1:
+                print(f"\n  {f.name}:")
+            print("\n".join(output))
         grand_total += count
         all_lines.extend(lines)
 

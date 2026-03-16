@@ -51,8 +51,9 @@ Každá písnička začíná hlavičkou:
   E: = edice, do kterých písnička patří (rok/y, oddělené čárkou)
 
 Pole E: říká, ve kterých ročnících zpěvníku se má písnička objevit.
-Pokud přidáváš novou písničku, napiš tam rok aktuální edice (např.
-"E: 2025"). Pokud chceš, aby byla ve víc edicích: "E: 2007, 2012, 2025".
+Pokud přidáváš novou písničku, napiš tam rok aktuální edice (viz
+soubor current_editions.txt v kořeni repozitáře). Pokud chceš, aby
+byla ve víc edicích: "E: 2007, 2012, 2025".
 Díky tomu stačí přidat/upravit JEDEN soubor a písnička se automaticky
 zařadí do zpěvníku -- žádné další kroky nejsou potřeba!
 

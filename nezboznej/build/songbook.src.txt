@@ -1,3 +1,36 @@
+N: A pak 
+A: Tomáš Klus
+AC:
+Z:
+ZC:
+E: 2025
+
+1: Jednou (C)štěstí dohoní i ty (Em)jezdce na koních,
+co hleda(Dm)jí (G)ho v cizích stájích.
+Jednou (C)hrana zazvoní i těm (Em)jezdcům na koních,
+co stále (Dm)vedou svou cestou (G)šedou.
+
+R: A pak, (C)koně klus promění v (E)cval,
+nic stejné nebude (F)dál, (G)svět promění se.
+(C)Pak, koně klus promění v (E)cval,
+nic stejné nebude (F)dál, (G)svět promění se.
+
+2: Až ten vítr zavane, vzplane srdce, hlava ne
+a začne bít, zavládne klid
+Oči jezdců spatří svit obzoru, kam chtěli jít,
+kde spočinou, kde spočinou.
+
+R: A pak, koně klus promění v cval,
+nic stejné nebude dál, svět promění se
+Pak, koně klus promění v cval,
+nic stejné nebude dál, svět promění se
+Pak, koně klus promění v cval,
+nic stejné nebude dál, svět promění se
+Pak, koně Klus promění v cval,
+nic stejné nebude dál, svět promění se pak ...
+
+==================
+
 N: Akordy
 A: Karel Plíhal
 AC:
@@ -263,39 +296,6 @@ jak jsou pro svět důležitý naše ledy.
 
   (D)Na na na na (Em)nananana (A)nananana (D)nananana
   (D)Na na na na (Em)nananana (A7)nananana na (D)na
-
-==================
-
-N: A pak 
-A: Tomáš Klus
-AC:
-Z:
-ZC:
-E: 2025
-
-1: Jednou (C)štěstí dohoní i ty (Em)jezdce na koních,
-co hleda(Dm)jí (G)ho v cizích stájích.
-Jednou (C)hrana zazvoní i těm (Em)jezdcům na koních,
-co stále (Dm)vedou svou cestou (G)šedou.
-
-R: A pak, (C)koně klus promění v (E)cval,
-nic stejné nebude (F)dál, (G)svět promění se.
-(C)Pak, koně klus promění v (E)cval,
-nic stejné nebude (F)dál, (G)svět promění se.
-
-2: Až ten vítr zavane, vzplane srdce, hlava ne
-a začne bít, zavládne klid
-Oči jezdců spatří svit obzoru, kam chtěli jít,
-kde spočinou, kde spočinou.
-
-R: A pak, koně klus promění v cval,
-nic stejné nebude dál, svět promění se
-Pak, koně klus promění v cval,
-nic stejné nebude dál, svět promění se
-Pak, koně klus promění v cval,
-nic stejné nebude dál, svět promění se
-Pak, koně Klus promění v cval,
-nic stejné nebude dál, svět promění se pak ...
 
 ==================
 
@@ -3760,42 +3760,6 @@ protože jsou švarní hoši z Ještěda. :/
 
 ==================
 
-N: Nad stádem koní
-A: Buty
-AC:
-Z: 
-ZC:
-E: 2025
-
-1: Nad stádem (D A Em)koní, podkovy (G)zvoní, zvo(D)ní.
-   Černý vůz (A) vlečou (Em)a slzy (G)tečou a já vo(D)lám: 
-
-2: Tak neplač (A)můj kamará(Em)de, náhoda je (G)blbec když kra(D)de. 
-   Je tuhý jak (A)veka a řeka ho (Em)splaví, máme ho (G)rádi. 
-
-R: No tak (C)co, tak (G)co, tak (A)co. 
-
-2: (D)Vždycky si (A)přál, až bude (Em)popel,
-   i s kyta(G)rou, h(D)ou. Vodou ať (A)plavou, 
-   jen žádný (Em)hotel, s křížkem nad (G)hlavou. 
-
-   (D)Až najdeš (A)místo, kde je ten (Em)pramen a kámen co (G)praská. (D)
-   Budeš mít (A)jisto, patří  sem (Em)popel a každá (G)láska. 
-
-R: No tak (C)co, tak (G)co, tak (A)co. 
-
-3: Nad stádem koní, podkovy zvoní zvoní. 
-   Černý vůz vlečou a slzy tečou a já šeptám: 
- 
-   Vysyp ten popel, kamaráde, do bílé vody, vody. 
-   Vyhasnul kotel a náhoda je štěstí od podkovy.
- 
-3× /: Vysyp ten (D)popel; (A)kamará(G)de,
-   do bílé (D)vody, (A)vo(G)dy. Vyhasnul (D)kotel
-   a (A)náhoda (Em)je; štěstí od podko(G)vy. :/
-
-==================
-
 N: Na kameni kámen
 A: Brontosauři
 AC:
@@ -3855,6 +3819,42 @@ Kašlu vám na bonton, Bejby si chytrej chlap,
 sere mě Tichej Don a ten váš tupej dav.
  
 R: ... tenhleten barák vám posere pták.
+
+==================
+
+N: Nad stádem koní
+A: Buty
+AC:
+Z: 
+ZC:
+E: 2025
+
+1: Nad stádem (D A Em)koní, podkovy (G)zvoní, zvo(D)ní.
+   Černý vůz (A) vlečou (Em)a slzy (G)tečou a já vo(D)lám: 
+
+2: Tak neplač (A)můj kamará(Em)de, náhoda je (G)blbec když kra(D)de. 
+   Je tuhý jak (A)veka a řeka ho (Em)splaví, máme ho (G)rádi. 
+
+R: No tak (C)co, tak (G)co, tak (A)co. 
+
+2: (D)Vždycky si (A)přál, až bude (Em)popel,
+   i s kyta(G)rou, h(D)ou. Vodou ať (A)plavou, 
+   jen žádný (Em)hotel, s křížkem nad (G)hlavou. 
+
+   (D)Až najdeš (A)místo, kde je ten (Em)pramen a kámen co (G)praská. (D)
+   Budeš mít (A)jisto, patří  sem (Em)popel a každá (G)láska. 
+
+R: No tak (C)co, tak (G)co, tak (A)co. 
+
+3: Nad stádem koní, podkovy zvoní zvoní. 
+   Černý vůz vlečou a slzy tečou a já šeptám: 
+ 
+   Vysyp ten popel, kamaráde, do bílé vody, vody. 
+   Vyhasnul kotel a náhoda je štěstí od podkovy.
+ 
+3× /: Vysyp ten (D)popel; (A)kamará(G)de,
+   do bílé (D)vody, (A)vo(G)dy. Vyhasnul (D)kotel
+   a (A)náhoda (Em)je; štěstí od podko(G)vy. :/
 
 ==================
 
@@ -4098,53 +4098,6 @@ R1: Teskně hučí ...
 
 ==================
 
-N: Okolo Hradce
-A: Lidová
-AC:
-Z: 
-ZC:
-E: 2025
-
-1: /: (D)Okolo Hradce v (Hm7)malé zahrádce (E)rostou tam tři rů(A7)že. :/
-   /: (D)Jedna je (G)červená, (A7)druhá je (D)bílá, třetí kve(A7)te mo(D)dře. :/
-   
-R: Vojáci jdou, vojáci jdou, bože, jaká je to (A)krása,
-   vojáci jdou, vojáci jdou pěkně v (A)řa(A7)dách (A6)za (Fdim)se(D)bou,
-   vojáci jdou, vojáci jdou, každé dívčí (D7)srdce (G)já(Gm)sá,
-   @[když@] (G)vojáci (D)jdou, vojáci jdou pěkně v (A)řa(A7)dách (A6)za (A)se(D)bou.
-   
-2: /: Kobylka malá, kovat se nedá, kováři nechce stát. :/
-   /: Tak jako má milá, když se na mě hněvá, hubičku nechce dát. :/ 
-
-3: /: Kobylka malá, kovat se dala,  kováři postála. :/
-   /: Tak jako má milá, když se udobřila, hubičku mi dala. :/
-
-==================
-
-N: Okoř
-A: Autor neznámý
-AC:
-Z: Já, písnička 1 (1993)
-ZC:
-E: 2025
-
-1: (D)Na Okoř je cesta jako žádná ze sta (A7)vroubená je stroma(D)ma. 
-   Když jdu po ní v létě, samoten na světě, (A7)sotva pletu noha(D)ma.
-   (G)Na konci té cesty (D)trnité (E)stojí krčma jako (A7)hrad.
-   (D)Tam zapadli trampi, hladoví a sešlí, (A7)začli sobě noto(D)vat.
-
-R: (D)Na hradě Okoři (A7)světla už nehoří (D)bílá paní (A7)šla už dávno (D)spát.
-   (D)Ta měla ve zvyku, (A7)podle svého budíku (D)o půlnoci (A7)chodit straší(D)vat.
-   (G)Od těch dob co jsou tam (D)trampové, (E)nesmí z hradu (A7)pryč.
-   (D)A tak dole v podhradí (A7)se šerifem dovádí, (D)on jí sebral (A7)od komnaty (D)klíč.
-
-2: Jednoho dne z rána roznesla se zpráva, že byl Okoř vykraden.
-   Nikdo neví dodnes, kdo to tenkrát odnes, nikdo nebyl dopaden.
-   Šerif hrál celou noc mariáš s bílou paní v kostnici,
-   místo aby hlídal, zuřivě ji líbal, dostal z toho zimnici.
-
-==================
-
 N: O malém rytíři
 A: Traband
 AC:
@@ -4202,6 +4155,53 @@ I když král ho nechal vypráskat a drak mu sežral boty
 a děvka z ulice mu plivla na kalhoty.
 Ve světě kde jsou lidi na lidi jak vlci,
 zůstává rytířem - ve svém srdci.
+
+==================
+
+N: Okolo Hradce
+A: Lidová
+AC:
+Z: 
+ZC:
+E: 2025
+
+1: /: (D)Okolo Hradce v (Hm7)malé zahrádce (E)rostou tam tři rů(A7)že. :/
+   /: (D)Jedna je (G)červená, (A7)druhá je (D)bílá, třetí kve(A7)te mo(D)dře. :/
+   
+R: Vojáci jdou, vojáci jdou, bože, jaká je to (A)krása,
+   vojáci jdou, vojáci jdou pěkně v (A)řa(A7)dách (A6)za (Fdim)se(D)bou,
+   vojáci jdou, vojáci jdou, každé dívčí (D7)srdce (G)já(Gm)sá,
+   @[když@] (G)vojáci (D)jdou, vojáci jdou pěkně v (A)řa(A7)dách (A6)za (A)se(D)bou.
+   
+2: /: Kobylka malá, kovat se nedá, kováři nechce stát. :/
+   /: Tak jako má milá, když se na mě hněvá, hubičku nechce dát. :/ 
+
+3: /: Kobylka malá, kovat se dala,  kováři postála. :/
+   /: Tak jako má milá, když se udobřila, hubičku mi dala. :/
+
+==================
+
+N: Okoř
+A: Autor neznámý
+AC:
+Z: Já, písnička 1 (1993)
+ZC:
+E: 2025
+
+1: (D)Na Okoř je cesta jako žádná ze sta (A7)vroubená je stroma(D)ma. 
+   Když jdu po ní v létě, samoten na světě, (A7)sotva pletu noha(D)ma.
+   (G)Na konci té cesty (D)trnité (E)stojí krčma jako (A7)hrad.
+   (D)Tam zapadli trampi, hladoví a sešlí, (A7)začli sobě noto(D)vat.
+
+R: (D)Na hradě Okoři (A7)světla už nehoří (D)bílá paní (A7)šla už dávno (D)spát.
+   (D)Ta měla ve zvyku, (A7)podle svého budíku (D)o půlnoci (A7)chodit straší(D)vat.
+   (G)Od těch dob co jsou tam (D)trampové, (E)nesmí z hradu (A7)pryč.
+   (D)A tak dole v podhradí (A7)se šerifem dovádí, (D)on jí sebral (A7)od komnaty (D)klíč.
+
+2: Jednoho dne z rána roznesla se zpráva, že byl Okoř vykraden.
+   Nikdo neví dodnes, kdo to tenkrát odnes, nikdo nebyl dopaden.
+   Šerif hrál celou noc mariáš s bílou paní v kostnici,
+   místo aby hlídal, zuřivě ji líbal, dostal z toho zimnici.
 
 ==================
 
@@ -5023,27 +5023,6 @@ R: Já a ty, ...
 
 ==================
 
-N: Ráda se miluje
-A: Karel Plíhal
-AC:
-Z: 
-ZC:
-E: 2025
-
-R: (Hm)Ráda se miluje, (A)ráda (D)jí, (G)ráda si (F"m)jenom tak (Hm)zpívá,
-vrabci se na plotě (A)hádají(D), ko(G)lik že čas(F"m)u jí (Hm)zbývá.
-
-1: (G)Než vítr dostrká k (D)útesu tu (G)její legrační bá(D)rku (F")
-a (Hm)Pámbu si ve svým (A)note(D)su (G)udělá (F"m)jen další (Hm)čárku. 
-
-2: Psáno je v nebeské režii, a to hned na první stránce,
-že naše duše nás přežijí v jinačí tělesný schránce.
-
-3: Úplně na konci paseky, tam, kde se ozvěna tříští,
-sedí šnek ve snacku pro šneky - snad její podoba příští.
-
-==================
-
 N: Rád chodím na poštu
 A: Pokáč
 AC:
@@ -5071,6 +5050,27 @@ R2: Já rád chodím na poštu, nejsem tam jen do počtu,
     jsem tam důležitý člen, fronty která trčí ven.
     Vždy, když tam stepuju, tenhle song si notuju.
     Mám pak hnedka trochu míň, chuť (Am) do mozku si (D) vrazit (G)klín.
+
+==================
+
+N: Ráda se miluje
+A: Karel Plíhal
+AC:
+Z: 
+ZC:
+E: 2025
+
+R: (Hm)Ráda se miluje, (A)ráda (D)jí, (G)ráda si (F"m)jenom tak (Hm)zpívá,
+vrabci se na plotě (A)hádají(D), ko(G)lik že čas(F"m)u jí (Hm)zbývá.
+
+1: (G)Než vítr dostrká k (D)útesu tu (G)její legrační bá(D)rku (F")
+a (Hm)Pámbu si ve svým (A)note(D)su (G)udělá (F"m)jen další (Hm)čárku. 
+
+2: Psáno je v nebeské režii, a to hned na první stránce,
+že naše duše nás přežijí v jinačí tělesný schránce.
+
+3: Úplně na konci paseky, tam, kde se ozvěna tříští,
+sedí šnek ve snacku pro šneky - snad její podoba příští.
 
 ==================
 
@@ -5847,89 +5847,6 @@ R: Znám jednu (Am)travnatou, (G)velkou (Am)pláň,
 
 ==================
 
-N: Táborová ukolébavka
-A: Marcel \uv{Fox} Štěpánek
-AC:
-Z:
-ZC:
-E: 2025
-
-R: (D)Hou, (A)hou, (D)tábor (A)spí, (D)hou (A)hou, (D)jen hlídka (A)bdí,
-   (D)Večernice (G)na nebi (D)zá(G)ří, (D) kraj kolem (A7)Štolpichu (D)sní, (A)
-   (D)světlušky (G)svítí do (D)tvá(G)ří, (D)poutníkům (A)na Vinič(D)ný. (A)
-
-1: (D)Neko(G)nečnej tý(D)den, (G)  (D) mu(A)sím v práci (D)být, (G) 
-(D)vleče (F")se den za (H)dnem, (G) můžu jenom (D)snít. (G) 
-(D)O (F")louce voňa(H)vý, (G) tee-pee s bizo(D)nem, (G)
-(D)holce plavovla(A)sý, o tý co mám (G)rád, a chce se mi (D)řvát.
-
-2: Končí páteční den, a slunce jde spát,
-jdu dolů Štolpichem, slyším vodu řvát,
-dole světla blikají, v kraji vládne mír,
-jsem na světě rád, a chce se mi smát, a chce se mi smát.
-
-3: Silueta z purpuru, je zámek Frýdlant,
-písek cesty Viničný, u ní skalní gigant,
-ještě průchod bučinou a louky voňavý,
-pak kamennej kříž a za ním je stan, ve kterým ty spíš.
-
-4: Už běžím táborem, hlídka na mě mává,
-spací zvuky kolkolem, moc dobře je znám,
-oheň hoří v kuchyni, všichni mě vítají,
-kotel těstovin, horký kafe k tomu, přišel jsem domů.
-
-==================
-
-N: Take Me Home, Country Roads
-A: John Denver
-AC:
-Z:
-ZC:
-E: 2025
-
-1: (D)Almost heaven (Hm) West Virginia
-   (A)Blue Ridge Mountains, (G)Shenandoah (D)river
-   (D)life is old there (Hm)older than the trees
-   (A)younger than the mountains, (G)blowing like a (D)breeze.
-
-R: Country (D)roads take me (A)home to the (Hm)place I be(G)long
-   West Vir(D)ginia mountain (A)mamma take me (G)home country (D)roads.
-
-2: All my memories gather round her,
-   Miner's lady, stranger to blue water.
-   Dark and dusty painted on the sky,
-   misty taste of moonshine teardrops in my eyes.
-
-M: (Hm)I hear her (A)voice in the (D)morning hours she calls me
-   the (G)radio re(D)minds me of my (A)home far away
-   And (Hm)driving down the (C)road I get (G)feeling that I (D)should
-   have been home (A)yesterday, yester(A7)day.
-
-==================
-
-N: Tak už mi má holka mává
-A: Hoboes
-AC:
-Z:
-ZC:
-E: 2025
-
-1: (Em)Posledních (D)pár minut (C)zbejvá (Em)jen, (Em)máš teplou (D)dlaň, už se (A)stmí(Em)vá,
-   (Em)těžký je (D)říct, že se (C)končí (Em)den, (Em)vlak posle(D)dní vagón (A)mí(C)vá. (E)
-
-R: (G)Tak už mi má holka mává, ve vočích má slzy (F)páli(D)vý,
-   (Em)život jde dál, to se (C)stává, (A7)já to (D7)vím,
-   (G)tak už mi má holka mává, výpravčí zelenou (F)dá(D)vá,
-   tak (Em)jeď, jeď, jeď; tak jeď, jeď, jeď; tak jeď, jeď, jeď; tak jeď.
-
-2: Koleje jsou cejchem loučení, holkám se ve vočích střádá,
-   smutek je šátek osamění, co mužskejm na cestu mává.
-
-3: Za zády zůstal mi pláč a smích, do tmy se můj vlak teď řítí,
-   zmizela holka jak loňskej sníh a světla měst v dálce svítí.
-
-==================
-
 N: Ta naše hospoda
 A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
@@ -5963,6 +5880,89 @@ E: 2025
    Náš táta tu dneska není @[není@], 
    to je, pane, překvapení @[není@].
    /: Proč je doma já to vím - zásobil se lahvovým. :/
+
+==================
+
+N: Táborová ukolébavka
+A: Marcel \uv{Fox} Štěpánek
+AC:
+Z:
+ZC:
+E: 2025
+
+R: (D)Hou, (A)hou, (D)tábor (A)spí, (D)hou (A)hou, (D)jen hlídka (A)bdí,
+   (D)Večernice (G)na nebi (D)zá(G)ří, (D) kraj kolem (A7)Štolpichu (D)sní, (A)
+   (D)světlušky (G)svítí do (D)tvá(G)ří, (D)poutníkům (A)na Vinič(D)ný. (A)
+
+1: (D)Neko(G)nečnej tý(D)den, (G)  (D) mu(A)sím v práci (D)být, (G) 
+(D)vleče (F")se den za (H)dnem, (G) můžu jenom (D)snít. (G) 
+(D)O (F")louce voňa(H)vý, (G) tee-pee s bizo(D)nem, (G)
+(D)holce plavovla(A)sý, o tý co mám (G)rád, a chce se mi (D)řvát.
+
+2: Končí páteční den, a slunce jde spát,
+jdu dolů Štolpichem, slyším vodu řvát,
+dole světla blikají, v kraji vládne mír,
+jsem na světě rád, a chce se mi smát, a chce se mi smát.
+
+3: Silueta z purpuru, je zámek Frýdlant,
+písek cesty Viničný, u ní skalní gigant,
+ještě průchod bučinou a louky voňavý,
+pak kamennej kříž a za ním je stan, ve kterým ty spíš.
+
+4: Už běžím táborem, hlídka na mě mává,
+spací zvuky kolkolem, moc dobře je znám,
+oheň hoří v kuchyni, všichni mě vítají,
+kotel těstovin, horký kafe k tomu, přišel jsem domů.
+
+==================
+
+N: Tak už mi má holka mává
+A: Hoboes
+AC:
+Z:
+ZC:
+E: 2025
+
+1: (Em)Posledních (D)pár minut (C)zbejvá (Em)jen, (Em)máš teplou (D)dlaň, už se (A)stmí(Em)vá,
+   (Em)těžký je (D)říct, že se (C)končí (Em)den, (Em)vlak posle(D)dní vagón (A)mí(C)vá. (E)
+
+R: (G)Tak už mi má holka mává, ve vočích má slzy (F)páli(D)vý,
+   (Em)život jde dál, to se (C)stává, (A7)já to (D7)vím,
+   (G)tak už mi má holka mává, výpravčí zelenou (F)dá(D)vá,
+   tak (Em)jeď, jeď, jeď; tak jeď, jeď, jeď; tak jeď, jeď, jeď; tak jeď.
+
+2: Koleje jsou cejchem loučení, holkám se ve vočích střádá,
+   smutek je šátek osamění, co mužskejm na cestu mává.
+
+3: Za zády zůstal mi pláč a smích, do tmy se můj vlak teď řítí,
+   zmizela holka jak loňskej sníh a světla měst v dálce svítí.
+
+==================
+
+N: Take Me Home, Country Roads
+A: John Denver
+AC:
+Z:
+ZC:
+E: 2025
+
+1: (D)Almost heaven (Hm) West Virginia
+   (A)Blue Ridge Mountains, (G)Shenandoah (D)river
+   (D)life is old there (Hm)older than the trees
+   (A)younger than the mountains, (G)blowing like a (D)breeze.
+
+R: Country (D)roads take me (A)home to the (Hm)place I be(G)long
+   West Vir(D)ginia mountain (A)mamma take me (G)home country (D)roads.
+
+2: All my memories gather round her,
+   Miner's lady, stranger to blue water.
+   Dark and dusty painted on the sky,
+   misty taste of moonshine teardrops in my eyes.
+
+M: (Hm)I hear her (A)voice in the (D)morning hours she calls me
+   the (G)radio re(D)minds me of my (A)home far away
+   And (Hm)driving down the (C)road I get (G)feeling that I (D)should
+   have been home (A)yesterday, yester(A7)day.
 
 ==================
 
@@ -6664,6 +6664,56 @@ R: /: (Am)Vap tap tap tap tada ... (D) (F) (E) (Am) (E) :/
 
 ==================
 
+N: V lese
+A: Pokáč
+AC:
+Z:
+ZC:
+E: 2025
+
+1: (F)Dneska všichni (C)říkají a (G)všude píše (Am)se,
+   že prej je (F)moderní a (C)zdravý jen tak (G)chodit po (Am)lese.
+   A já bych (F)řek, že na tom (C)kruci asi (G)něco musí (Am)bejt,
+   když o tom (F)zpívá na svým (C)albu už i (G)Justin Timber(Am)lake.
+
+2: Já do přírody od přírody vůbec nechodím,
+   mám zato spoustu přátel hipsterů, ti mi jistě napoví.
+   Aha, tak omlouvám se, prý že tam též nikdy nebyli,
+   však na cestu mi daj raw guláš a z flanelu košili.
+
+   A tak (F)šel jsem tam, však (Am)byl jsem zpátky (C)hned,
+   (G)páč tam maj fakt marnej internet. 
+
+R: /: Dneska (F)jsem v lese (C)byl a už (G)tam nep(Am)udu,
+    nikde (F)jsem neza(C)žil takhle (G)ukrutnou nu(Am)du. :/
+
+3: Vážně nevím, co s tím lesem pořád všichni maj,
+   jen jsem tam vlez, hned jsem si zasvinil svý boty značky Nike
+   Žádnej signál, žádná wifi, žádný data zde nemám,
+   teda data jsou tu ečko a to fakt nepočítám.
+
+4: Světlo pro selfíčka je zde ultra zoufalý,
+   řek bych, že kdyby to tu vykáceli, líp by uďáli.
+   Ať postaví tu pro mě za mě třeba další obchoďák,
+   tam moh bych shopovat a právě by mě nepotřísnil pták.
+
+   Samá (F)houba, čerstvej (Am)vzduch a samej (C)hmyz,
+   (G)do přírody fakt, chodit neměl bys.
+
+R: Dneska jsem ...
+
+M: (Am)Óó (F)óóó (C)ó jak se do lesa (G)volá, tak se z něj ozý(Am)vá.
+   (Am)Óó (F)óóó (C)ó tak poslouchej mě (G)lese, já mám radši obý(Am)vák.
+   (Am)Óó (F)óóó (C)ó proč vyrážet na (G)místa lidstvem netknu(Am)tý.
+   (Am)Óó (F)óóó (C)ó když tam nejsou (G)žádný zásuvky a žádný Bubble (Am)Tea.
+
+   Dneska (F)jsem v lese (C)byl, bylo (G)to napos(Am)led,
+   abych (F)maily vyřídi(C)l, musel jsem (G)vylízt na po(Am)sed.
+
+R: Dneska jsem ...
+
+==================
+
 N: Valčíček
 A: Brontosauři
 AC:
@@ -6967,56 +7017,6 @@ nesa(F)hejte na mé plátky, okvět(G)ní, okvět(C)ní.
 
 ==================
 
-N: V lese
-A: Pokáč
-AC:
-Z:
-ZC:
-E: 2025
-
-1: (F)Dneska všichni (C)říkají a (G)všude píše (Am)se,
-   že prej je (F)moderní a (C)zdravý jen tak (G)chodit po (Am)lese.
-   A já bych (F)řek, že na tom (C)kruci asi (G)něco musí (Am)bejt,
-   když o tom (F)zpívá na svým (C)albu už i (G)Justin Timber(Am)lake.
-
-2: Já do přírody od přírody vůbec nechodím,
-   mám zato spoustu přátel hipsterů, ti mi jistě napoví.
-   Aha, tak omlouvám se, prý že tam též nikdy nebyli,
-   však na cestu mi daj raw guláš a z flanelu košili.
-
-   A tak (F)šel jsem tam, však (Am)byl jsem zpátky (C)hned,
-   (G)páč tam maj fakt marnej internet. 
-
-R: /: Dneska (F)jsem v lese (C)byl a už (G)tam nep(Am)udu,
-    nikde (F)jsem neza(C)žil takhle (G)ukrutnou nu(Am)du. :/
-
-3: Vážně nevím, co s tím lesem pořád všichni maj,
-   jen jsem tam vlez, hned jsem si zasvinil svý boty značky Nike
-   Žádnej signál, žádná wifi, žádný data zde nemám,
-   teda data jsou tu ečko a to fakt nepočítám.
-
-4: Světlo pro selfíčka je zde ultra zoufalý,
-   řek bych, že kdyby to tu vykáceli, líp by uďáli.
-   Ať postaví tu pro mě za mě třeba další obchoďák,
-   tam moh bych shopovat a právě by mě nepotřísnil pták.
-
-   Samá (F)houba, čerstvej (Am)vzduch a samej (C)hmyz,
-   (G)do přírody fakt, chodit neměl bys.
-
-R: Dneska jsem ...
-
-M: (Am)Óó (F)óóó (C)ó jak se do lesa (G)volá, tak se z něj ozý(Am)vá.
-   (Am)Óó (F)óóó (C)ó tak poslouchej mě (G)lese, já mám radši obý(Am)vák.
-   (Am)Óó (F)óóó (C)ó proč vyrážet na (G)místa lidstvem netknu(Am)tý.
-   (Am)Óó (F)óóó (C)ó když tam nejsou (G)žádný zásuvky a žádný Bubble (Am)Tea.
-
-   Dneska (F)jsem v lese (C)byl, bylo (G)to napos(Am)led,
-   abych (F)maily vyřídi(C)l, musel jsem (G)vylízt na po(Am)sed.
-
-R: Dneska jsem ...
-
-==================
-
 N: Vodácká holka
 A: Hop Trop
 AC:
@@ -7088,6 +7088,34 @@ R: (Hm7)Why (E7)she (Am)had (Am/G)to (F)go,  I don't (Dm)know, she (G)wouldn't (
    oh, I believe in yesterday.
 
    (Am)Mm (D7)mm (F)m (C)m m
+
+==================
+
+N: Za svou pravdou stát
+A: Spirituál kvintet
+AC: SK
+Z:
+ZC:
+E: 2025
+
+1: Máš (Hm)všechny trumfy mládí a (A)ruce čistý (Hm)máš,
+   jen (Em)na tobě teď (Hm)záleží, na (F")jakou hru se (Hm)dáš.
+
+R: /: (F"7)Musíš (Hm)za svou pravdou (F")stát, musíš za svou pravdou (Hm)stát. :/
+
+2: Už víš, kolik co stojí, už víš, co bys rád měl,
+   už ocenil jsi kompromis a párkrát zapomněl.
+
+3: Už nejsi žádný elév, co prvně do hry vpad,
+   už víš, jak s králem ustoupit a jak s ním dávat mat.
+
+4: Teď přichází tvá chvíle, teď nahrává ti čas,
+   tvůj sok poslušně neuhnul a ty mu zlámeš vaz.
+
+5: Tvůj potomek ctí tátu, ty vštěpuješ mu rád
+   to heslo, které dobře znáš z dob, kdy jsi býval mlád.
+
+6: = 1.
 
 ==================
 
@@ -7166,34 +7194,6 @@ M: 1. + 2. + 1. + (A)zapadání, zapadání, zapadání, ...
 
 ==================
 
-N: Za svou pravdou stát
-A: Spirituál kvintet
-AC: SK
-Z:
-ZC:
-E: 2025
-
-1: Máš (Hm)všechny trumfy mládí a (A)ruce čistý (Hm)máš,
-   jen (Em)na tobě teď (Hm)záleží, na (F")jakou hru se (Hm)dáš.
-
-R: /: (F"7)Musíš (Hm)za svou pravdou (F")stát, musíš za svou pravdou (Hm)stát. :/
-
-2: Už víš, kolik co stojí, už víš, co bys rád měl,
-   už ocenil jsi kompromis a párkrát zapomněl.
-
-3: Už nejsi žádný elév, co prvně do hry vpad,
-   už víš, jak s králem ustoupit a jak s ním dávat mat.
-
-4: Teď přichází tvá chvíle, teď nahrává ti čas,
-   tvůj sok poslušně neuhnul a ty mu zlámeš vaz.
-
-5: Tvůj potomek ctí tátu, ty vštěpuješ mu rád
-   to heslo, které dobře znáš z dob, kdy jsi býval mlád.
-
-6: = 1.
-
-==================
-
 N: Zatracenej život 
 A: Traditional, Jan Vyčítal 
 AC:
@@ -7224,38 +7224,6 @@ R1: (F)Jupí, čerte, (C)jdi radši dál,
 R2: Jupí, čerte, jdi radši dál,
    pak on mě za nohy vzal a zahodil,
    udělal jsem přemet, jak tur jsem řval, do dáli upaloval.
-
-==================
-
-N: Zelené pláně
-A: Spirituál kvintet, T. Gilkyson, R. Dehr, F. Miller
-AC: SK, TG, RD, FM
-Z:
-ZC:
-E: 2025
-
-1: (Am)Tam, kde zem (Dm)duní (Am)kopyty (E)stád,
-   (Am)znám plno (Dm)vůní, co (C)dejchám je tak (G)rád,
-   (F)čpí tam pot (G7)koní a (C)voní tymi(A7)án,
-   (Dm)kouř obzor (G7)cloní, jak (C)dolinou je (E)hnán,
-   (Am)rád žiju (Dm)na ní, tý (Am)plá(E)ni zele(Am)ný.
-
-   Tam, kde mlejn s pilou proud řeky hnal,
-   já měl svou milou a moc jsem o ni stál,
-   až přišlo psaní, ať na ni nečekám,
-   prý k čemu lhaní, a tak jsem zůstal sám,
-   sám znenadání v tý pláni zelený.
-
-R: (F)Dál čistím chlív a (G7)lovím v oře(C)ší,
-   (F)jenom jako dřív mě (G7)žití netě(C)ší,
-   (Am)když hlídám stáj a (Dm)slyším vítr dout,
-   (Am)prosím, ať jí (Dm)poví, (H7)že mám v srdci (E)troud.
-
-2: Kdo ví, až se doví z větrnejch stran,
-   dál, že jen pro ni tu voní tymián,
-   vlak hned ten ranní ji u nás vyloží
-   a ona k šťastná se k spánku uloží
-   sem, do mejch dlaní, v tý pláni zelený.
 
 ==================
 
@@ -7300,6 +7268,38 @@ R: To (Dm)znám, to dobře (Am)znám, znám, znám,
    jářku: hello! Sklopí voči, udělá to \uv{klap},
    i v tom dešti sazí jsem ten nejšťastnější chlap,
    jé, ze všech chlapů nejšťastnější chlap.
+
+==================
+
+N: Zelené pláně
+A: Spirituál kvintet, T. Gilkyson, R. Dehr, F. Miller
+AC: SK, TG, RD, FM
+Z:
+ZC:
+E: 2025
+
+1: (Am)Tam, kde zem (Dm)duní (Am)kopyty (E)stád,
+   (Am)znám plno (Dm)vůní, co (C)dejchám je tak (G)rád,
+   (F)čpí tam pot (G7)koní a (C)voní tymi(A7)án,
+   (Dm)kouř obzor (G7)cloní, jak (C)dolinou je (E)hnán,
+   (Am)rád žiju (Dm)na ní, tý (Am)plá(E)ni zele(Am)ný.
+
+   Tam, kde mlejn s pilou proud řeky hnal,
+   já měl svou milou a moc jsem o ni stál,
+   až přišlo psaní, ať na ni nečekám,
+   prý k čemu lhaní, a tak jsem zůstal sám,
+   sám znenadání v tý pláni zelený.
+
+R: (F)Dál čistím chlív a (G7)lovím v oře(C)ší,
+   (F)jenom jako dřív mě (G7)žití netě(C)ší,
+   (Am)když hlídám stáj a (Dm)slyším vítr dout,
+   (Am)prosím, ať jí (Dm)poví, (H7)že mám v srdci (E)troud.
+
+2: Kdo ví, až se doví z větrnejch stran,
+   dál, že jen pro ni tu voní tymián,
+   vlak hned ten ranní ji u nás vyloží
+   a ona k šťastná se k spánku uloží
+   sem, do mejch dlaní, v tý pláni zelený.
 
 ==================
 

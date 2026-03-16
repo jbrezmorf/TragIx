@@ -38,6 +38,10 @@ separated years).  The build script filters songs by this field.
 A song with an empty or missing E: field will not appear in any
 edition build -- useful for drafts or retired songs.
 
+The active edition years are defined in current_editions.txt at the
+repo root.  Both the CI workflow and `python build_songbook.py --all`
+read from this file.
+
 
 3. Verse types
 --------------

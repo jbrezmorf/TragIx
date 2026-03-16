@@ -28,8 +28,9 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
 
           FAILED=0
-          for variant in nezboznej zboznej; do
-            echo "### ${variant}" >> $GITHUB_STEP_SUMMARY
+          while read -r variant edition; do
+            [ -z "$variant" ] && continue
+            echo "### ${variant} (${edition})" >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
             if python scripts/check_songbook.py "${variant}/songs/" \
                 --tail "${variant}/tail.tex" 2>&1 | tee -a $GITHUB_STEP_SUMMARY; then
@@ -39,7 +40,7 @@ jobs:
             fi
             echo '```' >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
-          done
+          done < current_editions.txt
 
           exit $FAILED
 
@@ -50,7 +51,8 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
 
           FAILED=0
-          for variant in nezboznej zboznej; do
+          while read -r variant edition; do
+            [ -z "$variant" ] && continue
             echo "### ${variant}" >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
             python scripts/fix_songbook.py "${variant}/songs/" --dry-run 2>&1 \
@@ -58,12 +60,11 @@ jobs:
             echo '```' >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
 
-            # Fail if fixer found anything to fix
             if python scripts/fix_songbook.py "${variant}/songs/" --dry-run 2>&1 \
                 | grep -q "Would apply"; then
               FAILED=1
             fi
-          done
+          done < current_editions.txt
 
           if [ $FAILED -eq 1 ]; then
             echo "> **Fix:** run \`python scripts/fix_songbook.py <variant>/songs/\` locally and commit the result." >> $GITHUB_STEP_SUMMARY
@@ -82,26 +83,18 @@ jobs:
       - name: Build Docker image
         run: docker build -t tragix-songbook .
 
-      - name: Build Nezbožnej 2025
+      - name: Build editions
         run: |
-          docker run --rm \
-            -v "${{ github.workspace }}/nezboznej/build:/songbook/nezboznej/build" \
-            tragix-songbook --variant nezboznej --edition 2025
+          while read -r variant edition; do
+            [ -z "$variant" ] && continue
+            echo "Building ${variant} edition ${edition}..."
+            docker run --rm \
+              -v "${{ github.workspace }}/${variant}/build:/songbook/${variant}/build" \
+              tragix-songbook --variant "$variant" --edition "$edition"
+          done < current_editions.txt
 
-      - name: Build Zbožnej 2026
-        run: |
-          docker run --rm \
-            -v "${{ github.workspace }}/zboznej/build:/songbook/zboznej/build" \
-            tragix-songbook --variant zboznej --edition 2026
-
-      - name: Upload Nezbožnej PDF
+      - name: Upload build artifacts
         uses: actions/upload-artifact@v6
         with:
-          name: nezboznej-2025
-          path: nezboznej/build/songbook.pdf
-
-      - name: Upload Zbožnej PDF
-        uses: actions/upload-artifact@v6
-        with:
-          name: zboznej-2026
-          path: zboznej/build/songbook.pdf
+          name: songbook-pdfs
+          path: "*/build/songbook.pdf"

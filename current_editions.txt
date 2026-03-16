@@ -1,0 +1,3 @@
+# Which editions to build (one per line: variant edition-year)
+nezboznej 2025
+zboznej 2026
