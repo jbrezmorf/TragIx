@@ -5,9 +5,9 @@ Z: Hosana
 ZC:200
 E: 2012, 2026
 
-1: (C)Požehna(F)ný jsi, Bože (C)na vě(Ami)ky,
+1: (C)Požehna(F)ný jsi, Bože (C)na vě(Am)ky,
 +(F)z tvé ru(C)ky všechno má(G)me.
-(C)Požehna(F)ný jsi, Bože (C)veli(Ami)ký
+(C)Požehna(F)ný jsi, Bože (C)veli(Am)ký
 +(F)Chléb ti (C)přiná(G)ší(C)me.
 
 2:    ...Víno ti přinášíme

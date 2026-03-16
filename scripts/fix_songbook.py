@@ -10,7 +10,7 @@ Usage:
 Examples:
     python scripts/fix_songbook.py nezboznej/songs/Přítel.txt --dry-run
     python scripts/fix_songbook.py nezboznej/songs/
-    python scripts/fix_songbook.py nezboznej/songs/ --fix apostrophes sus-chords
+    python scripts/fix_songbook.py nezboznej/songs/ --fix sus-chords mi-chords
 
 Without --fix, all fixes are applied. With --fix, only the named fixes run.
 Use --dry-run to preview changes without modifying files.
@@ -20,6 +20,9 @@ import argparse
 import re
 import sys
 from pathlib import Path
+
+if sys.stdout.encoding != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8")
 
 SONG_SEPARATOR = "=" * 18
 
@@ -115,16 +118,6 @@ def fix_quotations(text):
     return "\n".join(result_lines), total_pairs
 
 
-def fix_apostrophes(text):
-    """Replace wrong apostrophe characters (acute accent, prime) with ASCII '."""
-    count = 0
-    for bad in ("\u00b4", "\u2032"):
-        n = text.count(bad)
-        if n:
-            text = text.replace(bad, "'")
-            count += n
-    return text, count
-
 
 def fix_ellipses(text):
     """Replace literal ellipsis character with three dots."""
@@ -167,7 +160,6 @@ def fix_mi_chords(text):
 ALL_FIXES = [
     ("separators", "Normalize song separators to 18 '='", fix_separators),
     ("quotations", "Replace quote chars with \\uv{...}", fix_quotations),
-    ("apostrophes", "Fix wrong apostrophe characters", fix_apostrophes),
     ("ellipses", "Replace literal ellipsis with '...'", fix_ellipses),
     ("multiply", "Replace Nx with N\u00d7 for repeats", fix_multiply_sign),
     ("verse-dots", "Replace verse label '1.' with '1:'", fix_verse_dots),

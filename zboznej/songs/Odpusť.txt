@@ -6,10 +6,10 @@ ZC: 171
 E: 2007, 2012, 2026
 
 
-1: (C)Odpusť, (Emi)že dnes tak (Dmi)jako (G7)včera
-+(C)jsem tobě (Emi)věrnost (Dmi)slibo(G7)val.
-(C)Odpusť, (E7)že z rána (A7)do ve(Fmi)čera (C) jsem tebe (G7)skutkem zrazo(C)val(E7), 
-(F)odpusť, (Fmi)že zrána (C)do ve(A7)čera (Dmi)jsem tebe (G7)skutkem zrazo(C)val.
+1: (C)Odpusť, (Em)že dnes tak (Dm)jako (G7)včera
++(C)jsem tobě (Em)věrnost (Dm)slibo(G7)val.
+(C)Odpusť, (E7)že z rána (A7)do ve(Fm)čera (C) jsem tebe (G7)skutkem zrazo(C)val(E7), 
+(F)odpusť, (Fm)že zrána (C)do ve(A7)čera (Dm)jsem tebe (G7)skutkem zrazo(C)val.
 
 2: Odpusť, že jsem nevyslech bratra, 
 +který se mne na radu ptal.

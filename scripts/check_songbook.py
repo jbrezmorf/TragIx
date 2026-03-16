@@ -18,18 +18,26 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+if sys.stdout.encoding != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8")
+
 
 # ---------------------------------------------------------------------------
 # Individual checks.  Each takes [(line_num, line_text)] and returns issues.
 # ---------------------------------------------------------------------------
 
 def check_bad_apostrophes(lines):
-    """Wrong apostrophe characters (acute accent or prime instead of ')."""
+    """Acute accent (´) or prime (′) used instead of apostrophe (').
+
+    NOTE: requires human judgement -- the character may be a mistyped
+    Czech diacritic (e.g. 't´' intended as 'ť') rather than a wrong
+    apostrophe. Do not auto-fix.
+    """
     issues = []
     for num, line in lines:
         for ch in ("\u00b4", "\u2032"):
             if ch in line:
-                issues.append((num, f"Bad apostrophe '{ch}'", line))
+                issues.append((num, f"Possible bad apostrophe '{ch}' -- or mistyped diacritic? (check manually)", line))
     return issues
 
 

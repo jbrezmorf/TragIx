@@ -5,11 +5,11 @@ Z: Hosana
 ZC:204
 E: 2012, 2026
 
-R: (Ami)Proč (G)jen (F)mlčíš, Pa(E7)ne, 
-   +(Ami)když zloba (Dmi)lidská život (E7)máří?
-   (Ami)Proč (G)se (F)nezasta(E7)ne (Ami)prav(F)dy (G7)tvá (Ami)moc?
+R: (Am)Proč (G)jen (F)mlčíš, Pa(E7)ne, 
+   +(Am)když zloba (Dm)lidská život (E7)máří?
+   (Am)Proč (G)se (F)nezasta(E7)ne (Am)prav(F)dy (G7)tvá (Am)moc?
 
-1: (F)Když tě jako (G)lotra zatý(Ami)kali(Ami7),
+1: (F)Když tě jako (G)lotra zatý(Am)kali(Am7),
       + mohls je o své síle přesvědčit,  
        Petra v dlani meč teď přímo pálí,
    +(F)a přec jsi mu (F7)zakázal se (E7)bít.
@@ -22,7 +22,7 @@ R: (Ami)Proč (G)jen (F)mlčíš, Pa(E7)ne,
 3: Poznals, Pane, co je přízeň davu,
    +v této chvíli žádá život tvůj,
    když ti včera provolával slávu,
-   +pro změnu dnes křičí "ukřižuj".
+   +pro změnu dnes křičí \uv{ukřižuj}.
 
 4: Dnes jako dřív nad světem kříž stojí, 
    +na tom kříži umírat tě zřím,

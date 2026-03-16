@@ -6,9 +6,9 @@ ZC: 196
 E: 2007, 2012, 2026
 
 
-1: /: (Emi)Pojď ke mně blíž (C) a poslouchej, (Emi)nesu ti (D)radostné (G)po(D)sel(Emi)ství. :/
-(Emi)Bůh si vzpoměl (Ami)na své (Emi)slovo, (D)splnil dávná (G)pro(D)roc(G)tví.
-(Emi)Bůh si vzpoměl (Ami)na své (Emi)slovo, (D)splnil dávná (G)pro(D)roc(Emi)tví.
+1: /: (Em)Pojď ke mně blíž (C) a poslouchej, (Em)nesu ti (D)radostné (G)po(D)sel(Em)ství. :/
+(Em)Bůh si vzpoměl (Am)na své (Em)slovo, (D)splnil dávná (G)pro(D)roc(G)tví.
+(Em)Bůh si vzpoměl (Am)na své (Em)slovo, (D)splnil dávná (G)pro(D)roc(Em)tví.
 
 2: /: Ten, který byl, ten, který je, ten, který bude až na věky, :/
    /: poslal světu Mesiáše, jak zněl příslib odvěký. :/
