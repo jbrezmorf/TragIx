@@ -1,0 +1,22 @@
+N: Racci
+A: Cermaque
+AC:
+Z:
+ZC:
+
+1: (Em)Tak dlouho volal racek (G)do prázdna, (Hm)až z prázdna lásku přivo(A)lal 
+   (Em)Ten příboj doplul (G)sem až z dna, (Hm)dva racci tančí u mo(A)la. 
+ 
+2: Noc barví moře sametovou tuší, potom on vzlétne, ona netuší 
+   zda už ji opustil, či pro ni hledá bezpečí. 
+ 
+3: A vše je jedno, vše je dobře, že moře nikdy nemlčí 
+   Ránu co nechá jedna vlna, vždy další vlna vyléčí.
+ 
+R: 3× /: Já a (Em)ty, vlna (G)za vlnou (Hm)to moře mává (A)křídly. :/
+
+4: Stařičký démon Poseidon, vidlice místo obočí 
+   a v očích mořské propasti, hlídá ať láska, nikdy neotročí.
+   Ať vlna za vlnou, nežene srdce do pastí.
+ 
+R: Já a ty, ...

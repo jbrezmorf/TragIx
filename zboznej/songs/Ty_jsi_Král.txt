@@ -1,0 +1,10 @@
+N: Ty jsi Král.
+A: 
+AC:
+Z: Jump 92
+ZC: 
+
+(E)Ty jsi Král. (H)Ty jsi Krá - (C"m)l, naš Král Je(A)žíš.
+
+(E)Naše srdce pozvedáme, (H)naše dlaně otvíráme. 
+(C"m)Tvému hlasu nasloucháme, chválíme (A)tě.

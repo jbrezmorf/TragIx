@@ -1,0 +1,23 @@
+N: Pokání čiňte
+A:
+AC:
+Z: Hosana
+ZC: Z 197
+
+
+1: (Ami)Pokání čiňte, (Dmi)blízko je království, 
++(Ami)pokání čiňte, (Dmi)blízko je království, 
+(Ami)blízko je království (Ami7)Boží, 
++(F)blízko je (G)království (Ami)Boží.
+
+2: /: Kdo věří v Boha, obdržel život věčný, :/ /: Ježíš je život věčný. :/
+
+3: /: Poznáze pravdu - pravda vás osvobodí, :/ /: Ježíš vás osvobodí. :/
+
+4: /: Poznáte lásku - láska vás promění, :/ /: Ježíš vás osvobodí. :/
+
+5: /: Přijmete Ducha - budete svědkové, :/ /: budete svědkové Boží. :/
+
+6: /: Vejdete v slávu města Jeruzalém, :/ /: vejdete v Jeruzalém. :/
+
+7: /: Budete chválit po celou věčnost Boha, :/ /: zpívati haleluja. :/

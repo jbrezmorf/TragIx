@@ -1,0 +1,26 @@
+N: Mlýny
+A: Spirituál kvintet
+AC: SK
+Z:
+ZC:
+
+R: /: (G)Slyším Boží mlýny, jak se otáčí,  (C)já slyším Boží mlýny, jak se otá(G)čí,
+    já (G)slyším Boží mlýny, (H7)jak se otá(Em)čí,  (C)o(D)tá(G)čí, otá(D)čí, otá(C)čí. :/
+
+1: Ty mlýny (G)melou celou (C)noc a melou (G)celý den,
+   melou (C7)bez výhod a melou (G)stejně všem,
+   melou (C)doleva a melou (G)doprava,
+   melou (A)pravdu i lež, když zrovna (D)vyhrává,
+   melou (G)otro(C)káře, melou (G)otroky,
+   melou (C7)na minuty, na hodiny, (G)na roky,
+   melou (H7)pomalu a jistě, ale (Em)melou (C)včas,
+   já už (G)slyším (D7)jejich (G)hlas.
+
+2: Ó, já, chtěl bych aspoň na chvíli být mlynářem,
+   pane, já bych mlel, až by se chvěla zem,
+   to mi věřte, uměl bych dobře mlít,
+   já bych věděl komu ubrat, komu přitlačit,
+   ty mlýny čekají někde nad námi,
+   až zdola zazní naše volání,
+   až zazní jeden lidský hlas:
+   \uv{No tak už melte, je čas!}

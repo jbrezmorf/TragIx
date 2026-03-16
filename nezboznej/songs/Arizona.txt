@@ -1,0 +1,32 @@
+N: Arizona
+A: Autor neznámý
+AC:
+Z: 
+ZC:
+
+1: (A)Projížděl jsem starým Colorédem, když tu slyším výkřik vzdále(E)ný. (E7)
+   (A)Jedu podle (A7)hlasu (D)a k mému ú(Dm)žasu, (A)ležel tam muž k (E)zemi skole(A)ný.
+
+R1: (A)Rutyšuty, Arizona, Texas, 
+  Rutyšuty, Arizona (E)má. (E7)
+  (A)Jedu podle (A7)hlasu (D)a k mému ú(Dm)žasu, 
+  (A)ležel tam muž k (E)zemi skole(A)ný.
+
+2: Obracím ho k sobě obličejem, poznal jsem v něm svého dvojníka. 
+Jeho tělo bylo probodáno noži, čerstvá krev mu z rány vytéká. 
+
+3: Pravil ke mně hlasem zmírajícím, takže jsem mu sotva rozuměl:
+\uv{Byla to léčka a já to nevěděl, jako starej vůl sem naletěl.}
+
+4: Nechtěj holka Arizonu poznat, nechtěj holka Arizonu znát.
+Ve dne musíš střílet a v noci milovat, tak nechtěj holka Arizonu znát. 
+
+R2: Rutyšuty, Ukrajina, Donbas,
+   rutyšuty, Ukrajina má.
+Jedu na kombajnu, za sebou mam lajnu 
+a přede mnou dvěstě hektarů.    
+
+R3: Rutyšuty Farská louka tábor,
+ rutyšuty Farská louka má.
+Jdeme na Ořešník a sebou máme deštník 
+a vono stejně pršet nebude.

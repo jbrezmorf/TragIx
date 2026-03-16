@@ -10,48 +10,48 @@ GH - Greenhorns
 HB - Hoboes
 HH - H. Howard
 HT - Hop Trop
-HV - Helena Vondráèková
-IM - Ivan Mládek
-JC - Johny Cash
+HV - Helena VondrÃ¡ÄkovÃ¡
+IM - Ivan MlÃ¡dek
+JC - Johnny Cash
 JD - John Denver
-JF - Jiøina Fikejzová
+JF - JiÅ™ina FikejzovÃ¡
 JH - Jaroslav Hutka
 JL - J. Nicholls
-JN - Jaromír Nohavica
-JS - Jiøí Schelinger
-JU - Jaroslav Uhlíø
+JN - JaromÃ­r Nohavica
+JS - JiÅ™Ã­ Schelinger
+JU - Jaroslav UhlÃ­Å™
 KK - Karel Kryl
-KL - Klíè
-KP - Karel Plíhal
+KL - KlÃ­Ä
+KP - Karel PlÃ­hal
 KTO - K. T. O.
-LK - Lokálka
+LK - LokÃ¡lka
 LP - Leon Payne
-MPK - Martinova Prázdná Kapsa
+MPK - Martinova PrÃ¡zdnÃ¡ Kapsa
 MR - Miky Ryvola
-ND - Nedvìdi
-NZ - Nezmaøi
+ND - NedvÄ›di
+NZ - NezmaÅ™i
 OL - Olympic
 PB - Pavel Bobek
 PC - Pacifik
-PD - Pavel Dobe¹
+PD - Pavel DobeÅ¡
 PK - Petr Skoumal
-PN - Petr Novák
-PR - Premiér
+PN - Petr NovÃ¡k
+PR - PremiÃ©r
 PS - Pete Seeger
-PV - Pavel Dydoviè
+PV - Pavel DydoviÄ
 RD - R. Dehr
 SA - Samson
 SG - Paul Simon + Art Garfunkel
-SK - Spirituál Kvintet
-SS - Suchı+©litr
+SK - SpirituÃ¡l Kvintet
+SS - SuchÃ½ + Å litr
 TB - The Beatles
 TG - T. Gilkyson
 TJA - T. J. Arnall
-TR - Tornádo
+TR - TornÃ¡do
 VR - Vlasta Redl
-VW - Voskovec+Werich
-WD - Wabi Danìk
-WM - Waldemar Matu¹ka
+VW - Voskovec + Werich
+WD - Wabi DanÄ›k
+WM - Waldemar MatuÅ¡ka
 WR - Wabi Ryvola
-ZA - ®alman
-ZS - Zdenìk Svìrák
+ZA - Å½alman
+ZS - ZdenÄ›k SvÄ›rÃ¡k

@@ -1,0 +1,25 @@
+N: Otče náš
+A:
+AC:
+Z: Hosana
+ZC: Z 169
+
+
+R: /: (Emi)Otče náš (C)nebeský, (D)posvěť se jméno (Emi)tvé, 
+přijď tvoje (C)království, (D)buď vůle (Emi)tvá. :/
+
+1: (D)Tam, kde tvůj lid se (Emi)probouzí, 
++(D)tam, kde roste tvůj (Emi)chrám, 
+v srdcích všech dětí (D)tvých
++ať (C)vítězí (D)vůle (Emi)tvá, (D)
++ať (C)vítězí (D)vůle (Emi)tvá.
+
+
+2: Někdy mne zkoušky tak svírají, padám a prohrávám, 
+řekni, jak vůle tvá zní? \uv{Bojuj až do vítězství!}
+
+3: Pane, můj bratr mne nemá rád, za zády mne pomlouvá, 
+toužím teď vůli tvou znát. \uv{Odpusť mu tak jako já!}
+
+4: Tam, kde Duch svatý přichází, dary své rozdává, 
+jaká je teď vůle tvá? \uv{Co dal jsem ti, předávej dál!}

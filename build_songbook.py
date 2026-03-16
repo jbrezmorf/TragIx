@@ -1,4 +1,5 @@
 import argparse
+import re
 import shutil
 import subprocess
 import locale
@@ -18,7 +19,7 @@ def set_czech_locale():
             raise RuntimeError(f"Unsupported platform: {system}")
     except locale.Error:
         print("Warning: Czech locale not available. Sorting may not be correct.")
-        locale.setlocale(locale.LC_COLLATE, "")  # System default fallback
+        locale.setlocale(locale.LC_COLLATE, "")
 
 
 SONG_SEPARATOR = "=" * 18
@@ -28,9 +29,17 @@ def czech_compare(a, b):
     return locale.strcoll(a, b)
 
 
+# ---------------------------------------------------------------------------
+# Legacy: monolithic input file support (fallback when --edition not given)
+# ---------------------------------------------------------------------------
+
 def parse_songs_from_file(file_path):
-    with open(file_path, encoding="utf-8") as f:
-        content = f.read()
+    try:
+        with open(file_path, encoding="utf-8") as f:
+            content = f.read()
+    except UnicodeDecodeError:
+        print(f"Warning: Skipping {file_path} (not valid UTF-8)")
+        return []
 
     entries = [e.strip() for e in content.split(SONG_SEPARATOR) if e.strip()]
     songs = []
@@ -46,10 +55,63 @@ def parse_songs_from_file(file_path):
 
 def collect_all_songs(input_dir):
     songs = []
-    for file_path in list((input_dir).glob("*.txt")) + list(
-        Path(input_dir).glob("*.src")
-    ):
-        songs += parse_songs_from_file(file_path)
+    for ext in ("*.sng", "*.src", "*.txt"):
+        for file_path in Path(input_dir).glob(ext):
+            songs += parse_songs_from_file(file_path)
+    return songs
+
+
+# ---------------------------------------------------------------------------
+# New: manifest-based collection from individual song files
+# ---------------------------------------------------------------------------
+
+def _load_song_dir(directory):
+    """Read all .txt files from a directory, return {title: content} dict."""
+    pool = {}
+    if not directory.exists():
+        return pool
+    for txt in sorted(directory.glob("*.txt")):
+        content = txt.read_text(encoding="utf-8").strip()
+        title_line = next(
+            (l for l in content.splitlines() if l.startswith("N:")), None
+        )
+        if title_line is None:
+            continue
+        title = title_line[2:].strip()
+        pool[title] = content + "\n"
+    return pool
+
+
+def collect_songs_from_edition(variant_dir, edition):
+    """Collect songs for a specific edition using songlist + songs/ + overrides/."""
+    songlist_path = variant_dir / "songlists" / f"{edition}.txt"
+    if not songlist_path.exists():
+        raise SystemExit(f"Songlist not found: {songlist_path}")
+
+    titles = [l.strip() for l in songlist_path.read_text(encoding="utf-8").splitlines()
+              if l.strip()]
+    song_pool = _load_song_dir(variant_dir / "songs")
+    override_pool = _load_song_dir(variant_dir / "overrides")
+
+    songs = []
+    matched_overrides = set()
+
+    for title in titles:
+        if title in override_pool:
+            songs.append((title, override_pool[title]))
+            matched_overrides.add(title)
+        elif title in song_pool:
+            songs.append((title, song_pool[title]))
+        else:
+            print(f"Warning: Song not found: '{title}'")
+
+    unmatched = [t for t in override_pool if t not in matched_overrides]
+    if unmatched:
+        print(f"Note: {len(unmatched)} override(s) not referenced by songlist "
+              f"(ignored): {unmatched}")
+
+    print(f"Collected {len(songs)} songs from songlist "
+          f"({len(matched_overrides)} using overrides)")
     return songs
 
 
@@ -62,36 +124,38 @@ def write_output_files(songs, build_dir):
     src_path = build_dir / "songbook.src.txt"
     with open(src_path, "w", encoding="utf-8") as src_file:
         for idx, (title, content) in enumerate(sorted_songs, 1):
-            filename = f"{idx:03d}_{title.replace(' ', '_')}.sng"
+            safe_title = re.sub(r"[^\w\-]", "_", title, flags=re.UNICODE)
+            safe_title = re.sub(r"_+", "_", safe_title).strip("_")
+            filename = f"{idx:03d}_{safe_title}.sng"
             song_path = songs_dir / filename
             with open(song_path, "w", encoding="utf-8") as song_file:
                 song_file.write(content)
             src_file.write(content + "\n" + SONG_SEPARATOR + "\n\n")
 
 
-def create_combined_tex_file(variant, build_dir):
-    variant_dir = Path(variant)
-    head = variant_dir / "head.tex"
-    tail = variant_dir / "tail.tex"
-    src = build_dir / "songbook.src.txt"
-    output_tex = build_dir / "songbook.tex"
+def create_tex_files(variant, build_dir):
+    """Generate songbook.tex (trivial \\input wrapper) and songlist.tex (song entries)."""
+    songbook_tex = build_dir / "songbook.tex"
+    songlist_tex = build_dir / "songlist.tex"
 
-    with open(output_tex, "w", encoding="utf-8") as out:
-        with open(head, encoding="utf-8") as f:
-            out.write(f.read())
-            out.write("\n")
+    songbook_tex.write_text(
+        "\\input ../head.tex\n"
+        "\\input songlist.tex\n"
+        "\\input ../tail.tex\n",
+        encoding="utf-8",
+    )
 
+    with open(songlist_tex, "w", encoding="utf-8") as out:
         for song_file in sorted((build_dir / "songs").glob("*.sng")):
-            out.write(f"\\inputsong{{{Path("." + str(song_file).split(build_dir.name)[-1]).as_posix()}}}\n")
-
-        with open(tail, encoding="utf-8") as f:
-            out.write(f.read())
-            out.write("\n")
+            rel_path = song_file.relative_to(build_dir).as_posix()
+            out.write(f"\\inputsong{{{rel_path}}}\n")
 
 
 def compile_pdf(build_dir):
-    # luatex -fmt pdfcsplain songbook.tex --interaction=nonstopmode
-    subprocess.run(["luatex", "-fmt", "pdfcsplain", "songbook.tex", "--interaction=nonstopmode"], cwd=build_dir, check=True)
+    subprocess.run(
+        ["luatex", "-fmt", "pdfcsplain", "--interaction=nonstopmode", "songbook.tex"],
+        cwd=build_dir, check=True,
+    )
 
 def create_duplex_pdf(pdf_path: Path, output_path: Path):
     # zpev-duplex.pdf : zpevnik.pdf
@@ -132,6 +196,13 @@ def main():
         "--variant", required=True, help="Variant name (e.g. zboznej, nezboznej)"
     )
     parser.add_argument(
+        "--edition",
+        help="Edition year (e.g. 2025, 2026). "
+             "Reads {variant}/songlists/{edition}.txt as manifest and "
+             "collects songs from {variant}/songs/ and {variant}/overrides/. "
+             "Omit to fall back to legacy monolithic input files.",
+    )
+    parser.add_argument(
         "--target",
         choices=["build", "clean", "rebuild", "songs", "duplex", "buildwithindex", "all", "test", "retest", "testwithindex"],
         default="build",
@@ -144,7 +215,7 @@ def main():
     build_dir = variant_dir / "build"
     args.target = args.target.lower()
 
-    if  "test" in args.target:
+    if "test" in args.target:
         input_dir = input_dir.with_name(input_dir.name + "_test")
         build_dir = build_dir.with_name(build_dir.name + "_test")
 
@@ -153,9 +224,12 @@ def main():
 
     set_czech_locale()
     if args.target in ["rebuild", "songs", "all", "retest"]:
-        songs = collect_all_songs(input_dir)
+        if args.edition:
+            songs = collect_songs_from_edition(variant_dir, args.edition)
+        else:
+            songs = collect_all_songs(input_dir)
         write_output_files(songs, build_dir)
-        create_combined_tex_file(args.variant, build_dir)
+        create_tex_files(args.variant, build_dir)
 
 
     if args.target in ["buildwithindex", "build", "rebuild", "all", "test", "testwithindex", "retest"]:

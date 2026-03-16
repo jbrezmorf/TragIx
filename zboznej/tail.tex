@@ -1,5 +1,8 @@
 \penalty -10000
 \output={\plainoutput}%
+{%
+\def\InnerMargin{1cm}%
+\def\OuterMargin{1cm}%
 \PageLayout%
 \advance\hsize by \OuterMargin%
 \advance\hsize by -\InnerMargin%
@@ -124,5 +127,6 @@
 \break
 \vfill
 \break
+}%
 \immediate\closeout\TOCfile
 \bye

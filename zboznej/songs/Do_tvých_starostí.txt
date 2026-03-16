@@ -1,0 +1,12 @@
+N: Do tvých starostí
+A:
+AC:
+Z:
+ZC:Z53
+
+
+                                                                
+M: /: (D)Do tvých staros(A)tí, (Hm)smutků, úzkos(F"m)tí, 
++ (G)přišel ten, kdo (D)má tě rád a z (Em)nich tě (A)vypros(D)tí. :/
+/: (D)Králů (A)Král a (Hm)Pánů (F"m)Pán 
++(G)je nám (D)bez rozdílu (Em)všechněm (A)zvěsto(D)ván. :/

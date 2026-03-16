@@ -1,0 +1,20 @@
+N: Pane, tys učitel a přítel 
+A: 
+AC: 
+Z: 
+ZC:181 
+ 
+M:(D D6)\chsep(G A)\chsep(D D6)\chsep(G A)\chsep(Hm)\chsep(Em A)\chsep(D D6)\chsep(D D6)  
+                                                         
+1:        (D)Ot(D6)če, jak (G6)mnoho (A)lidí, (D)Ot(D6)če, na(G6)slouchá (A)hlasu, 
+        (F"m)který je (G)pro nás živou (Gm)písní.(A) 
+        Tvoje srdce vždy plné lásky, tvůj Duch ted' mládím jásá, 
+        bud' světlem našich dnů.  
+                                                                                                           
+R:        (D)Otče, tys (G)uči(A)tel a (D)přítel, my, (G)mladí (A)této (Hm)země, dnes (Gm)tebe hledá(A4)me.(A) 
+        (D)Otevř' ted' (G)naše (A)srdce (D)Kristu at' (G)rozdává(A)me (Hm)ra(Em)dost všem (A)lidem (A7)na (D)zemi. 
+ 
+2:        Slavnost, s tebou je život slavnost s tebou je život písní, 
+        kterou si s námi zpíváš. 
+        Stále jsi mezi námi živý i dnes nám dej svou lásku 
+        pro všechny děti své.

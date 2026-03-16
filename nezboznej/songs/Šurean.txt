@@ -1,0 +1,32 @@
+N: Šurean
+A: Marcel \uv{Fox} Štěpánek
+AC:
+Z:
+ZC:
+
+1: (Am)Velký hory na vobzoru, (G)když se (C)objeví
++  a slunce (Am)za(G)pa(Am)dá za hradbu (C)mra(G)ků,
+   propa(Am)dá se, propa(C)dá,
++  celej (Am)obzor do mraků se propa(G)dá.
+
+R: Znám jednu (Am)travnatou, (G)velkou (Am)pláň,
++  polyká (Am)staletí, (G)milej (Am)Šurean.
+   Tam (C)najdeš (G)chýše (C)kamenný,
++  a v (D)sedlech kříže zdobený,
+   a (Dm)vohně hlínou duše(Am)ný,
++  kde (E)černý chlapi pálej uhlí (Am)dřevěný.
+
+2: Starý hradby mezi buky když se objeví,
++  chrámy a divadla uprostřed lesů,
+   propadá se, propadá,
++  sláva Dáků do věků se propadá.
+
+3: Černá hora na obzoru když se objeví,
++  Nejdřív tě napadá, že to nic není,
+   Uvadá, jó uvadá,
++  Tvoje radost v hustý kleči uvadá.
+
+4: Velký hlavy mezi smrky když se objeví,
++  Náruč ti nestačí a krosna puká.
+   Prej rostou, trochu rostou,
++  Prej tu trochu rostou hřiby karpatský.

@@ -1,0 +1,157 @@
+Jak psát písničky do zpěvníku
+==============================
+
+Ahoj! Tenhle návod ti ukáže, jak přidat nebo upravit písničku
+v našem zpěvníku. Nepotřebuješ k tomu žádný speciální program --
+stačí obyčejný textový editor (třeba Poznámkový blok) nebo rovnou
+online editor na GitHubu.
+
+Pro podrobnější technický popis viz song_format.txt (anglicky).
+
+
+Jak upravit existující písničku
+-------------------------------
+
+1. Otevři složku se zpěvníkem na GitHubu (dostaneš odkaz).
+2. Najdi soubor písničky ve složce "songs/" (např. "Přítel.txt").
+3. Klikni na tužku (ikona "Edit").
+4. Uprav text a klikni na "Propose changes".
+5. Tím se vytvoří Pull Request, který správce posoudí a začlení.
+
+
+Jak přidat novou písničku
+--------------------------
+
+1. Ve složce "songs/" klikni na "Add file" → "Create new file".
+2. Pojmenuj soubor podle názvu písničky (např. "Nová_písnička.txt").
+3. Napiš obsah podle formátu popsaného níže.
+4. Klikni na "Propose new file".
+5. Nezapomeň taky přidat název písničky do příslušného souboru
+   v adresáři "songlists/" (seznamy se jmenují podle roku vydání zpěvníku).
+
+
+Formát písničky
+----------------
+
+Každá písnička začíná hlavičkou:
+
+  N: Zelené pláně
+  A: Waldemar Matuška
+  AC:
+  Z: Já písnička 2, 1990
+  ZC:
+
+  N: = název písničky
+  A: = autor (víc autorů odděl čárkou)
+  AC: = kód autora (pokud nevíš, nech prázdné)
+  Z: = zdroj / zpěvník odkud text máš
+  ZC: = kód zdroje (pokud nevíš, nech prázdné)
+
+Pak následuje text písničky. Sloky, refrény a mezizpěvy se oddělují
+prázdným řádkem.
+
+
+Označování slok
+----------------
+
+  1: Tohle je první sloka,
+     která může pokračovat na dalším řádku.
+
+  2: A tohle je druhá sloka.
+
+  R: Refrén se značí takhle.
+
+  R1: Když je refrénů víc, číslují se.
+
+  R2: Takhle.
+
+  M: Mezizpěv (bridge) -- zarovná se doleva, bez značky.
+
+  C: Recitativ.
+
+  3: = 1.
+
+Poslední řádek znamená "třetí sloka je stejná jako první" -- všimni
+si, že označení sloky má dvojtečku (3:), ale odkaz má tečku (1.).
+
+
+Opakování
+----------
+
+  /: Text, který se opakuje :/
+  3×/: Text, který se opakuje třikrát :/
+
+Pozor: za /: a před :/ vždy mezera!
+Pro násobek použij znak × (ne malé x).
+
+
+Psaní akordů
+--------------
+
+Akordy se píšou do závorek PŘED slabiku, nad kterou mají být:
+
+  (G)V jedné (Em)mořské (Am)dáli(D)ně,
+  (G)zmizel (Em)parník v (Am)hlubi(D)ně.
+
+Pozor: když píšeš akord doprostřed slova, nesmí kolem být mezery!
+
+  Správně: (Am)dáli(D)ně
+  Špatně:  (Am) dáli (D) ně
+
+
+Pravidla pro zápis akordů
+--------------------------
+
+  Křížek (#)     píše se jako "     Př: (G"m) = Gis moll
+  Béčko (b)      píše se jako b     Př: (Ab)  = As dur
+
+  Moll           píše se m          Př: (Am), (Em7)
+                 NE "mi"!           (Ami) je špatně → (Am)
+
+  Suspenze       jen číslo          Př: (E4), (D4)
+                 NE "sus"!          (Esus4) je špatně → (E4)
+
+  Septima        7                  Př: (A7), (Em7)
+  Velká septima  maj                Př: (Fmaj), (Cmaj)
+  Zvětšený       +                  Př: (G+)
+  Zmenšený       dim                Př: (Adim)
+
+  Basový tón     za lomítkem        Př: (C/G), (Am7/G)
+
+  Složená čísla  v závorkách        Př: (D(7/4)), (A(4/6))
+
+  Akord v závorce se zapíše         Př: ((A))
+
+  Neznámý hmat   přidej X na konec  Př: (Hm(7/4)X)
+    a do komentáře napiš prstoklad:
+    % Speciální hmat pro Hm(7/4): x 0 4 4 3 0
+    (struny EADGHE zleva, 0 = prázdná, x = nehraná)
+
+
+Pár tipů a triků
+------------------
+
+  Komentář: řádek začínající % bude ignorován.
+    % tady si můžu napsat poznámku
+
+  Poznámka v textu: místo klasických závorek použij @[ a @]:
+    Hmmm, hmmm... @[do ztracena@]
+  Ve výsledném pdf pak bude vypadat jako:
+    Hmmm, hmmm... (do ztracena)
+
+  Uvozovky: v textu používej \uv{text}:
+    \uv{Ahoj!} se vytiskne jako „Ahoj!"
+
+  Trojtečka: piš tři tečky, ne speciální znak "trojtečka":
+    Správně: Hmmm...
+    Špatně:  Hmmm…
+
+  Apostrof: používej rovný apostrof ':
+    Správně: rock'n'roll
+    Špatně:  rock´n´roll
+
+
+A to je vše, přátelé!
+Pište vesele.
+
+(Původní návod napsal dRak, aktualizovali Oggy a spol., 2025-2026.)

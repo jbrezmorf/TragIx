@@ -1,0 +1,14 @@
+N: Požehnaný jsi, Bože
+A:
+AC:
+Z: Hosana 
+ZC:200
+
+1: (C)Požehna(F)ný jsi, Bože (C)na vě(Ami)ky,
++(F)z tvé ru(C)ky všechno má(G)me.
+(C)Požehna(F)ný jsi, Bože (C)veli(Ami)ký
++(F)Chléb ti (C)přiná(G)ší(C)me.
+
+2:    ...Víno ti přinášíme
+
+3:    ...Dary ti přinášíme

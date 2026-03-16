@@ -300,9 +300,16 @@ TSWLatexianTemp*
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
 
-nezboznej/songs/*.sng
-nezboznej/_zpevnik-utf8.src
-nezboznej/zpevnik.pdf
-nezboznej/zpevnik.toc
-nezboznej/zpevnik.tex
+# Build output directories
+nezboznej/build/
+zboznej/build/
+
+# Python
 __pycache__/
+
+# Custom fonts are committed (provided by Junák for Scout projects)
+# fonts/
+
+# OS
+.DS_Store
+Thumbs.db

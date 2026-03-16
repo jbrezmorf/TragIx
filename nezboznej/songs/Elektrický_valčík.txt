@@ -1,0 +1,20 @@
+N: Elektrický valčík
+A: Zdeněk Svěrák, Jaroslav Uhlíř
+AC: ZS, JU
+Z:
+ZC:
+
+1: (Am)Jednoho letního večera na návsi pod starou (E7)lípou
+   hostinský Antonín Kučera vyvalil soudeček s (Am)pípou,
+   neby(F)lo to posvícení, neby(Am)la to neděle,
+   v naší (F)obci mezi kopci plni(E7)ly se korbele.
+
+R: (A)Byl to ten slavný den, kdy k nám byl zaveden (E7)elek(Edim)trický (E7)proud,
+   byl to ten slavný den, kdy k nám byl zaveden (A)elek(Adim)trický (A)proud,
+   (A7)střída(D)vý, (E)střída(C"m)vý,  (F"m)silný (H)elek(E7)trický (A)proud,
+   (A7)střída(D)vý, (E)střída(C"m)vý, (F"m)zkrátka (Hm)elek(E7)trický (A)proud.
+
+2: Na stránkách obecní kroniky ozdobným písmem je psáno:
+   tento den pro zdejší rolníky znamenal po noci ráno,
+   budeme žít jako v Praze, všude samé vedení,
+   jedna fáze, druhá fáze, třetí pěkně vedle ní.

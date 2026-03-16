@@ -1,0 +1,16 @@
+N: Veď mé kroky 
+A: 
+AC: 
+Z: 
+ZC:266 
+ 
+1:        (D)Veď mé (A)kroky, (Hm)Pane, (G)ať vím, kudy (A)jít, 
+        (D)věřím, (A)že se (Hm)stane, (G)co chceš (A)pro mě (D)mít. 
+ 
+2:        Ty víš, co mě trápí, nedá mi dnes spát, 
+        ty znáš moje přání, chci tvou vůli znát. 
+ 
+3:        Ať mé srdce hoří, co víc můžu chtít, 
+        ať můj život skončí, toužím s tebou být. 
+ 
+        4. = 1.

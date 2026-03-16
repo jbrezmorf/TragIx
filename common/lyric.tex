@@ -97,11 +97,8 @@
 \def\fixchordspace{0.4em}  % min space between chords 
 \def\pluschordspace{0.3em} % additional space, if we do prolongation of text
 \def\chordraise{2.2ex}     % raise of the chord
-%% separation of only chords
-%\def\chsep{\hfil\beginchord)
-%  \hskip0.1em
-%  \raise \chordraise\hbox{{\ChordSeparate\char"6A}}
-%  \hbox{\hskip\fixchordspace\hskip0.1em}}
+%% separation of only chords (used in melorecitative lines)
+\def\chsep{\hfil}
 %%%%%%%%%%%%%%%%%%%%%%
 %% TEXT TYPESETTING
 %%%%%%%%%%%%%%%%%%%%%%
@@ -295,20 +292,21 @@
   \global\setbox2=\MakeAbsolutePageNum{\the\count2}{R}% Right
 }
 
-% Invisible placeholder to reserve space (same size as original page numbers)
-% Oggy note - this is necessary to preserve the layout of the content,
-% which we want, since we already have some printed copies with this layout.
-% We would like songs to stay on the same pages, etc.
+% When \preservelayouttrue, invisible placeholders reserve the same vertical
+% space as the old (non-absolute) page numbers.  This keeps songs on the
+% same pages as in already-printed editions.  For a fresh edition set
+% \preservelayoutfalse in head.tex so content can flow naturally.
+\newif\ifpreservelayout
+\preservelayouttrue  % safe default: preserve layout
+
 \def\MakeInvisiblePagePlaceholder{\vbox{%
   \PageFont\vskip 2ex%
-  \hbox to \hsize{\PageFont\phantom{999}\hfill}% invisible placeholder
+  \hbox to \hsize{\PageFont\phantom{999}\hfill}%
   }}
 
-% Left page number - invisible placeholder
-\def\MakePageNumLeft{\MakeInvisiblePagePlaceholder}
-
-% Right page number - invisible placeholder  
-\def\MakePageNumRight{\MakeInvisiblePagePlaceholder}
+% Left/right page number areas: placeholder when preserving, empty otherwise
+\def\MakePageNumLeft{\ifpreservelayout\MakeInvisiblePagePlaceholder\fi}
+\def\MakePageNumRight{\ifpreservelayout\MakeInvisiblePagePlaceholder\fi}
 % auxiliar rule
 % \def\measure{\vbox to 0pt{\hbox to 0pt{\vrule height 18cm}}}
 %
@@ -316,12 +314,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\setlyricoutput{%
   \PageLayout
-% page numbering - reserve space with invisible placeholder to preserve content layout
-  \pagenum=99
-  \setbox0=\MakePageNum% measure original page number size
-  \pagenum=0
-  \message{\the\vsize,\the\ht0}
-  \advance\vsize by -\ht0% reserve space exactly as before
+  \ifpreservelayout
+    % Reserve space matching old page numbers to keep songs on the same pages
+    \pagenum=99
+    \setbox0=\MakePageNum
+    \pagenum=0
+    \message{\the\vsize,\the\ht0}
+    \advance\vsize by -\ht0
+  \fi
   \vsize=2\vsize% vzdy formatuju 2 strany najednou
   \message{\the\vsize}
   \output={\lyricoutput}}

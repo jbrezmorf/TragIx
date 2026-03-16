@@ -1,0 +1,11 @@
+N: Hospodin je můj pastýř
+A:
+AC:
+Z:  
+ZC:Z65
+
+
+(F)Hospodin je můj (C)pastýř, nic (Dmi)nepostrá(B)dám,
+(F)hospodin je můj (C)pastýř, nic (Dmi)nepostrá(B)dám,
+(F)Má duše (C)pána vele(Dmi)bí,(B) (F)má duše (C)pána velebí(B),
+(F)můj Bůh, (C)je spása má(B) (C) (C7)

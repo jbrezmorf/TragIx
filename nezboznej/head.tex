@@ -1,4 +1,5 @@
 \input../../common/lyric.tex
+\preservelayouttrue % keep layout matching already-printed 2025 copies - if unsure what this means, ask Oggy ;)
 {
 \PageLayout
 \advance\hsize by \OuterMargin
@@ -8,15 +9,6 @@
 \topglue 0pt
 \hrule
 
-% \font\TitleA lmssbx10 at 35pt
-% \font\TitleC lmssbx10 at 50pt
-% \font\TitleB lmssbx10 at 25pt
-
-% \font\PatkaA lmss12 at 17pt
-% \font\PatkaAsmall lmss12 at 14pt
-% \font\PatkaB lmss12 at 14pt
-% \font\PatkaBBold lmssbx10 at 14pt
-
 \font\TitleA "TheMix C5 SemiLight" at 25pt
 \font\TitleB "TheMix C5 Bold" at 40pt
 \font\TitleC "SKAUT" at 55pt
@@ -25,16 +17,12 @@
 \font\PatkaBold "TheMix C5 Bold" at 17pt
 \font\PatkaSmall "TheMix C5 SemiLight" at 14pt
 \font\PatkaBoldSmall "TheMix C5 Bold" at 14pt
+\font\VersionFont "TheMix C5 SemiLight" at 8pt
 
 \vskip1.5cm
 \centerline{\TitleA ZPĚVNÍK ODDÍLŮ}
 \vskip1cm
 \centerline{\TitleB ICHTHYS}
-% \hfil\vbox{\halign{#\cr
-% \SkautFontMedium Z P Ě V N Í K\cr
-% \noalign{\TitleB\vskip1ex}
-% \SkautFontSmall ODDÍLŮ\hskip 1em plus 2em ICHTHYS\cr
-% }}\hfil
 \vskip2.5cm
 \centerline{\TitleC NEZBOŽNEJ}
 \vskip3.25cm
@@ -50,8 +38,16 @@
 \vskip3.5ex
 \centerline{\TeX}\vskip1ex
 \vfil
+\VersionFont\hfill 2025.3
+\vskip1ex
 \hrule
 \break
 }
 \makeindex
+% Songs must start on an even (left) page so they appear "top left after
+% a page flip".  After the title page + index, if we landed on an odd page
+% number, insert one blank page to reach the next even page.
+\ifodd\pageno
+  {\PageLayout \nopagenumbers \null\vfill\break}
+\fi
 \setlyricoutput

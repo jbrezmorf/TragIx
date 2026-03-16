@@ -1,0 +1,15 @@
+N: Vděčnost 
+A: 
+AC: 
+Z: 
+ZC:Z278 
+ 
+1:        (F)Protože mě máš tak (Dm)rád, jak jen ty (Gm)můžeš mít, (C7) 
+        (F)protože's mi svou chtěl (Dm)dát nesmírnost (B)zaku(C7)sit. 
+        Tak (F)kdyby ses mě zeptal, (Dm)kdo jsem, (Gm)místo svého (C)jména vyslo(Gm)vím:(Gm7) 
+        Jsem jen (F)díky, (Dm)za všechno a (Gm)stálé díky(C),    (C7)tobě (F)dík.(D) 
+ 
+2:        (G)Až mi zhasne slunce (Em)svit, budu zde (Am)končit, (D7) 
+        (G)v tobě budu dále (Em)žít, navěky v (C)tobě (D)žít. 
+        A když (G)se mě potom ze ptáš, (Em)kdo jsem, (Am)místo svého (D)jména vyslo(Am)vím:(Am7)(D7) 
+        Jsem jen (G)díky, (Em)za všechno a (Am)stálé dí(D)ky,    (D7)tobě (G)dík.

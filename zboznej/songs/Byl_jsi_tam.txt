@@ -1,0 +1,24 @@
+N: Byl jsi tam
+A:
+AC:
+Z: Hosana
+ZC: 32
+
+
+1: Byl jsi (F)tam, když byl (C)křižován můj (F)Pán, (B)
+(F)byl jsi (Am)tam, když byl (Dm)křižován můj (Gm)Pán?(C7)
+
+R: (F)Nezapomeň (F7)na tu chvíli, (B)když ho všichni (Fdim)opustili, 
+byl jsi (F)tam, když byl (Gm)křižo(C7)ván můj (F)Pán? (B)(F)
+
+2: Byl jsi tam, když bděl v Getsemane sám?
+
+3: Byl jsi tam, když byl Petrem zapírán?
+
+4: Byl jsi tam, když byl Ježíš bičován?
+
+5: Byl jsi tam, když klesal pod tíhou ran?
+
+6: Byl jsi tam, když na kříži skonal Pán?
+
+M: 7. = 1.

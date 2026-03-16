@@ -1,0 +1,24 @@
+N: Strč prst skrz krk
+A: Bobři
+AC:
+Z: 
+ZC:
+
+1: \uv{Str(G)č prst skrz krk} zřetelně nám přeříkej, 
+   \uv{str(D)č prst skrz krk} zřetelně nám přeříkej,  
+   \uv{str(G)č prst skrz krk} zřetelně nám přeříkej, 
+   bu(D)de z tebe zpěvák velikej,(G) Pájo. 
+    
+2: 3× /: Na cvičišti čtyři svišti piští :/ 
+   těším se na lekci příští, ach jo. 
+ 
+3: 3× /: Dalajláma v lomu láme slámu :/
+   já si na tom jazyk zlámu, ach jo. 
+ 
+4: 3× /: Jak Julie olejuje koleje :/
+   smrtelný pot ze mě leje, votři mě. 
+
+5: 3× /: Teď už umím \uv{kaplan plakal v kapli} :/
+   hlasivky se mi už naply, ach jo. 
+
+6: = 1.

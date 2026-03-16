@@ -1,0 +1,19 @@
+N: Rehradice
+A: AG Flek
+AC: AG
+Z:Já písnička 3, 1995
+ZC:
+
+1: (Am)A te Rehradice (G)na pěkný ro(C)vině,
++   (D)teče tam vo(Em)děnka (Am)dolů po (D)dě(G)dině,
+   (Dm)je pěk(Em)ná, je (Am)čistá.
+
+2: A po tej voděnce drobný rebe skáčó,
++   pověz mně, má milá, proč tvý oči pláčó
+   tak smutně, žalostně.
+
+3: Pláčó oni, pláčó šuhaju vo tebe,
++   že sme sa dostali daleko od sebe,
+   daleko od sebe.
+
+4: = 1.

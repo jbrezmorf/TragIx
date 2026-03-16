@@ -1,0 +1,35 @@
+N: Malotraktorem
+A: Mig 21
+AC:
+Z: 
+ZC:
+
+1: (C)Cestou necestou, polem nepolem, 
+(F)jedu za tebou (Fm) velkým malotrakto(C)rem. 
+(C)Cestou necestou, polem nepolem, 
+(F)jedu za tebou (Fm)velkým malotrakto(C)rem, 
+kabrioletem. 
+ 
+(C)Pojď mi naproti, lesem nelesem, 
+(F)pojď si mě vyfotit, (Fm)jak tam na traktoru (C)jsem. 
+(C)Pojď mi naproti, lesem nelesem, 
+(F)pojď si mě vyfotit, (Fm)jak tam na traktoru (C)jsem, 
+jak jsem roztřesen.
+
+M: VRN, VRN, VRN, VRN, VRN ... (C F G)
+
+R: (C)Jen kola zdolaj výmoly, pálim to lesem po poli, 
+(F)lán pole mizí pod koly, (Fm)z kopce to ale vosolim. 
+ 
+2: Cestou necestou, polem nepolem, 
+jedu za tebou létem kabrioletem. 
+Cestou necestou, polem nepolem, 
+jedu za tebou létem kabrioletem, 
+malotraktorem. 
+ 
+Doufám, že mě pochopíš, že mě uslyšíš, 
+že mě potěšíš, mít budeš ráda. 
+ 
+Doufám, že mě pochopíš ... 
+
+M: 3× /: a budeš mít ráda ... :/
