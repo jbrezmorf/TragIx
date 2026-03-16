@@ -29,7 +29,7 @@ jobs:
 
           FAILED=0
           while read -r variant edition; do
-            [ -z "$variant" ] && continue
+            [[ -z "$variant" || "$variant" == \#* ]] && continue
             echo "### ${variant} (${edition})" >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
             if python scripts/check_songbook.py "${variant}/songs/" \
@@ -52,7 +52,7 @@ jobs:
 
           FAILED=0
           while read -r variant edition; do
-            [ -z "$variant" ] && continue
+            [[ -z "$variant" || "$variant" == \#* ]] && continue
             echo "### ${variant}" >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
             python scripts/fix_songbook.py "${variant}/songs/" --dry-run 2>&1 \
@@ -86,7 +86,7 @@ jobs:
       - name: Build editions
         run: |
           while read -r variant edition; do
-            [ -z "$variant" ] && continue
+            [[ -z "$variant" || "$variant" == \#* ]] && continue
             echo "Building ${variant} edition ${edition}..."
             docker run --rm \
               -v "${{ github.workspace }}/${variant}/build:/songbook/${variant}/build" \
