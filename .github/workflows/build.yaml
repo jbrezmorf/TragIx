@@ -1,4 +1,4 @@
-name: Build LuaTeX Project
+name: Build Songbook
 
 on:
   push:
@@ -13,37 +13,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Install TeX Live
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y texlive-full
+      - name: Build Docker image
+        run: docker build -t tragix-songbook .
 
-    - name: Build in nezboznej directory
-      working-directory: ./nezboznej
-      run: |
-        ls
-        make clean
-        make all
+      - name: Build Nezbožnej 2025
+        run: |
+          docker run --rm \
+            -v "${{ github.workspace }}/nezboznej/build:/songbook/nezboznej/build" \
+            tragix-songbook --variant nezboznej --edition 2025
 
-    - name: Upload artifacts from nezboznej
-      uses: actions/upload-artifact@v3
-      with:
-        name: nezboznej-pdfs
-        path: ./nezboznej/*.pdf
+      - name: Build Zbožnej 2026
+        run: |
+          docker run --rm \
+            -v "${{ github.workspace }}/zboznej/build:/songbook/zboznej/build" \
+            tragix-songbook --variant zboznej --edition 2026
 
-    - name: Build in zboznej directory
-      working-directory: ./zboznej
-      if: always()
-      run: |
-        ls
-        make clean
-        make all
+      - name: Upload Nezbožnej PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: nezboznej-2025
+          path: nezboznej/build/songbook.pdf
 
-    - name: Upload artifacts from zboznej
-      uses: actions/upload-artifact@v3
-      with:
-        name: zboznej-pdfs
-        path: ./zboznej/*.pdf
+      - name: Upload Zbožnej PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: zboznej-2026
+          path: zboznej/build/songbook.pdf
