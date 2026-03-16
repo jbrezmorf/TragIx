@@ -3,6 +3,7 @@ A: Hop trop
 AC: HT
 Z:
 ZC:
+E: 2025
 
 1: (Dm)Dávám sbohem všem (C)břehům prokla(Am)tejm, 
    který (Dm)v drápech má (Am)ďábel (Dm)sám,

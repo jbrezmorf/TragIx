@@ -3,6 +3,7 @@ A: Ivan Mládek
 AC: IM
 Z:
 ZC:
+E: 2025
 
 1: (Am)Jedu takhle tábořit (E)Škodou 100 na (Am)Oravu,
    spěchám, proto riskuji, (E)projíždím přes (Am)Moravu.

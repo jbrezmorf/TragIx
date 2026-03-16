@@ -3,6 +3,7 @@ A:
 AC:
 Z: Hosana 
 ZC: 156
+E: 2012, 2026
 
 (C)Naplňuj mne Duchem(Ami) svým, 
 +(Dmi)naplňuj mne Duchem (G)svým, 

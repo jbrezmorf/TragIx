@@ -3,6 +3,7 @@ A: Pavel Dydovič
 AC: PV
 Z: Já, písnička 2, 1994
 ZC:
+E: 2025
 
 1: (D)Máš, má ovečko, (A)dávno spát, už (G)píseň ptáků (D)končí,
    (D)kvůli nám přestal (A)vítr vát, jen (G)můra zírá (D)zvenčí,

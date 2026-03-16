@@ -1,12 +1,28 @@
+"""
+Build a songbook PDF from individual song source files.
+
+Usage (auto-detects Docker if luatex is not available locally):
+
+    python build_songbook.py --variant nezboznej --edition 2025
+    python build_songbook.py --variant nezboznej --edition 2025 --duplex
+    python build_songbook.py --variant nezboznej --edition 2025 --clean
+    python build_songbook.py --variant nezboznej --edition 2025 --songs-only
+"""
+
 import argparse
+import locale
+import platform
 import re
 import shutil
 import subprocess
-import locale
-from pathlib import Path
-import platform
+import sys
 from functools import cmp_to_key
+from pathlib import Path
 
+
+# ---------------------------------------------------------------------------
+# Locale
+# ---------------------------------------------------------------------------
 
 def set_czech_locale():
     system = platform.system()
@@ -22,48 +38,21 @@ def set_czech_locale():
         locale.setlocale(locale.LC_COLLATE, "")
 
 
-SONG_SEPARATOR = "=" * 18
-
-
 def czech_compare(a, b):
     return locale.strcoll(a, b)
 
 
 # ---------------------------------------------------------------------------
-# Legacy: monolithic input file support (fallback when --edition not given)
+# Song collection
 # ---------------------------------------------------------------------------
 
-def parse_songs_from_file(file_path):
-    try:
-        with open(file_path, encoding="utf-8") as f:
-            content = f.read()
-    except UnicodeDecodeError:
-        print(f"Warning: Skipping {file_path} (not valid UTF-8)")
-        return []
+def _parse_header_field(content, field):
+    """Extract a header field value from song content (e.g. 'N:', 'E:')."""
+    for line in content.splitlines():
+        if line.startswith(field):
+            return line[len(field):].strip()
+    return None
 
-    entries = [e.strip() for e in content.split(SONG_SEPARATOR) if e.strip()]
-    songs = []
-    for entry in entries:
-        lines = entry.splitlines()
-        title_line = next((line for line in lines if line.startswith("N:")), None)
-        if not title_line:
-            continue
-        title = title_line[2:].strip()
-        songs.append((title, entry.strip() + "\n"))
-    return songs
-
-
-def collect_all_songs(input_dir):
-    songs = []
-    for ext in ("*.sng", "*.src", "*.txt"):
-        for file_path in Path(input_dir).glob(ext):
-            songs += parse_songs_from_file(file_path)
-    return songs
-
-
-# ---------------------------------------------------------------------------
-# New: manifest-based collection from individual song files
-# ---------------------------------------------------------------------------
 
 def _load_song_dir(directory):
     """Read all .txt files from a directory, return {title: content} dict."""
@@ -72,72 +61,84 @@ def _load_song_dir(directory):
         return pool
     for txt in sorted(directory.glob("*.txt")):
         content = txt.read_text(encoding="utf-8").strip()
-        title_line = next(
-            (l for l in content.splitlines() if l.startswith("N:")), None
-        )
-        if title_line is None:
+        title = _parse_header_field(content, "N:")
+        if title is None:
             continue
-        title = title_line[2:].strip()
         pool[title] = content + "\n"
     return pool
 
 
-def collect_songs_from_edition(variant_dir, edition):
-    """Collect songs for a specific edition using songlist + songs/ + overrides/."""
-    songlist_path = variant_dir / "songlists" / f"{edition}.txt"
-    if not songlist_path.exists():
-        raise SystemExit(f"Songlist not found: {songlist_path}")
+def collect_songs(variant_dir, edition):
+    """Collect songs whose E: header includes the requested edition year.
 
-    titles = [l.strip() for l in songlist_path.read_text(encoding="utf-8").splitlines()
-              if l.strip()]
-    song_pool = _load_song_dir(variant_dir / "songs")
+    Override files from overrides/ take precedence over songs/ when both
+    exist for the same title.
+    """
+    songs_dir = variant_dir / "songs"
+    if not songs_dir.exists():
+        raise SystemExit(f"Songs directory not found: {songs_dir}")
+
     override_pool = _load_song_dir(variant_dir / "overrides")
-
     songs = []
     matched_overrides = set()
 
-    for title in titles:
+    for txt in sorted(songs_dir.glob("*.txt")):
+        content = txt.read_text(encoding="utf-8").strip()
+        title = _parse_header_field(content, "N:")
+        if title is None:
+            continue
+
+        editions_raw = _parse_header_field(content, "E:")
+        if not editions_raw:
+            continue
+        editions = {e.strip() for e in editions_raw.split(",")}
+        if edition not in editions:
+            continue
+
         if title in override_pool:
             songs.append((title, override_pool[title]))
             matched_overrides.add(title)
-        elif title in song_pool:
-            songs.append((title, song_pool[title]))
         else:
-            print(f"Warning: Song not found: '{title}'")
+            songs.append((title, content + "\n"))
 
     unmatched = [t for t in override_pool if t not in matched_overrides]
     if unmatched:
-        print(f"Note: {len(unmatched)} override(s) not referenced by songlist "
-              f"(ignored): {unmatched}")
+        print(f"  Note: {len(unmatched)} override(s) not in edition (ignored): {unmatched}")
 
-    print(f"Collected {len(songs)} songs from songlist "
-          f"({len(matched_overrides)} using overrides)")
+    print(f"  {len(songs)} songs collected ({len(matched_overrides)} using overrides)")
     return songs
 
 
-def write_output_files(songs, build_dir):
+# ---------------------------------------------------------------------------
+# Build preparation
+# ---------------------------------------------------------------------------
+
+def prepare_build(songs, variant, build_dir):
+    """Sort songs, write .sng files, songbook.tex, songlist.tex, and
+    a convenience songlist_titles.txt into the build directory."""
+    set_czech_locale()
+    sorted_songs = sorted(songs, key=cmp_to_key(lambda a, b: czech_compare(a[0], b[0])))
+
     songs_dir = build_dir / "songs"
     songs_dir.mkdir(parents=True, exist_ok=True)
 
-    sorted_songs = sorted(songs, key=cmp_to_key(lambda a, b: czech_compare(a[0], b[0])))
-
     src_path = build_dir / "songbook.src.txt"
-    with open(src_path, "w", encoding="utf-8") as src_file:
+    songlist_titles = build_dir / "songlist_titles.txt"
+    separator = "=" * 18
+
+    with (
+        open(src_path, "w", encoding="utf-8") as src_file,
+        open(songlist_titles, "w", encoding="utf-8") as titles_file,
+    ):
         for idx, (title, content) in enumerate(sorted_songs, 1):
             safe_title = re.sub(r"[^\w\-]", "_", title, flags=re.UNICODE)
             safe_title = re.sub(r"_+", "_", safe_title).strip("_")
             filename = f"{idx:03d}_{safe_title}.sng"
-            song_path = songs_dir / filename
-            with open(song_path, "w", encoding="utf-8") as song_file:
-                song_file.write(content)
-            src_file.write(content + "\n" + SONG_SEPARATOR + "\n\n")
+            (songs_dir / filename).write_text(content, encoding="utf-8")
+            src_file.write(content + "\n" + separator + "\n\n")
+            titles_file.write(title + "\n")
 
-
-def create_tex_files(variant, build_dir):
-    """Generate songbook.tex (trivial \\input wrapper) and songlist.tex (song entries)."""
     songbook_tex = build_dir / "songbook.tex"
-    songlist_tex = build_dir / "songlist.tex"
-
     songbook_tex.write_text(
         "\\input ../head.tex\n"
         "\\input songlist.tex\n"
@@ -145,104 +146,160 @@ def create_tex_files(variant, build_dir):
         encoding="utf-8",
     )
 
+    songlist_tex = build_dir / "songlist.tex"
     with open(songlist_tex, "w", encoding="utf-8") as out:
-        for song_file in sorted((build_dir / "songs").glob("*.sng")):
-            rel_path = song_file.relative_to(build_dir).as_posix()
-            out.write(f"\\inputsong{{{rel_path}}}\n")
+        for sng in sorted((build_dir / "songs").glob("*.sng")):
+            rel = sng.relative_to(build_dir).as_posix()
+            out.write(f"\\inputsong{{{rel}}}\n")
+
+    print(f"  Build files written to {build_dir}/")
 
 
-def compile_pdf(build_dir):
-    subprocess.run(
-        ["luatex", "-fmt", "pdfcsplain", "--interaction=nonstopmode", "songbook.tex"],
-        cwd=build_dir, check=True,
-    )
+# ---------------------------------------------------------------------------
+# Compilation
+# ---------------------------------------------------------------------------
 
-def create_duplex_pdf(pdf_path: Path, output_path: Path):
-    # zpev-duplex.pdf : zpevnik.pdf
-    # 	 pdftops zpevnik.pdf zpevnik.ps
-    # 	 #pstops -pa4 '2:-1L(29.7cm,0cm)+0L(29.7cm,14.85cm),1L(29.7cm,0cm)+-0L(29.7cm,14.85cm)' zpevnik.ps zpev-duplex.ps
-    # 	 pstops -pa4 '2:-1L(21cm,0cm)+0L(21cm,14.85cm),1L(21cm,0cm)+-0L(21cm,14.85cm)' zpevnik.ps zpev-duplex.ps
-    # 	 ps2pdf zpev-duplex.ps zpevnik-duplex.pdf
-    # 	 #pdfjam zpevnik.pdf --nup 2x1 --landscape --paper a4paper --outfile zpev-duplex.pdf
-    
-    ps_path = pdf_path.with_suffix('.ps')
-    duplex_ps = output_path.with_suffix('.ps')
-    duplex_pdf = output_path.with_suffix('.pdf')
+def compile_pdf(build_dir, passes=2):
+    """Run luatex the specified number of times (2 = with index)."""
+    cmd = ["luatex", "-fmt", "pdfcsplain", "--interaction=nonstopmode", "songbook.tex"]
+    for i in range(1, passes + 1):
+        label = f"pass {i}/{passes}" if passes > 1 else "single pass"
+        print(f"  Compiling ({label})...")
+        result = subprocess.run(cmd, cwd=build_dir, capture_output=True, text=True)
+        if result.returncode != 0:
+            errors = [l for l in result.stdout.splitlines() if l.startswith("!")]
+            if errors:
+                print(f"  TeX errors:")
+                for e in errors:
+                    print(f"    {e}")
+            raise SystemExit(f"luatex failed on {label} (exit {result.returncode})")
 
-    # Step 1: Convert PDF to PS
-    subprocess.run(['pdftops', str(pdf_path), str(ps_path)], check=True)
+    pdf = build_dir / "songbook.pdf"
+    size_kb = pdf.stat().st_size // 1024
+    print(f"  Output: {pdf} ({size_kb} KB)")
 
-    # Step 2: Rearrange pages into A5-imposed duplex layout on A4
-    # Note: 21cm wide page, 14.85cm tall half-page
+
+def create_duplex(build_dir, variant):
+    """Create an A5-imposed duplex PDF on A4 for print-shop delivery."""
+    pdf = build_dir / "songbook.pdf"
+    ps = pdf.with_suffix(".ps")
+    duplex_ps = build_dir / f"{variant}_duplex.ps"
+    duplex_pdf = build_dir / f"{variant}_duplex.pdf"
+
+    print("  Creating duplex PDF...")
+    subprocess.run(["pdftops", str(pdf), str(ps)], check=True)
+
     pstops_expr = (
         "2:-1L(21cm,0cm)+0L(21cm,14.85cm),"
         "1L(21cm,0cm)+-0L(21cm,14.85cm)"
     )
-    subprocess.run(['pstops', '-pa4', pstops_expr, str(ps_path), str(duplex_ps)], check=True)
+    subprocess.run(["pstops", "-pa4", pstops_expr, str(ps), str(duplex_ps)], check=True)
+    subprocess.run(["ps2pdf", "-sPAPERSIZE=a4", str(duplex_ps), str(duplex_pdf)], check=True)
 
-    # Step 3: Convert rearranged PS back to final PDF
-    subprocess.run(['ps2pdf', "-sPAPERSIZE=a4", str(duplex_ps), str(duplex_pdf)], check=True)
+    size_kb = duplex_pdf.stat().st_size // 1024
+    print(f"  Output: {duplex_pdf} ({size_kb} KB)")
 
 
-def clean(build_dir):
-    shutil.rmtree(build_dir, ignore_errors=True)
+# ---------------------------------------------------------------------------
+# Docker self-bootstrapping
+# ---------------------------------------------------------------------------
+
+def docker_run(args):
+    """Re-invoke this script inside a Docker container with the correct
+    volume mount so build output lands on the host filesystem."""
+    image = "tragix-songbook"
+
+    print(f"[docker] Building image '{image}'...")
+    subprocess.run(["docker", "build", "-t", image, "."], check=True)
+
+    build_mount = f"{Path.cwd().as_posix()}/{args.variant}/build:/songbook/{args.variant}/build"
+
+    cmd = [
+        "docker", "run", "--rm",
+        "-v", build_mount,
+        image,
+    ]
+    cmd += sys.argv[1:]
+
+    print(f"[docker] Running build inside container...")
+    result = subprocess.run(cmd)
+    raise SystemExit(result.returncode)
+
+
+# ---------------------------------------------------------------------------
+# CLI and main
+# ---------------------------------------------------------------------------
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Build a songbook PDF from song source files.",
+        epilog="If luatex is not found locally, the build runs inside Docker automatically.",
+    )
+    parser.add_argument(
+        "--variant", required=True,
+        help="Variant name (nezboznej or zboznej)",
+    )
+    parser.add_argument(
+        "--edition", required=True,
+        help="Edition year (e.g. 2025). Selects songs whose E: header includes this year.",
+    )
+    parser.add_argument(
+        "--duplex", action="store_true",
+        help="Also produce an A5-on-A4 duplex PDF for print-shop delivery.",
+    )
+    parser.add_argument(
+        "--clean", action="store_true",
+        help="Only clean the build directory, then exit.",
+    )
+    parser.add_argument(
+        "--songs-only", action="store_true",
+        help="Collect and write song files but do not compile the PDF.",
+    )
+    return parser.parse_args()
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Build songbook PDF from source files."
-    )
-    parser.add_argument(
-        "--variant", required=True, help="Variant name (e.g. zboznej, nezboznej)"
-    )
-    parser.add_argument(
-        "--edition",
-        help="Edition year (e.g. 2025, 2026). "
-             "Reads {variant}/songlists/{edition}.txt as manifest and "
-             "collects songs from {variant}/songs/ and {variant}/overrides/. "
-             "Omit to fall back to legacy monolithic input files.",
-    )
-    parser.add_argument(
-        "--target",
-        choices=["build", "clean", "rebuild", "songs", "duplex", "buildwithindex", "all", "test", "retest", "testwithindex"],
-        default="build",
-        help="Build target",
-    )
-
-    args = parser.parse_args()
+    args = parse_args()
     variant_dir = Path(args.variant)
-    input_dir = variant_dir / "input"
     build_dir = variant_dir / "build"
-    args.target = args.target.lower()
 
-    if "test" in args.target:
-        input_dir = input_dir.with_name(input_dir.name + "_test")
-        build_dir = build_dir.with_name(build_dir.name + "_test")
+    if not shutil.which("luatex") and not args.clean and not args.songs_only:
+        docker_run(args)
+        return
 
-    if args.target in ["clean", "rebuild", "all", "retest"]:
-        clean(build_dir)
+    # -- Clean ---------------------------------------------------------------
+    if build_dir.exists():
+        print(f"Cleaning {build_dir}/...")
+        shutil.rmtree(build_dir, ignore_errors=True)
 
-    set_czech_locale()
-    if args.target in ["rebuild", "songs", "all", "retest"]:
-        if args.edition:
-            songs = collect_songs_from_edition(variant_dir, args.edition)
-        else:
-            songs = collect_all_songs(input_dir)
-        write_output_files(songs, build_dir)
-        create_tex_files(args.variant, build_dir)
+    if args.clean:
+        print("Done.")
+        return
 
+    # -- Collect songs -------------------------------------------------------
+    print(f"Collecting songs for {args.variant} edition {args.edition}...")
+    songs = collect_songs(variant_dir, args.edition)
+    if not songs:
+        raise SystemExit("No songs matched -- check E: headers in song files.")
 
-    if args.target in ["buildwithindex", "build", "rebuild", "all", "test", "testwithindex", "retest"]:
-        compile_pdf(build_dir)
+    # -- Prepare build files -------------------------------------------------
+    print("Preparing build files...")
+    prepare_build(songs, args.variant, build_dir)
 
-    if args.target in ["buildwithindex", "testwithindex", "all"]:
-        compile_pdf(build_dir)
+    if args.songs_only:
+        print("Done (--songs-only).")
+        return
 
-    if args.target in ["duplex", "all"]:
-        create_duplex_pdf(
-            build_dir / "songbook.pdf",
-            build_dir / f"{args.variant}_duplex.pdf"
-        )
+    # -- Compile PDF ---------------------------------------------------------
+    print("Compiling PDF...")
+    compile_pdf(build_dir, passes=2)
+
+    # -- Duplex (optional) ---------------------------------------------------
+    if args.duplex:
+        create_duplex(build_dir, args.variant)
+
+    print("Done.")
+
 
 if __name__ == "__main__":
     main()

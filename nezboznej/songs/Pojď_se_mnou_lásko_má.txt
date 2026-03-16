@@ -3,6 +3,7 @@ A: Waldemar Matuška
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Bílé (F)mám tě (C)rád zkouším (F)křídou (C)psát, (A7)
 pojď se mnou, (Dm)lásko má, (G)tou dálkou (C)k nám,

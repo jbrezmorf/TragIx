@@ -3,6 +3,7 @@ A: Karel Kryl
 AC: KK
 Z: Já, písnička 2, 1994
 ZC:
+E: 2025
 
 1: (Em)Bratříčku, nevzlykej, to nejsou (G)bubáci, 
   (D)vždyť už jsi velikej, to jsou jen (H)vojáci,

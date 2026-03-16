@@ -16,7 +16,6 @@ nezboznej/           Red songbook variant
   tail.tex           Chord diagrams and closing
   songs/             Individual song files (canonical, clean UTF-8)
   overrides/         Build-time layout overrides (spacing hacks etc.)
-  songlists/         Edition manifests (one file per year)
   build/             Build output (generated, gitignored)
 zboznej/             Green songbook variant (same structure)
 fonts/               Custom Scout fonts (TheMix C5, SKAUT)
@@ -29,41 +28,36 @@ Dockerfile           Reproducible build environment
 
 ## Building
 
-### With Docker (recommended)
-
 ```bash
-# Linux/Mac
-./docker_build.sh zboznej rebuild 2026
-
-# Windows PowerShell
-.\docker_build.ps1 zboznej rebuild 2026
+python build_songbook.py --variant nezboznej --edition 2025
+python build_songbook.py --variant zboznej --edition 2026
 ```
 
-Arguments: `<variant> <target> [edition]`
+If `luatex` is not installed locally the script automatically builds
+and runs inside Docker -- no wrapper scripts needed. Just have Docker
+running and the above command works on both Windows and Linux/Mac.
 
-The `edition` parameter selects which songlist to build from
-(e.g. `2025`, `2026`). It reads `{variant}/songlists/{edition}.txt`,
-collects matching songs from `songs/` (or `overrides/` when present),
-and produces the PDF.
+The `--edition` parameter selects songs whose `E:` header includes
+that year (e.g. `E: 2025` or `E: 2007, 2012, 2025`). Overrides from
+`overrides/` are used when present.
 
-### Without Docker
+Options:
 
-Prerequisites:
+```bash
+--duplex       Also produce an A5-on-A4 duplex PDF for the print shop
+--clean        Only clean the build directory, then exit
+--songs-only   Collect and write song files but do not compile the PDF
+```
+
+### Building without Docker
+
+Install the TeX toolchain locally and the script will use it directly:
 
 ```bash
 sudo apt install -y python3 texlive texlive-luatex texlive-plain-generic \
   texlive-lang-czechslovak texlive-fonts-recommended poppler-utils psutils ghostscript
 sudo locale-gen cs_CZ.UTF-8
 ```
-
-Build:
-
-```bash
-python3 build_songbook.py --variant zboznej --edition 2026 --target rebuild
-```
-
-Build targets: `songs`, `build`, `rebuild`, `clean`, `all`, `duplex`,
-`buildwithindex`, `test`, `retest`, `testwithindex`.
 
 ## Contributing songs
 
@@ -82,13 +76,13 @@ GitHub's built-in editor. No special tooling required.
 
 1. Click **Add file** in the appropriate `songs/` directory
 2. Paste the song content in the [standard format](#song-file-format)
-3. Propose the new file
-4. Also edit the relevant songlist in `songlists/` to include the new title
+3. Make sure the `E:` header field includes the current edition year
+4. Propose the new file -- that's it, just one file!
 
 ### Removing a song from an edition
 
-Edit the songlist file (e.g. `zboznej/songlists/2026.txt`) and remove the
-title line. The song file itself stays in `songs/` for potential future use.
+Edit the song file and remove the edition year from the `E:` field.
+The song file stays in `songs/` for potential future use.
 
 ## Song file format
 
@@ -97,7 +91,7 @@ Contributor-friendly version: `doc/jak_psat_pisnicky.txt` (Czech).
 
 Quick reference:
 
-- Header: `N:` name, `A:` author, `AC:` author code, `Z:` source, `ZC:` source code
+- Header: `N:` name, `A:` author, `AC:` author code, `Z:` source, `ZC:` source code, `E:` editions
 - Verses: `1:`, `2:`, ... Refrains: `R:`, `R1:`, ... Bridge: `M:` Recitative: `C:`
 - Chords inline before syllables: `(G)`, `(Am7)`, `(C"m)` (sharp = `"`, flat = `b`)
 - Continuation lines: indented with spaces, or prefixed with `+`
@@ -115,13 +109,6 @@ python scripts/check_songbook.py nezboznej/songs/ --tail nezboznej/tail.tex
 python scripts/fix_songbook.py nezboznej/songs/ --dry-run
 python scripts/fix_songbook.py nezboznej/songs/
 
-# Sort a songlist by Czech locale
-python scripts/sort_songlist.py zboznej/songlists/2026.txt
-python scripts/sort_songlist.py --all          # sort all songlists
-python scripts/sort_songlist.py --check --all  # verify sort order
-
-# Compare two edition song lists
-python scripts/compare_songlists.py zboznej/songlists/2012.txt zboznej/songlists/2026.txt
 ```
 
 ## Editions

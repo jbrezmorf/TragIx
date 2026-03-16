@@ -3,6 +3,7 @@ A: Jiřina Fikejzová, Pete Seeger
 AC: JF, PS
 Z:
 ZC:
+E: 2025
 
 1: (C)Řekni, kde ty (Am)kytky jsou, (F)co se s nima (G)mohlo stát,
    (C)řekni, kde ty (Am)kytky jsou, (Dm)kde mohou (G)být,

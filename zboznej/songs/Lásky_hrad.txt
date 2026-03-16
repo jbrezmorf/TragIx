@@ -3,6 +3,7 @@ A:
 AC: 
 Z: 
 ZC:Z118 
+E: 2007, 2012, 2026
                                                                    
 1:        (E)Pán s velkou (A)námahou (D)staví (A)lásky (E)hrad. 
         Pomáhá mu jenom ten, kdo chce ho milovat. 

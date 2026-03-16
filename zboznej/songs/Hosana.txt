@@ -3,6 +3,7 @@ A:
 AC:
 Z: Hosana
 ZC: 66
+E: 2007, 2012, 2026
 
 
 1: /: Ho(G)sana, ho(D)sana, ho(Em)sana Bohu (C)na ne(D7)bi. :/

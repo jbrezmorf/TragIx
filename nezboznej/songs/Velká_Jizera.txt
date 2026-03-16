@@ -3,6 +3,7 @@ A: Marcel \uv{Fox} Štěpánek
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Klikatá (C)cestička (F)jde na Buko(C)vec,
 (F)pročpak tudy (C)chodil, pročpak tudy (Am)chodil (E7)švarný mládenec.

@@ -3,6 +3,7 @@ A:
 AC:
 Z: Hosana  
 ZC:90
+E: 2012, 2026
 
 R: Jsem všechno, co ne(D)máš, jsem všechno, co hle(Emi)dáš, 
    řekni to lidem (A) všem. (A7) řekni to lidem (D) všem. 

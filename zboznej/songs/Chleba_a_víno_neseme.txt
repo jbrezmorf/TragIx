@@ -3,6 +3,7 @@ A:
 AC: 
 Z: 
 ZC:473 
+E: 2007, 2012, 2026
  
 R:        /: (Dm)Chleba (C)a  (Dm)ví(C)no  (Dm)ne(Gm)se(A)me, (Dm)přij(C)mi ty (B)dary, (F)pro(Gm Am)sí(Dm)me. :/ 
  

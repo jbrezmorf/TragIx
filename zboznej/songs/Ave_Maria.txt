@@ -3,6 +3,7 @@ A: Michael Martínek
 AC:
 Z: Hosana
 ZC: 11
+E: 2007, 2012, 2026
 
 
 1: (A)Ave, (Hm)Maria, (C"m)Pán buď (D)s tebou, 

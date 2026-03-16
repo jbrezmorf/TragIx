@@ -3,6 +3,7 @@ A: Karel Černoch
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Vzhůru na palubu, (Dm)dálky vo(Am)lají, (Am)vítr už příhodný (G)vane (Am)nám. 
    (Am)Tajemné příběhy (Dm)nás teď če(Am)kají, (Am)tvým domovem bude (G)oce(Am)án. 

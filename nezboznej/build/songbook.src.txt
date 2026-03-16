@@ -3,6 +3,7 @@ A: Karel Plíhal
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (E)Nejkrásnější akord bude (Amaj)A-maj,
 (E)prstíky se při něm nepo(C)lámaj'.
@@ -39,6 +40,7 @@ A: Hop trop
 AC: HT
 Z:
 ZC:
+E: 2025
 
 1: Byly krásný naše (G)plány, (C) (G) 
 +byla jsi můj celej (Hm)svět, (Bm) (Am)
@@ -82,6 +84,7 @@ A: Karel Plíhal
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (C)Vnikl mi (Am)do bytu (G)orangutan, (C)ukrad mi (Am)vařič na (G)propanbutan.
 (Gm6)Čeho se (Gdim)člověk dnes (Dm)nedožije(Fm), (Cmaj)v ZOO je (Fmaj)od rána (Cmaj)amnestie.(Fmaj) 
@@ -108,6 +111,7 @@ A: Karel Kryl
 AC: KK
 Z:
 ZC:
+E: 2025
 
 1: (C)Z rozmláce(Am)nýho kostela
    (C)v krabici (G7)s kusem mýdla
@@ -150,6 +154,7 @@ A: Zuzana Navarová
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (A2)Bože, (A(4/6))podej mi ještě ten (Amaj)kalich, (A(4/6))
 to (A)víno, co s (Hm7)nocí se měnívá (C"m7)na líh. (C"7)
@@ -198,6 +203,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Mám ploché (C)nohy po tetě a fanta(F)zii po svém strýci,
    už dlouho (Am)šlapu po světě a nevím, (G)co mám o něm říci.
@@ -225,6 +231,7 @@ A: Pokáč
 AC:
 Z:
 ZC:
+E: 2025
 
 R: (D)Na Antarktidě (Em)tajou ledy, (A)dneska možná, (D)naposledy.
    (D)Zítra už tam (Em)asi všude, (A7)místo ledu voda bu(D)de.
@@ -264,6 +271,7 @@ A: Tomáš Klus
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Jednou (C)štěstí dohoní i ty (Em)jezdce na koních,
 co hleda(Dm)jí (G)ho v cizích stájích.
@@ -296,6 +304,7 @@ A: Autor neznámý
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (A)Projížděl jsem starým Colorédem, když tu slyším výkřik vzdále(E)ný. (E7)
    (A)Jedu podle (A7)hlasu (D)a k mému ú(Dm)žasu, (A)ležel tam muž k (E)zemi skole(A)ný.
@@ -331,6 +340,7 @@ A: Spirituál kvintet
 AC: SK
 Z: 
 ZC:
+E: 2025
 
 1: Chci (Dm)sluncem být a ne planetou, (A7)až se k nám právo (Dm)vrátí,
    chci setřást bázeň staletou, (A7)až se k nám právo (Dm)vrátí.
@@ -359,6 +369,7 @@ A: Spirituál Kvintet
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Na předměstí (A)stával (D)dům, 
 +   (Gmaj)malý chlapec (A)si tam (Hm)hrával (A)
@@ -401,6 +412,7 @@ A: J. Ježek, J. Voskovec, J. Werich
 AC:
 Z: Já, písnička 2 (1999)
 ZC:
+E: 2025
 
 1: (Am)Štěchovická laguna když dřímá v zadumaném stínu Kordylér,
    (Dm)pirát zkrva(Am)venou šerpu ždímá, (H7)šerif si láduje revol(E)ver.
@@ -448,6 +460,7 @@ A: Autor neznámý
 AC:
 Z:
 ZC:
+E: 2025
 
 1:  (D)Už mě prostě (G)nebaví, (D)člověkem z (A)města (D)být, 
     (D)v týhle kleci z (G)betonu (D)jako všichni (A)lidé (D)žít, 
@@ -473,6 +486,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Maminko, tatínku, (D)posílám vám (A)vzpomínku,
 (A)z letního tábora, jistě víte, že vám píše Vaše dcera Barbo(D)ra.
@@ -514,6 +528,7 @@ A: Marien
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Od z(C)rození až po věčnost, (Em)odvíjí se skutečnost, 
 že (F)nikdo nezná směr, kterým má (C)jít. 
@@ -557,6 +572,7 @@ A: Spirituál kvintet
 AC:
 Z: SK 1992
 ZC:
+E: 2025
 
 R1: (Em)Víno (G)máš a (D)marky(Em)tánku, 
     (G)dlouhá noc (D)se (Em)pro(Hm)hý(Em)ří, 
@@ -589,6 +605,7 @@ A: Miki Ryvola
 AC: MR
 Z:
 ZC:
+E: 2025
 
 1: (Am)Dneska už mně (C)fóry ňák (Am)nejdou přes pys(E)ky, 
    (Am)stojím s dlouhou (C)kravatou na (Am)bedně (E)vod whis(Am)ky,
@@ -626,6 +643,7 @@ A: Pavel Dydovič
 AC: PV
 Z: Já, písnička 2, 1994
 ZC:
+E: 2025
 
 1: (D)Máš, má ovečko, (A)dávno spát, už (G)píseň ptáků (D)končí,
    (D)kvůli nám přestal (A)vítr vát, jen (G)můra zírá (D)zvenčí,
@@ -648,6 +666,7 @@ A: Greenhorns, Leon Payne
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Tam, (Am)kde leží Little Big Horn, je indiánská zem,
    tam přijíždí generál Custer (Dm)se svým praporem,
@@ -681,6 +700,7 @@ A: Nezmaři
 AC:
 Z:
 ZC:
+E: 2025
 
 \sl{Capo 4}
 
@@ -723,6 +743,7 @@ A: Zdeněk Rytíř
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Mám (E7)v kapse jeden (Am)frank, jsem (G7)nejbohatší (C)z bank nad Sei(E7)nou, 
    (Am)mám (E7)víc než krupi(Am)ér a (G7)stíny Sacre-(C)Coeur nade (E7)mnou. 
@@ -740,6 +761,7 @@ A: Karel Kryl
 AC: KK
 Z: Já, písnička 2, 1994
 ZC:
+E: 2025
 
 1: (Em)Bratříčku, nevzlykej, to nejsou (G)bubáci, 
   (D)vždyť už jsi velikej, to jsou jen (H)vojáci,
@@ -771,6 +793,7 @@ A: Karel Plíhal
 AC: KP
 Z:Karel Plíhal
 ZC:
+E: 2025
 
 1: Brej (Cmaj)den, pane (Fmaj)slimáku, brej (Cmaj)den, jakpak (F)se vám klouže (G)po slině?
    Já (Cmaj)vím, máte mě (Fmaj)na háku, (G)ale já vás zcela chápu, tak to (G7)nesu hrdin(C)ně.
@@ -793,6 +816,7 @@ A: Jiří Škorpík, Lou Fanánek Hagen
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Z pekárny světa kraj za (F)láskou (G)svou, (C)nejednu (F)překonal jsem (Am)vůli (G)zlou 
    (Dm)a moje (G)princezna, (Em)ta jistě (Am) rozezná, (F)že ji mám (G) vážně (C)rád. 
@@ -821,6 +845,7 @@ A: Jiří Fallada, Michal Tučný
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Když (D)Sever válčí s Jihem a (G)zem jde do vál(D)ky
    na polích místo bavlny teď (E)rostou bodlá(A7)ky,
@@ -849,6 +874,7 @@ A: AG Flek
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Nadešel asi (Dm7)poslední den, podí(G)vej, celá planeta (Em)blázní,
    a já (Am)neuroním ani (Dm7)slzu pro ni, jenom (G)zamknu dům,
@@ -875,6 +901,7 @@ A: Kryštof
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Tou (G)cestou, tím směrem prý bych se (D)dávno měl dát,
    když (Am)sněží, jde to stěží, ale sněhy pak tají,  
@@ -904,6 +931,7 @@ A: Pokáč
 AC:
 Z:
 ZC:
+E: 2025
 
 \sl{Capo 3}
 
@@ -954,6 +982,7 @@ A: Lidová
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Em)Což se mně, má milá, (H7)hezká (Em)zdáš. 
    (G)Budeš-li tak hezká, (D7)až se (G)vdáš?
@@ -980,6 +1009,7 @@ A: Asonance
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Zuzana (Dm)byla dívka, (C)která žila v (Dm)Amesbury, 
 s jasnýma (F)očima a (C)řečmi pánům (Dm)navzdory, 
@@ -1028,6 +1058,7 @@ A: Golden Kids
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Sem (G)pojďte blíž (Em)lidé dny (D)i týdny (G)jdou
 +  a (G)mraky se (C)toulají a (D4)vlny se (D)dmou.
@@ -1078,6 +1109,7 @@ A: Hana Hegerová
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Ako mladé di(Dm)evča (F) už je to (E) za na(Am)mi 
 (Am)Po stromoch som (Dm)liezla (F)s našimi (E)chlapca(Am)mi. 
@@ -1107,6 +1139,7 @@ A: Karel Plíhal
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Mívali jsme (A)dědečka, (G)starého už (D)pána,
 stalo se to v (A)červenci (G)jednou časně (A)zrá(D)na,
@@ -1143,6 +1176,7 @@ A: Traband
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: Mám (Dm)kufr plnej přebytečnejch (A)krámů 
 +  a mapu zabalenou do plátn(Dm)a. 
@@ -1188,6 +1222,7 @@ A: E. Knos
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (G)Černý muž pod bičem otrokáře žil, (C)černý muž pod bičem (G)otrokáře žil, 
    černý muž pod bičem (H7)otrokáře (Em)žil, Kapi(Am)tán John (D7)Brown to (G)zřel.
@@ -1217,6 +1252,7 @@ A: Ivo Fischer
 AC:
 Z: Ja, pisnicka 1, 1994
 ZC:
+E: 2025
 
 1: Pod tou (D)skálou, kde (D7)proud řeky (G)syčí, a kde (D)ční červe(H7)ný kame(Em)ní, (A7)
   žije (D)ten, co mi (D7)jen srdce (G)ničí, toho (D)já ráda (A7)mám k zblázně(D)ní.
@@ -1240,6 +1276,7 @@ A: Jaromír Nohavica
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Šel včera městem (Em)muž a šel po hlavní (Am)třídě, (Em)
    (Am)šel včera městem (Em)muž a já ho z okna (Am)viděl, (Em)
@@ -1290,6 +1327,7 @@ A: J. Ježek, J. Voskovec, J. Werich
 AC:
 Z: Já, písnička 2 (1999)
 ZC:
+E: 2025
 
 (C)Lidi na li(Am)di jsou jako (F)saně, (G) (C)člověk na člo(Am)věka jako (F)kat. (G7) 
 (C)Podívejte (A)se na ně, (Dm)musíte (G7)naří(C)kat. (H7)
@@ -1330,6 +1368,7 @@ A: Olympic
 AC: OL
 Z:
 ZC:
+E: 2025
 
 1: (Am)Vymyslel jsem spoustu nápadů, a(C)ů, co (Am)podporujou hloupou nála(G)du, a(E7)ů,
    (Am)hodit klíče do kanálu, (D)sjet po zadku (Dm)holou skálu,
@@ -1355,6 +1394,7 @@ A: Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 \sl{Opakuje se dvakrát}
 
@@ -1372,6 +1412,7 @@ A: Jaromír Nohavica
 AC: JN
 Z:
 ZC:
+E: 2025
 
 1: /: (Em)Já viděl (Am)divoké (Em)koně, (G)běželi (Am)soumra(Em)kem, :/
     (Am)vzduch (Em)těžký (Am)byl a divně (Em)voněl (Adim)tabá(C)kem,
@@ -1401,6 +1442,7 @@ A: Jaromír Nohavica
 AC:
 Z: P.J.N. od A do Ž
 ZC:
+E: 2025
 
 1: (C)Z Těšína (Em)vyjíždí (Dm7)vlaky co (F)čtvrthodi(C)nu, (Em)(Dm7)(G7)
 (C)včera jsem (Em)nespal a (Dm7)ani dnes (F)nespoči(C)nu. (Em)(Dm7)(G)
@@ -1434,6 +1476,7 @@ A: The Irish Rovers
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)What will we do with a drunken sailor
 (G)what will we do with a drunken sailor
@@ -1465,6 +1508,7 @@ A: Asonance
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Dm)Když jsem se z pole (C)vrace(Dm)la, dva havrany jsem (C)sly(Dm)šela, 
    jak jeden d(F)ruhého se (C)ptá: /: \uv{(Dm)kdo dneska veče(C)ři nám (Dm)dá?} :/ 
@@ -1488,6 +1532,7 @@ A: Karel Černoch
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Vzhůru na palubu, (Dm)dálky vo(Am)lají, (Am)vítr už příhodný (G)vane (Am)nám. 
    (Am)Tajemné příběhy (Dm)nás teď če(Am)kají, (Am)tvým domovem bude (G)oce(Am)án. 
@@ -1512,6 +1557,7 @@ A: Stanislav Podrázský
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Džungle ztichla, (F)večer nas(C)tal, (Am)ke spánku se (G)všechno kla(C)de,
     (C)jen v táboře (F)smečky vl(C)ků, (Am)na stráži je (G)vlče mla(C)dé.
@@ -1534,6 +1580,7 @@ A: Zdeněk Svěrák, Jaroslav Uhlíř
 AC: ZS, JU
 Z:
 ZC:
+E: 2025
 
 1: (Am)Jednoho letního večera na návsi pod starou (E7)lípou
    hostinský Antonín Kučera vyvalil soudeček s (Am)pípou,
@@ -1557,6 +1604,7 @@ A: J. Ježek, J. Voskovec, J. Werich
 AC:
 Z: Já, písnička 2 (1999)
 ZC:
+E: 2025
 
 M: (C)Jednou (Em)z lesa (Am)domů se (Am7)nesa (F)mou(G7)drý (C)Ezop,
 (C)potkal (Em)brabce, (Am)který bra(Am7)bence (F)má(G7)lem (A7)sezob.
@@ -1582,6 +1630,7 @@ A: Buty
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (G)Na hladinu rybníka svítí sluní(C)čko
    (Em)a kolem stojí v hustém kruhu (G)topoly, 
@@ -1613,6 +1662,7 @@ A: Nedvědi
 AC: ND, GC
 Z:
 ZC:
+E: 2025
 
 1: Kolik je (C)smutného, když (F)mraky černé (C)jdou
    lidem nad hla(G7)vou, (F)smutnou dála(C)vou,
@@ -1643,6 +1693,7 @@ A: Leonard Cohen
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (G)Now I've heard there was a (Em)secret chord
 That (G) David played, and it(Em) pleased the Lord.
@@ -1682,6 +1733,7 @@ A: Autor neznámý
 AC:
 Z: 
 ZC:
+E: 2025
 
 \sl{Při \uv{infanteria} se stojí, při \uv{císař pán} a \uv{jeho rodina} se navíc salutuje.}
 
@@ -1709,6 +1761,7 @@ A: The Beatles
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Hey (G)Jude don't make it (D)bad
 +  take a (D7)sad so(D(7/4))ng and make (D7)it bett(G)er
@@ -1752,6 +1805,7 @@ A: Jaromír Nohavica
 AC: JN
 Z: JN
 ZC:
+E: 2025
 
 1: (D)Když jsem byl malý říkali mi naši: 
     \uv{Dobře se uč a jez chytrou kaši,
@@ -1789,6 +1843,7 @@ A: Brontosauři
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Jak to v žití chodívá, láska k (G7)lidem přichází (C)
    přijde, jen se rozhlédne a zase (F)odchází. (C)
@@ -1812,6 +1867,7 @@ A: Žalman
 AC:
 Z: Já písnička 1, 1993
 ZC:
+E: 2025
 
 1: (D)Spinkej můj maličký, (C)máš v očích (D)hvězdičky,
    dám ti je (C)do vlasů, tak (G)usínej, tak (D)usínej.
@@ -1834,6 +1890,7 @@ A: Petr Kotvald, Stanislav Hložek
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Majdalenka, (G)Apolenka s (A)Veronikou, 
    a taky (D)Věrka, Zdeňka, (G)Majka, Lenka s (A)Monikou.
@@ -1882,6 +1939,7 @@ A: Jiří Schelinger
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Zpí(G)vám (Fmaj)ptákům a (Em7)zvlášť holu(Am)bům, (Am)stá(G)val (Fmaj)v údolí (Em7)mém starý (Am)dům.
    (C)Ptá(G)ků (C)houf zalé(G)tal ke kro(C)vům, (Am)měl (G)jsem (Fmaj)rád holu(Em7)bích křídel (Am)šum.
@@ -1909,6 +1967,7 @@ A: J. Šlitr, J. Suchý
 AC:
 Z: Já, písnička 1 (1993)
 ZC:
+E: 2025
 
 \sl{Sloky se opakují dle libosti.}
 
@@ -1926,6 +1985,7 @@ A: Brontosauři
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (G)Stál tam na stráni (Gmaj/F")dům, v něm židle a (Em7)stůl,
    pár kůží a (G)krb, co dřevo z něj (Am)voní,
@@ -1958,6 +2018,7 @@ A: Premiér
 AC: PR
 Z:
 ZC:
+E: 2025
 
 1: V (D)mládí jsem se učil hrobařem, (Hm)jezdit s hlínou, jezdit s trakařem,
    (G)kopat hroby byl můj ide(A7)ál.
@@ -1986,6 +2047,7 @@ A: Wabi Daněk
 AC: WD
 Z:
 ZC:
+E: 2025
 
 1: (Am)Ten, kdo nezná hukot vody lopat(C)kama vířený,
    jako (G)já, jo, jako (Am)já,
@@ -2028,6 +2090,7 @@ A: Vlasta Redl
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (A)Čí že ste, husličky, (D)či(A)e, (Hm)kdo vás tu (F"m)zanech(E)al
    (A)Čí že ste, husličky, (D)či(A)e, (Hm)kdo vás tu (F"m)zanech(E)al
@@ -2049,6 +2112,7 @@ A: Karel Mareš, Jiří Štaidl
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Em)Kdo ((G))se (Am)večer (Em)hájem (Am)vrací, (F)ten ať (Em)klopí (G7)zra(C)ky,
    (Em)ať je (Am)nikdy (Em)neo(Am)brací (Dm)k (F)vrbě (Em)křivola(E)ký, (A) (C) 
@@ -2070,6 +2134,7 @@ A: K.T.O.
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (A)V dáli (D)za ho(A)rama stojí (E)chajda ma(A)lá.
    (A)V dáli (D)za ho(A)rama stojí (E)chajda ma(A)lá.
@@ -2092,6 +2157,7 @@ A: Americká lidová
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Chodím po (D)Brodwayi hladov sem a tam 
    (D)chodím po Brodwayi hladov sem a (A7)tam, 
@@ -2122,6 +2188,7 @@ A: Hop Trop
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Em)Mám rád ty chvíle, kdy noc už pomalu (Hm)končí,
    (Am)chvíle, co patřej' jen (Hm)těm, co neusí(Em)naj'.                                                               
@@ -2153,6 +2220,7 @@ A: Petr Novák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Zavři oči a (G)jdi spát, (Em)vždyť už bude (A)brzo den,
    (D)nech si o mně (G)něco zdát, (Em)ať je krásný (A)ten tvůj sen.
@@ -2175,6 +2243,7 @@ A: Miki Ryvola
 AC: MR
 Z:
 ZC:
+E: 2025
 
 1: Dunění(C) kopyt (F)večer slýchá(C)vám,
    údolím jarní (Em)kurýr jede k (E)nám. (E7)
@@ -2201,6 +2270,7 @@ A: Brontosauři
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Když první (Hm)tání (Em)cestu sně(D)hu zkříží (G)
 +   a nad le(Em)dem se (F")voda obje(Hm)ví,
@@ -2229,6 +2299,7 @@ A: J. Šťáhlavský, T. Linka
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (Am)My čekali (C)jaro a (G)zatím přišel (Am)mráz. 
    Tak strašlivou (C)zimu ne(G)poznal nikdo (Am)z nás.
@@ -2269,6 +2340,7 @@ A: Olympic
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Skončili jsme, jasná zpráva, (Am)proč o tebe (F)zakopávám (G)dál,
    (Dm)projít bytem (F)já abych se (C)bál.
@@ -2293,6 +2365,7 @@ A: Žalman
 AC: ZA
 Z: Já, písnička 3, 1995
 ZC:
+E: 2025
 
 1: (Am7)Sedím na kolejích, (D7)které nikam neve(G)dou,
   (Am7)koukám na kopretinu, jak (D7)miluje se s lebe(G)dou,
@@ -2321,6 +2394,7 @@ A: Jaromír Nohavica
 AC: JN
 Z: Jaromír Nohavica koncert
 ZC:
+E: 2025
 
 1: Býval jsem (D)chudý jak (G)kostelní (D)myš,
    na půdě (F"m)půdy jsem (Hm)míval svou (A)skrýš,
@@ -2366,6 +2440,7 @@ A: Jan Kalousek
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Jednou mi fotr povídá
 +  (G)zůstali jsme už sami dva,
@@ -2402,6 +2477,7 @@ A: Brontosauři
 AC:
 Z:
 ZC:
+E: 2025
 
 1: S hlavou sklo(Em)ně(Dm)nou lidí zástup se tu (Am)dívá, 
    nebe (Em)nad hla(Dm)vou, slyšíš (G)dětskej (Am)pláč, 
@@ -2430,6 +2506,7 @@ A: Ivan Mládek
 AC: IM
 Z:
 ZC:
+E: 2025
 
 1: (Am)Jedu takhle tábořit (E)Škodou 100 na (Am)Oravu,
    spěchám, proto riskuji, (E)projíždím přes (Am)Moravu.
@@ -2463,6 +2540,7 @@ A: Jaromír Nohavica
 AC:
 Z: Písně Jaromíra Nohavici
 ZC:
+E: 2025
 
 1: (C)Na rybníce jsou velké vl(Dm)ny, dělají (G7)se od příro(C)dy.
    Kapr ten je opatr(Dm)ný, nevystr(G7)čí čumák z vo(C)dy.
@@ -2480,6 +2558,7 @@ A: Chinaski
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Každý ráno když si (A)vzpomenu,
 (C)vzpomenu si (G)na to, jak měl jsem tě (D)rád
@@ -2520,6 +2599,7 @@ A: Žalman
 AC: ZA
 Z:
 ZC:
+E: 2025
 
 1: /: (C)Kdyby tady byla taková panenka, (G7)která by mě chtě(C)la, :/
    /: (F)která by mi chtěla (C)syna vychovati, (G7)přitom pannou bý(C)ti. :/
@@ -2543,6 +2623,7 @@ A: Petr Skoumal
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Když jde malý (A)bobr spát, (G)bobr spát, (A)bobr spát,
    (D)tak si chvilku (A)hraje rád, (G)hraje rád, (D)hraje rád,
@@ -2576,6 +2657,7 @@ A: Jaromír Nohavica
 AC: JN
 Z:
 ZC:
+E: 2025
 
 1: (Am)Když mě brali za vo(C)jáka, (G)stříhali mě doho(C)la,
    (Dm)vypadal jsem jako (Am)blbec,
@@ -2621,6 +2703,7 @@ A: Greenhorns, Johnny Cash
 AC: GH, JC
 Z:
 ZC:
+E: 2025
 
 1: Když (D)jsem byl chlapec malej, tak metr nad zemí,
    (G)scházeli se farmáři tam (D)u nás v přízemí,
@@ -2651,6 +2734,7 @@ A: Pacifik
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)()Když (Dm7)přijdou chvíle (G7)jaký znáš, (C)jako v poušti k(Am7)lopýtáš,
 jen (Dm)bůhví kolik (G7)nadějí a (C)vzpomínek co (Am7)zahřejí. (A7)
@@ -2679,6 +2763,7 @@ A: Nezmaři, Pete Seeger
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Bylo by to (C)krás(Em)ný, (F) bejt (G)bleskem nebo (C)bou(Em)ří, (F)
    bejt (G)vodou nebo (C)trá(Em)vou, (F) bejt větrem, co (G)vál,
@@ -2727,6 +2812,7 @@ A: Karel Plíhal
 AC: KP
 Z:
 ZC:
+E: 2025
 
 1: (C)Strejček (Em)kovář (Am)chytil (Am/G)kleště, (Fmaj/F)uštíp (C/E)z noční (Fmaj/F)oblo(G)hy
    jednu malou kapku deště, ta mu spadla pod nohy,
@@ -2755,6 +2841,7 @@ A: Petr Skoumal
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Kolik je na světě (Hm)očí, (D)kolik je na světě (Em)snů,
    (Em)kolik se koleček t(F"m)očí, (G)kolik je nocí a d(A)nů.
@@ -2781,6 +2868,7 @@ A: Jaromír Nohavica
 AC: JN
 Z: Jaromír Nohavica koncert
 ZC:
+E: 2025
 
 1: (Am)Spatřil jsem kometu, oblohou letěla, chtěl jsem jí zazpívat, ona mi zmizela,
    (Dm)zmizela jako laň (G)u lesa v remízku,
@@ -2820,6 +2908,7 @@ A: Jaromír Nohavica
 AC: JN
 Z:
 ZC:
+E: 2025
 
 1: Byl jeden (G)pán, ten kozla (C)měl,   velice (D7)si s ním rozu(G)měl,
    měl ho moc rád, opravdu (C)moc,   hladil mu (D7)fous na dobrou (G)noc. (D7)(G)
@@ -2837,6 +2926,7 @@ A: Spirituál kvintet
 AC: SK
 Z:
 ZC:
+E: 2025
 
 1: (E)Tmou zní zvony z (C"m)dálky, o (F"m)čem to, milý, (G"m)sníš,
    (G")hoří (A)dál plamen (F"m)války a (E)rá(F"m)no je (H7)blíž,
@@ -2865,6 +2955,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Labutě, (G)labu(Am)tě, spočíva(G)jí nehnu(C)tě, (F)na hla(Em)di(Fmaj)ně (G)Dyje (Dm)a to je (Em)poezi(Am)e.
    
@@ -2881,6 +2972,7 @@ A: Jaromír Nohavica
 AC:
 Z: Písně Jaromíra Nohavici
 ZC:
+E: 2025
 
 1: (C)Jedna lachtaní (F)rodi(C)na, 
    (Am)rozhodla se že si vyjde (G)do ki(C)na,
@@ -2926,6 +3018,7 @@ A: Traband
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Já (C)sedával v přístavu, (Dm)popíjel kořalu, (C)s holkama laško(G7)val.
    A (C)bylo mi fuk, co (Dm)je, hlavně když fajfka mi (C)dout(G7)ná.
@@ -2959,6 +3052,7 @@ A: Jiří Schelinger
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (A)Mám (A2)rád (A)Tvé (A4)pa(A)že (A2)bí(A)lé,
 +  (A)mám (A2)rád (A)ty (A4)krás(A)né (A2)chví(A)le,
@@ -3017,6 +3111,7 @@ A: Poletíme?
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (G)Pokaždé když tě vidím, (D)vím, že by to šlo 
 (Em)a když jsem přemejšlel, co cítím, (C)tak mě napadlo 
@@ -3057,6 +3152,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Dáme klukovi ško(Em)ly, (F)ať to stojí coko(C)li,
    (G)nešetříme na chlap(C)ci, (F)táto, (C)šáhni (G)do kap(C)sy.
@@ -3084,6 +3180,7 @@ A: J. Šlitr, J. Suchý
 AC:
 Z: Já, písnička 1 (1993)
 ZC:
+E: 2025
 
 1: (D)Malé (Hm)kotě (Em)mňau, (A7)mňau, 
 (D)spalo (Hm)v botě (Em)mňau, (A7)mňau,
@@ -3121,6 +3218,7 @@ A: Mig 21
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (C)Cestou necestou, polem nepolem, 
 (F)jedu za tebou (Fm) velkým malotrakto(C)rem. 
@@ -3167,6 +3265,7 @@ A: Pokáč
 AC:
 Z:
 ZC:
+E: 2025
 
 \sl{Capo 1}
   
@@ -3219,6 +3318,7 @@ A: Tomáš Klus
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Je (C)den. Tak (E)pojď Marie ven.
    Budeme (F)žít. A házet (G)šutry do oken.
@@ -3276,6 +3376,7 @@ A: Jiří Suchý, Jiří Šlitr
 AC: SS
 Z: 
 ZC:
+E: 2025
 
 1: (A)Měla vlasy samou loknu, (E)jé, jeje, 
 (E7)ráno přistoupila k oknu, (E7)jé, (A)jeje,
@@ -3304,6 +3405,7 @@ A: Marie Rottrová
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Nejsme láska z románů první a (Dm)krásná,
    (E)ta co ráda šlape v loužích a chodí k ránu (Am)spát.
@@ -3344,6 +3446,7 @@ A: Jaromír Nohavica
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (G)Prvá, druhá, (C)třetí, (D)čtvr(G)tá (C) (D)
 (G)na zahradě (C)krtek (D)vr(G)tá (C) (D) 
@@ -3364,6 +3467,7 @@ A: Čechomor
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: /: (Am)Mezi (G) hora(Am)mi (Am)lipka(G) zele(Am)ná, :/
 /: (C)zabili Janka, (G)Janíčka, (Am)Janka miesto (G)jele(Am)ňa. :/
@@ -3384,6 +3488,7 @@ A: Jaromír Nohavica
 AC: JN
 Z: Jaromír Nohavica koncert
 ZC:
+E: 2025
 
 1: (Am)Ráno mě probouzí (G)tma, sahám si na zápěs(F)tí,
    zda mi to (E)ještě tluče, (Dm)zdali mám (E)ještě štěstí,
@@ -3457,6 +3562,7 @@ A: Waldemar Matuška, Bob Dylan
 AC: WM, BD
 Z:
 ZC:
+E: 2025
 
 1: (C)Míle a (F)míle jsou (C)cest, které (Am)znám, jdou (C)trávou i (F)úbočím (G)skal,
    (C)jsou cesty (F)zpátky a (C)jsou cesty (Am)tam  a (C)já na všech (F)s vámi (G)stál,
@@ -3481,6 +3587,7 @@ A: Spirituál kvintet
 AC: SK
 Z:
 ZC:
+E: 2025
 
 R: /: (G)Slyším Boží mlýny, jak se otáčí,  (C)já slyším Boží mlýny, jak se otá(G)čí,
     já (G)slyším Boží mlýny, (H7)jak se otá(Em)čí,  (C)o(D)tá(G)čí, otá(D)čí, otá(C)čí. :/
@@ -3510,6 +3617,7 @@ A: Traditional, Miroslav \uv{Skunk} Jaroš
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Déšť ti, holka, smáčel (G)vlasy, (Em)smáčel vlasy, z (A)tvých o(A7)čí zbyl prázdný (D)kruh, (A7)
    (D)kde je zbytek tvojí (G)krásy, (Em)tvojí krásy, (A)to ví (A7)dneska jenom (D)Bůh.
@@ -3533,6 +3641,7 @@ A: Karel Kryl
 AC: KK
 Z:
 ZC:
+E: 2025
 
 1: Cesta je (Am)prach a (G)štěrk a (Dm)udusaná (Am)hlína,
    (C)a šedé (F)šmouhy (G7)kreslí do vla(C)sů
@@ -3567,6 +3676,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Slunce šlo (A)spát, (Hm)za hromádku (A)klád, (D)na nebi (G)hvězdy klí(A)čí. (A7)
    (D)Už nepra(A)cuj, (Hm)mravenečku (A)můj, (D)schovej se (G)do je(A)hli(D)čí.
@@ -3586,6 +3696,7 @@ A: Oggy, Mrkev
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (Am)Spatřil jsem mršinu, táborem smrděla,
 +  chtěl jsem ji zakopat, ona to věděla,
@@ -3629,6 +3740,7 @@ A: Lidová z Liberecka
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)My jsme (G)hoši z Ještě(C)da, (F)nás zná (C)každá dědi(G)na,
 /: (C)kam my zaví(F)táme, (G)tam se dobře (C)máme,
@@ -3653,6 +3765,7 @@ A: Buty
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: Nad stádem (D A Em)koní, podkovy (G)zvoní, zvo(D)ní.
    Černý vůz (A) vlečou (Em)a slzy (G)tečou a já vo(D)lám: 
@@ -3688,6 +3801,7 @@ A: Brontosauři
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Jako (G)suchej, starej strom,
 +  jako vše(Cmaj)ničící hrom, jak v poli trá(G)va (Cmaj) (G)
@@ -3718,6 +3832,7 @@ A: Ivan Hlas
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: Táhněte (C)do háje - všichni (Am)pryč,
 chtěl jsem jít (C)do ráje a nemám (Am)klíč. 
@@ -3748,6 +3863,7 @@ A: Jaroslav Hutka
 AC:
 Z: Já, písnička 1 (1993)
 ZC:
+E: 2025
 
 1: /: (C)Krásný je (Am)vzduch, (Dm)krásnější je (G7)moře. :/
    (C)Co je nejkrás(A7)nější, (Dm)co je nejkrás(G7)nější, 
@@ -3776,6 +3892,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 \sl{Pro Jakuba Cvejna, nejlepšího kytaristu svého jména v oddíle}
 
@@ -3811,6 +3928,7 @@ A: Stan Jones
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: Po (Am)zasmušilé pustině jel (C)starý honec krav,
    den (Am)temný byl a ševelil (C)větrem ve stéblech trav.
@@ -3841,6 +3959,7 @@ A: Marta Kubišová
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Bez tebe mám (G)jenom chvíli (C)dlouhou,
    naplněnou (G)spoustou divnejch (C)snů,
@@ -3870,6 +3989,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Není nutno, není nutno, aby bylo přímo vese(Dm)lo,
    (G7)hlavně nesmí býti smutno, natož aby se breče(C)lo-(G)ó.
@@ -3891,6 +4011,7 @@ A: Karel Kryl
 AC: KK
 Z: Já, písnička 3, 1995
 ZC:
+E: 2025
 
 1: (C)V zahradě (Dm)za cihlovou (C)zídkou, (Dm)
 +  (C)popsanou (Dm)v slavných výro(C)čích, (Dm)
@@ -3930,6 +4051,7 @@ A: Žalman
 AC: ZA
 Z:
 ZC:
+E: 2025
 
 1: (C)Nezacházej, slunce, neza(Dm)cházej ještě,
    (G)já mám potěšení (F)na da(G)lekej cestě,
@@ -3954,6 +4076,7 @@ A: E. Ingriš
 AC:
 Z: Já, písnička 1 (1993)
 ZC:
+E: 2025
 
 1: Na břehu (D)Niagáry stojí (A7)tulák starý, 
    na svou první lásku vzpomí(D)ná.
@@ -3980,6 +4103,7 @@ A: Lidová
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: /: (D)Okolo Hradce v (Hm7)malé zahrádce (E)rostou tam tři rů(A7)že. :/
    /: (D)Jedna je (G)červená, (A7)druhá je (D)bílá, třetí kve(A7)te mo(D)dře. :/
@@ -4002,6 +4126,7 @@ A: Autor neznámý
 AC:
 Z: Já, písnička 1 (1993)
 ZC:
+E: 2025
 
 1: (D)Na Okoř je cesta jako žádná ze sta (A7)vroubená je stroma(D)ma. 
    Když jdu po ní v létě, samoten na světě, (A7)sotva pletu noha(D)ma.
@@ -4025,6 +4150,7 @@ A: Traband
 AC:
 Z:
 ZC:
+E: 2025
 
 R: (Am)Jede jede rytíř, (C)jede do kraje,
    (G)nové dobrodružství (Am)v dálce hledaje.
@@ -4084,6 +4210,7 @@ A: Klíč
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Dm)Šel pocestný kol (C)hospodských (Dm)zdí, (F)přisedl k nám a (C)lokálem (F)zní
    (Gm)pozdrav jak svaté (Dm)přikázá(C)ní: (Dm)omnia (C)vincit (Dm)Amor.
@@ -4118,6 +4245,7 @@ A: Zuzana Navarová
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (A)Orlice zas (E)šumí nad spla(F"m)vem,
 (D)odpusť mi (A)modlím se ať (E)všechno přesta(C"m)nem',
@@ -4161,6 +4289,7 @@ A: Hoboes
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: Ten (C)den, co vítr (D)listí z města (G)svál, 
 +   můj (C)džíp se vracel, (D)jako by se (Em)bál,
@@ -4195,6 +4324,7 @@ A: Jaromír Nohavica
 AC: JN
 Z:
 ZC:
+E: 2025
 
 1: (Am)Když se snáší noc na střechy Petěrburgu, 
    (F)padá (E)na mě (Am)žal.
@@ -4223,6 +4353,7 @@ A: Jaromír Nohavica
 AC:
 Z:
 ZC:
+E: 2025
 
 R: /: (A)Pijte vodu, pijte pitnou vodu, pijte vodu (E)a ne(A)pijte rum! :/   
 
@@ -4248,6 +4379,7 @@ A: Nezmaři
 AC:
 Z:
 ZC:
+E: 2025
 
 \sl{Capo 3}
 
@@ -4287,6 +4419,7 @@ A: Wabi Daněk
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Málo jím a (F)málo spím a (C)málokdy tě (F)vídám,
    (C)málokdy si (Am)nechám (Dm)něco (G)zdát,   
@@ -4315,6 +4448,7 @@ A: Jaromír Nohavica
 AC: JN
 Z: Písně Jaromíra Nohavici
 ZC:
+E: 2025
 
 1: Po(C)něvadž nemám (G)kanady a (F)neznám písně (C)z pamp,
    (F)hóhó(C)hó, a (G7)neznám písně (C)z pam(G7)p,
@@ -4361,6 +4495,7 @@ A: Spirituál kvintet
 AC: SK
 Z:
 ZC:
+E: 2025
 
 1: (G)Dívka (Am)loudá se (Hm)vini(Am)cí, (G)tam, kde (Am)zídka je (Hm)ní(Am)zká,
    (G)tam, kde (Am)stráň končí (Hm)voní(C)cí, si (G)písnič(C)ku někdo (G)pí(C)(D)ská.
@@ -4392,6 +4527,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 R: (Am)Pod dubem, za dubem, tam si na tě počíháme, 
    (E)pod dubem, za dubem, tam tě vošku(Am)bem.(G7) 
@@ -4418,6 +4554,7 @@ A: Autor neznámý
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: Po(D)vím vám hezkou (A7)pohádku o (Hm)princezně a (A)o hrádku,
    para (D)daj, daj, daj, para (A7)daj, daj, daj,
@@ -4474,6 +4611,7 @@ A: Waldemar Matuška
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Bílé (F)mám tě (C)rád zkouším (F)křídou (C)psát, (A7)
 pojď se mnou, (Dm)lásko má, (G)tou dálkou (C)k nám,
@@ -4503,6 +4641,7 @@ A: František \uv{Šedý Havran} Kňourek
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (D)Poštorenská kapela hraje pěkně (A7)z vesela,
    za ní v plné parádě skauti v dobré (D)náladě.
@@ -4537,6 +4676,7 @@ A: Petr Novák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Povídej, jestli tě (G)má hodně rád, víc než (C)já,
 jestli, když večer jdeš (G)spát, ti polibek (C)dá,
@@ -4567,6 +4707,7 @@ A: Ivan Mládek
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Zavři svoje oči, Hano, rozvázalo se ti la(A7)no,
 (Dm)padej trochu dopra(H7)va, pod námi jde výprava, (E7)buch!
@@ -4594,6 +4735,7 @@ A: Michal Tučný
 AC:
 Z:
 ZC:
+E: 2025
 
 C: \uv{(D)Pojďte všichni dovnitř, pozvěte si všechny známé,
    (D)my vám dobrou radu dáme, neboť právě otvíráme,
@@ -4653,6 +4795,7 @@ A: Greenhorns
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Čtyry (G)bytelný (Am)kola (F)má náš (Em)proklatej (G)vůz,
    tak (C)ještě (F)pár (C)dlouhejch (G)mil (C)zbejvá (F)nám, (C)tam je (G)cíl.
@@ -4692,6 +4835,7 @@ A: Čechomor
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (Am)Darmo sa ty trápíš (G)můj milý sy(C)nečku,
 nenosím ja tebe (Dm)nenosím v sr(Am)déčku.
@@ -4740,6 +4884,7 @@ A: Helena Vondráčková
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Tak (Am)jdi, nebo běž, nebo jeď, vezmi nohy na ramena, 
    jdi, nebo běž, nebo leť, jsi-li hlava otevřená,
@@ -4773,6 +4918,7 @@ A: Jaromír Nohavica
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Jestlipak (A)vzpomínáš si ještě na ten (E)čas, 
 táhlo nám (D)na dvacet a slunko bylo v(E)nás, 
@@ -4836,6 +4982,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Puto(G)vání, puto(Em)vání, puto(C)vání za pra(G)cí,
    před sluncem nás klobouk (Em)chrání, mech je (C)naší matra(G)cí.
@@ -4855,6 +5002,7 @@ A: Cermaque
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Em)Tak dlouho volal racek (G)do prázdna, (Hm)až z prázdna lásku přivo(A)lal 
    (Em)Ten příboj doplul (G)sem až z dna, (Hm)dva racci tančí u mo(A)la. 
@@ -4880,6 +5028,7 @@ A: Karel Plíhal
 AC:
 Z: 
 ZC:
+E: 2025
 
 R: (Hm)Ráda se miluje, (A)ráda (D)jí, (G)ráda si (F"m)jenom tak (Hm)zpívá,
 vrabci se na plotě (A)hádají(D), ko(G)lik že čas(F"m)u jí (Hm)zbývá.
@@ -4900,6 +5049,7 @@ A: Pokáč
 AC:
 Z:
 ZC:
+E: 2025
 
 R1: (G)Rád chodím (D)na poštu, (C)nejsem tam jen (G)do počtu,
     (C)jsem tam důle(G)žitý člen, (Am)fronty která tr(D)čí ven.
@@ -4929,6 +5079,7 @@ A: Žalman
 AC:
 Z:
 ZC:
+E: 2025
 
 R: (Am)Každý ráno boty (G)zouval, (Am)orosil si nohy v (G)trávě,
    (Am)že se lidi mají rádi (G)doufal (Am)a procit(Em)li (Am)právě,
@@ -4951,6 +5102,7 @@ A: AG Flek
 AC: AG
 Z:Já písnička 3, 1995
 ZC:
+E: 2025
 
 1: (Am)A te Rehradice (G)na pěkný ro(C)vině,
 +   (D)teče tam vo(Em)děnka (Am)dolů po (D)dě(G)dině,
@@ -4973,6 +5125,7 @@ A: Nedvědi
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Cesta (C)má přede mnou v dáli (F)mizí, 
 +   každý (C)krok v srdci mém zabo(G)lí, 
@@ -5001,6 +5154,7 @@ A: Wabi Daněk
 AC: WD
 Z:
 ZC:
+E: 2025
 
 1: (C)Tak, jako jazyk (F6)stále na(F"6)rá(G6)ží na vylomený (C)zub,
    tak se vracím k (F6)svýmu ná(F"6)dra(G6)ží, abych šel zas (C)dál,
@@ -5025,6 +5179,7 @@ A: Helena Vondráčková
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Ty kdo (G)bloudíš sám a (G7)sám, dlažbou (C)měst a jejich (G)špínou,
    smutkem (C)dní a nudou (G)línou, já tě (F)znám. (D)
@@ -5058,6 +5213,7 @@ A: Americká lidová, Ivo Fišer
 AC:
 Z: Já, písnička 2 (1999)
 ZC:
+E: 2025
 
 1: Je(C)du vám takhle (C7)stezkou dát (F)koním k řece (C)pít,
    v tom potkám holku (Am)hezkou, až (D7)'sem vám z koně (G7)slít'.
@@ -5091,6 +5247,7 @@ A: Jiřina Fikejzová, Pete Seeger
 AC: JF, PS
 Z:
 ZC:
+E: 2025
 
 1: (C)Řekni, kde ty (Am)kytky jsou, (F)co se s nima (G)mohlo stát,
    (C)řekni, kde ty (Am)kytky jsou, (Dm)kde mohou (G)být,
@@ -5121,6 +5278,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 R: (C)Lepší než almužna, (F)lepší než (C)lup, je pila dvojmužná, (Dm)ostrý má (G)zub.
    (C)Jdi na to s fortelem, (F)nedři se (C)moc, /: (F)ať se s tím (C)poperem, (G)než bude (C)noc. :/
@@ -5150,6 +5308,7 @@ A: Traband
 AC:
 Z: 
 ZC:
+E: 2025
 
 R1: (Am)Sáro, (Em) Sáro, (F)v noci se mi (C)zdálo,
 že (F)tři andělé (C)Boží k nám (F)přišli na o(G)běd.
@@ -5190,6 +5349,7 @@ A: Vlasta Redl
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Sbohem, galá(Hm)nečko, (Em)já už musím (A)jí-(D)ti, (A)sbohem, galá(F"m)nečko, (Hm)já už musím (E)jí-(A)ti,
    /: (G)kyselé ví(A)nečko, (D)kyselé víne(A)čko  (D)podalas' mně k (A)pi(D)tí. :/
@@ -5207,6 +5367,7 @@ A: Jaroslav Uhlíř
 AC: JU
 Z:
 ZC:
+E: 2025
 
 1: Jdu (C)s děravou patou, mám (Am)horečku zlatou,
 +  jsem (F)chudý, jsem sláb a nemo(C)cen
@@ -5238,6 +5399,7 @@ A: Nedvědi
 AC:
 Z: 
 ZC:
+E: 2025
 
 \sl{Capo 2}
 
@@ -5268,6 +5430,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: /: (D)Skřítkové (G)tesaři (D)vylezte z (A) mechu. :/
    /: (D)Chopte se (D7)náčiní, (G)postavte (A)střechu. :/
@@ -5309,6 +5472,7 @@ A: Waldemar Matuška
 AC:
 Z:
 ZC:
+E: 2025
 
 \sl{Capo 3}
 
@@ -5337,6 +5501,7 @@ A: Olympic
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Zas jsi tak (C)smutná, kdo se (D)má na to (Dm)koukat,
    nic (Am)jíst ti ne(C)chutná, v hlavě (D)máš asi (Dm)brouka.
@@ -5354,6 +5519,7 @@ A: Spirituál kvintet
 AC: SK
 Z: Spirituál kvintet 2. díl
 ZC:
+E: 2025
 
 1: (Dm)Zdál se mi sen, že se nebe hroutí, 
  (C)zdál se mi sen o poslední pouti,
@@ -5399,6 +5565,7 @@ A: Spirituál kvintet
 AC: SK, JD
 Z:
 ZC:
+E: 2025
 
 1: Už se (D)končí den, už (G)je čas k spánku, (D)zdi se barví (G)od červánků,
    (D)hleď, už lampář (Hm)světla rozsvě(A4)cí. (A) Tak si (D)dočti stránku, (G)zavři knížku,
@@ -5419,6 +5586,7 @@ A: František \uv{Šedý Havran} Kňourek
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (D)Stály báby u vesnice, (A)divily se (D)převe(D7)lice.
 /: (G)Hej, hola, (D)hola, holala, (A7)že mám holá (D)kole(D7)na, cha, cha, cha. :/
@@ -5442,6 +5610,7 @@ A: Brontosauři
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (A)U stánků (D)na levnou krásu, 
 (A)postávaj a (Dm)smějou se času,
@@ -5468,6 +5637,7 @@ A: Spirituál Kvintet
 AC:
 Z:
 ZC:
+E: 2025
 
 R: /: (D)Já mám kocábku náram, (A7)náram, (D)náram, kocábku náram, (A7)nára(D)mnou. :/
 
@@ -5497,6 +5667,7 @@ A: Bobři
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: \uv{Str(G)č prst skrz krk} zřetelně nám přeříkej, 
    \uv{str(D)č prst skrz krk} zřetelně nám přeříkej,  
@@ -5524,6 +5695,7 @@ A: Jiřina Doležalová
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (Am)Polní cestou kráčeli šu(G)maři do vísky hrát,
    (Am)svatby, pohřby tahle cesta poz(G)nala mnohokrát,
@@ -5557,6 +5729,7 @@ A: Radůza
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Pr(Em)ší, (Dm)choulím se (Em)do svrchníku,
    (Am)než se (Em)otočím (Dm)na pod(Em)patku
@@ -5590,6 +5763,7 @@ A: Spirituál kvintet
 AC: SK
 Z: SK 1992
 ZC:
+E: 2025
 
 1: Ten širý (D)proud (G)jak přejít (D)mám, proč neu(Hm)mím (Em) se nad něj (A)vznést,
    ach, člun tak (F"m)mít, (G) ten řídit (F"m)znám, v (G)něm lásku (A)svou bych chtěla (D)vézt.
@@ -5612,6 +5786,7 @@ A: Lidová, Jan Werich
 AC:
 Z: Já, písnička 2 (1999)
 ZC:
+E: 2025
 
 1: /: (A)Narodilo se štěně, (D)lidí se nebá(A)lo, :/
    /: (D)se svým stínem (A)na stěně, (E7)to štěně, (A)celej (E7)den si hrá(A)lo. :/
@@ -5641,9 +5816,10 @@ A: Marcel \uv{Fox} Štěpánek
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Velký hory na vobzoru, (G)když se (C)objeví
-+  a slunce (Am)zapa(G)dá (Am)za hradbu (C)mra(G)ků,
++  a slunce (Am)za(G)pa(Am)dá za hradbu (C)mra(G)ků,
    propa(Am)dá se, propa(C)dá,
 +  celej (Am)obzor do mraků se propa(G)dá.
 
@@ -5676,6 +5852,7 @@ A: Marcel \uv{Fox} Štěpánek
 AC:
 Z:
 ZC:
+E: 2025
 
 R: (D)Hou, (A)hou, (D)tábor (A)spí, (D)hou (A)hou, (D)jen hlídka (A)bdí,
    (D)Večernice (G)na nebi (D)zá(G)ří, (D) kraj kolem (A7)Štolpichu (D)sní, (A)
@@ -5708,6 +5885,7 @@ A: John Denver
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Almost heaven (Hm) West Virginia
    (A)Blue Ridge Mountains, (G)Shenandoah (D)river
@@ -5734,6 +5912,7 @@ A: Hoboes
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Em)Posledních (D)pár minut (C)zbejvá (Em)jen, (Em)máš teplou (D)dlaň, už se (A)stmí(Em)vá,
    (Em)těžký je (D)říct, že se (C)končí (Em)den, (Em)vlak posle(D)dní vagón (A)mí(C)vá. (E)
@@ -5756,6 +5935,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: /: (C)Ta naše hospoda (F)odshora  odspoda, 
    (C)to je (F)pěkné (C)zaříze(G)ní.
@@ -5791,6 +5971,7 @@ A: Zuzana Navarová
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Přicházíš  z (G)hor ze Země (G/F")sněhů,
 slunce co (G/F)pálí do (E)mraků,
@@ -5840,6 +6021,7 @@ A: Waldemar Matuška
 AC:
 Z:
 ZC:
+E: 2025
 
 1: V (D)nohách mám už tisíc (Hm)mil, stopy (Em)déšť a vítr (G)smyl
    a můj (Em)kůň i já jsme (A)cestou znave(D)ní.
@@ -5870,6 +6052,7 @@ A: Slovenská lidová
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (Am)To ta (D)Heľpa, (Am)to ta (D)Heľpa, (Am)to je (E7)pekné (Am)mesto,
    (Am)a v tej (D)Heľpe, (Am)a v tej (D)Heľpe (Am)švarných (E7)chlapcov (Am)je sto.
@@ -5888,6 +6071,7 @@ A: Sebastian
 AC:
 Z:
 ZC:
+E: 2025
 
 R1: On (D)toužil, kroužil, (G)bylo to tak.
     Tu (Hm)holubici pouštím (A)do oblak.
@@ -5922,6 +6106,7 @@ A: Vojta \uv{Kiďák} Tomáško
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Někdo z (Am)vás, kdo chutnal dál(G)ku jeden, z tě(Am)ch, co ro(E7)zuměj
    ať vám(Am) poví, proč mně ří(G)kaj, proč mně ří(F)kaj Toul(Am)avej.
@@ -5958,6 +6143,7 @@ A: Karel Gott
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (A)Ze zdi na mě tupě zírá p(D)o trezoru temná díra,
    (H7)poznám tedy bez nesnází, (E7)že tam nepochybně něco schází,
@@ -5979,6 +6165,7 @@ A: Spirituál Kvintet
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Příteli, máš do (G)Scarborough (Am)jít,
 +  (C)dobře (Am)vím, že (C)půj(D)deš tam (Am)rád,
@@ -6022,6 +6209,7 @@ A: Jaroslav Uhlíř, Emil Synek
 AC:
 Z: Já, písnička 1 (1993)
 ZC:
+E: 2025
 
 1: (G)V lese, jó v lese, (C)na jehli(G)čí, koná se svatba (A)trpasli(D7)čí,
    (G)žádná divná (C)věc to ne(H7)ní, (C)Šmudla (C"dim)už má (G)po voj(Em)ně a (A)tak se (D7)že(G)ní.
@@ -6051,6 +6239,7 @@ A: Waldemar Matuška
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Jó, třešně zrály, (G)zrovna třešně (C)zrály,
    sladký (E7)třešně z(Am)rály a v(F)lahej (G7)vítr (C)vál(G),
@@ -6099,6 +6288,7 @@ A: Skotská, Jiří Tichota, Ivo Mach
 AC:
 Z: Spirituál kvintet 1 (1992)
 ZC:
+E: 2025
 
 1: (Am)Tři bratři žili kdys v zemi skotské, 
    v domě zchudlém jim (D)souzeno (Am)žít, (E)
@@ -6132,6 +6322,7 @@ A: Autor neznámý
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (C)V jedné (Am)mořské (Dm)dáli(G7)ně, (C)ztroskotal (Am)parník (Dm)v hlubi(G7)ně,
    (C)jen tři (Am)malé (Dm)citrón(G7)ky, zůstaly na hladi(C)ně.
@@ -6154,6 +6345,7 @@ A: Jaromír Nohavica
 AC:
 Z: Písně Jaromíra Nohavici
 ZC:
+E: 2025
 
 1: (C)V řadě za sebou tři čuníci jdou, 
    ťápají si v blátě cestou nece(Am)stou.
@@ -6200,6 +6392,7 @@ A: Hop trop
 AC: HT
 Z:
 ZC:
+E: 2025
 
 1: (Dm)Dávám sbohem všem (C)břehům prokla(Am)tejm, 
    který (Dm)v drápech má (Am)ďábel (Dm)sám,
@@ -6240,6 +6433,7 @@ A: Lidová
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Já bych si koupil tři (G7)myši, 
 (C)já bych si koupil tři (G7)myši.
@@ -6269,6 +6463,7 @@ A: Václav Neckář
 AC:
 Z:
 ZC:
+E: 2025
 
    Jak (C)můžeš bejt tak krut(A7)á,
    (Dm)copak nemáš kouska citu v (G7)těle? (C)
@@ -6300,6 +6495,7 @@ A: Pacifik
 AC: PC
 Z:
 ZC:
+E: 2025
 
 1: Toulat se (G)sám tou (C7)rosou čerstvejch (G)rán,
    zpívat si (C7)blues, jít s hejnem černejch (G)vran,
@@ -6333,6 +6529,7 @@ A: Brontosauři
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Dm)Posvátný je mi každý ráno, (Am)když ze sna budí šumící (Dm)les
    (Dm)a když se zvedám s písničkou známou
@@ -6356,6 +6553,7 @@ A: Jaromír Nohavica
 AC:
 Z: P.J.N. od A do Ž
 ZC:
+E: 2025
 
 1: (C)Den už se zešeřil, (Am)už jste si dost užili,
 tak (Dm)hajdy do peřin a (G7)ne abyste tam moc řádili.
@@ -6382,6 +6580,7 @@ A: Martin Gřiva
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Další den šel už spát, zítra zas ti (Am)bude hrát (Fmaj)o zemi, (G)kterou Bůh ti (C)dal. (F) (G)
    (C)Noc i den má svůj řád, přišel čas si (Am)nechat zdát (Fmaj)krásný sen, (G)jaký by sis (C)přál.
@@ -6399,6 +6598,7 @@ A: Formani
 AC:
 Z:
 ZC:
+E: 2025
 
 1: My (Am)přepluli jsme lodí přes (Dm)tmavej oceán,
 a v (Am)zaprášený torbě jen (E7)uschlou růži mám.           
@@ -6430,6 +6630,7 @@ A: Samson
 AC:
 Z:
 ZC:
+E: 2025
 
 R: /: (Am)Vap tap tap tap tada ... (D) (F) (E) (Am) (E) :/
 
@@ -6468,6 +6669,7 @@ A: Brontosauři
 AC:
 Z:
 ZC:
+E: 2025
 
 R: Tuhle (D)písničku chtěl bych ti (A7)lásko dát, 
    ať ti každej den připomí(D)ná,
@@ -6491,6 +6693,7 @@ A: Spirituál kvintet
 AC: SK
 Z:
 ZC:
+E: 2025
 
 1: (Dm)Už rozplynul se (G)hustý dým, (Dm)derry down, hej (A)down-a-down,
    (Dm)nad ztichlým polem (Gm)válečným, derry (Dm)down(A).
@@ -6523,6 +6726,7 @@ A: Pavel Bobek
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Někde v dálce (Hm)cesty končí, (A)každá prý však (G)cíl svůj (D)skrývá,
    (D)někde v dálce (Hm)každá má svůj cíl, (A)ať je pár mil dlouhá (G)nebo tisíc (D)mil.
@@ -6547,6 +6751,7 @@ A: Karel Kryl
 AC:
 Z:
 ZC:
+E: 2025
 
 1: V (Dm)ponurém osvětlení (C)gotického (Dm)sálu
    (F)kupčíci vyděšení (Gm)hledí do (A)misálů
@@ -6596,6 +6801,7 @@ A: Marcel \uv{Fox} Štěpánek
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Klikatá (C)cestička (F)jde na Buko(C)vec,
 (F)pročpak tudy (C)chodil, pročpak tudy (Am)chodil (E7)švarný mládenec.
@@ -6624,6 +6830,7 @@ A: Jablkoň
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Potkali se v pondělí, v (Em)pondě(Am)lí,
 +  (Am)byli velmi nesmělí, (G)nesmě(E7)lí.
@@ -6677,6 +6884,7 @@ A: Pacifik
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Jednou plác' mě (G)přes rameno (A7)Johny zvanej (D)Knecht:
   (Hm)\uv{Mám pro tebe, (Em)hochu, v pácu (A7)moc fajnovej (D)kšeft!}
@@ -6713,6 +6921,7 @@ A: Jaromír Nohavica
 AC:
 Z: Písně Jaromíra Nohavici
 ZC:
+E: 2025
 
 1: (C)Vlaštovko leť, (Am)přes Čínskou zeď, (Fmaj)přes písek pouště Go(G)bi.
    (C)Oblétni zem, (Am)přileť až sem, (Fmaj)jen ať se císař zlo(G)bí.
@@ -6736,6 +6945,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Kdyby žila v době barok(Am)ní, (F)jezdíval bych každé jaro k (G)ní,
    (Em) napudrován a s bílou (F)parukou, (G)nosil bych po parku ji (C)na rukou.
@@ -6762,6 +6972,7 @@ A: Pokáč
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (F)Dneska všichni (C)říkají a (G)všude píše (Am)se,
    že prej je (F)moderní a (C)zdravý jen tak (G)chodit po (Am)lese.
@@ -6811,6 +7022,7 @@ A: Hop Trop
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Když vlny (Em)se valí(G) a peře(A)je řvou 
 +  a (D)šutry z nich (Em)civí jak (G)sů(A)vy, 
@@ -6858,6 +7070,7 @@ A: The Beatles
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (C)Yesterday (Hm7)all my (E7)troubles seemed so (Am)far away, (Am/G)
    (F)now it (G7)looks as though they're (F)here to (C)stay
@@ -6883,6 +7096,7 @@ A: Fleret
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Větr sněh (A2)zanésl (Am)z hor do po(A2)lí, (Am)já idu (C)přes kopce, (G)přes údo(Am)lí,
    (C)idu k tvej (G)dědině zatú(C)lanej, (F)cestičky (C)sněhem sú (E)zafú(Am)kané. (A2) (Am) 
@@ -6907,6 +7121,7 @@ A: Rotor
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Je tam brána zdobe(D)ná, cestu oteví(Em)rá, 
    zahradu zele(C)nou(G) všechno připomí(D)ná.
@@ -6939,6 +7154,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (A)Zapadání, zapadání, (D)sluníčka za kop(A)ce,
    (D)tomu žádný (A)nezabrání, (D)pámbů to (A)takto (E4)chce.
@@ -6955,6 +7171,7 @@ A: Spirituál kvintet
 AC: SK
 Z:
 ZC:
+E: 2025
 
 1: Máš (Hm)všechny trumfy mládí a (A)ruce čistý (Hm)máš,
    jen (Em)na tobě teď (Hm)záleží, na (F")jakou hru se (Hm)dáš.
@@ -6982,6 +7199,7 @@ A: Traditional, Jan Vyčítal
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (C)To bylo v Dakotě (F)o vejpla(C)tě, whisky jsem tam pašo(G)val,
    (C)a že jsem byl sám jako (F)kůl v plo(C)tě, s holkou jsem (G)tam špáso(C)val. 
@@ -7014,6 +7232,7 @@ A: Spirituál kvintet, T. Gilkyson, R. Dehr, F. Miller
 AC: SK, TG, RD, FM
 Z:
 ZC:
+E: 2025
 
 1: (Am)Tam, kde zem (Dm)duní (Am)kopyty (E)stád,
    (Am)znám plno (Dm)vůní, co (C)dejchám je tak (G)rád,
@@ -7045,6 +7264,7 @@ A: Miki Ryvola
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Shejbni hlavu, kamaráde, tunel před námi,
    (Dm)veksle tlučou, píšťaly řvou, zvonce vyzvání,
@@ -7088,6 +7308,7 @@ A: Jaromír Nohavica
 AC: JN
 Z: Já písnička 3, 1995
 ZC:
+E: 2025
 
 1: (Am)Až mě zítra ráno v pět (C)ke zdi postaví,
    (F)ještě si napo(G7)sled dám (C)vodku na zdra(Am)ví,     
@@ -7124,6 +7345,7 @@ A: Pacifik
 AC:
 Z:
 ZC:
+E: 2025
 
 \sl{Capo 3}
 
@@ -7157,6 +7379,7 @@ A: Marien
 AC:
 Z:
 ZC:
+E: 2025
 
 \sl{Capo 1}
 
@@ -7197,6 +7420,7 @@ A: Jiří Ziembrowski, Ivan Mládek
 AC:
 Z: Šel tudu, měl banjo (1994)
 ZC:
+E: 2025
 
 1: (C)U le(G+)síčka (C)zamrzla (G+)říčka, (C)bude(G+)me hrát (B)ho(A7)kej,
    (Dm)nabrou(A7)sím si (Dm)u bruslí (A7)šrouby, (D7)do zatáček budu běhat (Ab7)O. (G7)K.
@@ -7217,6 +7441,7 @@ A: Jiří Korn
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (G)Před týdnem kvůli (Em7)jedné mademoiselle
 (G)v prachbídném stavu (Em7)jsem se nacházel.
@@ -7250,6 +7475,7 @@ A: Olympic
 AC: OL
 Z:
 ZC:
+E: 2025
 
 1: (D)Ne moc (G)snadno se (D)želva (G)po dně (D)honí, (G) (D) (G)
    (D)velmi (G)radno je (D)plavat (G)na dno za (D)ní. (G) (D) (G)
@@ -7280,6 +7506,7 @@ A: J. Ježek, J. Voskovec, J. Werich
 AC: VR, WD, JL
 Z:
 ZC:
+E: 2025
 
    (G)Proč, že se mi (B7)každou noc o tom jen (G)zdá, o tom jen (E7)zdá,
    že v (A7)mém životě vyšla (G)má, (Em)tak (D7)šťastná a (G)krás(A7)ná (Cmaj)hvěz(D)da.
@@ -7306,6 +7533,7 @@ A: Spirituál kvintet
 AC: SK
 Z:
 ZC:
+E: 2025
 
 1: Když (C)kapky deště buší na (F)rozpá(Am)le(G)nou  (C)zem,
    já toužím celou duší dát (F)živou vodu (C)všem.

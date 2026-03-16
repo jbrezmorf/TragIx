@@ -3,6 +3,7 @@ A:
 AC:
 Z: Hosana
 ZC: 254
+E: 2007, 2012, 2026
 
 
 (C)Toto je den, toto je den, který (G7)dal nám Pán, který dal nám Pán, 

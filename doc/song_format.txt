@@ -27,10 +27,16 @@ Every song starts with these lines (order matters):
   AC: author-code
   Z: Source Songbook, Year
   ZC: source-code
+  E: 2025         (or: E: 2007, 2012, 2025  for multiple editions)
 
 Only N: (name) is required.  Other fields may be left empty but the
 line should still be present (e.g. "AC:" with nothing after it).
 Blank lines within the header are ignored.
+
+The E: field lists which printed editions include this song (comma-
+separated years).  The build script filters songs by this field.
+A song with an empty or missing E: field will not appear in any
+edition build -- useful for drafts or retired songs.
 
 
 3. Verse types

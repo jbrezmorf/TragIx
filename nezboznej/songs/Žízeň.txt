@@ -3,6 +3,7 @@ A: Spirituál kvintet
 AC: SK
 Z:
 ZC:
+E: 2025
 
 1: Když (C)kapky deště buší na (F)rozpá(Am)le(G)nou  (C)zem,
    já toužím celou duší dát (F)živou vodu (C)všem.

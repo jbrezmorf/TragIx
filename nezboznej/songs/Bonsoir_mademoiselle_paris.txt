@@ -3,6 +3,7 @@ A: Zdeněk Rytíř
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Mám (E7)v kapse jeden (Am)frank, jsem (G7)nejbohatší (C)z bank nad Sei(E7)nou, 
    (Am)mám (E7)víc než krupi(Am)ér a (G7)stíny Sacre-(C)Coeur nade (E7)mnou. 

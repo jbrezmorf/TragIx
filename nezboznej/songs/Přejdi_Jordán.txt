@@ -3,6 +3,7 @@ A: Helena Vondráčková
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Tak (Am)jdi, nebo běž, nebo jeď, vezmi nohy na ramena, 
    jdi, nebo běž, nebo leť, jsi-li hlava otevřená,

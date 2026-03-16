@@ -3,6 +3,7 @@ A: Zdeněk Bureš
 AC:
 Z: Hosana
 ZC: 201
+E: 2007, 2012, 2026
 
 
 R: Požeh(D)nej, Pane život (G)můj, pože(A7)hnej

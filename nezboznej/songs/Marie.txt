@@ -3,6 +3,7 @@ A: Tomáš Klus
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Je (C)den. Tak (E)pojď Marie ven.
    Budeme (F)žít. A házet (G)šutry do oken.

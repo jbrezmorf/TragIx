@@ -3,6 +3,7 @@ A:
 AC:
 Z: Hosana  
 ZC:271
+E: 2012, 2026
    
 /:(D)Vše, co mohu (A)dát, je chvála,
   +(Hmi)vše, co mohu (A)dát, je dík.(A7)

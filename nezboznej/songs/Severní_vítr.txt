@@ -3,6 +3,7 @@ A: Jaroslav Uhlíř
 AC: JU
 Z:
 ZC:
+E: 2025
 
 1: Jdu (C)s děravou patou, mám (Am)horečku zlatou,
 +  jsem (F)chudý, jsem sláb a nemo(C)cen

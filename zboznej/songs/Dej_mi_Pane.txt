@@ -3,6 +3,7 @@ A:
 AC:
 Z: Hosana
 ZC: 41
+E: 2012, 2026
 
 
 R: (E)Dej mi, Pane, víru, (A)lásku, (E)sílu, 

@@ -3,6 +3,7 @@ A: Jaromír Nohavica
 AC:
 Z:
 ZC:
+E: 2025
 
 R: /: (A)Pijte vodu, pijte pitnou vodu, pijte vodu (E)a ne(A)pijte rum! :/   
 

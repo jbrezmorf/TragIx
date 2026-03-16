@@ -3,6 +3,7 @@ A:
 AC:
 Z: 
 ZC:Z299
+E: 2012, 2026
 
  (C)Vyvyšuji Tebe Pa(G)ne nad tímto (F)dnem, 
    vyvyšuji Tebe Pane nad každým člověkem, 

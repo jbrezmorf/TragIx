@@ -3,6 +3,7 @@ A: Tomáš Klus
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Jednou (C)štěstí dohoní i ty (Em)jezdce na koních,
 co hleda(Dm)jí (G)ho v cizích stájích.

@@ -3,6 +3,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 R: (Am)Pod dubem, za dubem, tam si na tě počíháme, 
    (E)pod dubem, za dubem, tam tě vošku(Am)bem.(G7) 

@@ -3,6 +3,7 @@ A: Jiří Korn
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (G)Před týdnem kvůli (Em7)jedné mademoiselle
 (G)v prachbídném stavu (Em7)jsem se nacházel.

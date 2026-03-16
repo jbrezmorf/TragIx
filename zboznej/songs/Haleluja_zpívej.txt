@@ -3,6 +3,7 @@ A:
 AC:
 Z: Hosana
 ZC: 64
+E: 2007, 2012, 2026
 
 
 1: (G)Chválu, (F"7)dík (G)všichni vzdejme (F"7)Pánu, (G)on je cestou (Dm)živo(E7)ta, 

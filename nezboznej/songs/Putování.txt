@@ -3,6 +3,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Puto(G)vání, puto(Em)vání, puto(C)vání za pra(G)cí,
    před sluncem nás klobouk (Em)chrání, mech je (C)naší matra(G)cí.

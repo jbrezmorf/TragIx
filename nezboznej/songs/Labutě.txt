@@ -3,6 +3,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Labutě, (G)labu(Am)tě, spočíva(G)jí nehnu(C)tě, (F)na hla(Em)di(Fmaj)ně (G)Dyje (Dm)a to je (Em)poezi(Am)e.
    

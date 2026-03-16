@@ -3,6 +3,7 @@ A: Olympic
 AC: OL
 Z:
 ZC:
+E: 2025
 
 1: (Am)Vymyslel jsem spoustu nápadů, a(C)ů, co (Am)podporujou hloupou nála(G)du, a(E7)ů,
    (Am)hodit klíče do kanálu, (D)sjet po zadku (Dm)holou skálu,

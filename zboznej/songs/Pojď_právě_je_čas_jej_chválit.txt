@@ -3,6 +3,7 @@ A:
 AC:
 Z: Jump
 ZC:
+E: 2012, 2026
 
 1. /: (D) Pojď, teď je ten čas jej (Em7/D) chválit (D)
       (A) pojď, své srdce můžeš (Em) krá (D/E)li  (G) dát 

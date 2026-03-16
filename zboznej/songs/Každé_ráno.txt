@@ -3,6 +3,7 @@ A: Jan Václav Renč
 AC:
 Z: Hosana
 ZC: 456
+E: 2007, 2012, 2026
 
 
 1: (D)Každé ráno (Hmi)dostávám (Emi)darem nový (Eb)den, 

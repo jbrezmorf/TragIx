@@ -3,6 +3,7 @@ A: Autor neznámý
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (C)V jedné (Am)mořské (Dm)dáli(G7)ně, (C)ztroskotal (Am)parník (Dm)v hlubi(G7)ně,
    (C)jen tři (Am)malé (Dm)citrón(G7)ky, zůstaly na hladi(C)ně.

@@ -3,6 +3,7 @@ A: Jaroslav Hutka
 AC:
 Z: Já, písnička 1 (1993)
 ZC:
+E: 2025
 
 1: /: (C)Krásný je (Am)vzduch, (Dm)krásnější je (G7)moře. :/
    (C)Co je nejkrás(A7)nější, (Dm)co je nejkrás(G7)nější, 

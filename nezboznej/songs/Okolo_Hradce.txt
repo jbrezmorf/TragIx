@@ -3,6 +3,7 @@ A: Lidová
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: /: (D)Okolo Hradce v (Hm7)malé zahrádce (E)rostou tam tři rů(A7)že. :/
    /: (D)Jedna je (G)červená, (A7)druhá je (D)bílá, třetí kve(A7)te mo(D)dře. :/

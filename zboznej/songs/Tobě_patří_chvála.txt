@@ -3,6 +3,7 @@ A:
 AC: 
 Z: 
 ZC:Z260 
+E: 2007, 2012, 2026
  
  /: Tobě patří (A)chvála čest a (A7+)sláva, my zve(G)dáme svoje dlaně, my vo(Hm)láme: Ty jsi (E)Pán! :/ 
  /: Vždyť ty jsi (A)Pán, ty jediný, ty jsi (F"m)král, ty jsi tolik nádher(D Hm)ný, celý (E)svět se ti (E7)klaní. :/ 

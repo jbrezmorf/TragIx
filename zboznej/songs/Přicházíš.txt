@@ -3,6 +3,7 @@ A: Jana Svobodová-Březovská
 AC:
 Z: Hosana
 ZC: 209
+E: 2007, 2012, 2026
 
 
 1: (G)Ježíš za dveřmi (C)stojí, (D)čeká, až ho pozvem (G)dál.

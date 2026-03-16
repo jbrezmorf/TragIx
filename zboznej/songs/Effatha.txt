@@ -3,6 +3,7 @@ A: Jiří Černý
 AC:
 Z: Hosana
 ZC: 58
+E: 2007, 2012, 2026
 
 
 R: (D)Otevři, Pane, (Em)ústa má (G)a budu tě (D)chválit, 

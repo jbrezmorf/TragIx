@@ -3,6 +3,7 @@ A: Autor neznámý
 AC:
 Z:
 ZC:
+E: 2025
 
 1:  (D)Už mě prostě (G)nebaví, (D)člověkem z (A)města (D)být, 
     (D)v týhle kleci z (G)betonu (D)jako všichni (A)lidé (D)žít, 

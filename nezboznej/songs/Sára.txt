@@ -3,6 +3,7 @@ A: Traband
 AC:
 Z: 
 ZC:
+E: 2025
 
 R1: (Am)Sáro, (Em) Sáro, (F)v noci se mi (C)zdálo,
 že (F)tři andělé (C)Boží k nám (F)přišli na o(G)běd.

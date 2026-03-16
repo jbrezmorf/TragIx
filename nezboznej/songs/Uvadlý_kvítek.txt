@@ -3,6 +3,7 @@ A: Formani
 AC:
 Z:
 ZC:
+E: 2025
 
 1: My (Am)přepluli jsme lodí přes (Dm)tmavej oceán,
 a v (Am)zaprášený torbě jen (E7)uschlou růži mám.           

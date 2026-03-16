@@ -3,6 +3,7 @@ A: Hana Hegerová
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Ako mladé di(Dm)evča (F) už je to (E) za na(Am)mi 
 (Am)Po stromoch som (Dm)liezla (F)s našimi (E)chlapca(Am)mi. 

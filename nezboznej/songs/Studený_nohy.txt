@@ -3,6 +3,7 @@ A: Radůza
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Am)Pr(Em)ší, (Dm)choulím se (Em)do svrchníku,
    (Am)než se (Em)otočím (Dm)na pod(Em)patku

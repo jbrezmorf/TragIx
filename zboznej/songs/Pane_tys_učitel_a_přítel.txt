@@ -3,6 +3,7 @@ A:
 AC: 
 Z: 
 ZC:181 
+E: 2007, 2012, 2026
  
 M:(D D6)\chsep(G A)\chsep(D D6)\chsep(G A)\chsep(Hm)\chsep(Em A)\chsep(D D6)\chsep(D D6)  
                                                          

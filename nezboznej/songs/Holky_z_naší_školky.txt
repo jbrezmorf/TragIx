@@ -3,6 +3,7 @@ A: Petr Kotvald, Stanislav Hložek
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Majdalenka, (G)Apolenka s (A)Veronikou, 
    a taky (D)Věrka, Zdeňka, (G)Majka, Lenka s (A)Monikou.

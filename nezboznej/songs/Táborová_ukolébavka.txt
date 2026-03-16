@@ -3,6 +3,7 @@ A: Marcel \uv{Fox} Štěpánek
 AC:
 Z:
 ZC:
+E: 2025
 
 R: (D)Hou, (A)hou, (D)tábor (A)spí, (D)hou (A)hou, (D)jen hlídka (A)bdí,
    (D)Večernice (G)na nebi (D)zá(G)ří, (D) kraj kolem (A7)Štolpichu (D)sní, (A)

@@ -3,6 +3,7 @@ A: Jaromír Nohavica
 AC:
 Z: Písně Jaromíra Nohavici
 ZC:
+E: 2025
 
 1: (C)Vlaštovko leť, (Am)přes Čínskou zeď, (Fmaj)přes písek pouště Go(G)bi.
    (C)Oblétni zem, (Am)přileť až sem, (Fmaj)jen ať se císař zlo(G)bí.

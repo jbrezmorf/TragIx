@@ -3,6 +3,7 @@ A:
 AC: 
 Z: 
 ZC:125 
+E: 2007, 2012, 2026
                                                                                                                                               
 R: (G)Má duše (C)Boha (D)vele(Em)bí, (C)chválu (D)vzdá(G)vá, 
 +(G)Pánem je (C)nejen (D)na ne(Em)bi, (C)buď mu (D)slá(G)va.(G7) 

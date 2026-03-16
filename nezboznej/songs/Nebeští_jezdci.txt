@@ -3,6 +3,7 @@ A: Stan Jones
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: Po (Am)zasmušilé pustině jel (C)starý honec krav,
    den (Am)temný byl a ševelil (C)větrem ve stéblech trav.

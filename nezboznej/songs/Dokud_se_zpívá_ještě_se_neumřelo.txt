@@ -3,6 +3,7 @@ A: Jaromír Nohavica
 AC:
 Z: P.J.N. od A do Ž
 ZC:
+E: 2025
 
 1: (C)Z Těšína (Em)vyjíždí (Dm7)vlaky co (F)čtvrthodi(C)nu, (Em)(Dm7)(G7)
 (C)včera jsem (Em)nespal a (Dm7)ani dnes (F)nespoči(C)nu. (Em)(Dm7)(G)

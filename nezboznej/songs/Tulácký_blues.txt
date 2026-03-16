@@ -3,6 +3,7 @@ A: Pacifik
 AC: PC
 Z:
 ZC:
+E: 2025
 
 1: Toulat se (G)sám tou (C7)rosou čerstvejch (G)rán,
    zpívat si (C7)blues, jít s hejnem černejch (G)vran,

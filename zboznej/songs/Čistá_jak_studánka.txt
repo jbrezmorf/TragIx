@@ -3,6 +3,7 @@ A: Bohuslav Fliedr
 AC:
 Z: Hosana
 ZC: 35
+E: 2007, 2012, 2026
 
 
 R: (C)Čistá, čistá, (Dm)čistá jak studánka, 

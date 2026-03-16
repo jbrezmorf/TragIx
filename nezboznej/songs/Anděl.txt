@@ -3,6 +3,7 @@ A: Karel Kryl
 AC: KK
 Z:
 ZC:
+E: 2025
 
 1: (C)Z rozmláce(Am)nýho kostela
    (C)v krabici (G7)s kusem mýdla

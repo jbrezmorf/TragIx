@@ -3,6 +3,7 @@ A: Adamcová
 AC:
 Z: Hosana
 ZC: 193
+E: 2007, 2012, 2026
 
 
 1: Písnič(D)ku ti za(G)zpí(D)vám, (D7)ale(G)lu(D)ja, 

@@ -3,6 +3,7 @@ A: Spirituál Kvintet
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Na předměstí (A)stával (D)dům, 
 +   (Gmaj)malý chlapec (A)si tam (Hm)hrával (A)

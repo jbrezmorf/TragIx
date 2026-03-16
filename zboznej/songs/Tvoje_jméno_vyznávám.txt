@@ -3,6 +3,7 @@ A:
 AC: 
 Z: Jump 
 ZC:
+E: 2012, 2026
 
 1: (G) Tvoje (C2) jméno vyznávám (D) (C2) (G) rád ti (C2) zpívám svoji (D) chválu (c2)
    (G) Jsem tak (C2) vděčný, že Tě (D) mám, (C2) (G) jsem tak (C2) vděčný za Tvou (D) spásu.

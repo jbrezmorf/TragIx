@@ -3,6 +3,7 @@ A:
 AC: 
 Z: 
 ZC:468 
+E: 2007, 2012, 2026
                                                                                                                  
 1:     (G)Přijmi, Pane, (Hm)z našich polí (C)chléb. (D7)     (G)Přijmi, Pane, (Hm)z našich vinic (C)víno, (D7) 
         (Em)z našich polí (A)chléb, (Em)z našich vinic (A)víno, (C)chléb a víno spásy zname(D)ní. 

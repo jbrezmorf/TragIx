@@ -3,6 +3,7 @@ A: Marie Čančíková
 AC:
 Z: Hosana
 ZC: 446
+E: 2007, 2012, 2026
 
 
 (Dmi)Neseme, Pane, chléb a (C)víno, (Ami)neseme celý život (Dmi)náš.

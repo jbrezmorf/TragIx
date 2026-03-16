@@ -3,6 +3,7 @@ A:
 AC: 
 Z: 
 ZC:112 
+E: 2007, 2012, 2026
                                                             
 R:        Kudy mám (G)jít, čím se mám (Am)stát, 
 +        co k tomu (Em)mít, když chci (D7)Ježíše mít (G)rád? 

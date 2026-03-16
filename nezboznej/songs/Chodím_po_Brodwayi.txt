@@ -3,6 +3,7 @@ A: Americká lidová
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Chodím po (D)Brodwayi hladov sem a tam 
    (D)chodím po Brodwayi hladov sem a (A7)tam, 

@@ -3,6 +3,7 @@ A: Wabi Daněk
 AC: WD
 Z:
 ZC:
+E: 2025
 
 1: (C)Tak, jako jazyk (F6)stále na(F"6)rá(G6)ží na vylomený (C)zub,
    tak se vracím k (F6)svýmu ná(F"6)dra(G6)ží, abych šel zas (C)dál,

@@ -3,6 +3,7 @@ A: Žalman
 AC: ZA
 Z:
 ZC:
+E: 2025
 
 1: (C)Nezacházej, slunce, neza(Dm)cházej ještě,
    (G)já mám potěšení (F)na da(G)lekej cestě,

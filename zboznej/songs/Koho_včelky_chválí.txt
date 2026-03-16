@@ -3,6 +3,7 @@ A:
 AC: 
 Z: 
 ZC:105 
+E: 2007, 2012, 2026
                                                  
 1:        (C)Koho (Dm7)včelky (C)chvá(Dm7)lí   (C)pílí (Dm7)nezměr(C)nou, (Dm7)  
         (C)kampak (Dm7)broučci (C)malí (F)zas (G)míří s lucernou?(F) 

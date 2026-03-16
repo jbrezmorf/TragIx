@@ -3,6 +3,7 @@ A:
 AC:
 Z: Hosana  
 ZC:145
+E: 2012, 2026
 
 R: Můj (D)Pán (A7)všechny (D)svolá
    +ráno, až se rozed(Emi)ní(A7)

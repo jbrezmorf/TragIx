@@ -3,6 +3,7 @@ A:
 AC:
 Z: Hosana
 ZC: 79
+E: 2007, 2012, 2026
 
 
 /: Je (D)stále přítom(A)ná tvoje (G)slá(D)va, 

@@ -3,6 +3,7 @@ A:
 AC:
 Z:
 ZC:48
+E: 2007, 2012, 2026
                                                                           
 1:        (G)Díky (Em)za večer, (Am)jenž se (D7)stmívá, (G)díky (Em)za uply(C)nulý (D7)den
         (G)Díky, (G7)mé srdce (C)vděčně (Cm)zpívá: (G)bu(Em)diž (D7)vele(G)ben!

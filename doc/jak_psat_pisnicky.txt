@@ -24,10 +24,11 @@ Jak přidat novou písničku
 
 1. Ve složce "songs/" klikni na "Add file" → "Create new file".
 2. Pojmenuj soubor podle názvu písničky (např. "Nová_písnička.txt").
-3. Napiš obsah podle formátu popsaného níže.
+3. Napiš obsah podle formátu popsaného níže. Nezapomeň do
+   hlavičky napsat "E:" s rokem aktuální edice!
 4. Klikni na "Propose new file".
-5. Nezapomeň taky přidat název písničky do příslušného souboru
-   v adresáři "songlists/" (seznamy se jmenují podle roku vydání zpěvníku).
+
+A to je vše -- stačí upravit/přidat JEDEN soubor!
 
 
 Formát písničky
@@ -40,12 +41,20 @@ Každá písnička začíná hlavičkou:
   AC:
   Z: Já písnička 2, 1990
   ZC:
+  E: 2025
 
   N: = název písničky
   A: = autor (víc autorů odděl čárkou)
   AC: = kód autora (pokud nevíš, nech prázdné)
   Z: = zdroj / zpěvník odkud text máš
   ZC: = kód zdroje (pokud nevíš, nech prázdné)
+  E: = edice, do kterých písnička patří (rok/y, oddělené čárkou)
+
+Pole E: říká, ve kterých ročnících zpěvníku se má písnička objevit.
+Pokud přidáváš novou písničku, napiš tam rok aktuální edice (např.
+"E: 2025"). Pokud chceš, aby byla ve víc edicích: "E: 2007, 2012, 2025".
+Díky tomu stačí přidat/upravit JEDEN soubor a písnička se automaticky
+zařadí do zpěvníku -- žádné další kroky nejsou potřeba!
 
 Pak následuje text písničky. Sloky, refrény a mezizpěvy se oddělují
 prázdným řádkem.

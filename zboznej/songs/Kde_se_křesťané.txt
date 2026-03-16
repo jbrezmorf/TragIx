@@ -3,6 +3,7 @@ A:
 AC: 
 Z: Jump
 ZC:
+E: 2012, 2026
 
    (G) Kde se křesťané, (D) spolu scházejí (G)
    (G) Ve jménu (Emi) tvém, (Hmi7) v lásce, jednot(C)ní 

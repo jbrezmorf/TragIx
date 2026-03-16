@@ -3,6 +3,7 @@ A:
 AC: 
 Z: 
 ZC:239 
+E: 2007, 2012, 2026
  
  (E)Spoj nás v jedno, Pane, (C"m)spoj nás v jedno poutem, (F"m)jež ne(H)může být (E)zlámáno,                                    
  (E)spoj nás v jedno, Pane, (C"m)spoj nás v jedno, Pane, (F"m)spoj nás v jedno (H7)láskou (E)svou. 

@@ -3,6 +3,7 @@ A: Jaromír Nohavica
 AC: JN
 Z: JN
 ZC:
+E: 2025
 
 1: (D)Když jsem byl malý říkali mi naši: 
     \uv{Dobře se uč a jez chytrou kaši,

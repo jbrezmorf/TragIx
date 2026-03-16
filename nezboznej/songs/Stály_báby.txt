@@ -3,6 +3,7 @@ A: František \uv{Šedý Havran} Kňourek
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (D)Stály báby u vesnice, (A)divily se (D)převe(D7)lice.
 /: (G)Hej, hola, (D)hola, holala, (A7)že mám holá (D)kole(D7)na, cha, cha, cha. :/

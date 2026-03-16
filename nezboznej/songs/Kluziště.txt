@@ -3,6 +3,7 @@ A: Karel Plíhal
 AC: KP
 Z:
 ZC:
+E: 2025
 
 1: (C)Strejček (Em)kovář (Am)chytil (Am/G)kleště, (Fmaj/F)uštíp (C/E)z noční (Fmaj/F)oblo(G)hy
    jednu malou kapku deště, ta mu spadla pod nohy,

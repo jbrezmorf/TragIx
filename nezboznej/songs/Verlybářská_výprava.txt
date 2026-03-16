@@ -3,6 +3,7 @@ A: Pacifik
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Jednou plác' mě (G)přes rameno (A7)Johny zvanej (D)Knecht:
   (Hm)\uv{Mám pro tebe, (Em)hochu, v pácu (A7)moc fajnovej (D)kšeft!}

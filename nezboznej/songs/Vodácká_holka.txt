@@ -3,6 +3,7 @@ A: Hop Trop
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Když vlny (Em)se valí(G) a peře(A)je řvou 
 +  a (D)šutry z nich (Em)civí jak (G)sů(A)vy, 

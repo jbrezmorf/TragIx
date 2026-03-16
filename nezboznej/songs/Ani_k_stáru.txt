@@ -3,6 +3,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Mám ploché (C)nohy po tetě a fanta(F)zii po svém strýci,
    už dlouho (Am)šlapu po světě a nevím, (G)co mám o něm říci.

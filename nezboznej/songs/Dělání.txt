@@ -3,6 +3,7 @@ A: Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 \sl{Opakuje se dvakrát}
 

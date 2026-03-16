@@ -3,6 +3,7 @@ A: Oggy, Mrkev
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (Am)Spatřil jsem mršinu, táborem smrděla,
 +  chtěl jsem ji zakopat, ona to věděla,

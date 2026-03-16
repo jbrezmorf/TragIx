@@ -3,6 +3,7 @@ A:
 AC:
 Z: Hosana
 ZC: 97
+E: 2007, 2012, 2026
 
 
 1: (H7)Kdo mě (E)z pout mých ven vy(E7)vodí, 

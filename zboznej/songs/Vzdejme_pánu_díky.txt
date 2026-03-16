@@ -3,6 +3,7 @@ A:
 AC: 
 Z: 
 ZC:275 
+E: 2007, 2012, 2026
  
 R:        (Dm)Svý kroky (C)rozezpí(F)vej, (G)rozezpí(B)vej, (C)rozezpí(Am)vej, 
         (Dm)chválama (C)rozezpí(F)vej, (G)rozezpí(B)vej, (C)rozezpí(D)vej. 

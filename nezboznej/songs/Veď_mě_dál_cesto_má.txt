@@ -3,6 +3,7 @@ A: Pavel Bobek
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (D)Někde v dálce (Hm)cesty končí, (A)každá prý však (G)cíl svůj (D)skrývá,
    (D)někde v dálce (Hm)každá má svůj cíl, (A)ať je pár mil dlouhá (G)nebo tisíc (D)mil.

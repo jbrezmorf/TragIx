@@ -3,6 +3,7 @@ A: Jiřina Doležalová
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (Am)Polní cestou kráčeli šu(G)maři do vísky hrát,
    (Am)svatby, pohřby tahle cesta poz(G)nala mnohokrát,

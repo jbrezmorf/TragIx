@@ -3,6 +3,7 @@ A: František \uv{Šedý Havran} Kňourek
 AC:
 Z: 
 ZC:
+E: 2025
 
 1: (D)Poštorenská kapela hraje pěkně (A7)z vesela,
    za ní v plné parádě skauti v dobré (D)náladě.

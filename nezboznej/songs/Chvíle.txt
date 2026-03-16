@@ -3,6 +3,7 @@ A: Hop Trop
 AC:
 Z:
 ZC:
+E: 2025
 
 1: (Em)Mám rád ty chvíle, kdy noc už pomalu (Hm)končí,
    (Am)chvíle, co patřej' jen (Hm)těm, co neusí(Em)naj'.                                                               

@@ -3,6 +3,7 @@ A: Jaroslav Uhlíř, Zdeněk Svěrák
 AC:
 Z:
 ZC:
+E: 2025
 
 R: (C)Lepší než almužna, (F)lepší než (C)lup, je pila dvojmužná, (Dm)ostrý má (G)zub.
    (C)Jdi na to s fortelem, (F)nedři se (C)moc, /: (F)ať se s tím (C)poperem, (G)než bude (C)noc. :/

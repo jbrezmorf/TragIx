@@ -3,6 +3,7 @@ A: Helena Vondráčková
 AC:
 Z:
 ZC:
+E: 2025
 
 1: Ty kdo (G)bloudíš sám a (G7)sám, dlažbou (C)měst a jejich (G)špínou,
    smutkem (C)dní a nudou (G)línou, já tě (F)znám. (D)

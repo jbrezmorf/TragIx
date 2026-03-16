@@ -3,6 +3,7 @@ A: Marie Čančíková
 AC:
 Z: Hosana
 ZC: 250
+E: 2012, 2026
 
 
 (D)Tady u tvých (Emi)nohou, Pane (G)můj, ty (D)víš, 
