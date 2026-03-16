@@ -318,6 +318,8 @@ def main():
         print(f"No .txt files found in {args.input}")
         return 1
 
+    print(f"Checking {len(files)} file(s) in {args.input}")
+
     grand_total = 0
     all_lines = []
 

@@ -243,6 +243,9 @@ def main():
         print(f"No .txt files found in {args.input}")
         return 1
 
+    mode = "dry-run" if args.dry_run else "fixing"
+    print(f"Checking {len(files)} file(s) in {args.input} [{mode}]")
+
     grand_total = 0
     multi = len(files) > 1
     for f in files:
