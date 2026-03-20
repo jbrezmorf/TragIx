@@ -1,3 +1,5 @@
-# Which editions to build (one per line: variant edition-year)
-nezboznej 2025
-zboznej 2026
+# Which editions to build (one per line: variant edition-year version)
+# The version is a sequential build number within each edition year.
+# Full version string on the title page and in the PDF filename: {edition}.{version}
+nezboznej 2025 3
+zboznej 2026 1

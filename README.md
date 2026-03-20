@@ -23,7 +23,7 @@ scripts/               Helper scripts
 doc/                   Documentation and notes
 zdroje/                Legacy song source archives
 build_songbook.py      Main build script
-current_editions.txt   Which variant+edition combos to build
+current_editions.txt   Which variant+edition+version combos to build
 Dockerfile             Reproducible build environment
 ```
 
@@ -47,8 +47,10 @@ that year (e.g. `E: 2025` or `E: 2007, 2012, 2025`). Overrides from
 `overrides/` are used when present.
 
 The `current_editions.txt` file at the repo root controls which
-variant+edition pairs are active. The CI workflow and `--all` flag
-both read from it. To change what gets built, edit that one file.
+variant+edition+version triples are active. The CI workflow and `--all`
+flag both read from it. To change what gets built, edit that one file.
+The version number appears on the title page and in the output PDF
+filename (e.g. `nezboznej_2025.3.pdf`). Bump it when you rebuild.
 
 Options:
 

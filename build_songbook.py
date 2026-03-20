@@ -114,9 +114,9 @@ def collect_songs(variant_dir, edition):
 # Build preparation
 # ---------------------------------------------------------------------------
 
-def prepare_build(songs, variant, build_dir):
-    """Sort songs, write .sng files, songbook.tex, songlist.tex, and
-    a convenience songlist_titles.txt into the build directory."""
+def prepare_build(songs, variant, build_dir, version_string=""):
+    """Sort songs, write .sng files, songbook.tex, songlist.tex,
+    version.tex, and a convenience songlist_titles.txt into the build dir."""
     set_czech_locale()
     sorted_songs = sorted(songs, key=cmp_to_key(lambda a, b: czech_compare(a[0], b[0])))
 
@@ -153,6 +153,12 @@ def prepare_build(songs, variant, build_dir):
             rel = sng.relative_to(build_dir).as_posix()
             out.write(f"\\inputsong{{{rel}}}\n")
 
+    version_tex = build_dir / "version.tex"
+    version_tex.write_text(
+        f"\\def\\SongbookVersion{{{version_string}}}\n",
+        encoding="utf-8",
+    )
+
     print(f"  Build files written to {build_dir}/")
 
 
@@ -180,12 +186,13 @@ def compile_pdf(build_dir, passes=2):
     print(f"  Output: {pdf} ({size_kb} KB)")
 
 
-def create_duplex(build_dir, variant):
+def create_duplex(build_dir, variant, version_string=""):
     """Create an A5-imposed duplex PDF on A4 for print-shop delivery."""
-    pdf = build_dir / "songbook.pdf"
+    pdf = build_dir / f"{variant}_{version_string}.pdf"
     ps = pdf.with_suffix(".ps")
-    duplex_ps = build_dir / f"{variant}_duplex.ps"
-    duplex_pdf = build_dir / f"{variant}_duplex.pdf"
+    tag = f"{variant}_{version_string}" if version_string else variant
+    duplex_ps = build_dir / f"{tag}_duplex.ps"
+    duplex_pdf = build_dir / f"{tag}_duplex.pdf"
 
     print("  Creating duplex PDF...")
     subprocess.run(["pdftops", str(pdf), str(ps)], check=True)
@@ -205,19 +212,39 @@ def create_duplex(build_dir, variant):
 # Docker self-bootstrapping
 # ---------------------------------------------------------------------------
 
+def _find_docker():
+    """Return the path to the docker CLI, searching PATH and well-known
+    install locations (Docker Desktop on Windows often isn't on PATH in
+    IDE terminals)."""
+    found = shutil.which("docker")
+    if found:
+        return found
+    if platform.system() == "Windows":
+        import os
+        candidate = os.path.join(os.environ.get("ProgramFiles", r"C:\Program Files"),
+                                 "Docker", "Docker", "resources", "bin", "docker.exe")
+        if os.path.isfile(candidate):
+            return candidate
+    raise SystemExit(
+        "docker not found on PATH (and not in the default install location).\n"
+        "Install Docker Desktop or add it to PATH."
+    )
+
+
 def docker_run(args):
     """Re-invoke this script inside a Docker container with the correct
     volume mount(s) so build output lands on the host filesystem."""
+    docker = _find_docker()
     image = "tragix-songbook"
 
     print(f"[docker] Building image '{image}'...")
-    subprocess.run(["docker", "build", "-t", image, "."], check=True)
+    subprocess.run([docker, "build", "-t", image, "."], check=True)
 
     cwd = Path.cwd().as_posix()
-    cmd = ["docker", "run", "--rm"]
+    cmd = [docker, "run", "--rm"]
 
     if args.all:
-        for variant, _ in load_editions():
+        for variant, _, _ in load_editions():
             cmd += ["-v", f"{cwd}/{variant}/build:/songbook/{variant}/build"]
     else:
         cmd += ["-v", f"{cwd}/{args.variant}/build:/songbook/{args.variant}/build"]
@@ -237,7 +264,10 @@ EDITIONS_FILE = "current_editions.txt"
 
 
 def load_editions():
-    """Read active editions from editions.txt. Returns [(variant, edition), ...]."""
+    """Read active editions from current_editions.txt.
+
+    Returns [(variant, edition, version), ...].
+    """
     path = Path(EDITIONS_FILE)
     if not path.exists():
         raise SystemExit(f"{EDITIONS_FILE} not found.")
@@ -247,10 +277,23 @@ def load_editions():
         if not line or line.startswith("#"):
             continue
         parts = line.split()
-        if len(parts) != 2:
-            raise SystemExit(f"Bad line in {EDITIONS_FILE}: {line!r} (expected: variant edition)")
+        if len(parts) != 3:
+            raise SystemExit(
+                f"Bad line in {EDITIONS_FILE}: {line!r} "
+                "(expected: variant edition version)"
+            )
         entries.append(tuple(parts))
     return entries
+
+
+def _lookup_version(variant, edition):
+    """Find the version for a given variant+edition in the editions file."""
+    for v, e, ver in load_editions():
+        if v == variant and e == edition:
+            return ver
+    raise SystemExit(
+        f"No entry for {variant} {edition} in {EDITIONS_FILE}."
+    )
 
 
 def parse_args():
@@ -290,10 +333,11 @@ def parse_args():
     return args
 
 
-def build_one(variant, edition, duplex=False, clean=False, songs_only=False):
+def build_one(variant, edition, version="0", duplex=False, clean=False, songs_only=False):
     """Build a single variant+edition combination."""
     variant_dir = Path(variant)
     build_dir = variant_dir / "build"
+    version_string = f"{edition}.{version}"
 
     # -- Clean ---------------------------------------------------------------
     if build_dir.exists():
@@ -312,7 +356,7 @@ def build_one(variant, edition, duplex=False, clean=False, songs_only=False):
 
     # -- Prepare build files -------------------------------------------------
     print("Preparing build files...")
-    prepare_build(songs, variant, build_dir)
+    prepare_build(songs, variant, build_dir, version_string)
 
     if songs_only:
         print("Done (--songs-only).")
@@ -322,9 +366,16 @@ def build_one(variant, edition, duplex=False, clean=False, songs_only=False):
     print("Compiling PDF...")
     compile_pdf(build_dir, passes=2)
 
+    # -- Rename output PDF ---------------------------------------------------
+    raw_pdf = build_dir / "songbook.pdf"
+    final_name = f"{variant}_{version_string}.pdf"
+    final_pdf = build_dir / final_name
+    raw_pdf.rename(final_pdf)
+    print(f"  Renamed to {final_pdf}")
+
     # -- Duplex (optional) ---------------------------------------------------
     if duplex:
-        create_duplex(build_dir, variant)
+        create_duplex(build_dir, variant, version_string)
 
     print("Done.")
 
@@ -337,16 +388,17 @@ def main():
         if not shutil.which("luatex") and not args.clean and not args.songs_only:
             docker_run(args)
             return
-        for variant, edition in editions:
+        for variant, edition, version in editions:
             print(f"\n{'='*60}")
-            print(f"  Building {variant} edition {edition}")
+            print(f"  Building {variant} {edition}.{version}")
             print(f"{'='*60}\n")
-            build_one(variant, edition, args.duplex, args.clean, args.songs_only)
+            build_one(variant, edition, version, args.duplex, args.clean, args.songs_only)
     else:
+        version = _lookup_version(args.variant, args.edition)
         if not shutil.which("luatex") and not args.clean and not args.songs_only:
             docker_run(args)
             return
-        build_one(args.variant, args.edition, args.duplex, args.clean, args.songs_only)
+        build_one(args.variant, args.edition, version, args.duplex, args.clean, args.songs_only)
 
 
 if __name__ == "__main__":

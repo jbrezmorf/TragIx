@@ -28,9 +28,9 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
 
           FAILED=0
-          while read -r variant edition; do
+          while read -r variant edition version; do
             [[ -z "$variant" || "$variant" == \#* ]] && continue
-            echo "### ${variant} (${edition})" >> $GITHUB_STEP_SUMMARY
+            echo "### ${variant} (${edition}.${version})" >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
             if python scripts/check_songbook.py "${variant}/songs/" \
                 --edition "$edition" --fix --dry-run \
@@ -62,9 +62,9 @@ jobs:
 
       - name: Build editions
         run: |
-          while read -r variant edition; do
+          while read -r variant edition version; do
             [[ -z "$variant" || "$variant" == \#* ]] && continue
-            echo "Building ${variant} edition ${edition}..."
+            echo "Building ${variant} ${edition}.${version}..."
             docker run --rm \
               -v "${{ github.workspace }}/${variant}/build:/songbook/${variant}/build" \
               tragix-songbook --variant "$variant" --edition "$edition"
@@ -74,4 +74,4 @@ jobs:
         uses: actions/upload-artifact@v6
         with:
           name: songbook-pdfs
-          path: "*/build/songbook.pdf"
+          path: "*/build/*.pdf"
