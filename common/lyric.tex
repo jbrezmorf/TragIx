@@ -105,7 +105,8 @@
 %% how to make song header from parametres:
 %% name,author,author code,source, source code
 \def\MakeSongHeader#1#2#3#4#5{{%
-  \noindent\SongNameFont\unspace#1% song name
+  \global\advance\songnum by 1%
+  \noindent\songanchor\SongNameFont\unspace#1% song name
   \write\TOCfile{\string\tocline{#1}{\the\pageno}}% write to toc file
   \if:#2:\else% author
   \hfill\bgroup\hskip.3em{\AuthorFont(\unspace#2\/)}\hskip.3em\egroup
@@ -186,8 +187,14 @@
   \def\OuterMargin{1.1cm}
   \def\cvak{\ifdim\dimen0<6pt \dimen0=9pt \else \dimen0=3pt \fi}
   \def\puntiky{\leaders\hbox to12pt{\kern\dimen0.\hss}\hfil}
-  \long\def\tocline##1##2{\line{\unspace##1%
-    \puntiky\hbox to1.5em{\hfil##2}}\cvak}
+  \long\def\tocline##1##2{%
+    \global\advance\toccount by 1%
+    \line{%
+      \toclink{\the\toccount}%
+      \unspace##1%
+      \puntiky\hbox to1.5em{\hfil##2}%
+      \tocendlink%
+    }\cvak}
   \PageLayout
   \nopagenumbers
   \advance\hsize by \OuterMargin
@@ -311,6 +318,14 @@
 % \def\measure{\vbox to 0pt{\hbox to 0pt{\vrule height 18cm}}}
 %
 \newcount\pagenum
+\newcount\songnum
+\newcount\toccount
+
+% Clickable index -> song hyperlinks (invisible in print).
+% Uses pdfTeX-compatible primitives available in both pdfTeX and LuaTeX/pdfcsplain.
+\def\songanchor{\pdfdest name{song.\the\songnum} fit\relax}%
+\def\toclink#1{\pdfstartlink attr{/Border [0 0 0]} goto name{song.#1}\relax}%
+\def\tocendlink{\pdfendlink\relax}%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\setlyricoutput{%
   \PageLayout
@@ -816,10 +831,12 @@
   }}%
 }}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%555
-\showboxbreadth=100
-\showboxdepth=5
-\tracingmacros=2
-\tracingcommands=2
-\tracingpages=1
-\tracingrestores=1
-\tracingoutput=5
+% Tracing -- set to non-zero values only when debugging TeX macro issues.
+% WARNING: non-zero values generate multi-GB log files and slow builds ~10x.
+\showboxbreadth=0
+\showboxdepth=0
+\tracingmacros=0
+\tracingcommands=0
+\tracingpages=0
+\tracingrestores=0
+\tracingoutput=0
