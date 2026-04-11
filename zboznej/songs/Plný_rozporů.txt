@@ -4,6 +4,7 @@ AC:
 Z:  
 ZC:Z193
 E: 2012, 2026
+K:
 
 1: (A2)Z otázek a odpovědí,
 +jako v mlze oči hledí,

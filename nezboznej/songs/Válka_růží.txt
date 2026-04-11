@@ -4,6 +4,7 @@ AC: SK
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Dm)Už rozplynul se (G)hustý dým, (Dm)derry down, hej (A)down-a-down,
    (Dm)nad ztichlým polem (Gm)válečným, derry (Dm)down(A).

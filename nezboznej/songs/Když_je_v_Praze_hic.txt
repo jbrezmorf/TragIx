@@ -4,6 +4,7 @@ AC:
 Z: Šel tudy, měl banjo (1994)
 ZC: 
 E: 2007, 2012
+K:
 
 1: (C)Když je v Praze abnormalní hic,
    chodím k vodě až do Měche(A7)nic,

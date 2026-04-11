@@ -4,6 +4,7 @@ AC:
 Z: Já, písnička 2 (1999)
 ZC: 
 E: 2007, 2012
+K:
 
 1: (Am)Eště som sa neoženil už ma (E7)žena (Am)bije
    (Am)a ja som si narychtoval tri (E7)dubové (Am)ky(G)je.

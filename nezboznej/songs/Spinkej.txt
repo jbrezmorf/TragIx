@@ -4,6 +4,7 @@ AC: SK, JD
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Už se (D)končí den, už (G)je čas k spánku, (D)zdi se barví (G)od červánků,
    (D)hleď, už lampář (Hm)světla rozsvě(A4)cí. (A) Tak si (D)dočti stránku, (G)zavři knížku,

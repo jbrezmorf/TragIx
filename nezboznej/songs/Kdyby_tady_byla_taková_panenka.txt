@@ -4,6 +4,7 @@ AC: ZA
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: /: (C)Kdyby tady byla taková panenka, (G7)která by mě chtě(C)la, :/
    /: (F)která by mi chtěla (C)syna vychovati, (G7)přitom pannou bý(C)ti. :/

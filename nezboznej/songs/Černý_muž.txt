@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (G)Černý muž pod bičem otrokáře žil, (C)černý muž pod bičem (G)otrokáře žil, 
    černý muž pod bičem (H7)otrokáře (Em)žil, Kapi(Am)tán John (D7)Brown to (G)zřel.

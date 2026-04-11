@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:281 
 E: 2007, 2012, 2026
+K:
  
 R:        (Hm)Zní, zní, zní hlas temný, tichý, zní, zní, (Em)zní (D)pouští volá(F"7)ní, 
         (Hm)zní, zní, zní, zvažte své hříchy, (D)ještě pozdě není, (F"7)je čas pokání. 

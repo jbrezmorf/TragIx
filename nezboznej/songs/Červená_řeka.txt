@@ -4,6 +4,7 @@ AC:
 Z: Ja, pisnicka 1, 1994
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Pod tou (D)skálou, kde (D7)proud řeky (G)syčí, a kde (D)ční červe(H7)ný kame(Em)ní, (A7)
   žije (D)ten, co mi (D7)jen srdce (G)ničí, toho (D)já ráda (A7)mám k zblázně(D)ní.

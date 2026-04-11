@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (D)Na předměstí (A)stával (D)dům, 
 +   (Gmaj)malý chlapec (A)si tam (Hm)hrával (A)

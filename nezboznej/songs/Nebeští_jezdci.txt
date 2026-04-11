@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Po (Am)zasmušilé pustině jel (C)starý honec krav,
    den (Am)temný byl a ševelil (C)větrem ve stéblech trav.

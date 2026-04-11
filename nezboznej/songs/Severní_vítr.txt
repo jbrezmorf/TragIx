@@ -4,6 +4,7 @@ AC: JU
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Jdu (C)s děravou patou, mám (Am)horečku zlatou,
 +  jsem (F)chudý, jsem sláb a nemo(C)cen

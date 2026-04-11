@@ -4,6 +4,7 @@ AC: WD
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)Ten, kdo nezná hukot vody lopat(C)kama vířený,
    jako (G)já, jo, jako (Am)já,

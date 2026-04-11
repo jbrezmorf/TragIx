@@ -4,6 +4,7 @@ AC: MR
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)Dneska už mně (C)fóry ňák (Am)nejdou přes pys(E)ky, 
    (Am)stojím s dlouhou (C)kravatou na (Am)bedně (E)vod whis(Am)ky,

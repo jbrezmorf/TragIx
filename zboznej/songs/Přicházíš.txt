@@ -4,6 +4,7 @@ AC:
 Z: Hosana
 ZC: 209
 E: 2007, 2012, 2026
+K:
 
 
 1: (G)Ježíš za dveřmi (C)stojí, (D)čeká, až ho pozvem (G)dál.

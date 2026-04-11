@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (C)Skončili jsme, jasná zpráva, (Am)proč o tebe (F)zakopávám (G)dál,
    (Dm)projít bytem (F)já abych se (C)bál.

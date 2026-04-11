@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (C)Málo jím a (F)málo spím a (C)málokdy tě (F)vídám,
    (C)málokdy si (Am)nechám (Dm)něco (G)zdát,   

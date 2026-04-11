@@ -4,6 +4,7 @@ AC: SK
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 R: /: (G)Slyším Boží mlýny, jak se otáčí,  (C)já slyším Boží mlýny, jak se otá(G)čí,
     já (G)slyším Boží mlýny, (H7)jak se otá(Em)čí,  (C)o(D)tá(G)čí, otá(D)čí, otá(C)čí. :/

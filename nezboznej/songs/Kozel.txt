@@ -4,6 +4,7 @@ AC: JN
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Byl jeden (G)pán, ten kozla (C)měl,   velice (D7)si s ním rozu(G)měl,
    měl ho moc rád, opravdu (C)moc,   hladil mu (D7)fous na dobrou (G)noc. (D7)(G)

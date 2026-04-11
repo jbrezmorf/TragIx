@@ -4,6 +4,7 @@ AC: KP
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (C)Strejček (Em)kovář (Am)chytil (Am/G)kleště, (Fmaj/F)uštíp (C/E)z noční (Fmaj/F)oblo(G)hy
    jednu malou kapku deště, ta mu spadla pod nohy,

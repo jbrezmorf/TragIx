@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (A)Mám (A2)rád (A)Tvé (A4)pa(A)že (A2)bí(A)lé,
 +  (A)mám (A2)rád (A)ty (A4)krás(A)né (A2)chví(A)le,

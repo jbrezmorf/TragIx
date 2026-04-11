@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2012, 2025
+K:
 
 1: (E)Nejkrásnější akord bude (Amaj)A-maj,
 (E)prstíky se při něm nepo(C)lámaj'.

@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (C)Já bych si koupil tři (G7)myši, 
 (C)já bych si koupil tři (G7)myši.

@@ -4,6 +4,7 @@ AC: HT
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Dm)Dávám sbohem všem (C)břehům prokla(Am)tejm, 
    který (Dm)v drápech má (Am)ďábel (Dm)sám,

@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (C)Povídej, jestli tě (G)má hodně rád, víc než (C)já,
 jestli, když večer jdeš (G)spát, ti polibek (C)dá,

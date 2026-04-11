@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:72 
 E: 2007, 2012, 2026
+K:
                                                                                                                  
 R:        /: (Em)Chvalte služebníci, chvalte Hospodi(G)na, jeho (D)jméno, halelu(Em)ja :/ 
                                                                                                                    

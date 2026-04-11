@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007
+K:
            
 1:(B)Sedá(Hdim)vám (Cm7)na domovních (F)schodech
 (B)zpívá(Hdim)vám v (Cm7)krásných cizích (F)slovech

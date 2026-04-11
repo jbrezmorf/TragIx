@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Je tam brána zdobe(D)ná, cestu oteví(Em)rá, 
    zahradu zele(C)nou(G) všechno připomí(D)ná.

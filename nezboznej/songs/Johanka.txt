@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: S hlavou sklo(Em)ně(Dm)nou lidí zástup se tu (Am)dívá, 
    nebe (Em)nad hla(Dm)vou, slyšíš (G)dětskej (Am)pláč, 

@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012
+K:
 
 1: (E)Jen zpívají si rock a zpívají si rock
    no já Vám povím, milá paní, škoda pro nich slov.

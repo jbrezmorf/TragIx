@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (Em)Což se mně, má milá, (H7)hezká (Em)zdáš. 
    (G)Budeš-li tak hezká, (D7)až se (G)vdáš?

@@ -144,6 +144,18 @@ def fix_mi_chords(text):
     return new_text, count
 
 
+def fix_missing_k_field(text):
+    """Insert an empty K: line after E: if the header is missing one."""
+    lines = text.splitlines()
+    for i, line in enumerate(lines):
+        if line.startswith("E:"):
+            if i + 1 < len(lines) and lines[i + 1].startswith("K:"):
+                return text, 0
+            lines.insert(i + 1, "K:")
+            return "\n".join(lines) + "\n", 1
+    return text, 0
+
+
 ALL_FIXES = [
     ("separators", "Normalize song separators", fix_separators),
     ("quotations", "Replace quote chars with \\uv{...}", fix_quotations),
@@ -152,6 +164,7 @@ ALL_FIXES = [
     ("verse-dots", "Replace '1.' with '1:'", fix_verse_dots),
     ("sus-chords", "Replace (Esus4) with (E4)", fix_sus_chords),
     ("mi-chords", "Replace (Ami) with (Am)", fix_mi_chords),
+    ("k-field", "Add missing K: header field", fix_missing_k_field),
 ]
 
 
@@ -236,7 +249,7 @@ def check_lowercase_chord_start(lines):
     pat = re.compile(r"\([a-z]")
     issues = []
     for num, line in lines:
-        if any(line.strip().startswith(p) for p in ("Z:", "AC:", "ZC:", "%")):
+        if any(line.strip().startswith(p) for p in ("Z:", "AC:", "ZC:", "K:", "%")):
             continue
         if pat.search(line):
             issues.append((num, "Lowercase chord start", line))
@@ -290,6 +303,15 @@ def check_empty_author(lines):
     return issues
 
 
+def check_missing_k_field(lines):
+    """K: header line must be present (after E:)."""
+    has_e = any(line.startswith("E:") for _, line in lines)
+    has_k = any(line.startswith("K:") for _, line in lines)
+    if has_e and not has_k:
+        return [(1, "Missing K: header field (run --fix to add)", "")]
+    return []
+
+
 ALL_CHECKS = [
     ("Bad apostrophes", check_bad_apostrophes),
     ("Literal ellipses", check_literal_ellipses),
@@ -304,6 +326,7 @@ ALL_CHECKS = [
     ("Unclosed chord parens", check_unclosed_chords),
     ("Author with 'a'", check_author_with_and),
     ("Empty author", check_empty_author),
+    ("Missing K: field", check_missing_k_field),
 ]
 
 
@@ -337,7 +360,7 @@ def chord_coverage(all_lines, tail_path):
     used = set()
     for _num, line in all_lines:
         stripped = line.strip()
-        if any(stripped.startswith(p) for p in ("Z:", "AC:", "ZC:", "%")):
+        if any(stripped.startswith(p) for p in ("Z:", "AC:", "ZC:", "K:", "%")):
             continue
         for chord in extract_chords_from_line(line):
             if chord in known:

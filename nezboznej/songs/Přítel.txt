@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: Jestlipak (A)vzpomínáš si ještě na ten (E)čas, 
 táhlo nám (D)na dvacet a slunko bylo v(E)nás, 

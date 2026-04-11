@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (C)Není nutno, není nutno, aby bylo přímo vese(Dm)lo,
    (G7)hlavně nesmí býti smutno, natož aby se breče(C)lo-(G)ó.

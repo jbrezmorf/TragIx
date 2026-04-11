@@ -4,6 +4,7 @@ AC: SS
 Z: 
 ZC: 
 E: 2007
+K:
 
 1: (E)Představte si, (A7)představte si (E)co, jsem měl dnes k (A7)obědu,
 (E)představte si, (A7)představte si, (D7)co jsem měl dnes k obědu: 

@@ -103,7 +103,7 @@ Contributor-friendly version: `doc/jak_psat_pisnicky.txt` (Czech).
 
 Quick reference:
 
-- Header: `N:` name, `A:` author, `AC:` author code, `Z:` source, `ZC:` source code, `E:` editions
+- Header: `N:` name, `A:` author, `AC:` author code, `Z:` source, `ZC:` source code, `E:` editions, `K:` liturgy category
 - Verses: `1:`, `2:`, ... Refrains: `R:`, `R1:`, ... Bridge: `M:` Recitative: `C:`
 - Chords inline before syllables: `(G)`, `(Am7)`, `(C"m)` (sharp = `"`, flat = `b`)
 - Continuation lines: indented with spaces, or prefixed with `+`
@@ -156,8 +156,6 @@ that don't fit properly.
 
 - Capo as a header field (currently written as free text in the song).
 - Time signature (takt) as a header field.
-- Zbožnej: add mass-part labels to the header (which song goes with
-which part of the liturgy).
 - Triple-dot semantics: currently `...` means both "sing the obvious"
 and "fade out" -- consider differentiating these.
 - Most header fields (AC, Z, ZC) are underused -- reconsider whether

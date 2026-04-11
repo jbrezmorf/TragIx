@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007
+K:
                                 
 1: /: (D)Sotva se (A7)narodíš, (D)už ti koně (A7)kovou, :/
    /: (G)šavli ti (D)chystají (A)ocelo(D)vou, :/

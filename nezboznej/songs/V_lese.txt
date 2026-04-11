@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (F)Dneska všichni (C)říkají a (G)všude píše (Am)se,
    že prej je (F)moderní a (C)zdravý jen tak (G)chodit po (Am)lese.

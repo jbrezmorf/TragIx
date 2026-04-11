@@ -4,6 +4,7 @@ AC: JF, PS
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (C)Řekni, kde ty (Am)kytky jsou, (F)co se s nima (G)mohlo stát,
    (C)řekni, kde ty (Am)kytky jsou, (Dm)kde mohou (G)být,

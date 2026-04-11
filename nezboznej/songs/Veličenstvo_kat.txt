@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: V (Dm)ponurém osvětlení (C)gotického (Dm)sálu
    (F)kupčíci vyděšení (Gm)hledí do (A)misálů

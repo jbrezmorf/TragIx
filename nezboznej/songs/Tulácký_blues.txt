@@ -4,6 +4,7 @@ AC: PC
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Toulat se (G)sám tou (C7)rosou čerstvejch (G)rán,
    zpívat si (C7)blues, jít s hejnem černejch (G)vran,

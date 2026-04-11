@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 R: /: (D)Já mám kocábku náram, (A7)náram, (D)náram, kocábku náram, (A7)nára(D)mnou. :/
 

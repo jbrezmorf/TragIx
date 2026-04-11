@@ -4,6 +4,7 @@ AC: JN
 Z:
 ZC:
 E: 2025
+K:
 
 1: (Am)Když mě brali za vo(C)jáka, (G)stříhali mě doho(C)la,
    (Dm)vypadal jsem jako (Am)blbec,

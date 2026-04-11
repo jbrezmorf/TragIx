@@ -4,6 +4,7 @@ AC: SS
 Z: 
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (A)Měla vlasy samou loknu, (E)jé, jeje, 
 (E7)ráno přistoupila k oknu, (E7)jé, (A)jeje,

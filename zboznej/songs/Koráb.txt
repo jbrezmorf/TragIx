@@ -4,6 +4,7 @@ AC:
 Z: Hosana 
 ZC: 106
 E: 2012, 2026
+K:
 
 1:  /:(G7)Liják buší na bezradnou zem,
            +(C7)už to trvá kolikatej den, 

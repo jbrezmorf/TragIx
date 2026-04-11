@@ -4,6 +4,7 @@ AC:
 Z: Já, písnička 2 (1999)
 ZC:
 E: 2007, 2012, 2025
+K:
 
 (C)Lidi na li(Am)di jsou jako (F)saně, (G) (C)člověk na člo(Am)věka jako (F)kat. (G7) 
 (C)Podívejte (A)se na ně, (Dm)musíte (G7)naří(C)kat. (H7)

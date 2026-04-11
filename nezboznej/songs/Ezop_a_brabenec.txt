@@ -4,6 +4,7 @@ AC:
 Z: Já, písnička 2 (1999)
 ZC:
 E: 2007, 2012, 2025
+K:
 
 M: (C)Jednou (Em)z lesa (Am)domů se (Am7)nesa (F)mou(G7)drý (C)Ezop,
 (C)potkal (Em)brabce, (Am)který bra(Am7)bence (F)má(G7)lem (A7)sezob.

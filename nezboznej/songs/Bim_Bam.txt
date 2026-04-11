@@ -4,6 +4,7 @@ AC:
 Z: Spirituál Kvintet 1 (1992)
 ZC: 
 E: 2007
+K:
 
 1: (D)Hvězda zářila a (A)vzduch se chvěl,
    hvězda zářila a (D)vzduch se chvěl,

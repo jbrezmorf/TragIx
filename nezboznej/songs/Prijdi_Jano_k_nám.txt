@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012
+K:
 /:(D)Prijdi (A)Jano (D)k nám, carara juchajda, (G)ale nechoď (D)sám,:/
 /:(A)vem si (A7)sebú, (D)vem si sebú (Hm)kamarády (D)ces ze(A)lený (D)háj.:/
 

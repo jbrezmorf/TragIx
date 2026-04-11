@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007
+K:
                                
 1: (Em)Nahoře na věži, nahoře houpá se (C)zvon, 
    a na něm (D)stál, právě (Em)on. 

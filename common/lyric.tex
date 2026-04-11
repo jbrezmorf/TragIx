@@ -46,6 +46,10 @@
 
 \font\AuthorFont="Latin Modern Roman Slanted" at 11pt
 % \font\AuthorFont="TeX Gyre Schola Italic" at 11pt
+\font\CategoryFont="Latin Modern Roman Slanted" at 9pt
+
+\newif\ifshowsourceref
+\newif\ifshowcategory
 
 \font\TextFont="Latin Modern Roman" at 10pt
 \font\TextFontSlanted="Latin Modern Roman Slanted" at 10pt
@@ -103,15 +107,20 @@
 %% TEXT TYPESETTING
 %%%%%%%%%%%%%%%%%%%%%%
 %% how to make song header from parametres:
-%% name,author,author code,source, source code
-\def\MakeSongHeader#1#2#3#4#5{{%
+%% #1=name, #2=author, #3=author code, #4=source, #5=source code, #6=category
+\def\MakeSongHeader#1#2#3#4#5#6{{%
   \global\advance\songnum by 1%
   \noindent\songanchor\SongNameFont\unspace#1% song name
+  \ifshowsourceref\if:#5:\else\ (\unspace#5)\fi\fi% source ref
   \write\TOCfile{\string\tocline{#1}{\the\pageno}}% write to toc file
   \if:#2:\else% author
   \hfill\bgroup\hskip.3em{\AuthorFont(\unspace#2\/)}\hskip.3em\egroup
   \fi\par%
   \penalty 10000%
+  \ifshowcategory\if:#6:\else% category subtitle
+  {\noindent\hskip1em{\CategoryFont\unspace#6}\par}%
+  \penalty 10000%
+  \fi\fi%
 }}
 %% how to begin special paragraphs
 %% every paragraph in the song environment is started by
@@ -329,14 +338,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\setlyricoutput{%
   \PageLayout
-  \ifpreservelayout
-    % Reserve space matching old page numbers to keep songs on the same pages
-    \pagenum=99
-    \setbox0=\MakePageNum
-    \pagenum=0
-    \message{\the\vsize,\the\ht0}
-    \advance\vsize by -\ht0
-  \fi
+  % Always shrink vsize so content doesn't overlap the absolutely-positioned
+  % page numbers.  (\preservelayout only controls the invisible placeholders
+  % that keep songs on the same pages as an already-printed edition.)
+  \pagenum=99
+  \setbox0=\MakePageNum
+  \pagenum=0
+  \message{\the\vsize,\the\ht0}
+  \advance\vsize by -\ht0
   \vsize=2\vsize% vzdy formatuju 2 strany najednou
   \message{\the\vsize}
   \output={\lyricoutput}}
@@ -469,10 +478,11 @@
   
 %% header
 {\catcode`\(=13\catcode`\^^M=13
-% getheader - reads 6 header fields, call formating macro,
+% getheader - reads 7 header fields, calls formatting macro.
 % #6 (E:) is edition metadata consumed but not typeset.
-\gdef\getheader N:#1^^MA:#2^^MAC:#3^^MZ:#4^^MZC:#5^^ME:#6^^M{%
-   \MakeSongHeader{#1}{#2}{#3}{#4}{#5}%
+% #7 (K:) is passed through for conditional display.
+\gdef\getheader N:#1^^MA:#2^^MAC:#3^^MZ:#4^^MZC:#5^^ME:#6^^MK:#7^^M{%
+   \MakeSongHeader{#1}{#2}{#3}{#4}{#5}{#7}%
    \beginsong}%
 % beginsong - setup environment
 \gdef\beginsong{%

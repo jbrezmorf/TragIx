@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007
+K:
 
 (G)Da (Em)ra da ra(C) da ra(D) da (G)rau(Em C D)
 Da ra da ra da ra da rau

@@ -4,6 +4,7 @@ AC:
 Z: Jump 16
 ZC: 
 E: 2012, 2026
+K:
 
 (E)Ty jsi jediný Bůh. (F"m)První a poslední, 
 (A)nikdy nebyl a nebude více (E)nikdo jako jsi Ty.

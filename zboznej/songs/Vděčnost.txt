@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:Z278 
 E: 2007, 2012, 2026
+K:
  
 1:        (F)Protože mě máš tak (Dm)rád, jak jen ty (Gm)můžeš mít, (C7) 
         (F)protože's mi svou chtěl (Dm)dát nesmírnost (B)zaku(C7)sit. 

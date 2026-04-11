@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 R1: (G)Rád chodím (D)na poštu, (C)nejsem tam jen (G)do počtu,
     (C)jsem tam důle(G)žitý člen, (Am)fronty která tr(D)čí ven.

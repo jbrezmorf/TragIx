@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Tam, (Am)kde leží Little Big Horn, je indiánská zem,
    tam přijíždí generál Custer (Dm)se svým praporem,

@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007
+K:
                                                   
 M: Jen (D)žhavý písek, žhavá poušť a (G)žhavý vzduch tam (D)byl,
    pod žhavým sluncem chudý lid a (G)řeka jménem (D)Nil,

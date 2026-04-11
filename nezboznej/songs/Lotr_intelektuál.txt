@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (Am)Dáme klukovi ško(Em)ly, (F)ať to stojí coko(C)li,
    (G)nešetříme na chlap(C)ci, (F)táto, (C)šáhni (G)do kap(C)sy.

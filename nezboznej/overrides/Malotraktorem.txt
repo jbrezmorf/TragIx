@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2025
+K:
 
 1: (C)Cestou necestou, polem nepolem, 
 (F)jedu za tebou (Fm) velkým malotrakto(C)rem. 

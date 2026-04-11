@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (C)Z pekárny světa kraj za (F)láskou (G)svou, (C)nejednu (F)překonal jsem (Am)vůli (G)zlou 
    (Dm)a moje (G)princezna, (Em)ta jistě (Am) rozezná, (F)že ji mám (G) vážně (C)rád. 

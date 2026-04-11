@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Ten (C)den, co vítr (D)listí z města (G)svál, 
 +   můj (C)džíp se vracel, (D)jako by se (Em)bál,

@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: Jako (G)suchej, starej strom,
 +  jako vše(Cmaj)ničící hrom, jak v poli trá(G)va (Cmaj) (G)

@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012
+K:
 
 1: (C)V lesích Onta(Am)ria, kde(F)čerstvá smůla (C)voní.
 +   (C)Tam, kde paže (A7)dřvorubců (Dm)vládnou (G)jen,

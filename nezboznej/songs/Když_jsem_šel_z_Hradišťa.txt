@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007
+K:
 
 1: (C)Když jsem šel z (Dm)Hradišťa z (G)požehná(C)ní, (C)potkal jsem (Dm)děvčicu (G)znenadá(C)ní.
    (G)Potka(C)la mě, (Dm)pozna(C)la (G)mě, (C)červené (Dm)jablúčko (G)dávala (C)mně. 

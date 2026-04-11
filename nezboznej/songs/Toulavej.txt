@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: Někdo z (Am)vás, kdo chutnal dál(G)ku jeden, z tě(Am)ch, co ro(E7)zuměj
    ať vám(Am) poví, proč mně ří(G)kaj, proč mně ří(F)kaj Toul(Am)avej.

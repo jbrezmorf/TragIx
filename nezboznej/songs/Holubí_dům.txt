@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)Zpí(G)vám (Fmaj)ptákům a (Em7)zvlášť holu(Am)bům, (Am)stá(G)val (Fmaj)v údolí (Em7)mém starý (Am)dům.
    (C)Ptá(G)ků (C)houf zalé(G)tal ke kro(C)vům, (Am)měl (G)jsem (Fmaj)rád holu(Em7)bích křídel (Am)šum.

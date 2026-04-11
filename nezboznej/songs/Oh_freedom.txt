@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012
+K:
 
 1: (F)Oh Freedom (C)oh Fr(F)eedom(B), (C)
 +   (F)oh Free(Dm)dom over (G7)me, (C)

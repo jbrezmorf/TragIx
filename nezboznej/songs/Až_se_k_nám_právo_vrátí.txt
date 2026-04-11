@@ -4,6 +4,7 @@ AC: SK
 Z: 
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Chci (Dm)sluncem být a ne planetou, (A7)až se k nám právo (Dm)vrátí,
    chci setřást bázeň staletou, (A7)až se k nám právo (Dm)vrátí.

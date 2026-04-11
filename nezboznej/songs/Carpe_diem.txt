@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)Nadešel asi (Dm7)poslední den, podí(G)vej, celá planeta (Em)blázní,
    a já (Am)neuroním ani (Dm7)slzu pro ni, jenom (G)zamknu dům,

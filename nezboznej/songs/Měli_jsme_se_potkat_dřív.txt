@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (Am)Nejsme láska z románů první a (Dm)krásná,
    (E)ta co ráda šlape v loužích a chodí k ránu (Am)spát.

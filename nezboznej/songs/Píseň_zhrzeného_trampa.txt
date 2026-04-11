@@ -4,6 +4,7 @@ AC: JN
 Z: Písně Jaromíra Nohavici
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Po(C)něvadž nemám (G)kanady a (F)neznám písně (C)z pamp,
    (F)hóhó(C)hó, a (G7)neznám písně (C)z pam(G7)p,

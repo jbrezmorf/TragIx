@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2012, 2025
+K:
 
 1: (C)Vnikl mi (Am)do bytu (G)orangutan, (C)ukrad mi (Am)vařič na (G)propanbutan.
 (Gm6)Čeho se (Gdim)člověk dnes (Dm)nedožije(Fm), (Cmaj)v ZOO je (Fmaj)od rána (Cmaj)amnestie.(Fmaj) 

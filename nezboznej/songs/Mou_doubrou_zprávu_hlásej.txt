@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007
+K:
                                                
 R: (D)Mou dobrou zprávu hlásej, (A)vrátil se den, kdy (D)písně zní,
    mou dobrou zprávu hlásej, (G)ví(D)tej čas (A)váno(D)ční.

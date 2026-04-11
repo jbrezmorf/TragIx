@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (D)Stály báby u vesnice, (A)divily se (D)převe(D7)lice.
 /: (G)Hej, hola, (D)hola, holala, (A7)že mám holá (D)kole(D7)na, cha, cha, cha. :/

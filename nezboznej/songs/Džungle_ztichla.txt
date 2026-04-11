@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (C)Džungle ztichla, (F)večer nas(C)tal, (Am)ke spánku se (G)všechno kla(C)de,
     (C)jen v táboře (F)smečky vl(C)ků, (Am)na stráži je (G)vlče mla(C)dé.

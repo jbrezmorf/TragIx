@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (Am)Potkali se v pondělí, v (Em)pondě(Am)lí,
 +  (Am)byli velmi nesmělí, (G)nesmě(E7)lí.

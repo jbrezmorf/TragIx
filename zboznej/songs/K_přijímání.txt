@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:Z409 
 E: 2007, 2012, 2026
+K:
                                                          
 1:        (E2)Já rád tě (A7+)mám, (E2)můžu ti říct zase (A7+)do očí, 
         (E2)můj Bůh a (A7+)Pán. (E2)Ty jsi má síla, když zlo (A7+)útočí, 

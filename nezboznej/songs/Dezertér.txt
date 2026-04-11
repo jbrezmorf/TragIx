@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007
+K:
                    
 1: (C)Zdál se mi (Dm)má milá (C)jed(G7)nou (C)sen,
    (G)zdál se mi (Am)má milá (G)jed(D7)nou (G)sen.

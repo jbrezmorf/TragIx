@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2025
+K:
 
 1: Přicházíš  z (G)hor ze Země (G/F")sněhů,
 slunce co (G/F)pálí do (E)mraků,

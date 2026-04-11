@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (D)Kolik je na světě (Hm)očí, (D)kolik je na světě (Em)snů,
    (Em)kolik se koleček t(F"m)očí, (G)kolik je nocí a d(A)nů.

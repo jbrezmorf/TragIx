@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)Polní cestou kráčeli šu(G)maři do vísky hrát,
    (Am)svatby, pohřby tahle cesta poz(G)nala mnohokrát,

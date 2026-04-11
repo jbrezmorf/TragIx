@@ -4,6 +4,7 @@ AC: ND, GC
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Kolik je (C)smutného, když (F)mraky černé (C)jdou
    lidem nad hla(G7)vou, (F)smutnou dála(C)vou,

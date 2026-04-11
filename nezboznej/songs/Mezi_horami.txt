@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2012, 2025
+K:
 
 1: /: (Am)Mezi (G) hora(Am)mi (Am)lipka(G) zele(Am)ná, :/
 /: (C)zabili Janka, (G)Janíčka, (Am)Janka miesto (G)jele(Am)ňa. :/

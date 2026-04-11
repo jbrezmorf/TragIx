@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2012, 2025
+K:
 
 R: (Hm)Ráda se miluje, (A)ráda (D)jí, (G)ráda si (F"m)jenom tak (Hm)zpívá,
 vrabci se na plotě (A)hádají(D), ko(G)lik že čas(F"m)u jí (Hm)zbývá.

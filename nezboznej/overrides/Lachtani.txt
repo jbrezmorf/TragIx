@@ -4,6 +4,7 @@ AC:
 Z: Písně Jaromíra Nohavici
 ZC:
 E: 2025
+K:
 
 1: (C)Jedna lachtaní (F)rodi(C)na, 
    (Am)rozhodla se že si vyjde (G)do ki(C)na,

@@ -4,6 +4,7 @@ AC: KK
 Z: Já, písnička 2, 1994
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Em)Bratříčku, nevzlykej, to nejsou (G)bubáci, 
   (D)vždyť už jsi velikej, to jsou jen (H)vojáci,

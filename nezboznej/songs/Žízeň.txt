@@ -4,6 +4,7 @@ AC: SK
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Když (C)kapky deště buší na (F)rozpá(Am)le(G)nou  (C)zem,
    já toužím celou duší dát (F)živou vodu (C)všem.

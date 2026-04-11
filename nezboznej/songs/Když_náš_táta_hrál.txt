@@ -4,6 +4,7 @@ AC: GH, JC
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Když (D)jsem byl chlapec malej, tak metr nad zemí,
    (G)scházeli se farmáři tam (D)u nás v přízemí,

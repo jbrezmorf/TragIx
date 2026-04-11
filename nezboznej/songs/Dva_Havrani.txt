@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (Dm)Když jsem se z pole (C)vrace(Dm)la, dva havrany jsem (C)sly(Dm)šela, 
    jak jeden d(F)ruhého se (C)ptá: /: \uv{(Dm)kdo dneska veče(C)ři nám (Dm)dá?} :/ 

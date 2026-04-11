@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:50
 E: 2007, 2012, 2026
+K:
 
                                                                                                      
 R:  (G)Divné to (C)věci dnes (G)dějou se v údolí, (D7)dějou se v údolí, (G)dějou se v údolí.

@@ -4,6 +4,7 @@ AC: JN
 Z: Jaromír Nohavica koncert
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Býval jsem (D)chudý jak (G)kostelní (D)myš,
    na půdě (F"m)půdy jsem (Hm)míval svou (A)skrýš,

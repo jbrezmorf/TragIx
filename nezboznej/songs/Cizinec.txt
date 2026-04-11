@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007
+K:
 
 1: (Am)Na kraji pouště slun(Dm)cem spále(Am)ný   (Dm)stojí na(Am)še malý mě(E)sto dřevě(Am)ný,
    jednoho dne, právě čas (Dm)oběda (Am)byl,   se (Dm)na kraji (Am)města jez(E)dec obje(Am)vil.

@@ -4,6 +4,7 @@ AC:
 Z: Hosana 
 ZC:255
 E: 2012, 2026
+K:
 
 1: (A6)Tvé jsme (E)my, (A6)nás shromáž(F"m7)dila v jedno (E)láska (E7+) tvá,(F"m7)(H7) 
    (A6)náš hlas (E)zní, (A6)rodina tvých dě(F"m)tí zpívá (E)Králi (E7+) náš.

@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: Od z(C)rození až po věčnost, (Em)odvíjí se skutečnost, 
 že (F)nikdo nezná směr, kterým má (C)jít. 

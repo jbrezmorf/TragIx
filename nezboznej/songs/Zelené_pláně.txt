@@ -4,6 +4,7 @@ AC: SK, TG, RD, FM
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)Tam, kde zem (Dm)duní (Am)kopyty (E)stád,
    (Am)znám plno (Dm)vůní, co (C)dejchám je tak (G)rád,

@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:24
 E: 2007, 2012, 2026
+K:
                                                                                                      
 R:        /: (Am)Boží láska (E)je jako (Am)slun(E)ce, 
 +ta je (Am)vždycky všude (E)přítom(Am)ná.  (E)  :/

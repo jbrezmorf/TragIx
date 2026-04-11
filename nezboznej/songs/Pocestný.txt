@@ -4,6 +4,7 @@ AC: SK
 Z:Spirituál kvintet
 ZC:
 E: 2007
+K:
 
 1: (A)Je to chůze po tom svě(A7)tě, (D)kam se noha (A)šine,
    /: (E)sotva přej(C"7)deš (F"7m)jedny ho(D)ry, (A/E)hned se naj(E)dou (A)jiné. :/

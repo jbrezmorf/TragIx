@@ -4,6 +4,7 @@ AC:
 Z: Hosana
 ZC: Z 169
 E: 2007, 2012, 2026
+K:
 
 
 R: /: (Em)Otče náš (C)nebeský, (D)posvěť se jméno (Em)tvé, 

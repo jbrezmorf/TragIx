@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2012, 2025
+K:
 
 1: Mám (Dm)kufr plnej přebytečnejch (A)krámů 
 +  a mapu zabalenou do plátn(Dm)a. 

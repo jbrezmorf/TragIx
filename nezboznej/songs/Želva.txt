@@ -4,6 +4,7 @@ AC: OL
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (D)Ne moc (G)snadno se (D)želva (G)po dně (D)honí, (G) (D) (G)
    (D)velmi (G)radno je (D)plavat (G)na dno za (D)ní. (G) (D) (G)

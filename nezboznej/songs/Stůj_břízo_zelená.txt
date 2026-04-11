@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC: 
 E: 2007
+K:
 
 1: (D)Stůj, břízo (A7)zelená; (D)pod městečkem 
 (Hm)vojna silná, (C)stůj břízo (D)zelená.

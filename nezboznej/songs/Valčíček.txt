@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 R: Tuhle (D)písničku chtěl bych ti (A7)lásko dát, 
    ať ti každej den připomí(D)ná,

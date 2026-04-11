@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Chodím po (D)Brodwayi hladov sem a tam 
    (D)chodím po Brodwayi hladov sem a (A7)tam, 

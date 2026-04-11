@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007
+K:
 [Amaj7C"mi7]1. Kde jsou ty písně mý, kde jsou,
 že tady nejso[C"dimi]u?
 [Hmi7]Bylo jich málo a tak:

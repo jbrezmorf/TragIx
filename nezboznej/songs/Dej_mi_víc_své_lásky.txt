@@ -4,6 +4,7 @@ AC: OL
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)Vymyslel jsem spoustu nápadů, a(C)ů, co (Am)podporujou hloupou nála(G)du, a(E7)ů,
    (Am)hodit klíče do kanálu, (D)sjet po zadku (Dm)holou skálu,

@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:Z115 
 E: 2007, 2012, 2026
+K:
                                                                                                                                         
 R:  /: Lajlaj (Gm)důdap tabidy (C)bam lajlaj(F)dů laj(Dm)dý.
 +Lajlaj (Gm)důdap tabidy (C)bam lajlaj(B)dý. (F) :/ 

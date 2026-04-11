@@ -4,6 +4,7 @@ AC:
 Z: P.J.N. od A do Ž
 ZC:
 E: 2012, 2025
+K:
 
 1: (C)Den už se zešeřil, (Am)už jste si dost užili,
 tak (Dm)hajdy do peřin a (G7)ne abyste tam moc řádili.

@@ -4,6 +4,7 @@ AC:
 Z: Hosana
 ZC: Z 267
 E: 2007, 2012, 2026
+K:
 
 
 (D)Ježíši, (A)ty jsi chléb (Hmi)živý, (G)který (Hmi)sestoupil (A)na tuto zem, 

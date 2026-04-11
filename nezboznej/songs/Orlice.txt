@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (A)Orlice zas (E)šumí nad spla(F"m)vem,
 (D)odpusť mi (A)modlím se ať (E)všechno přesta(C"m)nem',

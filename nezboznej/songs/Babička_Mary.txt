@@ -4,6 +4,7 @@ AC:
 Z: Já, písnička 2 (1999)
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)Štěchovická laguna když dřímá v zadumaném stínu Kordylér,
    (Dm)pirát zkrva(Am)venou šerpu ždímá, (H7)šerif si láduje revol(E)ver.

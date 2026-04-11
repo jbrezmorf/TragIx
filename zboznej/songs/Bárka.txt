@@ -4,6 +4,7 @@ AC:
 Z: Hosana
 ZC: 19
 E: 2007, 2012, 2026
+K:
 
 
 1: (C)Pán (G7)zastavil se na (C)břehu, (C7)

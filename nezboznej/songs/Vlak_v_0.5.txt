@@ -4,6 +4,7 @@ AC: GH, TJA, JL
 Z:
 ZC:
 E: 2007, 2012
+K:
 
 1: (G)Já ti řeknu, proč jsem dneska divnej tak,
    když v dálce za tunelem začne (D)houkat vlak,

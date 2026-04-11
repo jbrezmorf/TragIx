@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2012, 2025
+K:
 
 1: Táhněte (C)do háje - všichni (Am)pryč,
 chtěl jsem jít (C)do ráje a nemám (Am)klíč. 

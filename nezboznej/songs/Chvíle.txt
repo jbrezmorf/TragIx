@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (Em)Mám rád ty chvíle, kdy noc už pomalu (Hm)končí,
    (Am)chvíle, co patřej' jen (Hm)těm, co neusí(Em)naj'.                                                               

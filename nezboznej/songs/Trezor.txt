@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (A)Ze zdi na mě tupě zírá p(D)o trezoru temná díra,
    (H7)poznám tedy bez nesnází, (E7)že tam nepochybně něco schází,

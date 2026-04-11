@@ -4,6 +4,7 @@ AC:
 Z: Já, písnička 2 (1999)
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Je(C)du vám takhle (C7)stezkou dát (F)koním k řece (C)pít,
    v tom potkám holku (Am)hezkou, až (D7)'sem vám z koně (G7)slít'.

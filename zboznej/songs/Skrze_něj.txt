@@ -4,6 +4,7 @@ AC:
 Z: Hosana
 ZC: 229
 E: 2007, 2012, 2026
+K:
 
 
 R: Skrze (D)něj, jenom (Hmi)s ním, jenom (Gmaj)v něm

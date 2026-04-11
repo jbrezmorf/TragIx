@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (D)Každý ráno když si (A)vzpomenu,
 (C)vzpomenu si (G)na to, jak měl jsem tě (D)rád

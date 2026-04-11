@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: Zuzana (Dm)byla dívka, (C)která žila v (Dm)Amesbury, 
 s jasnýma (F)očima a (C)řečmi pánům (Dm)navzdory, 

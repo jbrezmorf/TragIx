@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:42
 E: 2007, 2012, 2026
+K:
                                                                                    
 1:        (D)Den jak (A)den toužím (Hm)jít za (F")tebou, být (G)tvo(Em)jí, Pane (A4)můj(A7).
         (Hm)Žít s (F"m)tebou, tobě (G)dát duši (F")svou, být (G)tvo(Em)jí   (A7)Pane (D)můj.

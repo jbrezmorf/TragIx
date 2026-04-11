@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:261 
 E: 2007, 2012, 2026
+K:
  
 1:        (E)Jak úžas(C"m)ná   (A)musí ta (H7)láska být, (E)co přišla (C"m)k nám (A)o vše se (H7)rozdělit,  
         (E)dát novou (C"m)vláhu poušti (A)spále(H7)né, (E)přiblížit (C"m)(A)nám   nebe tak (H7)vzdále(E)né.(C"m)(F"m7)(H7) 

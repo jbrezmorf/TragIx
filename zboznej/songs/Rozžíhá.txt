@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:225 
 E: 2007, 2012, 2026
+K:
                                                                                         
 R:        Rozží(C G)há Maria (Dm)svíce v (Am)nás, temno(C G)tou s Marií (Dm)projdem (Am)snáz.               
         Rozží(F Dm)há Maria (C)svíce  v (G)nás, temno(C G)tou s Marií (F)projdem (C)snáz. 

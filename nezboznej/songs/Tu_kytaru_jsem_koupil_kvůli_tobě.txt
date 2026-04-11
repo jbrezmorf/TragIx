@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
    Jak (C)můžeš bejt tak krut(A7)á,
    (Dm)copak nemáš kouska citu v (G7)těle? (C)

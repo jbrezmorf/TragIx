@@ -4,6 +4,7 @@ AC: AG
 Z:Já písnička 3, 1995
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)A te Rehradice (G)na pěkný ro(C)vině,
 +   (D)teče tam vo(Em)děnka (Am)dolů po (D)dě(G)dině,

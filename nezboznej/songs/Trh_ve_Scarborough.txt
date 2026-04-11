@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)Příteli, máš do (G)Scarborough (Am)jít,
 +  (C)dobře (Am)vím, že (C)půj(D)deš tam (Am)rád,

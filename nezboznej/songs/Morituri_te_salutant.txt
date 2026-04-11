@@ -4,6 +4,7 @@ AC: KK
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Cesta je (Am)prach a (G)štěrk a (Dm)udusaná (Am)hlína,
    (C)a šedé (F)šmouhy (G7)kreslí do vla(C)sů

@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (A)Zapadání, zapadání, (D)sluníčka za kop(A)ce,
    (D)tomu žádný (A)nezabrání, (D)pámbů to (A)takto (E4)chce.

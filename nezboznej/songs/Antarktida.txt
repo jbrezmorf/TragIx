@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 R: (D)Na Antarktidě (Em)tajou ledy, (A)dneska možná, (D)naposledy.
    (D)Zítra už tam (Em)asi všude, (A7)místo ledu voda bu(D)de.

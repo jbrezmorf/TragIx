@@ -4,6 +4,7 @@ AC:
 Z: Spirituál kvintet 1 (1992)
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)Tři bratři žili kdys v zemi skotské, 
    v domě zchudlém jim (D)souzeno (Am)žít, (E)

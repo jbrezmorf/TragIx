@@ -4,6 +4,7 @@ AC:
 Z: Já písnička 1, 1993
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (D)Spinkej můj maličký, (C)máš v očích (D)hvězdičky,
    dám ti je (C)do vlasů, tak (G)usínej, tak (D)usínej.

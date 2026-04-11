@@ -28,6 +28,7 @@ Every song starts with these lines (order matters):
   Z: Source Songbook, Year
   ZC: source-code
   E: 2025         (or: E: 2007, 2012, 2025  for multiple editions)
+  K: vstup        (or: K: vstup, přijímání  for multiple categories)
 
 Only N: (name) is required.  Other fields may be left empty but the
 line should still be present (e.g. "AC:" with nothing after it).
@@ -37,6 +38,14 @@ The E: field lists which printed editions include this song (comma-
 separated years).  The build script filters songs by this field.
 A song with an empty or missing E: field will not appear in any
 edition build -- useful for drafts or retired songs.
+
+The K: field specifies liturgy categories for the song (comma-
+separated, e.g. "vstup, obětování").  Used by Zbožnej to indicate
+which parts of the Catholic liturgy the song is appropriate for.
+Left empty for songs without a specific liturgy assignment.
+Display of the K: field in the PDF is controlled per variant via
+\showcategorytrue/false in head.tex. Could be used for other
+"Category" differentiation in other variants.
 
 The active edition years are defined in current_editions.txt at the
 repo root.  Both the CI workflow and `python build_songbook.py --all`

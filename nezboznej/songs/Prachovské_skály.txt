@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (Am)Zavři svoje oči, Hano, rozvázalo se ti la(A7)no,
 (Dm)padej trochu dopra(H7)va, pod námi jde výprava, (E7)buch!

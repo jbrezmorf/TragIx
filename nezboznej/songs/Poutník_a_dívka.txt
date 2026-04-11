@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007
+K:
 
 1: (G)Kráčel krajem poutník, šel sám, / (C)kráčel krajem poutník, šel (G)sám,
    (G)kráčel krajem poutník, kráčel (H)sám, (Em)/  tu potkal (A)dívku, nesla (A7)džbán, přistoupil (E4)k ní (D7)

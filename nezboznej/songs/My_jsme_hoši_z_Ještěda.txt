@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (C)My jsme (G)hoši z Ještě(C)da, (F)nás zná (C)každá dědi(G)na,
 /: (C)kam my zaví(F)táme, (G)tam se dobře (C)máme,

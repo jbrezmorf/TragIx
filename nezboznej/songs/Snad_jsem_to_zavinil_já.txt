@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (Am)Zas jsi tak (C)smutná, kdo se (D)má na to (Dm)koukat,
    nic (Am)jíst ti ne(C)chutná, v hlavě (D)máš asi (Dm)brouka.

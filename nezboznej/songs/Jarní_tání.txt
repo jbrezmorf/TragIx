@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: Když první (Hm)tání (Em)cestu sně(D)hu zkříží (G)
 +   a nad le(Em)dem se (F")voda obje(Hm)ví,

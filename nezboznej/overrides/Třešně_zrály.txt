@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (C)Jó, třešně zrály, (G)zrovna třešně (C)zrály,
    sladký (E7)třešně z(Am)rály a v(F)lahej (G7)vítr (C)vál(G),

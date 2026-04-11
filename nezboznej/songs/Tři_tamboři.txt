@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC: 
 E: 2007
+K:
 {\sl !! Frd ma ratata bum, az nakonec?? Vysazej se spravne dva akordy nad
         slabikou \uv{do}??}
 

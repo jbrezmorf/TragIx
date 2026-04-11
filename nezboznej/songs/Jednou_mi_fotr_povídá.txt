@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (D)Jednou mi fotr povídá
 +  (G)zůstali jsme už sami dva,

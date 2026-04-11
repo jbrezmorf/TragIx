@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 R1: On (D)toužil, kroužil, (G)bylo to tak.
     Tu (Hm)holubici pouštím (A)do oblak.

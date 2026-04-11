@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (C)Kdyby žila v době barok(Am)ní, (F)jezdíval bych každé jaro k (G)ní,
    (Em) napudrován a s bílou (F)parukou, (G)nosil bych po parku ji (C)na rukou.

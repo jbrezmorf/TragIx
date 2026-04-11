@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 R: /: (A)Pijte vodu, pijte pitnou vodu, pijte vodu (E)a ne(A)pijte rum! :/   
 

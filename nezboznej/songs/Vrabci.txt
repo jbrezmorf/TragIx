@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC: 
 E: 2012
+K:
 
 1: (Dm)v lískovém (Am)keři (Dm)bez o(Am)říšků 
 (Dm)sedí tři (Am)vrabci (Am)bříško k (Dm)bříšku

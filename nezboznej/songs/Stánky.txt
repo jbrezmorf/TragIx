@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (A)U stánků (D)na levnou krásu, 
 (A)postávaj a (Dm)smějou se času,

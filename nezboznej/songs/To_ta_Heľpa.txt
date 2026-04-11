@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)To ta (D)Heľpa, (Am)to ta (D)Heľpa, (Am)to je (E7)pekné (Am)mesto,
    (Am)a v tej (D)Heľpe, (Am)a v tej (D)Heľpe (Am)švarných (E7)chlapcov (Am)je sto.

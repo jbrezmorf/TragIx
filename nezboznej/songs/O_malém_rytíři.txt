@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 R: (Am)Jede jede rytíř, (C)jede do kraje,
    (G)nové dobrodružství (Am)v dálce hledaje.

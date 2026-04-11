@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (C)Čtyry (G)bytelný (Am)kola (F)má náš (Em)proklatej (G)vůz,
    tak (C)ještě (F)pár (C)dlouhejch (G)mil (C)zbejvá (F)nám, (C)tam je (G)cíl.

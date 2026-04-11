@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2026
+K:
 
         Všichni (Em)jako ov(D)ce jsme ((C7+))zabloudili a (Em)na svou ce(D)stu se ((C7+))odvrátili. 
         A (Em)Hospodin (D)uvalil na (Em)něj, nepra(C)vosti nás (H7)všech. 

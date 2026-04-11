@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012, 2026
+K:
                                                             
 1:  (D)Už mě prostě (G)nebaví (D)člověkem z (A)města (D)být, 
     (D)v týhle kleci z (G)betonu (D)jako všichni (A)lidé (D)žít, 

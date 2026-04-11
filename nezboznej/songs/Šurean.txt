@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2025
+K:
 
 1: (Am)Velký hory na vobzoru, (G)když se (C)objeví
 +  a slunce (Am)za(G)pa(Am)dá za hradbu (C)mra(G)ků,

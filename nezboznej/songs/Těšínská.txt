@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007, 2012
+K:
 
 1: (Am)Kdybych se narodil (Dm)před sto lety (F) (E) v tomhle (Am)městě, (Dm) (F) (E) (Am)
    u Larischů na zahradě (Dm)trhal bych květy (F) (E)své ne(Am)věstě, (Dm) (F)   (E) (Am)

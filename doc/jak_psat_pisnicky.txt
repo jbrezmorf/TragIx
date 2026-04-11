@@ -42,6 +42,7 @@ Každá písnička začíná hlavičkou:
   Z: Já písnička 2, 1990
   ZC:
   E: 2025
+  K:
 
   N: = název písničky
   A: = autor (víc autorů odděl čárkou)
@@ -49,11 +50,17 @@ Každá písnička začíná hlavičkou:
   Z: = zdroj / zpěvník odkud text máš
   ZC: = kód zdroje (pokud nevíš, nech prázdné)
   E: = edice, do kterých písnička patří (rok/y, oddělené čárkou)
+  K: = kategorie liturgie (pro Zbožnej, oddělené čárkou; jinak prázdné)
 
 Pole E: říká, ve kterých ročnících zpěvníku se má písnička objevit.
 Pokud přidáváš novou písničku, napiš tam rok aktuální edice (viz
 soubor current_editions.txt v kořeni repozitáře). Pokud chceš, aby
 byla ve víc edicích: "E: 2007, 2012, 2025".
+
+Pole K: je pro Zbožnej zpěvník -- udává, pro jakou část mše je
+písnička vhodná (např. "K: vstup, přijímání"). U Nezbožnej nech
+prázdné.
+
 Díky tomu stačí přidat/upravit JEDEN soubor a písnička se automaticky
 zařadí do zpěvníku -- žádné další kroky nejsou potřeba!
 

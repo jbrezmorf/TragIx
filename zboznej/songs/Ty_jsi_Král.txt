@@ -4,6 +4,7 @@ AC:
 Z: Jump 92
 ZC: 
 E: 2012, 2026
+K:
 
 (E)Ty jsi Král. (H)Ty jsi Krá - (C"m)l, naš Král Je(A)žíš.
 

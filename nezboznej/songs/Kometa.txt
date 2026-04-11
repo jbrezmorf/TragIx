@@ -4,6 +4,7 @@ AC: JN
 Z: Jaromír Nohavica koncert
 ZC:
 E: 2007, 2012, 2025
+K:
 
 1: (Am)Spatřil jsem kometu, oblohou letěla, chtěl jsem jí zazpívat, ona mi zmizela,
    (Dm)zmizela jako laň (G)u lesa v remízku,

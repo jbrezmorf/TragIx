@@ -4,6 +4,7 @@ AC:
 Z: Jump 26
 ZC: 
 E: 2012, 2026
+K:
 
 /:(G)Dobrořeč duše m(C9)á Hospo(D)dinu, a celé (G)nitro mé jeho (C9)svatému jmé(D)nu.:/
 

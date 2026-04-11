@@ -4,6 +4,7 @@ AC:
 Z:
 ZC:
 E: 2007
+K:
                       
 1: (G)Jarmila vždycky mi (Hmi)radila,
    abych (D7)pracovní dobu dodr(G)žel,(D7)

@@ -4,6 +4,7 @@ AC:
 Z: 
 ZC:266 
 E: 2007, 2012, 2026
+K:
  
 1:        (D)Veď mé (A)kroky, (Hm)Pane, (G)ať vím, kudy (A)jít, 
         (D)věřím, (A)že se (Hm)stane, (G)co chceš (A)pro mě (D)mít. 
