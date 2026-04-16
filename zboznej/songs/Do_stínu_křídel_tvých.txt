@@ -4,7 +4,7 @@ AC:
 Z: Hosana
 ZC: 51
 E: 2007, 2012, 2026
-K:
+K: AR
 
 
 Do stínu (Hm)křídel (Hm7)tvých se ukrý(G6)vám, do lásky (Hm)tvé, (Gmaj7)do slitová(F"4)ní, 

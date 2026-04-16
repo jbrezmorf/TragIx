@@ -4,7 +4,7 @@ AC:
 Z: Jump
 ZC:
 E: 2012, 2026
-K:
+K: MR
 
 1: (E) K nám když jsi (H4) vstoupil, Tvá (F") zář ve tmě (A2) vzplála (E) tvůj čin mi dal (H4) zahlédnout (A2)
     krásu, co dává mi touhu tě chválit, v blízkosti Tvé navždy žít. 

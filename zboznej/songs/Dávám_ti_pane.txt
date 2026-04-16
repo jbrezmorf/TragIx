@@ -4,7 +4,7 @@ AC:
 Z:
 ZC:Z38
 E: 2007, 2012, 2026
-K:
+K: MD AR ZJ
 
 1:      (C)Dávám ti, (Am)Pane, všechny (F)touhy, co (G)mám.
 +        (C)Dávám a (Am)věřím, že (F)stačíš jen ty (G)sám.

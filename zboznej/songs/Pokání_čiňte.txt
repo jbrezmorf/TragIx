@@ -4,7 +4,7 @@ AC:
 Z: Hosana
 ZC: Z 197
 E: 2007, 2012, 2026
-K:
+K: MV MZ AD
 
 
 1: (Am)Pokání čiňte, (Dm)blízko je království, 

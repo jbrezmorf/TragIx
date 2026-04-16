@@ -4,7 +4,7 @@ AC:
 Z: Jump
 ZC:
 E: 2012, 2026
-K:
+K: MV MZ
 
    (G) Kde se křesťané, (D) spolu scházejí (G)
    (G) Ve jménu (Em) tvém, (Hmi7) v lásce, jednot(C)ní 

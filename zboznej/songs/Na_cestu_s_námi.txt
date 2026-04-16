@@ -4,7 +4,7 @@ AC:
 Z: 
 ZC:149 
 E: 2007, 2012, 2026
-K:
+K: MZ PR
 
 {\sl opakovací}
  

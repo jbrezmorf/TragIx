@@ -4,7 +4,7 @@ AC:
 Z: 
 ZC:223 
 E: 2007, 2012, 2026
-K:
+K: VA
  
 R:        (E)Rozdá(H)vejme lásku (C"m)svou, (A)ať pozná (H)svět, kdo žije v (E)nás.
           

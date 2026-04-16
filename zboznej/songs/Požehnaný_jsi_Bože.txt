@@ -4,7 +4,7 @@ AC:
 Z: Hosana 
 ZC:200
 E: 2012, 2026
-K:
+K: MP
 
 1: (C)Požehna(F)ný jsi, Bože (C)na vě(Am)ky,
 +(F)z tvé ru(C)ky všechno má(G)me.

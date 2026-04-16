@@ -4,7 +4,7 @@ AC:
 Z: Hosana 
 ZC:204
 E: 2012, 2026
-K:
+K: PU
 
 R: (Am)Proč (G)jen (F)mlčíš, Pa(E7)ne, 
    +(Am)když zloba (Dm)lidská život (E7)máří?

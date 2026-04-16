@@ -4,7 +4,7 @@ AC:
 Z: 
 ZC:421 
 E: 2012, 2026
-K:
+K: MZ
                                                                                          
 R:        Nám, (F)Pane, (Am)dal jsi (A7)Slovo (Dm)své, (B)Ducha svého (C7)dej nám (F)též.(C7) 
         Ať (F)tebe (Am)vždycky (A7)přijme(Dm)me, (B)Ducha svého (C7)dej nám (F)též.(B) (F) 

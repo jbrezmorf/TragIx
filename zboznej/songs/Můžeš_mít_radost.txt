@@ -4,7 +4,7 @@ AC:
 Z: 
 ZC:148 
 E: 2007, 2012, 2026
-K:
+K: ZJ
                                                                                                                    
 1:        /: Můžeš mít (E)radost ve svém (F"m)srdci, každou (E)hodinu (H7)a každý (E)den. :/ 
         (E)Radost, kterou (A)svět ne(E)může (C"m)dát. (E)Radost, kterou (H7)svět nemů(E)že (H7)vzít.      

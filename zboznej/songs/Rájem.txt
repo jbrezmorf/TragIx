@@ -4,7 +4,7 @@ AC:
 Z: 
 ZC:219 
 E: 2007, 2012, 2026
-K:
+K: MZ
                                                       
 R:        (G)Rájem jednou (C)chtěl (G)bych (D)jít, 
 +        chci se (Em)smát (D)a (C)být tam, kde je můj (G)Pán. 

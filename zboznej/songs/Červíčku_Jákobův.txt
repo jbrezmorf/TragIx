@@ -4,7 +4,7 @@ AC:
 Z: Hosana
 ZC: 34
 E: 2007, 2012, 2026
-K:
+K: ZJ
 
 
 1: (E)Ó, pane (H)můj, jsem (C"m)sláb, (C"m7)

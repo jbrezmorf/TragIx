@@ -114,6 +114,57 @@ def collect_songs(variant_dir, edition):
 # Build preparation
 # ---------------------------------------------------------------------------
 
+MASS_PART_NAMES = {
+    "MV": "Vstup",
+    "MU": "Úkon kajícnosti",
+    "ME": "Zpěv před evangeliem",
+    "MD": "Zpěv k přinášení darů",
+    "MP": "Zpěv k přijímání",
+    "MR": "Zpěv po přijímání",
+    "MZ": "Závěr",
+    "MO": "Mešní ordinarium",
+}
+
+VIBE_DISPLAY = {
+    "PU": "PŮ",
+    "ZJ": "ŽJ",
+    "VA": "VÁ",
+}
+
+
+def _format_categories(raw):
+    """Expand K: abbreviation codes into a display string.
+
+    Mass-part codes (M-prefix) are expanded to full Czech names and
+    placed first; other codes are kept as abbreviations (with proper
+    diacritics via VIBE_DISPLAY).  The two groups are separated by a
+    middle dot.
+    """
+    codes = raw.split()
+    if not codes:
+        return ""
+    mass = [MASS_PART_NAMES[c] for c in codes if c in MASS_PART_NAMES]
+    vibes = [VIBE_DISPLAY.get(c, c) for c in codes if c not in MASS_PART_NAMES]
+    parts = []
+    if mass:
+        parts.append(", ".join(mass))
+    if vibes:
+        parts.append(", ".join(vibes))
+    return " \u00b7 ".join(parts)
+
+
+def _expand_k_field(content):
+    """Replace the raw K: line in song content with the formatted version."""
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if line.startswith("K:"):
+            raw = line[2:].strip()
+            formatted = _format_categories(raw)
+            lines[i] = f"K: {formatted}" if formatted else "K:"
+            break
+    return "\n".join(lines)
+
+
 def prepare_build(songs, variant, build_dir, version_string=""):
     """Sort songs, write .sng files, songbook.tex, songlist.tex,
     version.tex, and a convenience songlist_titles.txt into the build dir."""
@@ -135,7 +186,7 @@ def prepare_build(songs, variant, build_dir, version_string=""):
             safe_title = re.sub(r"[^\w\-]", "_", title, flags=re.UNICODE)
             safe_title = re.sub(r"_+", "_", safe_title).strip("_")
             filename = f"{idx:03d}_{safe_title}.sng"
-            (songs_dir / filename).write_text(content, encoding="utf-8")
+            (songs_dir / filename).write_text(_expand_k_field(content), encoding="utf-8")
             src_file.write(content + "\n" + separator + "\n\n")
             titles_file.write(title + "\n")
 

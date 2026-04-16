@@ -4,7 +4,7 @@ AC:
 Z: 
 ZC:234 
 E: 2012, 2026
-K:
+K: MV MZ
  
         (G)Slunce (C)Kristovy (D)lásky ať (C)ozáří (G)nás, 
 +        (G)oheň (C)Svatého (D)Ducha ať (C)zapálí (D)nás. 

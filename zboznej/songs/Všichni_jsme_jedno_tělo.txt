@@ -4,7 +4,7 @@ AC:
 Z: Hosana
 ZC: Z 295
 E: 2007, 2012, 2026
-K:
+K: MV ME MD MP MR MZ
 
 
 R: (C)Všichni jsme jedno (F)tělo, spojil nás (C)Ježíš, 

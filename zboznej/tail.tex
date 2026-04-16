@@ -14,6 +14,48 @@
 \advance\vsize by -\BottomMargin%
 \advance\voffset by \TopMargin%
 \nopagenumbers%
+%
+% === Category abbreviation legend ===
+\topglue 0pt
+\font\LegendTitle="TeX Gyre Schola Bold" at 14pt
+\font\LegendSection="TeX Gyre Schola Bold" at 11pt
+\font\LegendBody="Latin Modern Roman" at 10pt
+\font\LegendCode="TeX Gyre Schola Bold" at 10pt
+\font\LegendDesc="Latin Modern Roman Slanted" at 10pt
+{\LegendTitle\noindent Zkratky kategorií písní\par}
+\vskip1em
+{\LegendSection\noindent Části mše\par}\vskip0.5em
+{\LegendBody\parindent=0pt
+\halign{\LegendCode #\hfil\quad&\LegendDesc #\hfil\cr
+MV&Vstup\cr
+MÚ&Úkon kajícnosti\cr
+ME&Zpěv před evangeliem\cr
+MD&Zpěv k přinášení darů\cr
+MP&Zpěv k přijímání\cr
+MR&Zpěv po přijímání\cr
+MZ&Závěr\cr
+MO&Mešní ordinarium\cr
+}}
+\vskip1.5em
+{\LegendSection\noindent Ostatní\par}\vskip0.5em
+{\LegendBody\parindent=0pt
+\halign{\LegendCode #\hfil\quad&\LegendDesc #\hfil\cr
+AD&Advent\cr
+VÁ&Vánoce\cr
+PŮ&Půst\cr
+VE&Velikonoce\cr
+DS&K Duchu svatému\cr
+ZZ&Za zemřelé\cr
+AR&Adorace\cr
+DK&Díky\cr
+PR&Prosby\cr
+ŽJ&Život s Ježíšem\cr
+OB&Obecně použitelné\cr
+D&Dětské\cr
+T&Tanec\cr
+}}
+\vfill\break
+%
 %\topglue 0pt%
 \noindent%
 \spacefactor=1000%

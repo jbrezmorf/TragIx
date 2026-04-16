@@ -4,7 +4,7 @@ AC:
 Z: 
 ZC:Z93
 E: 2012, 2026
-K:
+K: ME MZ AR ZJ
   
 R: /:Jen (Am)ty, Pane (G)můj, jen (Am)tys můj štít, má (F)sláva, ty mou (G)hlavu pozve(Am)dáš.:/
  

@@ -4,7 +4,7 @@ AC:
 Z: 
 ZC:272 
 E: 2007, 2012, 2026
-K:
+K: MV MZ
  
 1:        (A)Dlouho (D)již (E)hřích tvým lidem (A)zmítal, dlouho (D)již smrt přiná(E)šel, 
         (A)než tvůj (D)hlas nás do (E)království (A)vítal, (F"m)než nám (D)brány otev(E)řel, 
