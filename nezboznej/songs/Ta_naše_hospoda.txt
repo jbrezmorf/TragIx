@@ -1,0 +1,34 @@
+N: Ta naše hospoda
+A: Jaroslav Uhlíř, Zdeněk Svěrák
+AC:
+Z:
+ZC:
+E: 2025
+K:
+
+1: /: (C)Ta naše hospoda (F)odshora  odspoda, 
+   (C)to je (F)pěkné (C)zaříze(G)ní.
+   (C)Polívka hřeje se, (F)hostinský směje se, 
+   (C)že mu (F)pivo (G)dobře pě(C)ní. :/
+
+   (G)Ve sklepě jsou čtyři (C)sudy @[sudy@], 
+   (G)dva jsou lichý, dva jsou (C)sudý @[sudý@].
+   /: (C)Pivo stoupá (F)naho(C)ru, (F)do na(C)šeho (G)bacho(C)ru. :/
+
+2: /: Ach, táto, tatíčku máš doma matičku 
+   vlas, jak sláma, oči jak len.
+   Máš doma dětičky drobné, jak pětníčky 
+   vyjdi, táto, z hospody ven. :/
+  
+   Na peci jsou čtyři děti @[děti@], 
+   mohl bys jim vyprávěti @[třeba@],
+   /: o mládí a o vojně, potom usnou pokojně. :/
+
+3: /: Ta naše hospoda odshora odspoda, 
+   to je pěkné zařízení.
+   Polívka hřeje se, hostinský směje se, 
+   že mu pivo dobře pění. :/
+
+   Náš táta tu dneska není @[není@], 
+   to je, pane, překvapení @[není@].
+   /: Proč je doma já to vím - zásobil se lahvovým. :/

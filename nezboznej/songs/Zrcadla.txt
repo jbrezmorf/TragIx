@@ -1,0 +1,39 @@
+N: Zrcadla
+A: Marien
+AC:
+Z:
+ZC:
+E: 2025
+K:
+
+\sl{Capo 1}
+
+1: V (C)kalužích, po dešti umíně(Dm)ném, 
+   zrcadlí se nebe a (G)pouliční šeď 
+   (C)Utonulá v (Em)moři (F)anonymních tváří, 
+   (Am)s pocuchanou vírou, jak (D)Magdaléna Máří, 
+   (C)Špičkou boty lehounce ten (Dm)chmurný obraz (G)světa roztříští(C)m. (C7) 
+ 
+R: (C7)Kdo zkouší stavět (F)most mezi (G)černou a (C)bílou, 
+   mezi (C7)ošklivostí (F)slov a (G)krásou labu(C)tí. 
+   Kdo (C7)hledá souvis(F)lost mezi (G)důvěrou a (C)vírou,  
+   (Em)narodil se v prázdném stole(G)tí. 
+ 
+2: Do větru jdou slova plná přání, 
+   není vůbec snadné hledat stejnou řeč. 
+   S večerem, když člověk cítí osamělost, 
+   nemusí hned s lahví hrát si na dospělost,
+   spočítej si hvězdy a hned se najde cesta kudy kam. 
+ 
+R: Kdo zkouší stavět ... 
+ 
+3: (G)Na cestu nám ještě slunce (Am)svítí, 
+   proč si lámat hlavu se (D)ztrátou iluzí, 
+   (G)najdeme-li (Hm)v sobě (C)i pro druhé chvilku, 
+   (Em)neskončila ještě doba (A)romantických snílků.  
+   (G)Znovu s moudrou hloupostí (Am)vracíme se (D)zpátky do le(G)sů.(G7) 
+ 
+R: (G7)Kdo zkouší stavět (C)most mezi (D)černou a (G)bílou, 
+   mezi (G7)ošklivostí (C)slov a (D)krásou labu(G)tí. 
+   Kdo (G7)hledá souvis(C)lost mezi (D)důvěrou a (G)vírou, 
+   (Hm)narodil se v prázdném stole(D)tí.

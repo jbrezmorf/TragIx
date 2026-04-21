@@ -1,0 +1,29 @@
+N: Nebeští jezdci
+A: Stan Jones
+AC:
+Z: 
+ZC:
+E: 2007, 2012, 2025
+K:
+
+1: Po (Am)zasmušilé pustině jel (C)starý honec krav,
+   den (Am)temný byl a ševelil (C)větrem ve stéblech trav.
+   Tu (Am)honec k nebi pohleděl a v hrůze zůstal stát,
+   když z (Dm)rozedraných (F)oblaků viděl (Am)stádo krav se hnát.
+   
+R: Jupija (C)héj, jupija (Am)hou, to (Dm)přízraky (F)táhnou (Am)tmou.
+   
+2: Ten skot měl rohy z ocele a oči krvavé,
+   a na bocích mu plápolaly cejchy řežavé,
+   oblohou se neslo jeho kopyt dunění,
+   a za ním jeli honáci až k smrti znavení.
+   
+3: Ti muži byli sinalí a kalný měli zrak,
+   a marně stádo stíhali jak mračno stíhá mrak,
+   a proudy potu máčeli jim tvář i košili,
+   a starý honec uslyšel jejich jekot kvílivý. 
+   
+4: Tu jeden z honec zavolal a pravil: \uv{Pozor dej!
+   Svou duši hříchu uvaruj a ďáblu odpírej!
+   Bys nemusel pak po smrti se věčně věků štvát
+   a nekonečnou oblohou to stádo s námi hnát.}

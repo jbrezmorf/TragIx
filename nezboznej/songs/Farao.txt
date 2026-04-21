@@ -1,0 +1,46 @@
+N: Farao
+A: Spirituál Kvintet 
+AC: 
+Z:
+ZC:
+E: 2007
+K:
+                                                  
+M: Jen (D)žhavý písek, žhavá poušť a (G)žhavý vzduch tam (D)byl,
+   pod žhavým sluncem chudý lid a (G)řeka jménem (D)Nil,
+   ti lidé byli otroci, nad (G)nimi (C)kara(G)báč (D)stál,
+   nad karabáčem velekněz a (Hm)nade (A)všemi (D)král.
+
+1: Říkali mu (D)Farao a byl tak vysoko, že (G)nevrhal (A)ani (D)stín,
+   zato měl sýpky, sklepy, zlato a lesklá (G)těla (A)otro(D)kyň.
+
+2: Říkali mu Farao, a ten když rukou hnul, duněly bubny k obřadům,
+   tančily kněžky, hlavy padaly - to aby nepad' jeho trůn.
+
+R1: /: Svůj (D)trůn měl Farao rád, měl (A)rád, měl (D)rád
+       a nechtěl ho nikomu dát, to na žád(A)nej (D)pád. :/
+
+3: Říkali mu Farao a musel všechno mít, to víme z dávných knih,
+   jeho vojska by nikdo nepřehlíd', kdyby šel týden kolem nich.
+
+4: Říkali mu Farao a z knížat pozemských ten nejmocnější byl,
+   až jeden člověk hlavu zdvih' a jeho vůli se postavil.
+
+5: Říkali mu Mojžíš a měl tu výhodu, že se nebál o svou moc,
+   svému lidu slíbil svobodu a k útěku zvolil noc.
+
+R2: /: Měl Mojžíš svobodu rád, měl rád, měl rád
+       a nechtěl se svobody vzdát, to na žádnej pád. :/
+
+6: Říkali mu Mojžíš a jako lodivod vedl k moři národ svůj,
+   za ním se vojsko dalo na pochod a Farao volal \uv{stůj!}
+
+7: Co udělal Mojžíš? Holí udeřil, vlny se zvedly v mocný val,
+   na jednom břehu Mojžíš byl, na druhém zuřil král.
+
+R1:
+
+M: Jen žhavý písek, žhavá poušť a žhavý vzduch tam byl,
+   pod žhavým sluncem chudý lid a řeka jménem Nil,
+   ten příběh dávno odvál čas, jen krále neodvál,
+   kus Mojžíše je v každém z nás, tak jak to bude dál?

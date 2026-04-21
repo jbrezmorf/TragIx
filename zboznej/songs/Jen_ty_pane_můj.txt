@@ -1,0 +1,17 @@
+N: Jen ty, pane můj
+A:
+AC:
+Z: 
+ZC:Z93
+E: 2012, 2026
+K: ME MZ AR ZJ
+  
+R: /:Jen (Am)ty, Pane (G)můj, jen (Am)tys můj štít, má (F)sláva, ty mou (G)hlavu pozve(Am)dáš.:/
+ 
+1: /:(Am)Mnoho je těch, (G)kteří kolem (Am)volají: V Bohu (F)žádnou (G)pomoc nena(Am)jdeš.:/
+
+2: /:Volal jsem k Pánu svému v úzkosti, a on prosbu moji vyslyšel. :/
+
+3: /:Ty mi dáváš spánek, novou sílu, v novém dni mě znovu podpíráš. :/
+
+4: /:Nebudu se bát ani tisíců těch, kdo mě pronásledují. :/

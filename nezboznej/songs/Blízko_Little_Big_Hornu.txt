@@ -1,0 +1,32 @@
+N: Blízko Little Big Hornu
+A: Greenhorns, Leon Payne
+AC:
+Z:
+ZC:
+E: 2007, 2012, 2025
+K:
+
+1: Tam, (Am)kde leží Little Big Horn, je indiánská zem,
+   tam přijíždí generál Custer (Dm)se svým praporem,
+   (Am)modrý kabáty jezdců, stíny (Dm)dlouhejch karabin,
+   a (Am)z indiánskejch signálů po nebi letí (A)dým.
+
+R: (A)Říkal to Jim Bridger: já měl jsem v noci (E7)sen,
+   pod sedmou kavalerií jak krví rudne (A)zem,
+   kmen Siouxů je statečný a (A7)dobře svůj kraj (D)zná,
+   proč (E7)Custer neposlouchá ta (A)slova varov(Am)ná?
+
+2: Tam blízko Little Big Hornu šedivou prérií
+   táhne generál Custer s sedmou kavalerií,
+   marně mu stopař Bridger radí: \uv{Zpátky povel dej,  
+   jedinou možnost ještě máš, život si zachovej.}
+
+3: Tam blízko Little Big Hornu se vznáší smrti stín,
+   padají jezdci z koní, výstřely z karabin,
+   límce modrejch kabátů barví krev červená,
+   kmen Siouxů je statečný a dobře svůj kraj zná.
+
+4: Pak všechno ztichlo a jen tamtam duní nad krajem,
+   v oblaku prachu mizí Siouxů vítězný kmen,
+   cáry vlajky hvězdnatý po kopcích vítr vál,
+   tam uprostřed svých vojáků leží i generál.

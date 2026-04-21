@@ -1,0 +1,28 @@
+N: Řízni, řízni
+A: Jaroslav Uhlíř, Zdeněk Svěrák
+AC:
+Z:
+ZC:
+E: 2025
+K:
+
+R: (C)Lepší než almužna, (F)lepší než (C)lup, je pila dvojmužná, (Dm)ostrý má (G)zub.
+   (C)Jdi na to s fortelem, (F)nedři se (C)moc, /: (F)ať se s tím (C)poperem, (G)než bude (C)noc. :/
+
+C: \uv{Co mi to vyrazilo na čele?}
++  \uv{To bude asi pot!}
+   \uv{A není to příznak choroby?}
++  \uv{Ale kdeby, pot je zdravá věc!}
+
+1: (C)Řízni, (F)řízni, (G)řízni, (Am)ať to (D7)krásně (G)vyzní.
+   (F)Řízni, (G)řízni, (C)řízni, (F) ať to (C)má-(F)á-á-(C)á-á(F)-á-(G)á... ten (C)švuňk.
+
+2: Žízni, žízni, žízni, klidně si nás trýzni.
+   S hostinským jsme v přízni, nachystá-á-á-á-á-á... nám truňk.
+
+C: \uv{Co se mi to děje na ruce?}
++  \uv{Hm... Jestli voni to nebudou mozoule!}
+   \uv{A... a není to příznak choroby?}
++  \uv{Ale kdepak! Mozoule sou zdravá věc!}
+
+R: Lepší než almužna, ...

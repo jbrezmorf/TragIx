@@ -1,0 +1,29 @@
+N: Řekni, kde ty kytky jsou
+A: Jiřina Fikejzová, Pete Seeger
+AC: JF, PS
+Z:
+ZC:
+E: 2007, 2012, 2025
+K:
+
+1: (C)Řekni, kde ty (Am)kytky jsou, (F)co se s nima (G)mohlo stát,
+   (C)řekni, kde ty (Am)kytky jsou, (Dm)kde mohou (G)být,
+   (C)dívky je tu (Am)během dne (D7)otrhaly (G)do jedné,
+   (F)kdo to kdy (C)pochopí, (Dm)kdo to kdy (G)pocho(C)pí?
+
+2: Řekni, kde ty dívky jsou, co se s nima mohlo stát,
+   řekni, kde ty dívky jsou, kde mohou být,
+   muži si je vyhlédli, s sebou domů odvedli,
+   kdo to kdy pochopí, kdo to kdy pochopí?
+
+3: Řekni, kde ti muži jsou, co se s nima mohlo stát,
+   řekni, kde ti muži jsou, kde mohou být,
+   muži v plné polní jdou, do války je zase zvou,
+   kdo to kdy pochopí, kdo to kdy pochopí?
+
+4: A kde jsou ti vojáci, co se s nima mohlo stát,
+   a kde jsou ti vojáci, kde mohou být,
+   řady hrobů v zákrytu, meluzína kvílí tu,
+   kdo to kdy pochopí, kdo to kdy pochopí?
+
+5: = 1.

@@ -1,0 +1,44 @@
+N: Černej pasažér
+A: Traband
+AC:
+Z: 
+ZC:
+E: 2012, 2025
+K:
+
+1: Mám (Dm)kufr plnej přebytečnejch (A)krámů 
++  a mapu zabalenou do plátn(Dm)a. 
+   Můj vlak však jede na opačnou (A)stranu 
++  a moje jízdenka je dávno nepla(Dm)tná. 
+ 
+M: (F Dm F Dm) Na na na na na...
+ 
+2: Někde ve vzpomínkách stojí dům, 
++  ještě vidím, jak se kouří z komína. 
+   V tom domě prostřený stůl, 
++  tam já a moje rodina. 
+ 
+3: Moje minulost se na mě šklebí 
++  a srdce bolí, když si vzpomenu, 
+   že stromy, který měly dorůst k nebi, 
++  tu leží vyvrácený z kořenů.
+
+M: (F Dm F Dm) Na na na na na... 
+ 
+R: Jsem černej (B)pasažér, (C)nemám (F)cíl ani směr, 
+vezu se (B)načerno (C)životem a (F)nevím. 
+Jsem černej (B)pasažér, (C)nemám (F)cíl ani směr,
+vezu se(B) odnikud (C)nikam a (A)nevím, kde skončím. 
+ 
+4: Mám to všechno na barevný fotce, 
++  někdy z minulýho století.
+   Tu jedinou a pocit bezdomovce, 
++  si sebou nesu stále v paměti.
+
+M: (F Dm F Dm) Na na na na na... 
+
+R: Jsem černej pasažér...
+
+5: = 1.
+
+M: (F Dm F Dm) Na na na na na...

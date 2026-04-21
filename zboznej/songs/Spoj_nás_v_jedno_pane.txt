@@ -1,0 +1,12 @@
+N: Spoj nás v jedno, pane      
+A: 
+AC: 
+Z: 
+ZC:239 
+E: 2007, 2012, 2026
+K: ME
+ 
+ (E)Spoj nás v jedno, Pane, (C"m)spoj nás v jedno poutem, (F"m)jež ne(H)může být (E)zlámáno,                                    
+ (E)spoj nás v jedno, Pane, (C"m)spoj nás v jedno, Pane, (F"m)spoj nás v jedno (H7)láskou (E)svou. 
+ (E)Je jen (H7)jeden (G"m C"m)Pán,          (E)je jen (H7)jedno (A)tě(E)lo,  
+ (E)je jen (H7)jeden (G"m C"m)Král,        (E)proto (H7)zpívá(E)me:

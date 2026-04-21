@@ -1,0 +1,13 @@
+N: Hospodin je můj pastýř
+A:
+AC:
+Z:  
+ZC:Z65
+E: 2012, 2026
+K: ZZ
+
+
+(F)Hospodin je můj (C)pastýř, nic (Dm)nepostrá(B)dám,
+(F)hospodin je můj (C)pastýř, nic (Dm)nepostrá(B)dám,
+(F)Má duše (C)pána vele(Dm)bí,(B) (F)má duše (C)pána velebí(B),
+(F)můj Bůh, (C)je spása má(B) (C) (C7)

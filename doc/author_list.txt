@@ -1,0 +1,57 @@
+AG - AGFlek
+AS - Asonance
+BD - Bob Dylan
+BT - Buty
+CW - Charlie Williams
+ETR - Erwin T. Rouse
+FM - F. Miller
+GC - Glen Campbell
+GH - Greenhorns
+HB - Hoboes
+HH - H. Howard
+HT - Hop Trop
+HV - Helena Vondráčková
+IM - Ivan Mládek
+JC - Johnny Cash
+JD - John Denver
+JF - Jiřina Fikejzová
+JH - Jaroslav Hutka
+JL - J. Nicholls
+JN - Jaromír Nohavica
+JS - Jiří Schelinger
+JU - Jaroslav Uhlíř
+KK - Karel Kryl
+KL - Klíč
+KP - Karel Plíhal
+KTO - K. T. O.
+LK - Lokálka
+LP - Leon Payne
+MPK - Martinova Prázdná Kapsa
+MR - Miky Ryvola
+ND - Nedvědi
+NZ - Nezmaři
+OL - Olympic
+PB - Pavel Bobek
+PC - Pacifik
+PD - Pavel Dobeš
+PK - Petr Skoumal
+PN - Petr Novák
+PR - Premiér
+PS - Pete Seeger
+PV - Pavel Dydovič
+RD - R. Dehr
+SA - Samson
+SG - Paul Simon + Art Garfunkel
+SK - Spirituál Kvintet
+SS - Suchý + Šlitr
+TB - The Beatles
+TG - T. Gilkyson
+TJA - T. J. Arnall
+TR - Tornádo
+VR - Vlasta Redl
+VW - Voskovec + Werich
+WD - Wabi Daněk
+WM - Waldemar Matuška
+WR - Wabi Ryvola
+ZA - Žalman
+ZS - Zdeněk Svěrák

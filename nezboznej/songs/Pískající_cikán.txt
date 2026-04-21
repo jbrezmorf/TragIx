@@ -1,0 +1,30 @@
+N: Pískající cikán
+A: Spirituál kvintet
+AC: SK
+Z:
+ZC:
+E: 2007, 2012, 2025
+K:
+
+1: (G)Dívka (Am)loudá se (Hm)vini(Am)cí, (G)tam, kde (Am)zídka je (Hm)ní(Am)zká,
+   (G)tam, kde (Am)stráň končí (Hm)voní(C)cí, si (G)písnič(C)ku někdo (G)pí(C)(D)ská.
+
+R: \sl{@[pískaná sloka@]}
+
+2: Ohlédne se a \uv{Propána!}, v stínu, kde stojí líska,
+   švarného vidí cikána, jak leží, písničku píská.
+
+3: Chvíli tam stojí potichu, písnička si jí získá,
+   domů jdou spolu do smíchu, je slyšet cikán, jak píská.
+
+4: Jenže tatík, jak vidí cikána, pěstí do stolu tříská,
+   \uv{ať táhne pryč, vesta odraná, groš nemá, něco ti spíská.}
+
+5: Teď smutnou dceru má u vrátek, jen Bůh ví, jak se jí stýská,
+   \uv{kéž vrátí se mi zas nazpátek ten, který v dálce si píská.}
+
+6: Pár šídel honí se po louce, v trávě rosa se blýská,
+   cikán, rozmarýn v klobouce, jde dál a písničku píská.
+
+7: Na závěr zbývá už jenom říct, v čem je ten kousek štístka:
+   peníze často nejsou nic, má víc, kdo po svém si píská ...

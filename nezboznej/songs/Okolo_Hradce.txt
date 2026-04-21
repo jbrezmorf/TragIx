@@ -1,0 +1,21 @@
+N: Okolo Hradce
+A: Lidová
+AC:
+Z: 
+ZC:
+E: 2007, 2012, 2025
+K:
+
+1: /: (D)Okolo Hradce v (Hm7)malé zahrádce (E)rostou tam tři rů(A7)že. :/
+   /: (D)Jedna je (G)červená, (A7)druhá je (D)bílá, třetí kve(A7)te mo(D)dře. :/
+   
+R: Vojáci jdou, vojáci jdou, bože, jaká je to (A)krása,
+   vojáci jdou, vojáci jdou pěkně v (A)řa(A7)dách (A6)za (Fdim)se(D)bou,
+   vojáci jdou, vojáci jdou, každé dívčí (D7)srdce (G)já(Gm)sá,
+   @[když@] (G)vojáci (D)jdou, vojáci jdou pěkně v (A)řa(A7)dách (A6)za (A)se(D)bou.
+   
+2: /: Kobylka malá, kovat se nedá, kováři nechce stát. :/
+   /: Tak jako má milá, když se na mě hněvá, hubičku nechce dát. :/ 
+
+3: /: Kobylka malá, kovat se dala,  kováři postála. :/
+   /: Tak jako má milá, když se udobřila, hubičku mi dala. :/

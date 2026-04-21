@@ -1,0 +1,19 @@
+N: Mezi horami
+A: Čechomor
+AC:
+Z: 
+ZC:
+E: 2012, 2025
+K:
+
+1: /: (Am)Mezi (G) hora(Am)mi (Am)lipka(G) zele(Am)ná, :/
+/: (C)zabili Janka, (G)Janíčka, (Am)Janka miesto (G)jele(Am)ňa. :/
+ 
+2: /: Keď ho zabili, zamordovali, :/
+/: na jeho hrobě, na jeho hrobě, kříž postavili. :/
+ 
+3: /: Ej, křížu, křížu ukřižovaný, :/
+/: zde leží Janík, Janíček, Janík zamordovaný. :/
+ 
+4: /: Tu šla Anička, plakat Janíčka, :/
+/: hneď na hrob padla a viac nevstala dobrá Anička. :/

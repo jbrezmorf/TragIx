@@ -1,0 +1,25 @@
+N: Chci pane chválit tě
+A:
+AC:
+Z:
+ZC:Z71
+E: 2007, 2012, 2026
+K: MV MZ AR ZJ
+
+
+        
+1:        (E)Chci, Pane, chválit tě den ode dne víc, 
++        chci, Pane, (C"m)chválit tě den ode dne víc, 
+        chci (A)hledat tvoji tvář a poz(F"m)návat milost tvou, 
++        chci tebe (E)chválit.(H7) 
+
+        Ptáci v oblacích tobě zpívají, 
++        stromy na polích ruce zvedají, 
+        i já zpívat chci, své ruce pozvednout
++        k oslavě tvé.
+
+2:        Chci tebe více znát ...
+
+3:        Chci k tobě lásku mít ...
+
+4:        Jen tobě sloužit chci ...

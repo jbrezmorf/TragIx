@@ -1,0 +1,39 @@
+N: Bojujte dál
+A:
+AC:
+Z: Hosana
+ZC: 21
+E: 2007, 2012, 2026
+K: ZJ
+
+
+R: (E)Bojujte, (A6)bojujte (E)dál.(A6) 
++(E)Bojujte, (F")bojujte (H)dál.(H7)
+(E)Pohleďte (E7)jen, (A7)v dálce svítá, 
++(E)pohleďte (E7)jen, (A7)den nás vítá, 
+(E)bojujte, (A)bojujte (E)dál.
+
+1: (E)Zpříma choďte, (G"m)pozdvihněte (C"m)hlavu, (E7)
++(A7)i když pro vás vavřín neros(E)te.(A6)
+(E)Nechte mocným (G"m)moc a slavným (C"m)slávu, (E7)
++(F"7)o jejich se přízeň nepros(H)te.(H7)
+
+2: Kdo se ani zlatem koupit nedá, 
++nemlčí a s proudem nepluje, 
+spravedlnost kdo ve světě hledá, 
++v jedné řadě s námi bojuje.
+
+3: K útěku-li z boje chytrost radí, 
++holubičí mějte prostotu, 
+opatrní buďte jako hadi, 
++nezběhněte z cesty k životu.
+
+4: Bojujte, však pomstu nechte Pánu, 
++on je soudcem a sám určí trest, 
+prohraje, kdo ranou splácí ránu, 
++k nenávisti kdo se nechá svést.
+
+5: Neusněte, ať vejdete zítra
++v zemi novou, v zaslíbenou vlast, 
+nocí ať vás vede příslib jitra, 
++vládou temna nenechte se zmást.

@@ -1,0 +1,12 @@
+N: Slunce  kristovy  lásky 
+A: 
+AC: 
+Z: 
+ZC:234 
+E: 2012, 2026
+K: MV MZ
+ 
+        (G)Slunce (C)Kristovy (D)lásky ať (C)ozáří (G)nás, 
++        (G)oheň (C)Svatého (D)Ducha ať (C)zapálí (D)nás. 
+        Ať (Am)nedoutnáme (Em)jen, ať (Am)nezhasíná (Em)den, 
++        (F)ve kterém se (Am)jeho milost (C)oslavovat (D)má.

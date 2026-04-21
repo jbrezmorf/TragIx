@@ -1,0 +1,28 @@
+N: Rád chodím na poštu
+A: Pokáč
+AC:
+Z:
+ZC:
+E: 2025
+K:
+
+R1: (G)Rád chodím (D)na poštu, (C)nejsem tam jen (G)do počtu,
+    (C)jsem tam důle(G)žitý člen, (Am)fronty která tr(D)čí ven.
+    (G)Vždy, když se (D)cítím sám, (C)rád na poštu (G)zavítám,
+    (C)tam je tolik (G)lidí, že (Am)pohnout se mám (D)potíže(G).
+
+1: (C)A za přepážkou (G)paní v letech (C)má razítko (G)gumové
+   (C)a občas tisk(Em)ne tiskárnou z dob (Am)první války (D)světové.
+   (C)Každému kdo (G)spílá jí, že (C)zas na poště (G)prosral den,
+   (C)nabídne los (Em)stírací ať (Am)uklidní se (D)hazardem(G).
+
+2: A proč je vždy jen jedna z pěti přepážek otevřená,
+   je záhada co navždy zůstat má tajemstvím zastřená.
+   Má nejoblíbenější služba je balíček do ruky,
+   znamená to totiž, že zas budu moct jít na poštu,
+   (D)jestli ho vůbec doručej, (D)to už je bez záruky.
+
+R2: Já rád chodím na poštu, nejsem tam jen do počtu,
+    jsem tam důležitý člen, fronty která trčí ven.
+    Vždy, když tam stepuju, tenhle song si notuju.
+    Mám pak hnedka trochu míň, chuť (Am) do mozku si (D) vrazit (G)klín.

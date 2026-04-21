@@ -1,0 +1,35 @@
+N: Verlybářská výprava
+A: Pacifik
+AC:
+Z:
+ZC:
+E: 2025
+K:
+
+1: (D)Jednou plác' mě (G)přes rameno (A7)Johny zvanej (D)Knecht:
+  (Hm)\uv{Mám pro tebe, (Em)hochu, v pácu (A7)moc fajnovej (D)kšeft!}
+   Objednal hned (G)litr rumu (A7)a pak něžně (D)řval:
+  (Hm)\uv{Sbal se, jedem (Em)na velryby, (A7)prej až za po(D)lár.}
+
+R: /: Výprava (D)velrybářská (G)kolem Grónska (A7)nezdařila (D)se,
+    protože (Hm)nejeli jsme (Em)na velryby, (A7)ale na mro(D)že. :/
+
+2: Briga zvaná Malá Kitty kotví v zátoce,
+   nakládaj' se sudy s rumem, maso, ovoce.
+   Vypluli jsme časně zrána, směr severní pól,
+   dřív, než přístav zmizel z očí, každej byl namol.
+
+3: Na loď padla jinovatka, s ní třeskutej mráz,
+   hoň velryby v kupách ledu, to ti zlomí vaz.
+   Na pobřeží místo ženskejch mávaj' tučňáci,
+   v tomhle kraji beztak nemáš jinou legraci.
+
+4: Když jsme domů připluli, už psal se příští rok,
+   starej rejdař povídá, že nedá ani flok:
+   \uv{Místo velryb v Grónským moři zajímal vás grog,
+   tuhle práci zaplatil by asi jenom cvok.}
+
+5: Tohleto nám neměl říkat, teď to dobře ví,
+   stáhli jsme mu kůži z těla, tomu hadovi.
+   Z paluby pak slanej vítr jeho tělo smet', 
+   máme velryb plný zuby, na to vezmi jed.

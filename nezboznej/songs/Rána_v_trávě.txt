@@ -1,0 +1,21 @@
+N: Rána v trávě
+A: Žalman
+AC:
+Z:
+ZC:
+E: 2007, 2012, 2025
+K:
+
+R: (Am)Každý ráno boty (G)zouval, (Am)orosil si nohy v (G)trávě,
+   (Am)že se lidi mají rádi (G)doufal (Am)a procit(Em)li (Am)právě,
+   každý ráno dlouze zíval, utřel čelo do rukávu
+   a při chůzi tělem sem tam kýval, před sebou sta sáhů.
+
+1: (C)Poznal (G)Mora(F)věnku (C)krásnou (Am)a víne(G)čko ze (C)zlata,
+   (C)v Čechách (G)slávu (F)muzi(C)kantů, (Am)uma(Em)zanou (Am)od bláta.
+ 
+2: Toužil najít studánečku a do ní se podívat,
+   by mu řekla, proč holečku, musíš světem chodívat.
+ 
+   Studánečka promluvila: \uv{to ses musel nachodit,
+   abych já ti pravdu řekla, měl ses jindy narodit.}

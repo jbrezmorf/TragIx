@@ -1,0 +1,45 @@
+N: Tři čuníci
+A: Jaromír Nohavica
+AC:
+Z: Písně Jaromíra Nohavici
+ZC:
+E: 2025
+K:
+
+1: (C)V řadě za sebou tři čuníci jdou, 
+   ťápají si v blátě cestou nece(Am)stou.
+   (Dm)Kufry nemají, cestu nezna(G7)jí. 
+ (Dm)Vyšli prostě do světa a (G7)vesele si zpívají: 
+   
+R: Ui ui ui ...  @[\sl{na melodii sloky}@]
+
+2: Auta jezdí tam, náklaďáky sem, 
+   tři čuníci jdou, jdou rovnou za nosem.
+   Ušima bimbají, žito křoupají, 
+   vyšli prostě do světa a vesele si zpívají:
+
+3: Levá pravá teď, přední zadní už, 
+   tři čuníci jdou, jdou jako jeden muž.
+   Lidé zírají, důvod neznají, 
+   proč ti malí čuníci tak vesele si zpívají:
+
+4: Když kopýtka pálí, když jim dojde dech, 
+   sednou ke studánce na vysoký břeh.
+   Ušima bimbají, kopýtka máchají, 
+   chvilinku si odpočinou a pak dál se vydají.
+
+5: Když se spustí déšť, roztrhne se mrak, 
+   k sobě přitisknou se čumák na čumák.
+   Blesky bleskají, kapky pleskají, 
+   oni v dešti nepohodě vesele si zpívají:
+
+6: Za tu spoustu let, co je světem svět, 
+   přešli zeměkouli třikrát tam a zpět.
+   V řadě za sebou, hele támhle jdou! 
+   Pojďme s nima zazpívat si jejich píseň veselou!
+
+M: ()
+
+M: ()
+
+M: ()

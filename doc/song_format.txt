@@ -1,0 +1,195 @@
+Song File Format Reference
+==========================
+
+This is the canonical technical reference for the TragIx songbook
+input format.  For a contributor-friendly Czech version, see
+jak_psat_pisnicky.txt.
+
+
+1. File structure
+-----------------
+
+Each song lives in its own UTF-8 plain text file in {variant}/songs/.
+The filename should match the song title (Czech diacritics are fine).
+
+A song file consists of:
+  - A header block (metadata lines)
+  - One or more verse blocks separated by blank lines
+
+
+2. Header fields
+----------------
+
+Every song starts with these lines (order matters):
+
+  N: Song Title
+  A: Author Name, Another Author
+  AC: author-code
+  Z: Source Songbook, Year
+  ZC: source-code
+  E: 2025         (or: E: 2007, 2012, 2025  for multiple editions)
+  K: vstup        (or: K: vstup, přijímání  for multiple categories)
+
+Only N: (name) is required.  Other fields may be left empty but the
+line should still be present (e.g. "AC:" with nothing after it).
+Blank lines within the header are ignored.
+
+The E: field lists which printed editions include this song (comma-
+separated years).  The build script filters songs by this field.
+A song with an empty or missing E: field will not appear in any
+edition build -- useful for drafts or retired songs.
+
+The K: field specifies liturgy categories for the song (comma-
+separated, e.g. "vstup, obětování").  Used by Zbožnej to indicate
+which parts of the Catholic liturgy the song is appropriate for.
+Left empty for songs without a specific liturgy assignment.
+Display of the K: field in the PDF is controlled per variant via
+\showcategorytrue/false in head.tex. Could be used for other
+"Category" differentiation in other variants.
+
+The active edition years are defined in current_editions.txt at the
+repo root.  Both the CI workflow and `python build_songbook.py --all`
+read from this file.
+
+
+3. Verse types
+--------------
+
+Each verse block starts with a label followed by a colon:
+
+  1:   2:   3: ...    Numbered verses
+  R:                   Refrain (single)
+  R1:  R2: ...        Multiple refrains
+  M:                   Bridge / interlude (no label printed, left-aligned)
+  C:                   Recitative
+
+Verse continuation across blank lines: repeat the label prefix, e.g.:
+
+  M: First part of the bridge
+
+  M: Second part, still the same bridge
+
+
+4. Verse references
+-------------------
+
+To indicate a verse repeats the same text as a previous one:
+
+  3: = 1.
+
+Note: label uses ":" but reference uses "." (this is intentional).
+
+
+5. Repetition marks
+-------------------
+
+  /: Repeated text here :/
+  3x/: Repeated three times :/
+
+The repeat multiplier uses the times sign: 3x is auto-fixed to 3x
+by the fixer script.
+
+
+6. Chord notation
+-----------------
+
+Chords are written inline, in parentheses, BEFORE the syllable they
+belong above:
+
+  (G)Somewhere (Em)over the (Am)rain(D)bow
+
+Rules:
+  - Root note:    uppercase letter A-H (Czech system uses H, not B)
+  - Sharp:        " (double quote), e.g. (F"m) = F#m
+  - Flat:         b, e.g. (Ab) = Ab
+  - Minor:        m  (NOT mi -- use Am, not Ami)
+  - Suspended:    just the number (NOT sus -- use E4, not Esus4)
+  - Major 7th:    maj, e.g. (Fmaj)
+  - Augmented:    +, e.g. (G+)
+  - Diminished:   dim, e.g. (Adim)
+  - Bass note:    /, e.g. (Am/G), (F"m/E)
+  - Compound:     inner parens, e.g. (D(7/4)), (A(4/6))
+  - Bracketed:    ((A)) prints the chord in parens
+  - Unknown hmat: append X, e.g. (Hm(7/4)X) and document the
+                  fingering in a comment: % x 0 4 4 3 0
+
+A chord should be placed directly before the syllable with no extra
+spaces inside a word:
+
+  Good: (G)jed(Em)nou
+  Bad:  (G) jednou (Em)       -- extra spaces shift placement
+
+
+7. Typographic conventions
+--------------------------
+
+The following are enforced by check_songbook.py (use --fix to auto-fix
+the deterministic ones):
+
+  Apostrophes     Use ASCII ' only.  Not: ´ (acute) or ′ (prime).
+  Ellipsis        Use three dots ...  Not: … (literal ellipsis char).
+  Broken dots     Exactly three dots.  Not two (..) or four+ (.....).
+  Dashes          Avoid em-dash, en-dash, or -- in song text.
+  Quotation marks Use \uv{text} for Czech quotes.
+  Repeat count    Use n× (times sign), e.g. 3×.  Not: 3x.
+  Verse labels    Use colon: 1: 2: R:  Not dot: 1. 2.
+  Repetitions     Space after /: and before :/ always.
+  Comma spacing   A space or line break should follow every comma.
+  Header chars    N: and A: lines should contain only letters, digits,
+                  spaces, commas, and Czech diacritics.
+  Chord case      Chord root must be uppercase: (Am) not (am).
+  Comments        Lines starting with % are ignored by TeX.
+
+
+8. Song separators (legacy)
+---------------------------
+
+In the old monolithic input files, songs were separated by a line of
+18 or more '=' signs.  In the new per-file architecture this is not
+needed.  The fixer normalizes any remaining separators to exactly
+18 '=' signs.
+
+
+9. Special TeX in song text
+----------------------------
+
+These work inside song files but should be used sparingly:
+
+  \uv{text}      Czech quotation marks ("uvozovky")
+  \sl{text}      Slanted text -- this is a CUSTOM MACRO defined in
+                 lyric.tex.  Do NOT confuse with {\sl text} which
+                 uses plain TeX's built-in slanted font and will
+                 break Czech diacritics.  Similarly \it{} is used
+                 internally for recitatives (C:), avoid in songs.
+  @[text@]        Inline annotation printed in the songbook,
+                  e.g. @[do ztracena@]
+  %               End-of-line comment (everything after is ignored)
+
+
+10. Layout preservation (\preservelayout)
+-----------------------------------------
+
+When an edition has already been printed (e.g. Nezbožnej 2025), its
+head.tex contains \preservelayouttrue.  This flag makes the TeX
+output routine reserve identical vertical space for page numbers as
+the original build, preventing songs from shifting to different pages
+even when the underlying page-number rendering was fixed.
+
+For brand-new editions (e.g. Zbožnej 2026), use \preservelayoutfalse
+to let content flow naturally.  The flag can be removed entirely once
+no printed edition depends on it anymore.  The relevant conditional
+logic lives in common/lyric.tex around the output routine.
+
+
+11. Build-time layout overrides
+-------------------------------
+
+The overrides/ directory holds copies of song files with layout hacks
+for already-printed editions.  These are NOT part of the song content:
+
+  - Extra M: () lines or standalone () at end of file add vertical space
+  - Empty chord lines push content further apart
+  - Redefining \InterSongSkip or \ParSkip locally adjusts spacing
+
+Overrides are edition-specific and should never be back-propagated
+to the clean songs/ files.

@@ -1,0 +1,23 @@
+N: Zafúkané
+A: Fleret
+AC:
+Z:
+ZC:
+E: 2025
+K:
+
+1: (Am)Větr sněh (A2)zanésl (Am)z hor do po(A2)lí, (Am)já idu (C)přes kopce, (G)přes údo(Am)lí,
+   (C)idu k tvej (G)dědině zatú(C)lanej, (F)cestičky (C)sněhem sú (E)zafú(Am)kané. (A2) (Am) 
+
+R1: (Am)Zafúka(C)né, (G)zafúka(C)né, (F)kolem mňa (C)všecko je (Dm)zafúka(E)né.
+    (Am)Zafúka(C)né, (G)zafúka(C)né, (F)kolem mňa (Dm)všecko je (E)zafú(Am)kané.
+
+2: Už vašu chalupu z dálky vidím, srdce sa ozvalo, bit ho slyším,
+   snáď enom pár kroků mi zostává, a budu u tvého okénka stát.
+
+R2: /: Zafúkané, zafúkané, okénko k tobě je zafúkané. :/
+
+3: Od tvého okna sa smutný vracám, v závějoch zpátky dom cestu hledám,
+   spadl sněh na srdce zatúlané, aj na mé stopy - sú zafúkané.
+
+R3: /: Zafúkané, zafúkané, mé stopy k tobě sú zafúkané. :/
